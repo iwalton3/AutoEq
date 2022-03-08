@@ -112,5 +112,9 @@ my_results/
 **/data/ignore
 measurements/crinacle/*data*/
 measurements/crinacle/Raw measurements (Patreon)/
+measurements_normalized/crinacle/*data*/
+measurements_normalized/crinacle/Raw measurements (Patreon)/
 results/crinacle/*/*/*.csv
+results_ief/crinacle/*/*/*.csv
+results_ief_with_bass/crinacle/*/*/*.csv
 chromedriver*
