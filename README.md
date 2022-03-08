@@ -1,7 +1,17 @@
-# AutoEQ
+# AutoEQ (IEF Neutral Target Version)
+This repository contains AutoEQ Profiles tuned to the [IEF Neutral Target](https://crinacle.com/2020/10/05/in-ear-fidelitys-iem-neutral-target-gets-an-update-database-updates/):
+ - [IEF Neutral (With Bass)](./results_ief_with_bass)
+     - Preferred by many listeners. (For instance the [Dusk](https://crinacle.com/dusk) has a 6dB boost.)
+     - 6dB boost for In-Ear
+     - 4dB boost for Over-Ear
+ - [IEF Neutral](./results_ief)
+     - No bass boost. Everything under 900 Hz is relatively flat.
+     - Many listeners may find this boring or lacking.
+
 **TL;DR** If you are here just looking to make your headphones sound better, find your headphone model in
-[results](./results) folder's recommended headphones list
-and follow instructions in [Usage](#usage) section. 
+results folder's recommended headphones list and follow instructions in [Usage](#usage) section.
+
+![Target Curves Compared](./targets.png)
 
 ## About This Project
 AutoEQ is a project for equalizing headphone frequency responses automatically and it achieves this by parsing
