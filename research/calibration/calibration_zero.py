@@ -25,10 +25,8 @@ def get_measurements(dir_path):
 
 
 def main():
-    ief_onear = FrequencyResponse.read_from_csv(os.path.join(ROOT_DIR, 'compensation', 'ief_neutral_over-ear.csv'))
-    ief_onear.interpolate()
-    ief_inear = FrequencyResponse.read_from_csv(os.path.join(ROOT_DIR, 'compensation', 'ief_neutral_in-ear.csv'))
-    ief_inear.interpolate()
+    zero = FrequencyResponse.read_from_csv(os.path.join(ROOT_DIR, 'compensation', 'zero.csv'))
+    zero.interpolate()
 
     oratory1990_onear = get_measurements(os.path.join(MEASUREMENTS, 'oratory1990', 'data', 'onear'))
     oratory1990_inear = get_measurements(os.path.join(MEASUREMENTS, 'oratory1990', 'data', 'inear'))
@@ -42,70 +40,70 @@ def main():
 
     dbs = [
         (
-            'crinacle_ief_neutral_in-ear',
+            'crinacle_zero_in-ear',
             crinacle_inear, oratory1990_inear, None
         ),
         (
-            'crinacle_ears-711_ief_neutral_over-ear',
+            'crinacle_ears-711_zero_over-ear',
             get_measurements(os.path.join(MEASUREMENTS, 'crinacle', 'data', 'onear', 'Ears-711')),
             oratory1990_onear, None
         ),
         (
-            'headphonecom_ief_neutral_over-ear',
+            'headphonecom_zero_over-ear',
             get_measurements(os.path.join(MEASUREMENTS, 'headphonecom', 'data', 'onear')),
             oratory1990_onear,
             FrequencyResponse.read_from_csv(os.path.join(MEASUREMENTS, 'headphonecom', 'resources', 'headphonecom_compensation_sbaf-serious.csv'))
         ),
         (
-            'headphonecom_ief_neutral_in-ear',
+            'headphonecom_zero_in-ear',
             get_measurements(os.path.join(MEASUREMENTS, 'headphonecom', 'data', 'inear')),
             inear_ref,
             FrequencyResponse.read_from_csv(os.path.join(MEASUREMENTS, 'headphonecom', 'resources', 'headphonecom_compensation_sbaf-serious.csv'))
         ),
         (
-            'innerfidelity_ief_neutral_over-ear',
+            'innerfidelity_zero_over-ear',
             get_measurements(os.path.join(MEASUREMENTS, 'innerfidelity', 'data', 'onear')),
             oratory1990_onear,
             FrequencyResponse.read_from_csv(os.path.join(MEASUREMENTS, 'innerfidelity', 'resources', 'innerfidelity_compensation_sbaf-serious.csv'))
         ),
         (
-            'innerfidelity_ief_neutral_in-ear',
+            'innerfidelity_zero_in-ear',
             get_measurements(os.path.join(MEASUREMENTS, 'innerfidelity', 'data', 'inear')),
             inear_ref,
             FrequencyResponse.read_from_csv(os.path.join(MEASUREMENTS, 'innerfidelity', 'resources', 'innerfidelity_compensation_sbaf-serious.csv'))
         ),
         (
-            'referenceaudioanalyzer_hdm-x_ief_neutral_over-ear',
+            'referenceaudioanalyzer_hdm-x_zero_over-ear',
             get_measurements(os.path.join(MEASUREMENTS, 'referenceaudioanalyzer', 'data', 'onear', 'HDM-X')),
             oratory1990_onear,
             None
         ),
         (
-            'referenceaudioanalyzer_hdm1_ief_neutral_over-ear',
+            'referenceaudioanalyzer_hdm1_zero_over-ear',
             get_measurements(os.path.join(MEASUREMENTS, 'referenceaudioanalyzer', 'data', 'onear', 'HDM1')),
             oratory1990_onear,
             None
         ),
         (
-            'referenceaudioanalyzer_siec_ief_neutral_in-ear',
+            'referenceaudioanalyzer_siec_zero_in-ear',
             get_measurements(os.path.join(MEASUREMENTS, 'referenceaudioanalyzer', 'data', 'inear', 'SIEC')),
             inear_ref,
             None
         ),
         (
-            'rtings_ief_neutral_over-ear',
+            'rtings_zero_over-ear',
             get_measurements(os.path.join(MEASUREMENTS, 'rtings', 'data', 'onear')),
             oratory1990_onear,
             FrequencyResponse.read_from_csv(os.path.join(MEASUREMENTS, 'rtings', 'resources', 'rtings_compensation_avg.csv'))
         ),
         (
-            'rtings_ief_neutral_in-ear',
+            'rtings_zero_in-ear',
             get_measurements(os.path.join(MEASUREMENTS, 'rtings', 'data', 'inear')),
             inear_ref,
             FrequencyResponse.read_from_csv(os.path.join(MEASUREMENTS, 'rtings', 'resources', 'rtings_compensation_avg.csv'))
         ),
         (
-            'crinacle_gras_43ag-7_ief_neutral_over-ear',
+            'crinacle_gras_43ag-7_zero_over-ear',
             get_measurements(os.path.join(MEASUREMENTS, 'crinacle', 'data', 'onear', 'GRAS 43AG-7')),
             oratory1990_onear,
             None
@@ -167,11 +165,11 @@ def main():
         axs[1].legend(['Mean', 'STD'])
 
         # Target curves
-        ref_target = ief_onear if 'over-ear' in name else ief_inear
+        ref_target = zero
         ref_target.plot_graph(fig=fig, ax=axs[2], show=False, color='C0')
         target = ref_target.copy()
         target.name = name
-        target.raw += fr.raw
+        target.raw = fr.raw
         target.plot_graph(fig=fig, ax=axs[2], show=False, color='C1')
         if original_target is not None:
             original_target.plot_graph(fig=fig, ax=axs[2], show=False, color='C2')
