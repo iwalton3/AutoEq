@@ -53,33 +53,33 @@ def write_recommendations():
     urls = dict()
     # Get links to Reference Audio Analyzer results
     urls.update(get_urls(glob(os.path.abspath(
-        os.path.join(DIR_PATH, 'referenceaudioanalyzer', 'referenceaudioanalyzer_siec_harman_in-ear_2019v2', '*')))))
+        os.path.join(DIR_PATH, 'referenceaudioanalyzer', 'referenceaudioanalyzer_siec_ief_neutral_in-ear', '*')))))
     urls.update(get_urls(glob(os.path.abspath(
-        os.path.join(DIR_PATH, 'referenceaudioanalyzer', 'referenceaudioanalyzer_hdm1_harman_over-ear_2018', '*')))))
+        os.path.join(DIR_PATH, 'referenceaudioanalyzer', 'referenceaudioanalyzer_hdm1_ief_neutral_over-ear', '*')))))
     urls.update(get_urls(glob(os.path.abspath(
-        os.path.join(DIR_PATH, 'referenceaudioanalyzer', 'referenceaudioanalyzer_hdm-x_harman_over-ear_2018', '*')))))
+        os.path.join(DIR_PATH, 'referenceaudioanalyzer', 'referenceaudioanalyzer_hdm-x_ief_neutral_over-ear', '*')))))
     # Get links to Headphone.com results
     urls.update(get_urls(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'headphonecom', 'headphonecom_harman_over-ear_2018', '*')))))
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'headphonecom', 'headphonecom_ief_neutral_over-ear', '*')))))
     urls.update(get_urls(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'headphonecom', 'headphonecom_harman_in-ear_2019v2', '*')))))
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'headphonecom', 'headphonecom_ief_neutral_in-ear', '*')))))
     # Get links to Rtings results
-    urls.update(get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'rtings', 'rtings_harman_over-ear_2018', '*')))))
-    urls.update(get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'rtings', 'rtings_harman_in-ear_2019v2', '*')))))
+    urls.update(get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'rtings', 'rtings_ief_neutral_over-ear', '*')))))
+    urls.update(get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'rtings', 'rtings_ief_neutral_in-ear', '*')))))
     # Get links to Innerfidelity results
     urls.update(get_urls(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'innerfidelity', 'innerfidelity_harman_over-ear_2018', '*')))))
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'innerfidelity', 'innerfidelity_ief_neutral_over-ear', '*')))))
     urls.update(get_urls(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'innerfidelity', 'innerfidelity_harman_in-ear_2019v2', '*')))))
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'innerfidelity', 'innerfidelity_ief_neutral_in-ear', '*')))))
     # Get links to Crinacle results
     urls.update(
-        get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'crinacle', 'ears-711_harman_over-ear_2018', '*')))))
+        get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'crinacle', 'ears-711_ief_neutral_over-ear', '*')))))
     urls.update(
-        get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'crinacle', 'gras_43ag-7_harman_over-ear_2018', '*')))))
-    urls.update(get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'crinacle', 'harman_in-ear_2019v2', '*')))))
+        get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'crinacle', 'gras_43ag-7_ief_neutral_over-ear', '*')))))
+    urls.update(get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'crinacle', 'ief_neutral_in-ear', '*')))))
     # Get links to oratory1990 results
-    urls.update(get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'oratory1990', 'harman_over-ear_2018', '*')))))
-    urls.update(get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'oratory1990', 'harman_in-ear_2019v2', '*')))))
+    urls.update(get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'oratory1990', 'ief_neutral_over-ear', '*')))))
+    urls.update(get_urls(glob(os.path.abspath(os.path.join(DIR_PATH, 'oratory1990', 'ief_neutral_in-ear', '*')))))
 
     with open(os.path.join(DIR_PATH, 'README.md'), 'w', encoding='utf-8') as f:
         keys = sorted(urls.keys(), key=lambda s: s.lower())
@@ -124,54 +124,54 @@ def write_full_index():
     # Get links to Reference Audio Analyzer results
     lines.extend(get_lines(
         glob(os.path.abspath(
-            os.path.join(DIR_PATH, 'referenceaudioanalyzer', 'referenceaudioanalyzer_hdm-x_harman_over-ear_2018',
+            os.path.join(DIR_PATH, 'referenceaudioanalyzer', 'referenceaudioanalyzer_hdm-x_ief_neutral_over-ear',
                          '*'))),
         note='by Reference Audio Analyzer, HDM-X'))
     lines.extend(get_lines(
         glob(os.path.abspath(
-            os.path.join(DIR_PATH, 'referenceaudioanalyzer', 'referenceaudioanalyzer_hdm1_harman_over-ear_2018', '*'))),
+            os.path.join(DIR_PATH, 'referenceaudioanalyzer', 'referenceaudioanalyzer_hdm1_ief_neutral_over-ear', '*'))),
         note='by Reference Audio Analyzer, HDM1'))
     lines.extend(get_lines(
         glob(os.path.abspath(
-            os.path.join(DIR_PATH, 'referenceaudioanalyzer', 'referenceaudioanalyzer_siec_harman_in-ear_2019v2', '*'))),
+            os.path.join(DIR_PATH, 'referenceaudioanalyzer', 'referenceaudioanalyzer_siec_ief_neutral_in-ear', '*'))),
         note='by Reference Audio Analyzer'))
     # Get links to Headphone.com results
     lines.extend(get_lines(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'headphonecom', 'headphonecom_harman_over-ear_2018', '*'))),
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'headphonecom', 'headphonecom_ief_neutral_over-ear', '*'))),
         note='by Headphone.com'))
     lines.extend(get_lines(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'headphonecom', 'headphonecom_harman_in-ear_2019v2', '*'))),
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'headphonecom', 'headphonecom_ief_neutral_in-ear', '*'))),
         note='by Headphone.com'))
     # Get links to Rtings results
     lines.extend(get_lines(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'rtings', 'rtings_harman_over-ear_2018', '*'))),
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'rtings', 'rtings_ief_neutral_over-ear', '*'))),
         note='by Rtings'))
     lines.extend(get_lines(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'rtings', 'rtings_harman_in-ear_2019v2', '*'))),
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'rtings', 'rtings_ief_neutral_in-ear', '*'))),
         note='by Rtings'))
     # Get links to Innerfidelity results
     lines.extend(get_lines(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'innerfidelity', 'innerfidelity_harman_over-ear_2018', '*'))),
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'innerfidelity', 'innerfidelity_ief_neutral_over-ear', '*'))),
         note='by Innerfidelity'))
     lines.extend(get_lines(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'innerfidelity', 'innerfidelity_harman_in-ear_2019v2', '*'))),
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'innerfidelity', 'innerfidelity_ief_neutral_in-ear', '*'))),
         note='by Innerfidelity'))
     # Get links to Crinacle results
     lines.extend(get_lines(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'crinacle', 'ears-711_harman_over-ear_2018', '*'))),
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'crinacle', 'ears-711_ief_neutral_over-ear', '*'))),
         note='by Crinacle, Ears-711'))
     lines.extend(get_lines(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'crinacle', 'gras_43ag-7_harman_over-ear_2018', '*'))),
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'crinacle', 'gras_43ag-7_ief_neutral_over-ear', '*'))),
         note='by Crinacle, GRAS 43AG-7'))
     lines.extend(get_lines(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'crinacle', 'harman_in-ear_2019v2', '*'))),
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'crinacle', 'ief_neutral_in-ear', '*'))),
         note='by Crinacle'))
     # Get links to oratory1990 results
     lines.extend(get_lines(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'oratory1990', 'harman_over-ear_2018', '*'))),
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'oratory1990', 'ief_neutral_over-ear', '*'))),
         note='by oratory1990'))
     lines.extend(get_lines(
-        glob(os.path.abspath(os.path.join(DIR_PATH, 'oratory1990', 'harman_in-ear_2019v2', '*'))),
+        glob(os.path.abspath(os.path.join(DIR_PATH, 'oratory1990', 'ief_neutral_in-ear', '*'))),
         note='by oratory1990'))
     lines = sorted(lines, key=lambda s: s.lower())
 
@@ -224,9 +224,9 @@ def write_innerfidelity_index():
 def write_crinacle_index():
     base_dir = os.path.abspath(os.path.join(DIR_PATH, 'crinacle'))
     lines = get_lines(
-        glob(os.path.join(base_dir, 'ears-711_harman_over-ear_2018', '*')), path_root=base_dir, note='Ears-711')
-    lines.extend(get_lines(glob(os.path.join(base_dir, 'gras_43ag-7_harman_over-ear_2018', '*')), path_root=base_dir))
-    lines.extend(get_lines(glob(os.path.join(base_dir, 'harman_in-ear_2019v2', '*')), path_root=base_dir))
+        glob(os.path.join(base_dir, 'ears-711_ief_neutral_over-ear', '*')), path_root=base_dir, note='Ears-711')
+    lines.extend(get_lines(glob(os.path.join(base_dir, 'gras_43ag-7_ief_neutral_over-ear', '*')), path_root=base_dir))
+    lines.extend(get_lines(glob(os.path.join(base_dir, 'ief_neutral_in-ear', '*')), path_root=base_dir))
     lines = sorted(lines, key=lambda s: s.lower())
     with open(os.path.join(DIR_PATH, 'crinacle', 'README.md'), 'w', encoding='utf-8') as f:
         f.write('# Crinacle Results\n\n' + '\n'.join(lines) + '\n')
@@ -246,8 +246,8 @@ def write_hesuvi_zip():
     zip_object = ZipFile(os.path.join(DIR_PATH, 'hesuvi.zip'), 'w')
     dir_paths = [
         os.path.join(DIR_PATH, 'oratory1990'),
-        os.path.join(DIR_PATH, 'crinacle', 'gras_43ag-7_harman_over-ear_2018'),
-        os.path.join(DIR_PATH, 'crinacle', 'ears-711_harman_over-ear_2018'),
+        os.path.join(DIR_PATH, 'crinacle', 'gras_43ag-7_ief_neutral_over-ear'),
+        os.path.join(DIR_PATH, 'crinacle', 'ears-711_ief_neutral_over-ear'),
         os.path.join(DIR_PATH, 'innerfidelity'),
         os.path.join(DIR_PATH, 'rtings'),
         os.path.join(DIR_PATH, 'headphonecom'),
@@ -285,7 +285,7 @@ def write_hesuvi_zip():
 
 def ranking_row(file_path, target, form='onear'):
     dir_path = os.path.abspath(os.path.join(file_path, os.pardir))
-    rel_path = os.path.relpath(dir_path, os.path.join(ROOT_DIR, 'results'))
+    rel_path = os.path.relpath(dir_path, os.path.join(ROOT_DIR, 'results_ief'))
     url = form_url(rel_path)
     fr = FrequencyResponse.read_from_csv(file_path)
     if re.search(MOD_REGEX, fr.name):
@@ -301,17 +301,19 @@ def ranking_row(file_path, target, form='onear'):
 
 
 def write_ranking_table():
-    harman_inear = os.path.join(ROOT_DIR, 'compensation', 'harman_in-ear_2019v2.csv')
+    harman_inear = os.path.join(ROOT_DIR, 'compensation', 'ief_neutral_in-ear.csv')
     harman_inear = FrequencyResponse.read_from_csv(harman_inear)
-    harman_overear = os.path.join(ROOT_DIR, 'compensation', 'harman_over-ear_2018.csv')
+    harman_overear = os.path.join(ROOT_DIR, 'compensation', 'ief_neutral_over-ear.csv')
     harman_overear = FrequencyResponse.read_from_csv(harman_overear)
+    harman_inear.interpolate()
+    harman_overear.interpolate()
 
     onear_rows = []
     # Over-ear
     files = dict()
-    for fp in glob(os.path.join(ROOT_DIR, 'results', 'crinacle', 'gras_43ag-7_harman_over-ear_2018', '*', '*.csv')):
+    for fp in glob(os.path.join(ROOT_DIR, 'results_ief', 'crinacle', 'gras_43ag-7_ief_neutral_over-ear', '*', '*.csv')):
         files[os.path.split(fp)[1]] = fp
-    for fp in glob(os.path.join(ROOT_DIR, 'results', 'oratory1990', 'harman_over-ear_2018', '*', '*.csv')):
+    for fp in glob(os.path.join(ROOT_DIR, 'results_ief', 'oratory1990', 'ief_neutral_over-ear', '*', '*.csv')):
         files[os.path.split(fp)[1]] = fp
     for fp in files.values():
         row = ranking_row(fp, harman_overear, 'onear')
@@ -323,9 +325,9 @@ def write_ranking_table():
     inear_rows = []
     # In-ear
     files = dict()
-    for fp in glob(os.path.join(ROOT_DIR, 'results', 'crinacle', 'harman_in-ear_2019v2', '*', '*.csv')):
+    for fp in glob(os.path.join(ROOT_DIR, 'results_ief', 'crinacle', 'ief_neutral_in-ear', '*', '*.csv')):
         files[os.path.split(fp)[1]] = fp
-    for fp in glob(os.path.join(ROOT_DIR, 'results', 'oratory1990', 'harman_in-ear_2019v2', '*', '*.csv')):
+    for fp in glob(os.path.join(ROOT_DIR, 'results_ief', 'oratory1990', 'ief_neutral_in-ear', '*', '*.csv')):
         files[os.path.split(fp)[1]] = fp
     for fp in files.values():
         row = ranking_row(fp, harman_inear, 'inear')
@@ -356,7 +358,7 @@ def write_ranking_table():
     {inear_str}
 
     '''
-    with open(os.path.join(ROOT_DIR, 'results', 'RANKING.md'), 'w', encoding='utf-8') as fh:
+    with open(os.path.join(ROOT_DIR, 'results_ief', 'RANKING.md'), 'w', encoding='utf-8') as fh:
         fh.write(re.sub('\n[ \t]+', '\n', s).strip())
 
 
