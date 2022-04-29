@@ -7,6 +7,9 @@ This repository contains AutoEQ Profiles tuned to the [IEF Neutral Target](https
  - [IEF Neutral](./results_ief)
      - No bass boost. Everything under 900 Hz is relatively flat.
      - Many listeners may find this boring or lacking.
+ - [Stock (Harman)](./results)
+     - This is the default AutoEQ target.
+     - Some headphones have been added here that are not available upstream.
 
 **TL;DR** If you are here just looking to make your headphones sound better, find your headphone model in
 results folder's recommended headphones list and follow instructions in [Usage](#usage) section.
