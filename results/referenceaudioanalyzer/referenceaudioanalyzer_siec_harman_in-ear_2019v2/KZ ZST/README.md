@@ -8,33 +8,28 @@ When using independent subset of filters, apply preamp of **-6.4 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 28 Hz    | 0.08 | -5.6 dB |
-| Peaking | 692 Hz   | 0.64 | 3.1 dB  |
-| Peaking | 2012 Hz  | 1.56 | -8.6 dB |
-| Peaking | 5834 Hz  | 0.51 | 8.2 dB  |
-| Peaking | 10400 Hz | 1.05 | -6.0 dB |
-| Peaking | 2834 Hz  | 4.81 | 1.8 dB  |
-| Peaking | 3374 Hz  | 2.12 | -1.7 dB |
-| Peaking | 4047 Hz  | 4.64 | 2.1 dB  |
-| Peaking | 6305 Hz  | 1.33 | -0.8 dB |
-| Peaking | 6774 Hz  | 4.45 | 1.7 dB  |
+| Peaking | 28 Hz    | 0.08 | -5.4 dB |
+| Peaking | 712 Hz   | 0.64 | 3.1 dB  |
+| Peaking | 2010 Hz  | 1.55 | -8.5 dB |
+| Peaking | 5820 Hz  | 0.53 | 8.1 dB  |
+| Peaking | 10551 Hz | 1.04 | -5.7 dB |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.7dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.5dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -5.9 dB |
-| Peaking | 62 Hz    | 1.41 | -3.9 dB |
-| Peaking | 125 Hz   | 1.41 | -4.0 dB |
+| Peaking | 31 Hz    | 1.41 | -5.6 dB |
+| Peaking | 63 Hz    | 1.41 | -3.8 dB |
+| Peaking | 125 Hz   | 1.41 | -3.9 dB |
 | Peaking | 250 Hz   | 1.41 | -2.6 dB |
-| Peaking | 500 Hz   | 1.41 | 1.1 dB  |
+| Peaking | 500 Hz   | 1.41 | 1.0 dB  |
 | Peaking | 1000 Hz  | 1.41 | 2.7 dB  |
 | Peaking | 2000 Hz  | 1.41 | -6.8 dB |
-| Peaking | 4000 Hz  | 1.41 | 7.2 dB  |
-| Peaking | 8000 Hz  | 1.41 | 2.2 dB  |
-| Peaking | 16000 Hz | 1.41 | -0.6 dB |
+| Peaking | 4000 Hz  | 1.41 | 7.1 dB  |
+| Peaking | 8000 Hz  | 1.41 | 2.4 dB  |
+| Peaking | 16000 Hz | 1.41 | -0.9 dB |
 
 ### Graphs
 ![](./KZ%20ZST.png)

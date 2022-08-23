@@ -8,16 +8,14 @@ When using independent subset of filters, apply preamp of **-6.7 dB**.
 
 | Type    | Fc       |    Q | Gain     |
 |:--------|:---------|:-----|:---------|
-| Peaking | 21 Hz    | 1.41 | 4.0 dB   |
-| Peaking | 250 Hz   | 0.32 | -3.6 dB  |
-| Peaking | 986 Hz   | 1.2  | -6.6 dB  |
-| Peaking | 3201 Hz  | 0.62 | 7.0 dB   |
-| Peaking | 8465 Hz  | 1.94 | 4.0 dB   |
-| Peaking | 25 Hz    | 1.37 | 0.5 dB   |
-| Peaking | 124 Hz   | 3.39 | 0.6 dB   |
-| Peaking | 5311 Hz  | 5.25 | 1.2 dB   |
-| Peaking | 11444 Hz | 1.55 | 3.1 dB   |
-| Peaking | 19572 Hz | 0.41 | -11.4 dB |
+| Peaking | 20 Hz    | 1.05 | 4.0 dB   |
+| Peaking | 71 Hz    | 0.75 | -1.7 dB  |
+| Peaking | 258 Hz   | 0.77 | -3.7 dB  |
+| Peaking | 984 Hz   | 0.94 | -9.4 dB  |
+| Peaking | 3209 Hz  | 0.38 | 7.5 dB   |
+| Peaking | 9018 Hz  | 2.17 | 2.3 dB   |
+| Peaking | 12156 Hz | 1.02 | 3.2 dB   |
+| Peaking | 19893 Hz | 0.25 | -10.7 dB |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.1dB**
@@ -25,16 +23,16 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 2.7 dB  |
-| Peaking | 62 Hz    | 1.41 | -2.0 dB |
-| Peaking | 125 Hz   | 1.41 | -1.5 dB |
+| Peaking | 31 Hz    | 1.41 | 2.5 dB  |
+| Peaking | 63 Hz    | 1.41 | -2.0 dB |
+| Peaking | 125 Hz   | 1.41 | -1.6 dB |
 | Peaking | 250 Hz   | 1.41 | -3.7 dB |
 | Peaking | 500 Hz   | 1.41 | -2.3 dB |
-| Peaking | 1000 Hz  | 1.41 | -7.3 dB |
-| Peaking | 2000 Hz  | 1.41 | 4.1 dB  |
-| Peaking | 4000 Hz  | 1.41 | 5.7 dB  |
-| Peaking | 8000 Hz  | 1.41 | 5.9 dB  |
-| Peaking | 16000 Hz | 1.41 | -7.2 dB |
+| Peaking | 1000 Hz  | 1.41 | -7.5 dB |
+| Peaking | 2000 Hz  | 1.41 | 4.4 dB  |
+| Peaking | 4000 Hz  | 1.41 | 5.6 dB  |
+| Peaking | 8000 Hz  | 1.41 | 5.8 dB  |
+| Peaking | 16000 Hz | 1.41 | -6.8 dB |
 
 ### Graphs
 ![](./Audeze%20LCD-MX4.png)

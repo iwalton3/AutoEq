@@ -8,16 +8,16 @@ When using independent subset of filters, apply preamp of **-6.5 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 21 Hz    | 1.07 | 8.3 dB  |
-| Peaking | 57 Hz    | 0.48 | -8.3 dB |
-| Peaking | 247 Hz   | 1.37 | -6.5 dB |
-| Peaking | 1042 Hz  | 2.49 | -9.0 dB |
-| Peaking | 13543 Hz | 0.09 | 6.3 dB  |
-| Peaking | 386 Hz   | 2.91 | -2.8 dB |
-| Peaking | 585 Hz   | 2.69 | 5.9 dB  |
-| Peaking | 833 Hz   | 4.73 | -3.2 dB |
-| Peaking | 2478 Hz  | 2.24 | -4.0 dB |
-| Peaking | 2880 Hz  | 2.09 | 3.7 dB  |
+| Peaking | 20 Hz    | 1.09 | 8.2 dB  |
+| Peaking | 55 Hz    | 0.44 | -8.4 dB |
+| Peaking | 246 Hz   | 1.36 | -6.5 dB |
+| Peaking | 1044 Hz  | 2.42 | -9.4 dB |
+| Peaking | 13586 Hz | 0.08 | 6.3 dB  |
+| Peaking | 28 Hz    | 1.72 | 0.6 dB  |
+| Peaking | 374 Hz   | 3.69 | -2.4 dB |
+| Peaking | 577 Hz   | 4.29 | 5.8 dB  |
+| Peaking | 2436 Hz  | 1.73 | -3.4 dB |
+| Peaking | 2983 Hz  | 2.11 | 3.6 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.2dB**
@@ -25,16 +25,16 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 0.9 dB  |
-| Peaking | 62 Hz    | 1.41 | -8.1 dB |
+| Peaking | 31 Hz    | 1.41 | 0.6 dB  |
+| Peaking | 63 Hz    | 1.41 | -8.1 dB |
 | Peaking | 125 Hz   | 1.41 | -3.3 dB |
-| Peaking | 250 Hz   | 1.41 | -8.7 dB |
-| Peaking | 500 Hz   | 1.41 | 3.7 dB  |
-| Peaking | 1000 Hz  | 1.41 | -7.0 dB |
-| Peaking | 2000 Hz  | 1.41 | 1.9 dB  |
-| Peaking | 4000 Hz  | 1.41 | 5.9 dB  |
-| Peaking | 8000 Hz  | 1.41 | 5.9 dB  |
-| Peaking | 16000 Hz | 1.41 | 8.7 dB  |
+| Peaking | 250 Hz   | 1.41 | -8.8 dB |
+| Peaking | 500 Hz   | 1.41 | 3.8 dB  |
+| Peaking | 1000 Hz  | 1.41 | -7.1 dB |
+| Peaking | 2000 Hz  | 1.41 | 2.3 dB  |
+| Peaking | 4000 Hz  | 1.41 | 5.8 dB  |
+| Peaking | 8000 Hz  | 1.41 | 6.0 dB  |
+| Peaking | 16000 Hz | 1.41 | 8.6 dB  |
 
 ### Graphs
 ![](./Fischer%20Audio%20FA-010%20(0).png)

@@ -8,16 +8,14 @@ When using independent subset of filters, apply preamp of **-6.2 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 23 Hz    | 0.49 | 6.1 dB  |
-| Peaking | 228 Hz   | 0.78 | -2.7 dB |
-| Peaking | 1518 Hz  | 2.33 | -1.9 dB |
-| Peaking | 5357 Hz  | 0.75 | 4.6 dB  |
-| Peaking | 11588 Hz | 1.01 | -3.8 dB |
-| Peaking | 821 Hz   | 3.33 | 0.8 dB  |
-| Peaking | 2859 Hz  | 2.46 | -0.8 dB |
-| Peaking | 3510 Hz  | 3.27 | 0.9 dB  |
-| Peaking | 8325 Hz  | 4.82 | 1.2 dB  |
-| Peaking | 9017 Hz  | 1.76 | -0.6 dB |
+| Peaking | 24 Hz    | 0.49 | 6.1 dB  |
+| Peaking | 227 Hz   | 0.79 | -2.7 dB |
+| Peaking | 1503 Hz  | 2.45 | -1.8 dB |
+| Peaking | 5465 Hz  | 0.74 | 4.7 dB  |
+| Peaking | 11673 Hz | 0.91 | -3.9 dB |
+| Peaking | 397 Hz   | 2.85 | -0.3 dB |
+| Peaking | 806 Hz   | 2.89 | 0.7 dB  |
+| Peaking | 2654 Hz  | 6.39 | -0.7 dB |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.9dB**
@@ -26,15 +24,15 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
 | Peaking | 31 Hz    | 1.41 | 6.6 dB  |
-| Peaking | 62 Hz    | 1.41 | 1.5 dB  |
+| Peaking | 63 Hz    | 1.41 | 1.6 dB  |
 | Peaking | 125 Hz   | 1.41 | -0.7 dB |
-| Peaking | 250 Hz   | 1.41 | -2.6 dB |
+| Peaking | 250 Hz   | 1.41 | -2.5 dB |
 | Peaking | 500 Hz   | 1.41 | -0.4 dB |
 | Peaking | 1000 Hz  | 1.41 | 0.0 dB  |
-| Peaking | 2000 Hz  | 1.41 | -1.2 dB |
-| Peaking | 4000 Hz  | 1.41 | 4.6 dB  |
-| Peaking | 8000 Hz  | 1.41 | 0.6 dB  |
-| Peaking | 16000 Hz | 1.41 | -2.4 dB |
+| Peaking | 2000 Hz  | 1.41 | -1.1 dB |
+| Peaking | 4000 Hz  | 1.41 | 4.5 dB  |
+| Peaking | 8000 Hz  | 1.41 | 0.7 dB  |
+| Peaking | 16000 Hz | 1.41 | -2.6 dB |
 
 ### Graphs
 ![](./Phonak%20PFE%20121%20(gray%20filter).png)

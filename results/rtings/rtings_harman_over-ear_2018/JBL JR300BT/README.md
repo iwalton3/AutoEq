@@ -2,39 +2,37 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-7.3dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-7.0dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.7 dB**.
+When using independent subset of filters, apply preamp of **-7.0 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 21 Hz    | 1.1  | 5.8 dB  |
-| Peaking | 169 Hz   | 0.74 | -3.6 dB |
-| Peaking | 600 Hz   | 1.5  | 3.5 dB  |
-| Peaking | 4730 Hz  | 4.21 | 6.4 dB  |
-| Peaking | 11507 Hz | 1.8  | 3.6 dB  |
-| Peaking | 1283 Hz  | 2.1  | -2.5 dB |
-| Peaking | 2066 Hz  | 2.45 | 0.8 dB  |
-| Peaking | 2935 Hz  | 0.32 | 1.3 dB  |
-| Peaking | 3122 Hz  | 3.26 | -3.7 dB |
-| Peaking | 7112 Hz  | 3.7  | -2.8 dB |
+| Peaking | 22 Hz    | 1.08 | 6.1 dB  |
+| Peaking | 173 Hz   | 0.77 | -3.4 dB |
+| Peaking | 597 Hz   | 1.56 | 3.4 dB  |
+| Peaking | 4785 Hz  | 4.45 | 6.7 dB  |
+| Peaking | 11466 Hz | 1.79 | 3.6 dB  |
+| Peaking | 823 Hz   | 4.52 | 1.2 dB  |
+| Peaking | 1184 Hz  | 3.37 | -1.8 dB |
+| Peaking | 7124 Hz  | 7.41 | -2.3 dB |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-4.7dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-4.9dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 4.9 dB  |
-| Peaking | 62 Hz    | 1.41 | -1.1 dB |
-| Peaking | 125 Hz   | 1.41 | -2.4 dB |
-| Peaking | 250 Hz   | 1.41 | -3.2 dB |
-| Peaking | 500 Hz   | 1.41 | 3.3 dB  |
+| Peaking | 31 Hz    | 1.41 | 5.0 dB  |
+| Peaking | 63 Hz    | 1.41 | -0.8 dB |
+| Peaking | 125 Hz   | 1.41 | -2.3 dB |
+| Peaking | 250 Hz   | 1.41 | -3.0 dB |
+| Peaking | 500 Hz   | 1.41 | 3.1 dB  |
 | Peaking | 1000 Hz  | 1.41 | 0.1 dB  |
 | Peaking | 2000 Hz  | 1.41 | -0.6 dB |
-| Peaking | 4000 Hz  | 1.41 | 2.6 dB  |
-| Peaking | 8000 Hz  | 1.41 | 1.1 dB  |
-| Peaking | 16000 Hz | 1.41 | 1.4 dB  |
+| Peaking | 4000 Hz  | 1.41 | 2.5 dB  |
+| Peaking | 8000 Hz  | 1.41 | 1.2 dB  |
+| Peaking | 16000 Hz | 1.41 | 1.5 dB  |
 
 ### Graphs
 ![](./JBL%20JR300BT.png)

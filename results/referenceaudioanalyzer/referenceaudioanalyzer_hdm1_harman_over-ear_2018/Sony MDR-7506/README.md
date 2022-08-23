@@ -8,33 +8,30 @@ When using independent subset of filters, apply preamp of **-6.4 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 24 Hz    | 0.98 | 6.2 dB  |
-| Peaking | 68 Hz    | 2.35 | 1.5 dB  |
-| Peaking | 256 Hz   | 1.06 | 2.7 dB  |
-| Peaking | 2569 Hz  | 1.57 | -2.8 dB |
-| Peaking | 4640 Hz  | 3    | -3.2 dB |
-| Peaking | 263 Hz   | 3.97 | -1.2 dB |
-| Peaking | 346 Hz   | 1.13 | 1.0 dB  |
-| Peaking | 482 Hz   | 2.42 | -1.2 dB |
-| Peaking | 6176 Hz  | 0.81 | -1.0 dB |
-| Peaking | 18685 Hz | 0.15 | 2.8 dB  |
+| Peaking | 23 Hz    | 1.02 | 6.2 dB  |
+| Peaking | 67 Hz    | 2.52 | 1.4 dB  |
+| Peaking | 262 Hz   | 1.02 | 2.7 dB  |
+| Peaking | 3806 Hz  | 0.67 | -5.5 dB |
+| Peaking | 14085 Hz | 0.09 | 2.6 dB  |
+| Peaking | 521 Hz   | 4.52 | -0.7 dB |
+| Peaking | 1203 Hz  | 4.08 | 0.6 dB  |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.0dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.9dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 5.8 dB  |
-| Peaking | 62 Hz    | 1.41 | 0.8 dB  |
-| Peaking | 125 Hz   | 1.41 | 0.5 dB  |
+| Peaking | 31 Hz    | 1.41 | 5.6 dB  |
+| Peaking | 63 Hz    | 1.41 | 0.7 dB  |
+| Peaking | 125 Hz   | 1.41 | 0.2 dB  |
 | Peaking | 250 Hz   | 1.41 | 2.9 dB  |
-| Peaking | 500 Hz   | 1.41 | 0.1 dB  |
-| Peaking | 1000 Hz  | 1.41 | 0.5 dB  |
-| Peaking | 2000 Hz  | 1.41 | -1.6 dB |
-| Peaking | 4000 Hz  | 1.41 | -3.3 dB |
-| Peaking | 8000 Hz  | 1.41 | 0.8 dB  |
-| Peaking | 16000 Hz | 1.41 | 3.7 dB  |
+| Peaking | 500 Hz   | 1.41 | 0.0 dB  |
+| Peaking | 1000 Hz  | 1.41 | 0.6 dB  |
+| Peaking | 2000 Hz  | 1.41 | -1.5 dB |
+| Peaking | 4000 Hz  | 1.41 | -3.8 dB |
+| Peaking | 8000 Hz  | 1.41 | 1.2 dB  |
+| Peaking | 16000 Hz | 1.41 | 3.5 dB  |
 
 ### Graphs
 ![](./Sony%20MDR-7506.png)

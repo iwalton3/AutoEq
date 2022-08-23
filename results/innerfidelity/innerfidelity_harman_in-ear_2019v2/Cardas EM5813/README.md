@@ -2,22 +2,20 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.9dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-7.0dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.8 dB**.
+When using independent subset of filters, apply preamp of **-6.9 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 24 Hz    | 0.13 | -2.2 dB |
-| Peaking | 257 Hz   | 0.34 | -6.9 dB |
-| Peaking | 1289 Hz  | 0.7  | 4.7 dB  |
-| Peaking | 6380 Hz  | 1.95 | 4.1 dB  |
-| Peaking | 12373 Hz | 0.67 | 6.3 dB  |
-| Peaking | 2101 Hz  | 4.24 | 2.5 dB  |
-| Peaking | 2661 Hz  | 3.41 | -4.2 dB |
-| Peaking | 3235 Hz  | 3.01 | 3.5 dB  |
-| Peaking | 4445 Hz  | 4.78 | -4.9 dB |
-| Peaking | 5095 Hz  | 5.82 | 3.3 dB  |
+| Peaking | 17 Hz    | 0.76 | -1.9 dB |
+| Peaking | 91 Hz    | 0.43 | -2.6 dB |
+| Peaking | 278 Hz   | 0.37 | -6.4 dB |
+| Peaking | 1242 Hz  | 0.8  | 4.4 dB  |
+| Peaking | 10354 Hz | 0.49 | 6.7 dB  |
+| Peaking | 1946 Hz  | 7.62 | 2.1 dB  |
+| Peaking | 4458 Hz  | 6.04 | -5.7 dB |
+| Peaking | 5254 Hz  | 3.12 | 3.2 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-8.3dB**
@@ -25,16 +23,16 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -2.6 dB |
-| Peaking | 62 Hz    | 1.41 | -3.1 dB |
+| Peaking | 31 Hz    | 1.41 | -2.4 dB |
+| Peaking | 63 Hz    | 1.41 | -3.1 dB |
 | Peaking | 125 Hz   | 1.41 | -5.5 dB |
 | Peaking | 250 Hz   | 1.41 | -6.4 dB |
 | Peaking | 500 Hz   | 1.41 | -4.1 dB |
 | Peaking | 1000 Hz  | 1.41 | 2.3 dB  |
-| Peaking | 2000 Hz  | 1.41 | 2.8 dB  |
-| Peaking | 4000 Hz  | 1.41 | 0.5 dB  |
-| Peaking | 8000 Hz  | 1.41 | 7.6 dB  |
-| Peaking | 16000 Hz | 1.41 | 5.9 dB  |
+| Peaking | 2000 Hz  | 1.41 | 2.9 dB  |
+| Peaking | 4000 Hz  | 1.41 | 0.4 dB  |
+| Peaking | 8000 Hz  | 1.41 | 7.7 dB  |
+| Peaking | 16000 Hz | 1.41 | 5.6 dB  |
 
 ### Graphs
 ![](./Cardas%20EM5813.png)

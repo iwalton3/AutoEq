@@ -8,33 +8,32 @@ When using independent subset of filters, apply preamp of **-5.0 dB**.
 
 | Type    | Fc       |    Q | Gain     |
 |:--------|:---------|:-----|:---------|
-| Peaking | 16 Hz    | 0.09 | -9.0 dB  |
-| Peaking | 855 Hz   | 0.75 | 5.1 dB   |
-| Peaking | 4227 Hz  | 5.04 | 4.3 dB   |
-| Peaking | 6281 Hz  | 2.65 | -10.7 dB |
-| Peaking | 12048 Hz | 0.73 | 5.2 dB   |
-| Peaking | 21 Hz    | 1.67 | -0.5 dB  |
-| Peaking | 1954 Hz  | 2.55 | 2.0 dB   |
-| Peaking | 2885 Hz  | 2.56 | -4.4 dB  |
-| Peaking | 3617 Hz  | 2.2  | 0.8 dB   |
-| Peaking | 3623 Hz  | 3.11 | 1.2 dB   |
+| Peaking | 16 Hz    | 0.1  | -8.8 dB  |
+| Peaking | 863 Hz   | 0.77 | 5.1 dB   |
+| Peaking | 4256 Hz  | 5.55 | 4.5 dB   |
+| Peaking | 6275 Hz  | 2.84 | -11.0 dB |
+| Peaking | 11931 Hz | 0.77 | 5.2 dB   |
+| Peaking | 13 Hz    | 1.56 | -0.6 dB  |
+| Peaking | 1964 Hz  | 2.58 | 2.0 dB   |
+| Peaking | 2842 Hz  | 2.68 | -4.0 dB  |
+| Peaking | 3702 Hz  | 4.21 | 1.9 dB   |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.7dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.4dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -9.8 dB |
-| Peaking | 62 Hz    | 1.41 | -5.3 dB |
-| Peaking | 125 Hz   | 1.41 | -4.6 dB |
+| Peaking | 31 Hz    | 1.41 | -9.6 dB |
+| Peaking | 63 Hz    | 1.41 | -5.1 dB |
+| Peaking | 125 Hz   | 1.41 | -4.5 dB |
 | Peaking | 250 Hz   | 1.41 | -2.1 dB |
-| Peaking | 500 Hz   | 1.41 | 2.2 dB  |
-| Peaking | 1000 Hz  | 1.41 | 4.6 dB  |
+| Peaking | 500 Hz   | 1.41 | 2.1 dB  |
+| Peaking | 1000 Hz  | 1.41 | 4.7 dB  |
 | Peaking | 2000 Hz  | 1.41 | 1.0 dB  |
-| Peaking | 4000 Hz  | 1.41 | -0.5 dB |
-| Peaking | 8000 Hz  | 1.41 | -1.8 dB |
-| Peaking | 16000 Hz | 1.41 | 5.6 dB  |
+| Peaking | 4000 Hz  | 1.41 | -0.6 dB |
+| Peaking | 8000 Hz  | 1.41 | -1.7 dB |
+| Peaking | 16000 Hz | 1.41 | 5.3 dB  |
 
 ### Graphs
 ![](./TY%20Hi-Z%20G3.png)

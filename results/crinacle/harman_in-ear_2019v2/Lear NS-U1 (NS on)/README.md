@@ -2,22 +2,22 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-7.1dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-7.0 dB**.
+When using independent subset of filters, apply preamp of **-7.2 dB**.
 
 | Type    | Fc       |    Q | Gain     |
 |:--------|:---------|:-----|:---------|
-| Peaking | 30 Hz    | 0.04 | -7.9 dB  |
-| Peaking | 894 Hz   | 1.38 | 8.7 dB   |
-| Peaking | 2138 Hz  | 1.23 | -6.8 dB  |
-| Peaking | 3855 Hz  | 3.18 | -10.0 dB |
-| Peaking | 11299 Hz | 0.09 | 6.7 dB   |
-| Peaking | 727 Hz   | 6.82 | 1.6 dB   |
-| Peaking | 2263 Hz  | 3.11 | 0.5 dB   |
-| Peaking | 4376 Hz  | 5.57 | -2.9 dB  |
-| Peaking | 5184 Hz  | 2.08 | 3.2 dB   |
-| Peaking | 7576 Hz  | 0.26 | -0.7 dB  |
+| Peaking | 24 Hz    | 0.04 | -8.0 dB  |
+| Peaking | 899 Hz   | 1.47 | 9.6 dB   |
+| Peaking | 4149 Hz  | 1.21 | -15.6 dB |
+| Peaking | 5171 Hz  | 1.25 | 12.8 dB  |
+| Peaking | 16801 Hz | 0.15 | 6.2 dB   |
+| Peaking | 22 Hz    | 0.74 | -0.9 dB  |
+| Peaking | 180 Hz   | 0.7  | 1.1 dB   |
+| Peaking | 711 Hz   | 2.95 | 4.7 dB   |
+| Peaking | 760 Hz   | 0.89 | -3.3 dB  |
+| Peaking | 1166 Hz  | 4.22 | 3.5 dB   |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.0dB**
@@ -25,8 +25,8 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -9.3 dB |
-| Peaking | 62 Hz    | 1.41 | -5.4 dB |
+| Peaking | 31 Hz    | 1.41 | -9.4 dB |
+| Peaking | 63 Hz    | 1.41 | -5.4 dB |
 | Peaking | 125 Hz   | 1.41 | -5.0 dB |
 | Peaking | 250 Hz   | 1.41 | -4.9 dB |
 | Peaking | 500 Hz   | 1.41 | -3.2 dB |

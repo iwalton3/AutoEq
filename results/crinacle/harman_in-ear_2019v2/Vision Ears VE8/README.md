@@ -8,16 +8,16 @@ When using independent subset of filters, apply preamp of **-6.4 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 19 Hz    | 0.51 | 1.6 dB  |
-| Peaking | 116 Hz   | 0.68 | -2.9 dB |
-| Peaking | 262 Hz   | 0.99 | -3.4 dB |
-| Peaking | 3849 Hz  | 1    | 6.0 dB  |
-| Peaking | 12511 Hz | 1.09 | 3.4 dB  |
-| Peaking | 898 Hz   | 2.72 | 1.4 dB  |
-| Peaking | 1424 Hz  | 4.14 | -1.5 dB |
-| Peaking | 5033 Hz  | 4.95 | 1.5 dB  |
-| Peaking | 7677 Hz  | 1.42 | -1.3 dB |
-| Peaking | 10073 Hz | 3.76 | 1.6 dB  |
+| Peaking | 18 Hz    | 0.5  | 1.7 dB  |
+| Peaking | 120 Hz   | 0.65 | -3.1 dB |
+| Peaking | 266 Hz   | 1.02 | -3.2 dB |
+| Peaking | 3851 Hz  | 1    | 6.0 dB  |
+| Peaking | 12514 Hz | 1.09 | 3.4 dB  |
+| Peaking | 458 Hz   | 2.6  | -0.6 dB |
+| Peaking | 942 Hz   | 1.66 | 1.8 dB  |
+| Peaking | 1417 Hz  | 1.61 | -1.9 dB |
+| Peaking | 2171 Hz  | 3.53 | 1.5 dB  |
+| Peaking | 7509 Hz  | 6.14 | -1.4 dB |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.9dB**
@@ -26,15 +26,15 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
 | Peaking | 31 Hz    | 1.41 | 1.5 dB  |
-| Peaking | 62 Hz    | 1.41 | -1.1 dB |
+| Peaking | 63 Hz    | 1.41 | -1.1 dB |
 | Peaking | 125 Hz   | 1.41 | -3.1 dB |
 | Peaking | 250 Hz   | 1.41 | -4.3 dB |
 | Peaking | 500 Hz   | 1.41 | -0.9 dB |
 | Peaking | 1000 Hz  | 1.41 | 0.6 dB  |
-| Peaking | 2000 Hz  | 1.41 | 0.9 dB  |
+| Peaking | 2000 Hz  | 1.41 | 0.8 dB  |
 | Peaking | 4000 Hz  | 1.41 | 6.3 dB  |
 | Peaking | 8000 Hz  | 1.41 | 1.6 dB  |
-| Peaking | 16000 Hz | 1.41 | 3.0 dB  |
+| Peaking | 16000 Hz | 1.41 | 3.1 dB  |
 
 ### Graphs
 ![](./Vision%20Ears%20VE8.png)

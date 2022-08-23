@@ -8,16 +8,16 @@ When using independent subset of filters, apply preamp of **-6.9 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 121 Hz   | 0.92 | -7.6 dB |
-| Peaking | 1015 Hz  | 2.08 | -6.3 dB |
-| Peaking | 2306 Hz  | 2.27 | 2.8 dB  |
-| Peaking | 3637 Hz  | 3.94 | 5.0 dB  |
-| Peaking | 11033 Hz | 0.82 | 6.7 dB  |
-| Peaking | 19 Hz    | 2.96 | 2.8 dB  |
-| Peaking | 207 Hz   | 2.32 | -3.0 dB |
-| Peaking | 420 Hz   | 1.16 | 4.1 dB  |
-| Peaking | 715 Hz   | 3.33 | -3.6 dB |
-| Peaking | 6083 Hz  | 6.9  | -2.7 dB |
+| Peaking | 20 Hz    | 2.72 | 3.2 dB  |
+| Peaking | 121 Hz   | 0.9  | -7.4 dB |
+| Peaking | 1013 Hz  | 2.09 | -6.5 dB |
+| Peaking | 3219 Hz  | 1.36 | 4.1 dB  |
+| Peaking | 11190 Hz | 0.89 | 6.6 dB  |
+| Peaking | 57 Hz    | 1.79 | -0.9 dB |
+| Peaking | 119 Hz   | 1.54 | 1.2 dB  |
+| Peaking | 203 Hz   | 1.58 | -3.3 dB |
+| Peaking | 407 Hz   | 1.09 | 4.3 dB  |
+| Peaking | 715 Hz   | 3.36 | -3.6 dB |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.9dB**
@@ -25,16 +25,16 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 0.5 dB  |
-| Peaking | 62 Hz    | 1.41 | -2.6 dB |
-| Peaking | 125 Hz   | 1.41 | -7.4 dB |
+| Peaking | 31 Hz    | 1.41 | 1.0 dB  |
+| Peaking | 63 Hz    | 1.41 | -2.5 dB |
+| Peaking | 125 Hz   | 1.41 | -7.2 dB |
 | Peaking | 250 Hz   | 1.41 | -1.9 dB |
-| Peaking | 500 Hz   | 1.41 | 4.1 dB  |
-| Peaking | 1000 Hz  | 1.41 | -7.9 dB |
-| Peaking | 2000 Hz  | 1.41 | 3.0 dB  |
-| Peaking | 4000 Hz  | 1.41 | 2.8 dB  |
-| Peaking | 8000 Hz  | 1.41 | 5.0 dB  |
-| Peaking | 16000 Hz | 1.41 | 4.4 dB  |
+| Peaking | 500 Hz   | 1.41 | 4.0 dB  |
+| Peaking | 1000 Hz  | 1.41 | -8.0 dB |
+| Peaking | 2000 Hz  | 1.41 | 2.9 dB  |
+| Peaking | 4000 Hz  | 1.41 | 2.6 dB  |
+| Peaking | 8000 Hz  | 1.41 | 5.1 dB  |
+| Peaking | 16000 Hz | 1.41 | 4.3 dB  |
 
 ### Graphs
 ![](./Skullcandy%20Hesh%202.png)

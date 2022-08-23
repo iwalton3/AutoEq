@@ -8,33 +8,33 @@ When using independent subset of filters, apply preamp of **-7.2 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 20 Hz    | 1.15 | 5.3 dB  |
-| Peaking | 69 Hz    | 0.64 | -6.0 dB |
-| Peaking | 184 Hz   | 1.27 | -3.4 dB |
-| Peaking | 3694 Hz  | 5.06 | 5.1 dB  |
-| Peaking | 13689 Hz | 0.65 | 7.0 dB  |
-| Peaking | 753 Hz   | 2.38 | 3.2 dB  |
-| Peaking | 1686 Hz  | 2.51 | -2.3 dB |
-| Peaking | 4294 Hz  | 1.48 | 2.2 dB  |
-| Peaking | 5623 Hz  | 2.45 | -6.8 dB |
-| Peaking | 8335 Hz  | 2.72 | 3.7 dB  |
+| Peaking | 20 Hz    | 1.06 | 5.8 dB  |
+| Peaking | 67 Hz    | 0.62 | -6.1 dB |
+| Peaking | 186 Hz   | 1.23 | -3.4 dB |
+| Peaking | 3707 Hz  | 5.83 | 5.5 dB  |
+| Peaking | 13736 Hz | 0.63 | 7.0 dB  |
+| Peaking | 749 Hz   | 2.48 | 3.1 dB  |
+| Peaking | 1672 Hz  | 2.7  | -2.1 dB |
+| Peaking | 4403 Hz  | 1.57 | 2.9 dB  |
+| Peaking | 5601 Hz  | 2.17 | -7.2 dB |
+| Peaking | 8219 Hz  | 2.6  | 4.1 dB  |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-8.9dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.0dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 1.9 dB  |
-| Peaking | 62 Hz    | 1.41 | -6.0 dB |
-| Peaking | 125 Hz   | 1.41 | -4.5 dB |
-| Peaking | 250 Hz   | 1.41 | -3.2 dB |
-| Peaking | 500 Hz   | 1.41 | 0.9 dB  |
-| Peaking | 1000 Hz  | 1.41 | 1.6 dB  |
-| Peaking | 2000 Hz  | 1.41 | -1.7 dB |
-| Peaking | 4000 Hz  | 1.41 | 2.0 dB  |
-| Peaking | 8000 Hz  | 1.41 | 3.4 dB  |
-| Peaking | 16000 Hz | 1.41 | 8.5 dB  |
+| Peaking | 31 Hz    | 1.41 | 2.2 dB  |
+| Peaking | 63 Hz    | 1.41 | -6.1 dB |
+| Peaking | 125 Hz   | 1.41 | -4.4 dB |
+| Peaking | 250 Hz   | 1.41 | -3.3 dB |
+| Peaking | 500 Hz   | 1.41 | 0.8 dB  |
+| Peaking | 1000 Hz  | 1.41 | 1.5 dB  |
+| Peaking | 2000 Hz  | 1.41 | -1.6 dB |
+| Peaking | 4000 Hz  | 1.41 | 1.9 dB  |
+| Peaking | 8000 Hz  | 1.41 | 3.5 dB  |
+| Peaking | 16000 Hz | 1.41 | 8.6 dB  |
 
 ### Graphs
 ![](./Bloc%20Roc%20Galvanize%20S2.png)

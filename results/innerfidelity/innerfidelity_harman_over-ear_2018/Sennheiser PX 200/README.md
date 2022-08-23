@@ -8,32 +8,32 @@ When using independent subset of filters, apply preamp of **-6.5 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 35 Hz    | 0.29 | 6.3 dB  |
-| Peaking | 694 Hz   | 1.45 | -3.9 dB |
-| Peaking | 1550 Hz  | 1.22 | -3.0 dB |
-| Peaking | 11862 Hz | 0.41 | 4.1 dB  |
-| Peaking | 20204 Hz | 0.27 | 5.1 dB  |
-| Peaking | 127 Hz   | 5.27 | -1.1 dB |
-| Peaking | 3261 Hz  | 4.87 | 5.4 dB  |
-| Peaking | 3384 Hz  | 1.58 | -1.9 dB |
-| Peaking | 6050 Hz  | 2.29 | -2.1 dB |
-| Peaking | 6639 Hz  | 5.23 | 4.2 dB  |
+| Peaking | 22 Hz    | 0.61 | 5.3 dB  |
+| Peaking | 66 Hz    | 0.9  | 4.3 dB  |
+| Peaking | 299 Hz   | 0.62 | 2.7 dB  |
+| Peaking | 767 Hz   | 0.47 | -4.9 dB |
+| Peaking | 16864 Hz | 0.19 | 6.4 dB  |
+| Peaking | 283 Hz   | 5.93 | -0.8 dB |
+| Peaking | 420 Hz   | 6.61 | 1.1 dB  |
+| Peaking | 2589 Hz  | 2.13 | -1.2 dB |
+| Peaking | 3282 Hz  | 3.91 | 4.9 dB  |
+| Peaking | 4014 Hz  | 2.41 | -2.3 dB |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.4dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.5dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
 | Peaking | 31 Hz    | 1.41 | 6.2 dB  |
-| Peaking | 62 Hz    | 1.41 | 5.0 dB  |
+| Peaking | 63 Hz    | 1.41 | 5.0 dB  |
 | Peaking | 125 Hz   | 1.41 | 1.6 dB  |
-| Peaking | 250 Hz   | 1.41 | 1.6 dB  |
-| Peaking | 500 Hz   | 1.41 | -2.0 dB |
-| Peaking | 1000 Hz  | 1.41 | -3.5 dB |
-| Peaking | 2000 Hz  | 1.41 | -1.8 dB |
-| Peaking | 4000 Hz  | 1.41 | 1.0 dB  |
-| Peaking | 8000 Hz  | 1.41 | 4.2 dB  |
+| Peaking | 250 Hz   | 1.41 | 1.5 dB  |
+| Peaking | 500 Hz   | 1.41 | -2.1 dB |
+| Peaking | 1000 Hz  | 1.41 | -3.6 dB |
+| Peaking | 2000 Hz  | 1.41 | -1.7 dB |
+| Peaking | 4000 Hz  | 1.41 | 0.8 dB  |
+| Peaking | 8000 Hz  | 1.41 | 4.7 dB  |
 | Peaking | 16000 Hz | 1.41 | 9.0 dB  |
 
 ### Graphs

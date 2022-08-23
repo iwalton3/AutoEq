@@ -8,33 +8,32 @@ When using independent subset of filters, apply preamp of **-5.7 dB**.
 
 | Type    | Fc      |    Q | Gain    |
 |:--------|:--------|:-----|:--------|
-| Peaking | 22 Hz   | 0.94 | 5.5 dB  |
-| Peaking | 51 Hz   | 4.23 | 2.9 dB  |
-| Peaking | 112 Hz  | 1.24 | -5.3 dB |
-| Peaking | 966 Hz  | 0.1  | 1.5 dB  |
-| Peaking | 6198 Hz | 1.48 | -3.8 dB |
-| Peaking | 260 Hz  | 4.32 | 1.3 dB  |
-| Peaking | 1829 Hz | 2.37 | -0.9 dB |
-| Peaking | 3273 Hz | 1.65 | 0.9 dB  |
-| Peaking | 4600 Hz | 4.24 | -1.7 dB |
-| Peaking | 5256 Hz | 3.9  | 0.8 dB  |
+| Peaking | 22 Hz   | 0.86 | 5.5 dB  |
+| Peaking | 50 Hz   | 4.38 | 3.0 dB  |
+| Peaking | 115 Hz  | 1.28 | -5.1 dB |
+| Peaking | 856 Hz  | 0.09 | 1.5 dB  |
+| Peaking | 6082 Hz | 1.38 | -3.5 dB |
+| Peaking | 63 Hz   | 6.74 | -0.9 dB |
+| Peaking | 155 Hz  | 4.46 | -0.7 dB |
+| Peaking | 259 Hz  | 3.97 | 1.1 dB  |
+| Peaking | 1801 Hz | 3.88 | -0.8 dB |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.6dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.7dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 5.7 dB  |
-| Peaking | 62 Hz    | 1.41 | 0.2 dB  |
-| Peaking | 125 Hz   | 1.41 | -4.9 dB |
-| Peaking | 250 Hz   | 1.41 | 2.1 dB  |
+| Peaking | 31 Hz    | 1.41 | 5.5 dB  |
+| Peaking | 63 Hz    | 1.41 | 0.6 dB  |
+| Peaking | 125 Hz   | 1.41 | -4.6 dB |
+| Peaking | 250 Hz   | 1.41 | 1.9 dB  |
 | Peaking | 500 Hz   | 1.41 | 0.9 dB  |
 | Peaking | 1000 Hz  | 1.41 | 1.0 dB  |
 | Peaking | 2000 Hz  | 1.41 | 1.0 dB  |
-| Peaking | 4000 Hz  | 1.41 | -0.1 dB |
-| Peaking | 8000 Hz  | 1.41 | -1.8 dB |
-| Peaking | 16000 Hz | 1.41 | -0.3 dB |
+| Peaking | 4000 Hz  | 1.41 | -0.3 dB |
+| Peaking | 8000 Hz  | 1.41 | -1.7 dB |
+| Peaking | 16000 Hz | 1.41 | -0.4 dB |
 
 ### Graphs
 ![](./Shure%20SRH840%20(sample%201).png)

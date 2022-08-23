@@ -8,16 +8,13 @@ When using independent subset of filters, apply preamp of **-6.5 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 46 Hz    | 0.23 | 6.8 dB  |
-| Peaking | 200 Hz   | 0.61 | -4.7 dB |
-| Peaking | 2705 Hz  | 2.35 | 2.1 dB  |
-| Peaking | 6186 Hz  | 1.94 | 5.9 dB  |
-| Peaking | 13419 Hz | 0.17 | -2.9 dB |
-| Peaking | 678 Hz   | 1.21 | -0.3 dB |
-| Peaking | 1351 Hz  | 2.62 | 0.7 dB  |
-| Peaking | 3136 Hz  | 6.99 | 2.5 dB  |
-| Peaking | 3658 Hz  | 3.28 | -3.1 dB |
-| Peaking | 4279 Hz  | 3.2  | 1.5 dB  |
+| Peaking | 46 Hz    | 0.24 | 6.8 dB  |
+| Peaking | 203 Hz   | 0.6  | -4.6 dB |
+| Peaking | 2501 Hz  | 1.6  | 2.0 dB  |
+| Peaking | 6214 Hz  | 1.91 | 5.7 dB  |
+| Peaking | 13981 Hz | 0.12 | -2.5 dB |
+| Peaking | 68 Hz    | 3.88 | 0.4 dB  |
+| Peaking | 1323 Hz  | 5.22 | 0.7 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.5dB**
@@ -25,16 +22,16 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 6.2 dB  |
-| Peaking | 62 Hz    | 1.41 | 5.1 dB  |
-| Peaking | 125 Hz   | 1.41 | 0.9 dB  |
-| Peaking | 250 Hz   | 1.41 | -2.0 dB |
-| Peaking | 500 Hz   | 1.41 | -0.8 dB |
-| Peaking | 1000 Hz  | 1.41 | -0.2 dB |
-| Peaking | 2000 Hz  | 1.41 | 0.4 dB  |
-| Peaking | 4000 Hz  | 1.41 | 0.4 dB  |
-| Peaking | 8000 Hz  | 1.41 | 0.7 dB  |
-| Peaking | 16000 Hz | 1.41 | -4.5 dB |
+| Peaking | 31 Hz    | 1.41 | 6.3 dB  |
+| Peaking | 63 Hz    | 1.41 | 5.1 dB  |
+| Peaking | 125 Hz   | 1.41 | 1.0 dB  |
+| Peaking | 250 Hz   | 1.41 | -2.1 dB |
+| Peaking | 500 Hz   | 1.41 | -0.9 dB |
+| Peaking | 1000 Hz  | 1.41 | -0.3 dB |
+| Peaking | 2000 Hz  | 1.41 | 0.6 dB  |
+| Peaking | 4000 Hz  | 1.41 | 0.3 dB  |
+| Peaking | 8000 Hz  | 1.41 | 1.1 dB  |
+| Peaking | 16000 Hz | 1.41 | -4.1 dB |
 
 ### Graphs
 ![](./AKG%20K240DF.png)

@@ -8,33 +8,33 @@ When using independent subset of filters, apply preamp of **-6.5 dB**.
 
 | Type    | Fc       |    Q | Gain     |
 |:--------|:---------|:-----|:---------|
-| Peaking | 37 Hz    | 0.26 | 6.3 dB   |
-| Peaking | 798 Hz   | 2.12 | -2.1 dB  |
-| Peaking | 906 Hz   | 2.58 | -2.9 dB  |
-| Peaking | 19575 Hz | 0.59 | -6.7 dB  |
-| Peaking | 19969 Hz | 0.18 | -10.1 dB |
-| Peaking | 1759 Hz  | 6.68 | -3.7 dB  |
-| Peaking | 3300 Hz  | 2.42 | 4.4 dB   |
-| Peaking | 4892 Hz  | 3.99 | -7.3 dB  |
-| Peaking | 9148 Hz  | 2.88 | 1.9 dB   |
-| Peaking | 16181 Hz | 2.17 | -0.5 dB  |
+| Peaking | 10 Hz    | 0.16 | 5.4 dB   |
+| Peaking | 78 Hz    | 0.5  | 3.5 dB   |
+| Peaking | 863 Hz   | 2.14 | -5.1 dB  |
+| Peaking | 3114 Hz  | 5.36 | 4.6 dB   |
+| Peaking | 19872 Hz | 0.26 | -15.2 dB |
+| Peaking | 137 Hz   | 4.33 | -0.9 dB  |
+| Peaking | 1745 Hz  | 6.09 | -5.2 dB  |
+| Peaking | 1896 Hz  | 1.2  | 1.9 dB   |
+| Peaking | 4965 Hz  | 4.81 | -7.8 dB  |
+| Peaking | 9609 Hz  | 2.55 | 1.9 dB   |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.4dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.5dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain     |
 |:--------|:---------|:-----|:---------|
 | Peaking | 31 Hz    | 1.41 | 6.2 dB   |
-| Peaking | 62 Hz    | 1.41 | 5.0 dB   |
+| Peaking | 63 Hz    | 1.41 | 5.0 dB   |
 | Peaking | 125 Hz   | 1.41 | 2.4 dB   |
-| Peaking | 250 Hz   | 1.41 | 1.6 dB   |
-| Peaking | 500 Hz   | 1.41 | -0.5 dB  |
-| Peaking | 1000 Hz  | 1.41 | -3.5 dB  |
-| Peaking | 2000 Hz  | 1.41 | 0.9 dB   |
-| Peaking | 4000 Hz  | 1.41 | -0.7 dB  |
-| Peaking | 8000 Hz  | 1.41 | -1.8 dB  |
-| Peaking | 16000 Hz | 1.41 | -16.5 dB |
+| Peaking | 250 Hz   | 1.41 | 1.5 dB   |
+| Peaking | 500 Hz   | 1.41 | -0.6 dB  |
+| Peaking | 1000 Hz  | 1.41 | -4.1 dB  |
+| Peaking | 2000 Hz  | 1.41 | 1.8 dB   |
+| Peaking | 4000 Hz  | 1.41 | -1.2 dB  |
+| Peaking | 8000 Hz  | 1.41 | -2.0 dB  |
+| Peaking | 16000 Hz | 1.41 | -14.9 dB |
 
 ### Graphs
 ![](./Beyerdynamic%20DT%20235.png)

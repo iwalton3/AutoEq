@@ -8,16 +8,15 @@ When using independent subset of filters, apply preamp of **-7.2 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 21 Hz    | 0.79 | -4.7 dB |
-| Peaking | 60 Hz    | 0.49 | -4.3 dB |
-| Peaking | 211 Hz   | 0.51 | -3.9 dB |
-| Peaking | 1149 Hz  | 2.53 | -3.2 dB |
-| Peaking | 2724 Hz  | 0.78 | 7.3 dB  |
-| Peaking | 4507 Hz  | 1.9  | 0.5 dB  |
-| Peaking | 5242 Hz  | 2.72 | 4.4 dB  |
-| Peaking | 14961 Hz | 0.17 | -0.4 dB |
-| Peaking | 18582 Hz | 0.19 | -5.8 dB |
-| Peaking | 20027 Hz | 0.56 | -1.5 dB |
+| Peaking | 21 Hz    | 0.86 | -4.4 dB |
+| Peaking | 58 Hz    | 0.5  | -4.2 dB |
+| Peaking | 210 Hz   | 0.48 | -4.0 dB |
+| Peaking | 1154 Hz  | 2.54 | -3.1 dB |
+| Peaking | 2741 Hz  | 0.78 | 7.3 dB  |
+| Peaking | 1837 Hz  | 6.14 | 1.4 dB  |
+| Peaking | 4595 Hz  | 1.85 | 0.3 dB  |
+| Peaking | 5252 Hz  | 2.96 | 4.3 dB  |
+| Peaking | 19238 Hz | 0.17 | -7.3 dB |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.7dB**
@@ -25,16 +24,16 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -6.9 dB |
-| Peaking | 62 Hz    | 1.41 | -4.4 dB |
-| Peaking | 125 Hz   | 1.41 | -4.7 dB |
-| Peaking | 250 Hz   | 1.41 | -4.1 dB |
-| Peaking | 500 Hz   | 1.41 | -0.7 dB |
-| Peaking | 1000 Hz  | 1.41 | -2.4 dB |
+| Peaking | 31 Hz    | 1.41 | -6.6 dB |
+| Peaking | 63 Hz    | 1.41 | -4.3 dB |
+| Peaking | 125 Hz   | 1.41 | -4.6 dB |
+| Peaking | 250 Hz   | 1.41 | -4.0 dB |
+| Peaking | 500 Hz   | 1.41 | -0.8 dB |
+| Peaking | 1000 Hz  | 1.41 | -2.3 dB |
 | Peaking | 2000 Hz  | 1.41 | 5.2 dB  |
 | Peaking | 4000 Hz  | 1.41 | 7.0 dB  |
-| Peaking | 8000 Hz  | 1.41 | -2.0 dB |
-| Peaking | 16000 Hz | 1.41 | -9.4 dB |
+| Peaking | 8000 Hz  | 1.41 | -1.8 dB |
+| Peaking | 16000 Hz | 1.41 | -9.7 dB |
 
 ### Graphs
 ![](./FLC%20Technology%208N%20(black%20black%20red).png)

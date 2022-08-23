@@ -4,20 +4,19 @@ See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more
 ### Parametric EQs
 In case of using parametric equalizer, apply preamp of **-6.4dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.3 dB**.
+When using independent subset of filters, apply preamp of **-5.2 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 41 Hz    | 0.24 | -5.2 dB |
-| Peaking | 186 Hz   | 0.67 | -5.0 dB |
-| Peaking | 2986 Hz  | 0.72 | 5.3 dB  |
-| Peaking | 13102 Hz | 0.47 | 3.5 dB  |
-| Peaking | 19699 Hz | 0.42 | 5.2 dB  |
-| Peaking | 880 Hz   | 2.09 | 2.0 dB  |
-| Peaking | 1586 Hz  | 2.03 | -1.3 dB |
-| Peaking | 3988 Hz  | 2.29 | 1.4 dB  |
-| Peaking | 4856 Hz  | 4.22 | -3.6 dB |
-| Peaking | 5777 Hz  | 5.61 | 2.5 dB  |
+| Peaking | 19 Hz    | 0.61 | -3.8 dB |
+| Peaking | 75 Hz    | 0.5  | -4.1 dB |
+| Peaking | 207 Hz   | 0.52 | -5.3 dB |
+| Peaking | 751 Hz   | 1.92 | 1.5 dB  |
+| Peaking | 17212 Hz | 0.03 | 5.0 dB  |
+| Peaking | 1599 Hz  | 1.64 | -2.7 dB |
+| Peaking | 4260 Hz  | 0.48 | 3.0 dB  |
+| Peaking | 4868 Hz  | 4.93 | -4.9 dB |
+| Peaking | 7554 Hz  | 1.46 | -3.3 dB |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-8.7dB**
@@ -25,12 +24,12 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -5.1 dB |
-| Peaking | 62 Hz    | 1.41 | -4.5 dB |
+| Peaking | 31 Hz    | 1.41 | -5.0 dB |
+| Peaking | 63 Hz    | 1.41 | -4.5 dB |
 | Peaking | 125 Hz   | 1.41 | -6.1 dB |
 | Peaking | 250 Hz   | 1.41 | -5.6 dB |
 | Peaking | 500 Hz   | 1.41 | -0.7 dB |
-| Peaking | 1000 Hz  | 1.41 | 1.6 dB  |
+| Peaking | 1000 Hz  | 1.41 | 1.5 dB  |
 | Peaking | 2000 Hz  | 1.41 | 2.7 dB  |
 | Peaking | 4000 Hz  | 1.41 | 4.8 dB  |
 | Peaking | 8000 Hz  | 1.41 | 3.3 dB  |

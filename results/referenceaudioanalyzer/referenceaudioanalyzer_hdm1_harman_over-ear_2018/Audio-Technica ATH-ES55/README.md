@@ -8,16 +8,16 @@ When using independent subset of filters, apply preamp of **-6.4 dB**.
 
 | Type    | Fc       |    Q | Gain     |
 |:--------|:---------|:-----|:---------|
-| Peaking | 48 Hz    | 0.15 | 6.2 dB   |
-| Peaking | 553 Hz   | 1.35 | 7.8 dB   |
-| Peaking | 1967 Hz  | 0.36 | -11.4 dB |
-| Peaking | 5211 Hz  | 0.88 | 12.0 dB  |
-| Peaking | 5665 Hz  | 3.76 | -9.3 dB  |
-| Peaking | 928 Hz   | 6.77 | -1.0 dB  |
-| Peaking | 9115 Hz  | 3.75 | 1.3 dB   |
-| Peaking | 10922 Hz | 1.87 | 2.2 dB   |
-| Peaking | 13450 Hz | 1.98 | 0.9 dB   |
-| Peaking | 19718 Hz | 0.4  | -10.3 dB |
+| Peaking | 13 Hz    | 0.21 | 5.8 dB   |
+| Peaking | 117 Hz   | 0.53 | 4.5 dB   |
+| Peaking | 526 Hz   | 1.47 | 6.3 dB   |
+| Peaking | 1578 Hz  | 0.69 | -9.2 dB  |
+| Peaking | 8583 Hz  | 1.83 | 3.9 dB   |
+| Peaking | 963 Hz   | 3.19 | -2.3 dB  |
+| Peaking | 1475 Hz  | 0.89 | 1.8 dB   |
+| Peaking | 2388 Hz  | 1.57 | -2.5 dB  |
+| Peaking | 4279 Hz  | 4.48 | 4.4 dB   |
+| Peaking | 19438 Hz | 0.74 | -11.3 dB |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.6dB**
@@ -25,16 +25,16 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 6.3 dB  |
-| Peaking | 62 Hz    | 1.41 | 4.2 dB  |
+| Peaking | 31 Hz    | 1.41 | 6.2 dB  |
+| Peaking | 63 Hz    | 1.41 | 4.2 dB  |
 | Peaking | 125 Hz   | 1.41 | 5.2 dB  |
-| Peaking | 250 Hz   | 1.41 | 1.3 dB  |
+| Peaking | 250 Hz   | 1.41 | 1.2 dB  |
 | Peaking | 500 Hz   | 1.41 | 6.2 dB  |
-| Peaking | 1000 Hz  | 1.41 | -5.5 dB |
-| Peaking | 2000 Hz  | 1.41 | -9.2 dB |
-| Peaking | 4000 Hz  | 1.41 | 0.4 dB  |
-| Peaking | 8000 Hz  | 1.41 | 3.1 dB  |
-| Peaking | 16000 Hz | 1.41 | -6.1 dB |
+| Peaking | 1000 Hz  | 1.41 | -5.3 dB |
+| Peaking | 2000 Hz  | 1.41 | -9.1 dB |
+| Peaking | 4000 Hz  | 1.41 | 0.0 dB  |
+| Peaking | 8000 Hz  | 1.41 | 3.4 dB  |
+| Peaking | 16000 Hz | 1.41 | -6.3 dB |
 
 ### Graphs
 ![](./Audio-Technica%20ATH-ES55.png)

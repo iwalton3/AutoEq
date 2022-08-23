@@ -8,33 +8,33 @@ When using independent subset of filters, apply preamp of **-5.4 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 16 Hz    | 0.83 | 4.3 dB  |
-| Peaking | 167 Hz   | 0.45 | -4.0 dB |
-| Peaking | 1469 Hz  | 0.77 | 5.4 dB  |
-| Peaking | 6552 Hz  | 2.15 | -6.1 dB |
-| Peaking | 13228 Hz | 0.63 | 3.5 dB  |
-| Peaking | 776 Hz   | 2.4  | 1.0 dB  |
-| Peaking | 1374 Hz  | 2.35 | -1.6 dB |
-| Peaking | 2333 Hz  | 2.13 | 3.9 dB  |
-| Peaking | 3256 Hz  | 2.51 | -5.7 dB |
-| Peaking | 4550 Hz  | 4.31 | 3.1 dB  |
+| Peaking | 17 Hz    | 0.77 | 4.5 dB  |
+| Peaking | 174 Hz   | 0.46 | -3.9 dB |
+| Peaking | 1458 Hz  | 0.77 | 5.5 dB  |
+| Peaking | 6432 Hz  | 2.18 | -6.2 dB |
+| Peaking | 12851 Hz | 0.7  | 3.5 dB  |
+| Peaking | 799 Hz   | 2.43 | 1.0 dB  |
+| Peaking | 1382 Hz  | 2.19 | -1.7 dB |
+| Peaking | 2335 Hz  | 2.01 | 4.2 dB  |
+| Peaking | 3263 Hz  | 2.28 | -5.9 dB |
+| Peaking | 4552 Hz  | 4    | 3.4 dB  |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.0dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.1dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 2.6 dB  |
-| Peaking | 62 Hz    | 1.41 | -1.6 dB |
-| Peaking | 125 Hz   | 1.41 | -2.9 dB |
+| Peaking | 31 Hz    | 1.41 | 2.8 dB  |
+| Peaking | 63 Hz    | 1.41 | -1.5 dB |
+| Peaking | 125 Hz   | 1.41 | -2.8 dB |
 | Peaking | 250 Hz   | 1.41 | -3.3 dB |
-| Peaking | 500 Hz   | 1.41 | -0.4 dB |
-| Peaking | 1000 Hz  | 1.41 | 3.1 dB  |
+| Peaking | 500 Hz   | 1.41 | -0.5 dB |
+| Peaking | 1000 Hz  | 1.41 | 3.2 dB  |
 | Peaking | 2000 Hz  | 1.41 | 5.7 dB  |
-| Peaking | 4000 Hz  | 1.41 | -2.2 dB |
-| Peaking | 8000 Hz  | 1.41 | -1.3 dB |
-| Peaking | 16000 Hz | 1.41 | 4.4 dB  |
+| Peaking | 4000 Hz  | 1.41 | -2.4 dB |
+| Peaking | 8000 Hz  | 1.41 | -1.2 dB |
+| Peaking | 16000 Hz | 1.41 | 4.1 dB  |
 
 ### Graphs
 ![](./JVC%20HA-FR65.png)
