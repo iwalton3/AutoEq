@@ -8,7 +8,7 @@ python -m pip install -U -r measurements/dev-requirements.txt
 ```
 
 Measurement crawlers require [Google Chrome](https://www.google.com/chrome/) installed and
-[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home) binary in the measurements folder (or anywhere
+[ChromeDriver](https://sites.google.com/chromium.org/driver/) binary in the measurements folder (or anywhere
 in the PATH).
 
 Measurement crawlers also require C++. This should be installed by default on Linux but on Windows you need to install
@@ -44,11 +44,6 @@ Sometimes the Zip files don't contain all of the measurement files. This is a bu
 Crawler Jupyter Notebook requires IPyWidgets and the extension
 ```bash
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
-```
-
-JupyterLab users need to install an additional extension which requires NodeJS >= 10 to be installed first
-```bash
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
 ```
 
 Finally install IPython kernel
