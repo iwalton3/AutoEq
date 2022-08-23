@@ -8,16 +8,16 @@ When using independent subset of filters, apply preamp of **-7.1 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 65 Hz    | 1.44 | -2.9 dB |
-| Peaking | 154 Hz   | 0.56 | -3.9 dB |
-| Peaking | 2476 Hz  | 2.72 | 3.7 dB  |
-| Peaking | 3642 Hz  | 2.76 | 4.0 dB  |
-| Peaking | 16599 Hz | 0.34 | 6.9 dB  |
-| Peaking | 22 Hz    | 2.47 | 4.0 dB  |
-| Peaking | 1013 Hz  | 2.83 | -1.1 dB |
-| Peaking | 4585 Hz  | 4.19 | 2.4 dB  |
-| Peaking | 6140 Hz  | 2.52 | -4.0 dB |
-| Peaking | 9497 Hz  | 2.43 | 2.7 dB  |
+| Peaking | 19 Hz    | 1.19 | 5.5 dB  |
+| Peaking | 78 Hz    | 0.51 | -2.5 dB |
+| Peaking | 117 Hz   | 0.25 | -2.4 dB |
+| Peaking | 3034 Hz  | 1.53 | 4.9 dB  |
+| Peaking | 16675 Hz | 0.34 | 6.8 dB  |
+| Peaking | 21 Hz    | 0.8  | -0.3 dB |
+| Peaking | 1056 Hz  | 3.54 | -1.0 dB |
+| Peaking | 4483 Hz  | 3.65 | 2.8 dB  |
+| Peaking | 6135 Hz  | 2.3  | -4.3 dB |
+| Peaking | 9566 Hz  | 2.3  | 2.8 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-10.0dB**
@@ -34,7 +34,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 2000 Hz  | 1.41 | 2.5 dB  |
 | Peaking | 4000 Hz  | 1.41 | 3.6 dB  |
 | Peaking | 8000 Hz  | 1.41 | 2.1 dB  |
-| Peaking | 16000 Hz | 1.41 | 9.7 dB  |
+| Peaking | 16000 Hz | 1.41 | 9.6 dB  |
 
 ### Graphs
 ![](./SoundMAGIC%20MP21.png)

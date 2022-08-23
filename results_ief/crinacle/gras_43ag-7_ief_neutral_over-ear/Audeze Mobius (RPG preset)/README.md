@@ -2,22 +2,22 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.6dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.6 dB**.
+When using independent subset of filters, apply preamp of **-6.4 dB**.
 
 | Type    | Fc      |    Q | Gain    |
 |:--------|:--------|:-----|:--------|
-| Peaking | 20 Hz   | 1.57 | -2.9 dB |
-| Peaking | 75 Hz   | 0.65 | -3.6 dB |
-| Peaking | 3357 Hz | 0.79 | -5.6 dB |
-| Peaking | 4211 Hz | 2.8  | 5.9 dB  |
-| Peaking | 6607 Hz | 1.56 | 7.9 dB  |
-| Peaking | 273 Hz  | 1.08 | -1.4 dB |
-| Peaking | 406 Hz  | 1.53 | 3.4 dB  |
-| Peaking | 720 Hz  | 2.05 | 2.7 dB  |
-| Peaking | 941 Hz  | 0.62 | -1.6 dB |
-| Peaking | 2339 Hz | 5.79 | 1.7 dB  |
+| Peaking | 20 Hz   | 1.81 | -2.7 dB |
+| Peaking | 81 Hz   | 0.37 | -3.4 dB |
+| Peaking | 491 Hz  | 0.99 | 2.8 dB  |
+| Peaking | 2658 Hz | 0.59 | -4.5 dB |
+| Peaking | 5943 Hz | 1.14 | 8.2 dB  |
+| Peaking | 25 Hz   | 1.09 | 0.9 dB  |
+| Peaking | 258 Hz  | 5.09 | -0.6 dB |
+| Peaking | 1239 Hz | 3.73 | -0.8 dB |
+| Peaking | 2974 Hz | 3.9  | -5.0 dB |
+| Peaking | 2993 Hz | 1.55 | 2.7 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.1dB**
@@ -34,7 +34,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 2000 Hz  | 1.41 | -4.2 dB |
 | Peaking | 4000 Hz  | 1.41 | 1.2 dB  |
 | Peaking | 8000 Hz  | 1.41 | 6.1 dB  |
-| Peaking | 16000 Hz | 1.41 | -6.3 dB |
+| Peaking | 16000 Hz | 1.41 | -6.2 dB |
 
 ### Graphs
 ![](./Audeze%20Mobius%20(RPG%20preset).png)

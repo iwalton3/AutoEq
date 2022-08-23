@@ -2,22 +2,22 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.3dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-6.8dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-5.8 dB**.
+When using independent subset of filters, apply preamp of **-6.7 dB**.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 38 Hz    | 1.21 | -5.2 dB  |
-| Peaking | 110 Hz   | 4.13 | -4.8 dB  |
-| Peaking | 4156 Hz  | 1.6  | 10.1 dB  |
-| Peaking | 5751 Hz  | 2.07 | -11.4 dB |
-| Peaking | 19962 Hz | 0.15 | -11.5 dB |
-| Peaking | 76 Hz    | 7.78 | 2.9 dB   |
-| Peaking | 222 Hz   | 3.21 | 2.8 dB   |
-| Peaking | 2676 Hz  | 4.42 | -2.6 dB  |
-| Peaking | 3123 Hz  | 0.15 | 0.8 dB   |
-| Peaking | 8545 Hz  | 4.16 | -2.4 dB  |
+| Type    | Fc       |    Q | Gain    |
+|:--------|:---------|:-----|:--------|
+| Peaking | 40 Hz    | 1.04 | -5.9 dB |
+| Peaking | 113 Hz   | 2.94 | -5.8 dB |
+| Peaking | 374 Hz   | 0.1  | 1.5 dB  |
+| Peaking | 3779 Hz  | 2.72 | 10.3 dB |
+| Peaking | 19611 Hz | 0.05 | -9.1 dB |
+| Peaking | 75 Hz    | 7.72 | 2.9 dB  |
+| Peaking | 212 Hz   | 5.3  | 1.7 dB  |
+| Peaking | 1961 Hz  | 2.54 | 1.8 dB  |
+| Peaking | 5755 Hz  | 7.35 | -6.1 dB |
+| Peaking | 11058 Hz | 1.7  | 2.6 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-3.4dB**
@@ -34,7 +34,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 2000 Hz  | 1.41 | 0.6 dB   |
 | Peaking | 4000 Hz  | 1.41 | 4.5 dB   |
 | Peaking | 8000 Hz  | 1.41 | -8.9 dB  |
-| Peaking | 16000 Hz | 1.41 | -12.9 dB |
+| Peaking | 16000 Hz | 1.41 | -13.0 dB |
 
 ### Graphs
 ![](./Beyerdynamic%20DT%20770%20600%20Ohm.png)

@@ -2,22 +2,22 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-4.5dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-4.3dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-4.5 dB**.
+When using independent subset of filters, apply preamp of **-4.3 dB**.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 69 Hz    | 0.65 | -6.2 dB |
-| Peaking | 2426 Hz  | 0.38 | -1.3 dB |
-| Peaking | 3173 Hz  | 3.93 | 2.3 dB  |
-| Peaking | 5540 Hz  | 1.01 | 5.0 dB  |
-| Peaking | 19551 Hz | 0.36 | 2.9 dB  |
-| Peaking | 38 Hz    | 3.77 | -0.8 dB |
-| Peaking | 631 Hz   | 5.33 | 1.4 dB  |
-| Peaking | 1086 Hz  | 1.43 | -1.4 dB |
-| Peaking | 1579 Hz  | 1.53 | 1.6 dB  |
-| Peaking | 2389 Hz  | 4.36 | -1.3 dB |
+| Type    | Fc      |    Q | Gain    |
+|:--------|:--------|:-----|:--------|
+| Peaking | 19 Hz   | 1.78 | 3.2 dB  |
+| Peaking | 58 Hz   | 0.58 | -6.0 dB |
+| Peaking | 128 Hz  | 1.59 | -1.1 dB |
+| Peaking | 1081 Hz | 1.55 | -1.6 dB |
+| Peaking | 5783 Hz | 0.8  | 4.1 dB  |
+| Peaking | 15 Hz   | 1.03 | 0.6 dB  |
+| Peaking | 270 Hz  | 4.53 | 0.8 dB  |
+| Peaking | 510 Hz  | 1.84 | -1.0 dB |
+| Peaking | 605 Hz  | 4    | 1.7 dB  |
+| Peaking | 2367 Hz | 6.14 | -1.9 dB |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-3.9dB**
@@ -26,7 +26,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
 | Peaking | 31 Hz    | 1.41 | -1.6 dB |
-| Peaking | 63 Hz    | 1.41 | -5.9 dB |
+| Peaking | 63 Hz    | 1.41 | -6.0 dB |
 | Peaking | 125 Hz   | 1.41 | -3.3 dB |
 | Peaking | 250 Hz   | 1.41 | -0.0 dB |
 | Peaking | 500 Hz   | 1.41 | -0.1 dB |

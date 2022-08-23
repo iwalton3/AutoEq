@@ -2,25 +2,22 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.4dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-6.5dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
 When using independent subset of filters, apply preamp of **-6.8 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
 | Peaking | 36 Hz    | 0.17 | -9.7 dB |
-| Peaking | 1132 Hz  | 0.79 | 4.4 dB  |
-| Peaking | 2972 Hz  | 3.92 | 2.8 dB  |
-| Peaking | 5210 Hz  | 1.97 | -9.7 dB |
-| Peaking | 14660 Hz | 0.16 | 6.7 dB  |
-| Peaking | 1639 Hz  | 4    | 0.7 dB  |
-| Peaking | 2134 Hz  | 5.57 | -1.0 dB |
-| Peaking | 7502 Hz  | 3.98 | -1.5 dB |
-| Peaking | 8396 Hz  | 3.36 | 2.2 dB  |
-| Peaking | 15242 Hz | 1.24 | -0.6 dB |
+| Peaking | 1137 Hz  | 0.79 | 4.4 dB  |
+| Peaking | 2970 Hz  | 4.05 | 2.9 dB  |
+| Peaking | 5220 Hz  | 1.99 | -9.6 dB |
+| Peaking | 14729 Hz | 0.16 | 6.7 dB  |
+| Peaking | 8845 Hz  | 3.6  | 1.9 dB  |
+| Peaking | 11716 Hz | 0.36 | -0.5 dB |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.8dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.9dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain     |
@@ -32,9 +29,9 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 500 Hz   | 1.41 | -0.1 dB  |
 | Peaking | 1000 Hz  | 1.41 | 3.8 dB   |
 | Peaking | 2000 Hz  | 1.41 | 4.4 dB   |
-| Peaking | 4000 Hz  | 1.41 | -2.5 dB  |
-| Peaking | 8000 Hz  | 1.41 | 3.9 dB   |
-| Peaking | 16000 Hz | 1.41 | 9.4 dB   |
+| Peaking | 4000 Hz  | 1.41 | -2.4 dB  |
+| Peaking | 8000 Hz  | 1.41 | 3.8 dB   |
+| Peaking | 16000 Hz | 1.41 | 9.5 dB   |
 
 ### Graphs
 ![](./Fearless%20Audio%20S4.png)

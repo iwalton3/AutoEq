@@ -3,21 +3,16 @@ See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more
 
 ### Parametric EQs
 In case of using parametric equalizer, apply preamp of **-5.2dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
+with these parameters. The first 4 filters can be used independently.
 When using independent subset of filters, apply preamp of **-5.2 dB**.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 10 Hz    | 0.3  | -2.7 dB |
-| Peaking | 54 Hz    | 0.4  | -5.3 dB |
-| Peaking | 618 Hz   | 0.87 | 1.1 dB  |
-| Peaking | 3617 Hz  | 0.82 | -5.2 dB |
-| Peaking | 8117 Hz  | 0.36 | 6.0 dB  |
-| Peaking | 3201 Hz  | 2.62 | 1.6 dB  |
-| Peaking | 4202 Hz  | 0.87 | -1.3 dB |
-| Peaking | 6024 Hz  | 3.48 | 1.5 dB  |
-| Peaking | 8421 Hz  | 1.91 | 0.8 dB  |
-| Peaking | 10494 Hz | 2.19 | -0.9 dB |
+| Type    | Fc      |    Q | Gain    |
+|:--------|:--------|:-----|:--------|
+| Peaking | 54 Hz   | 0.4  | -5.5 dB |
+| Peaking | 622 Hz  | 0.89 | 1.1 dB  |
+| Peaking | 3615 Hz | 0.82 | -5.1 dB |
+| Peaking | 8141 Hz | 0.36 | 6.0 dB  |
+| Peaking | 22 Hz   | 0.76 | -1.9 dB |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.3dB**
@@ -34,7 +29,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 2000 Hz  | 1.41 | -1.0 dB |
 | Peaking | 4000 Hz  | 1.41 | -1.8 dB |
 | Peaking | 8000 Hz  | 1.41 | 6.2 dB  |
-| Peaking | 16000 Hz | 1.41 | 4.1 dB  |
+| Peaking | 16000 Hz | 1.41 | 4.2 dB  |
 
 ### Graphs
 ![](./Moondrop%20Kanas%20Pro.png)

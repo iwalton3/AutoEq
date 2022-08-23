@@ -2,22 +2,21 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-6.8dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
 When using independent subset of filters, apply preamp of **-6.7 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 17 Hz    | 1.06 | 4.2 dB  |
-| Peaking | 73 Hz    | 0.44 | -3.0 dB |
-| Peaking | 297 Hz   | 0.45 | -3.3 dB |
-| Peaking | 5261 Hz  | 2.13 | 3.6 dB  |
-| Peaking | 16188 Hz | 0.2  | 6.5 dB  |
-| Peaking | 14 Hz    | 0.48 | 0.4 dB  |
-| Peaking | 2188 Hz  | 2.06 | 1.7 dB  |
-| Peaking | 3265 Hz  | 1.95 | -3.0 dB |
-| Peaking | 4271 Hz  | 4.98 | 2.5 dB  |
-| Peaking | 8083 Hz  | 3.27 | 1.1 dB  |
+| Peaking | 18 Hz    | 1.01 | 4.3 dB  |
+| Peaking | 70 Hz    | 0.5  | -2.7 dB |
+| Peaking | 280 Hz   | 0.43 | -3.5 dB |
+| Peaking | 5226 Hz  | 2.28 | 3.6 dB  |
+| Peaking | 16122 Hz | 0.2  | 6.5 dB  |
+| Peaking | 30 Hz    | 0.72 | -0.3 dB |
+| Peaking | 2027 Hz  | 2.77 | 1.1 dB  |
+| Peaking | 3192 Hz  | 4.71 | -2.9 dB |
+| Peaking | 8035 Hz  | 2.88 | 1.0 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.1dB**
@@ -34,7 +33,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 2000 Hz  | 1.41 | 0.2 dB  |
 | Peaking | 4000 Hz  | 1.41 | 2.2 dB  |
 | Peaking | 8000 Hz  | 1.41 | 7.0 dB  |
-| Peaking | 16000 Hz | 1.41 | 8.5 dB  |
+| Peaking | 16000 Hz | 1.41 | 8.6 dB  |
 
 ### Graphs
 ![](./Warbler%20Prelude.png)

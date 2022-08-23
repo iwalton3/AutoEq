@@ -2,39 +2,37 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-7.0dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.7 dB**.
+When using independent subset of filters, apply preamp of **-3.6 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 24 Hz    | 0.38 | -8.5 dB |
-| Peaking | 245 Hz   | 0.82 | 5.4 dB  |
-| Peaking | 1034 Hz  | 0.22 | -2.0 dB |
-| Peaking | 10639 Hz | 2.14 | -2.6 dB |
-| Peaking | 17796 Hz | 0.34 | 6.6 dB  |
-| Peaking | 601 Hz   | 4.13 | -1.6 dB |
-| Peaking | 803 Hz   | 4.41 | 1.7 dB  |
-| Peaking | 2682 Hz  | 3.83 | -2.4 dB |
-| Peaking | 3708 Hz  | 4.08 | 3.0 dB  |
-| Peaking | 6528 Hz  | 6.69 | -2.4 dB |
+| Peaking | 22 Hz    | 0.31 | -8.6 dB |
+| Peaking | 238 Hz   | 0.7  | 4.3 dB  |
+| Peaking | 574 Hz   | 2.66 | -2.9 dB |
+| Peaking | 1203 Hz  | 1.9  | -2.0 dB |
+| Peaking | 2517 Hz  | 3.49 | -3.4 dB |
+| Peaking | 1909 Hz  | 3.48 | -0.5 dB |
+| Peaking | 6545 Hz  | 6.41 | -2.6 dB |
+| Peaking | 18097 Hz | 0.5  | 6.8 dB  |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-8.5dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-8.6dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
 | Peaking | 31 Hz    | 1.41 | -9.4 dB |
 | Peaking | 63 Hz    | 1.41 | -3.2 dB |
-| Peaking | 125 Hz   | 1.41 | 0.1 dB  |
+| Peaking | 125 Hz   | 1.41 | 0.2 dB  |
 | Peaking | 250 Hz   | 1.41 | 4.5 dB  |
 | Peaking | 500 Hz   | 1.41 | -0.9 dB |
-| Peaking | 1000 Hz  | 1.41 | -0.8 dB |
+| Peaking | 1000 Hz  | 1.41 | -0.7 dB |
 | Peaking | 2000 Hz  | 1.41 | -2.4 dB |
 | Peaking | 4000 Hz  | 1.41 | 0.4 dB  |
-| Peaking | 8000 Hz  | 1.41 | -0.3 dB |
-| Peaking | 16000 Hz | 1.41 | 8.3 dB  |
+| Peaking | 8000 Hz  | 1.41 | -0.4 dB |
+| Peaking | 16000 Hz | 1.41 | 8.4 dB  |
 
 ### Graphs
 ![](./Beats%20Studio%20Buds.png)

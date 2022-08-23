@@ -2,22 +2,21 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.3dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.4 dB**.
+In case of using parametric equalizer, apply preamp of **-7.2dB** and build filters manually
+with these parameters. The first 4 filters can be used independently.
+When using independent subset of filters, apply preamp of **-7.1 dB**.
 
-| Type    | Fc      |    Q | Gain     |
-|:--------|:--------|:-----|:---------|
-| Peaking | 47 Hz   | 0.14 | -10.7 dB |
-| Peaking | 1009 Hz | 0.51 | -8.1 dB  |
-| Peaking | 1100 Hz | 0.57 | 12.7 dB  |
-| Peaking | 6272 Hz | 2.43 | -11.5 dB |
-| Peaking | 9869 Hz | 0.15 | 6.6 dB   |
-| Peaking | 2551 Hz | 0.08 | -0.1 dB  |
-| Peaking | 4217 Hz | 1.23 | 0.3 dB   |
-| Peaking | 6956 Hz | 4.59 | 1.4 dB   |
-| Peaking | 7788 Hz | 3.32 | -1.5 dB  |
-| Peaking | 9900 Hz | 3.93 | 0.9 dB   |
+| Type    | Fc       |    Q | Gain     |
+|:--------|:---------|:-----|:---------|
+| Peaking | 53 Hz    | 0.11 | -10.8 dB |
+| Peaking | 767 Hz   | 0.68 | -6.2 dB  |
+| Peaking | 1064 Hz  | 0.45 | 12.2 dB  |
+| Peaking | 15266 Hz | 0.65 | 6.8 dB   |
+| Peaking | 1022 Hz  | 0.33 | 0.4 dB   |
+| Peaking | 1637 Hz  | 1.73 | -1.2 dB  |
+| Peaking | 4089 Hz  | 1.03 | 2.4 dB   |
+| Peaking | 6244 Hz  | 3.37 | -8.8 dB  |
+| Peaking | 10085 Hz | 2.78 | 2.9 dB   |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.7dB**
@@ -25,7 +24,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 
 | Type    | Fc       |    Q | Gain     |
 |:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | -10.9 dB |
+| Peaking | 31 Hz    | 1.41 | -11.0 dB |
 | Peaking | 63 Hz    | 1.41 | -7.7 dB  |
 | Peaking | 125 Hz   | 1.41 | -7.5 dB  |
 | Peaking | 250 Hz   | 1.41 | -5.1 dB  |

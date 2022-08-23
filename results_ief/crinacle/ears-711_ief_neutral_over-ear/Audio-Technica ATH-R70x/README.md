@@ -2,22 +2,21 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.2dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-6.1dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.2 dB**.
+When using independent subset of filters, apply preamp of **-6.0 dB**.
 
 | Type    | Fc      |    Q | Gain    |
 |:--------|:--------|:-----|:--------|
-| Peaking | 21 Hz   | 0.96 | 6.9 dB  |
+| Peaking | 21 Hz   | 0.95 | 6.9 dB  |
 | Peaking | 73 Hz   | 0.49 | -3.2 dB |
-| Peaking | 2674 Hz | 1.81 | 6.3 dB  |
-| Peaking | 3693 Hz | 0.71 | -5.7 dB |
-| Peaking | 9516 Hz | 0.75 | 6.5 dB  |
-| Peaking | 1570 Hz | 4.74 | -0.6 dB |
-| Peaking | 3886 Hz | 5.85 | -3.0 dB |
-| Peaking | 4430 Hz | 1.06 | 0.7 dB  |
-| Peaking | 4493 Hz | 3.88 | 2.6 dB  |
-| Peaking | 5266 Hz | 5.25 | -2.8 dB |
+| Peaking | 2681 Hz | 1.82 | 6.3 dB  |
+| Peaking | 3692 Hz | 0.7  | -5.6 dB |
+| Peaking | 9504 Hz | 0.75 | 6.5 dB  |
+| Peaking | 23 Hz   | 0.85 | 0.2 dB  |
+| Peaking | 695 Hz  | 4.77 | 0.5 dB  |
+| Peaking | 1557 Hz | 8.1  | -0.6 dB |
+| Peaking | 7276 Hz | 8.13 | 0.6 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.2dB**
@@ -34,7 +33,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 2000 Hz  | 1.41 | 1.6 dB  |
 | Peaking | 4000 Hz  | 1.41 | -2.8 dB |
 | Peaking | 8000 Hz  | 1.41 | 5.2 dB  |
-| Peaking | 16000 Hz | 1.41 | 2.5 dB  |
+| Peaking | 16000 Hz | 1.41 | 2.6 dB  |
 
 ### Graphs
 ![](./Audio-Technica%20ATH-R70x.png)

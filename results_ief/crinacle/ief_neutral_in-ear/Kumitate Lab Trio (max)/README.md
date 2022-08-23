@@ -2,22 +2,20 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.5dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-7.0 dB**.
+In case of using parametric equalizer, apply preamp of **-6.6dB** and build filters manually
+with these parameters. The first 4 filters can be used independently.
+When using independent subset of filters, apply preamp of **-6.5 dB**.
 
 | Type    | Fc      |    Q | Gain     |
 |:--------|:--------|:-----|:---------|
-| Peaking | 31 Hz   | 0.26 | -4.4 dB  |
-| Peaking | 1613 Hz | 1.79 | -9.8 dB  |
-| Peaking | 2602 Hz | 1.92 | -13.0 dB |
-| Peaking | 3029 Hz | 0.2  | 16.3 dB  |
-| Peaking | 8128 Hz | 0.49 | -21.5 dB |
-| Peaking | 746 Hz  | 0.74 | 2.0 dB   |
-| Peaking | 771 Hz  | 1.65 | -2.9 dB  |
-| Peaking | 5800 Hz | 2.5  | 3.6 dB   |
-| Peaking | 7708 Hz | 0.84 | -3.5 dB  |
-| Peaking | 9529 Hz | 2.08 | 3.7 dB   |
+| Peaking | 24 Hz   | 0.16 | -4.4 dB  |
+| Peaking | 2187 Hz | 0.93 | -14.0 dB |
+| Peaking | 2210 Hz | 0.17 | 11.7 dB  |
+| Peaking | 8767 Hz | 0.61 | -16.5 dB |
+| Peaking | 1149 Hz | 4.6  | 1.6 dB   |
+| Peaking | 1512 Hz | 7.35 | -3.5 dB  |
+| Peaking | 2692 Hz | 8.89 | -3.1 dB  |
+| Peaking | 4805 Hz | 2.96 | 1.8 dB   |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.0dB**
@@ -25,9 +23,9 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 
 | Type    | Fc       |    Q | Gain     |
 |:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | -4.6 dB  |
+| Peaking | 31 Hz    | 1.41 | -4.7 dB  |
 | Peaking | 63 Hz    | 1.41 | -2.9 dB  |
-| Peaking | 125 Hz   | 1.41 | -1.6 dB  |
+| Peaking | 125 Hz   | 1.41 | -1.5 dB  |
 | Peaking | 250 Hz   | 1.41 | 1.6 dB   |
 | Peaking | 500 Hz   | 1.41 | 5.1 dB   |
 | Peaking | 1000 Hz  | 1.41 | 6.9 dB   |

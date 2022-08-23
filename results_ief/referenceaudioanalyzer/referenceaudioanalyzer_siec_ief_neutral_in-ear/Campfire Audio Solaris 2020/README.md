@@ -2,22 +2,19 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.5dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.9 dB**.
+In case of using parametric equalizer, apply preamp of **-6.8dB** and build filters manually
+with these parameters. The first 4 filters can be used independently.
+When using independent subset of filters, apply preamp of **-6.7 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 37 Hz    | 0.15 | -4.7 dB |
-| Peaking | 3101 Hz  | 2.01 | 6.3 dB  |
-| Peaking | 5866 Hz  | 3.67 | 3.7 dB  |
-| Peaking | 6893 Hz  | 3.74 | -6.5 dB |
-| Peaking | 18603 Hz | 0.23 | 6.1 dB  |
-| Peaking | 944 Hz   | 0.98 | 7.9 dB  |
-| Peaking | 1425 Hz  | 0.42 | -5.7 dB |
-| Peaking | 2519 Hz  | 3.82 | 3.8 dB  |
-| Peaking | 4366 Hz  | 1.52 | 3.5 dB  |
-| Peaking | 4685 Hz  | 5.43 | -2.7 dB |
+| Peaking | 27 Hz    | 0.13 | -4.6 dB |
+| Peaking | 230 Hz   | 1.07 | -1.1 dB |
+| Peaking | 893 Hz   | 2.67 | 3.1 dB  |
+| Peaking | 3260 Hz  | 1.71 | 6.5 dB  |
+| Peaking | 1088 Hz  | 5.01 | 1.0 dB  |
+| Peaking | 1696 Hz  | 3.27 | -2.6 dB |
+| Peaking | 17989 Hz | 0.43 | 6.6 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-8.9dB**
@@ -34,7 +31,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 2000 Hz  | 1.41 | -0.3 dB |
 | Peaking | 4000 Hz  | 1.41 | 5.6 dB  |
 | Peaking | 8000 Hz  | 1.41 | -1.0 dB |
-| Peaking | 16000 Hz | 1.41 | 8.7 dB  |
+| Peaking | 16000 Hz | 1.41 | 8.6 dB  |
 
 ### Graphs
 ![](./Campfire%20Audio%20Solaris%202020.png)

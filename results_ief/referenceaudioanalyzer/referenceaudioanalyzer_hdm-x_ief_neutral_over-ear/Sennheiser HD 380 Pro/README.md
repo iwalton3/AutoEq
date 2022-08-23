@@ -2,22 +2,22 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-4.3dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-4.4dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-3.8 dB**.
+When using independent subset of filters, apply preamp of **-3.7 dB**.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 58 Hz    | 0.74 | -2.9 dB |
-| Peaking | 297 Hz   | 1.87 | 3.9 dB  |
-| Peaking | 1577 Hz  | 1.1  | -3.4 dB |
-| Peaking | 3107 Hz  | 4.57 | -4.0 dB |
-| Peaking | 10510 Hz | 0.46 | 3.4 dB  |
-| Peaking | 128 Hz   | 5.32 | -0.9 dB |
-| Peaking | 1970 Hz  | 5.31 | -1.8 dB |
-| Peaking | 2348 Hz  | 4.16 | 1.8 dB  |
-| Peaking | 4805 Hz  | 3.97 | -1.9 dB |
-| Peaking | 6652 Hz  | 4.67 | 1.9 dB  |
+| Type    | Fc      |    Q | Gain    |
+|:--------|:--------|:-----|:--------|
+| Peaking | 54 Hz   | 0.99 | -3.1 dB |
+| Peaking | 132 Hz  | 2.77 | -1.4 dB |
+| Peaking | 299 Hz  | 1.52 | 3.8 dB  |
+| Peaking | 2767 Hz | 0.42 | -4.5 dB |
+| Peaking | 7838 Hz | 0.42 | 5.1 dB  |
+| Peaking | 31 Hz   | 2.29 | -0.2 dB |
+| Peaking | 92 Hz   | 6.7  | 0.4 dB  |
+| Peaking | 2387 Hz | 7.3  | 3.5 dB  |
+| Peaking | 3918 Hz | 0.42 | -0.7 dB |
+| Peaking | 6672 Hz | 4.79 | 2.3 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-4.6dB**
@@ -33,8 +33,8 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 1000 Hz  | 1.41 | -1.7 dB |
 | Peaking | 2000 Hz  | 1.41 | -2.7 dB |
 | Peaking | 4000 Hz  | 1.41 | -1.1 dB |
-| Peaking | 8000 Hz  | 1.41 | 4.4 dB  |
-| Peaking | 16000 Hz | 1.41 | 2.9 dB  |
+| Peaking | 8000 Hz  | 1.41 | 4.5 dB  |
+| Peaking | 16000 Hz | 1.41 | 2.8 dB  |
 
 ### Graphs
 ![](./Sennheiser%20HD%20380%20Pro.png)
