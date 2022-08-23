@@ -8,15 +8,13 @@ When using independent subset of filters, apply preamp of **-6.3 dB**.
 
 | Type    | Fc       |    Q | Gain     |
 |:--------|:---------|:-----|:---------|
-| Peaking | 282 Hz   | 0.39 | -3.5 dB  |
-| Peaking | 2803 Hz  | 2.78 | -10.5 dB |
-| Peaking | 8062 Hz  | 0.16 | 5.8 dB   |
-| Peaking | 20761 Hz | 0.34 | 5.0 dB   |
-| Peaking | 17 Hz    | 0.66 | 6.2 dB   |
-| Peaking | 62 Hz    | 1.1  | 1.6 dB   |
-| Peaking | 3439 Hz  | 3.67 | -1.1 dB  |
-| Peaking | 4399 Hz  | 2.66 | 1.7 dB   |
-| Peaking | 6502 Hz  | 4.08 | -1.6 dB  |
+| Peaking | 266 Hz   | 0.44 | -3.5 dB  |
+| Peaking | 2820 Hz  | 2.37 | -12.2 dB |
+| Peaking | 3035 Hz  | 0.59 | 5.4 dB   |
+| Peaking | 17774 Hz | 0.14 | 6.1 dB   |
+| Peaking | 18 Hz    | 0.71 | 6.0 dB   |
+| Peaking | 60 Hz    | 1.08 | 1.5 dB   |
+| Peaking | 1901 Hz  | 7.99 | 1.2 dB   |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.2dB**
@@ -30,10 +28,10 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 250 Hz   | 1.41 | -3.0 dB |
 | Peaking | 500 Hz   | 1.41 | -1.9 dB |
 | Peaking | 1000 Hz  | 1.41 | 1.0 dB  |
-| Peaking | 2000 Hz  | 1.41 | -0.9 dB |
+| Peaking | 2000 Hz  | 1.41 | -1.0 dB |
 | Peaking | 4000 Hz  | 1.41 | 1.1 dB  |
 | Peaking | 8000 Hz  | 1.41 | 6.7 dB  |
-| Peaking | 16000 Hz | 1.41 | 8.6 dB  |
+| Peaking | 16000 Hz | 1.41 | 8.7 dB  |
 
 ### Graphs
 ![](./Musical%20Fidelity%20EB-50.png)

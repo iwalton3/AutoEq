@@ -8,32 +8,32 @@ When using independent subset of filters, apply preamp of **-6.3 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 41 Hz    | 0.11 | 6.1 dB  |
-| Peaking | 1089 Hz  | 1.27 | -5.1 dB |
-| Peaking | 2945 Hz  | 2.65 | -2.5 dB |
-| Peaking | 10979 Hz | 1.22 | -0.7 dB |
-| Peaking | 18520 Hz | 0.18 | -4.4 dB |
-| Peaking | 3903 Hz  | 4.75 | 1.5 dB  |
-| Peaking | 4815 Hz  | 3.43 | -2.9 dB |
-| Peaking | 6036 Hz  | 4.22 | 3.5 dB  |
-| Peaking | 7054 Hz  | 4.56 | -1.6 dB |
+| Peaking | 21 Hz    | 0.6  | 4.6 dB  |
+| Peaking | 78 Hz    | 0.47 | 4.5 dB  |
+| Peaking | 367 Hz   | 0.39 | 3.2 dB  |
+| Peaking | 1062 Hz  | 0.77 | -5.5 dB |
+| Peaking | 18610 Hz | 0.13 | -4.4 dB |
+| Peaking | 1167 Hz  | 3.97 | -0.7 dB |
+| Peaking | 1926 Hz  | 2.06 | 1.2 dB  |
+| Peaking | 2900 Hz  | 3.58 | -2.3 dB |
+| Peaking | 6054 Hz  | 9.23 | 3.2 dB  |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.5dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.6dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 6.3 dB  |
+| Peaking | 31 Hz    | 1.41 | 6.2 dB  |
 | Peaking | 63 Hz    | 1.41 | 4.4 dB  |
 | Peaking | 125 Hz   | 1.41 | 4.5 dB  |
-| Peaking | 250 Hz   | 1.41 | 3.2 dB  |
+| Peaking | 250 Hz   | 1.41 | 3.3 dB  |
 | Peaking | 500 Hz   | 1.41 | 1.8 dB  |
 | Peaking | 1000 Hz  | 1.41 | -4.5 dB |
 | Peaking | 2000 Hz  | 1.41 | -1.3 dB |
 | Peaking | 4000 Hz  | 1.41 | -1.5 dB |
 | Peaking | 8000 Hz  | 1.41 | -2.4 dB |
-| Peaking | 16000 Hz | 1.41 | -6.4 dB |
+| Peaking | 16000 Hz | 1.41 | -6.5 dB |
 
 ### Graphs
 ![](./Sony%20MDR-SA3000.png)

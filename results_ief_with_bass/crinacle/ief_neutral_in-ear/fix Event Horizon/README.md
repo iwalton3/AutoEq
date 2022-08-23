@@ -2,25 +2,23 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-7.4dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-4.8dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-7.4 dB**.
+When using independent subset of filters, apply preamp of **-4.1 dB**.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 11 Hz    | 0.19 | 2.9 dB  |
-| Peaking | 181 Hz   | 0.74 | -3.8 dB |
-| Peaking | 3063 Hz  | 1.83 | 4.7 dB  |
-| Peaking | 5785 Hz  | 4.01 | 3.8 dB  |
-| Peaking | 18437 Hz | 0.86 | 7.2 dB  |
-| Peaking | 1254 Hz  | 2.99 | 1.7 dB  |
-| Peaking | 6475 Hz  | 4.02 | 1.3 dB  |
-| Peaking | 10019 Hz | 1.33 | -2.4 dB |
-| Peaking | 14995 Hz | 2.31 | 1.4 dB  |
-| Peaking | 16285 Hz | 4.82 | 1.4 dB  |
+| Type    | Fc      |    Q | Gain    |
+|:--------|:--------|:-----|:--------|
+| Peaking | 16 Hz   | 0.57 | 3.1 dB  |
+| Peaking | 65 Hz   | 0.83 | 1.5 dB  |
+| Peaking | 172 Hz  | 0.59 | -3.7 dB |
+| Peaking | 1216 Hz | 3.47 | 1.3 dB  |
+| Peaking | 3550 Hz | 0.87 | 3.9 dB  |
+| Peaking | 2088 Hz | 6.74 | -1.1 dB |
+| Peaking | 5962 Hz | 5.67 | 2.9 dB  |
+| Peaking | 9356 Hz | 3.05 | -2.4 dB |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.1dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.2dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
@@ -34,7 +32,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 2000 Hz  | 1.41 | 1.1 dB  |
 | Peaking | 4000 Hz  | 1.41 | 4.3 dB  |
 | Peaking | 8000 Hz  | 1.41 | -1.0 dB |
-| Peaking | 16000 Hz | 1.41 | 5.9 dB  |
+| Peaking | 16000 Hz | 1.41 | 6.0 dB  |
 
 ### Graphs
 ![](./fix%20Event%20Horizon.png)

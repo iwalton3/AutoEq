@@ -2,22 +2,22 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.9dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-6.4dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.9 dB**.
+When using independent subset of filters, apply preamp of **-6.7 dB**.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 19 Hz    | 1.16 | 7.2 dB  |
-| Peaking | 135 Hz   | 0.38 | -8.5 dB |
-| Peaking | 547 Hz   | 0.52 | 9.6 dB  |
-| Peaking | 2689 Hz  | 1.25 | -7.9 dB |
-| Peaking | 5275 Hz  | 4.7  | -4.8 dB |
-| Peaking | 985 Hz   | 5.92 | 1.2 dB  |
-| Peaking | 8288 Hz  | 2.28 | 5.2 dB  |
-| Peaking | 10824 Hz | 0.53 | 2.7 dB  |
-| Peaking | 19603 Hz | 0.15 | -7.8 dB |
-| Peaking | 20013 Hz | 0.31 | -8.5 dB |
+| Type    | Fc       |    Q | Gain     |
+|:--------|:---------|:-----|:---------|
+| Peaking | 19 Hz    | 1.33 | 6.9 dB   |
+| Peaking | 89 Hz    | 0.59 | -5.8 dB  |
+| Peaking | 205 Hz   | 0.71 | -6.6 dB  |
+| Peaking | 641 Hz   | 0.3  | 9.9 dB   |
+| Peaking | 2534 Hz  | 0.64 | -9.8 dB  |
+| Peaking | 296 Hz   | 2.37 | -1.6 dB  |
+| Peaking | 360 Hz   | 1.82 | 1.2 dB   |
+| Peaking | 635 Hz   | 4.47 | -0.7 dB  |
+| Peaking | 8335 Hz  | 2.16 | 6.9 dB   |
+| Peaking | 19154 Hz | 0.36 | -15.8 dB |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.1dB**
@@ -33,8 +33,8 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 1000 Hz  | 1.41 | 5.6 dB   |
 | Peaking | 2000 Hz  | 1.41 | -4.1 dB  |
 | Peaking | 4000 Hz  | 1.41 | -5.7 dB  |
-| Peaking | 8000 Hz  | 1.41 | 3.4 dB   |
-| Peaking | 16000 Hz | 1.41 | -16.3 dB |
+| Peaking | 8000 Hz  | 1.41 | 3.3 dB   |
+| Peaking | 16000 Hz | 1.41 | -16.0 dB |
 
 ### Graphs
 ![](./Monster%20Inspiration.png)

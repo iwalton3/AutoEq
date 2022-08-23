@@ -2,25 +2,25 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.5dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-6.9dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.6 dB**.
+When using independent subset of filters, apply preamp of **-6.8 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 47 Hz    | 0.47 | 2.4 dB  |
-| Peaking | 238 Hz   | 0.24 | -5.8 dB |
-| Peaking | 2233 Hz  | 2.8  | 3.3 dB  |
-| Peaking | 3327 Hz  | 5.77 | -6.3 dB |
-| Peaking | 13490 Hz | 0.1  | 6.4 dB  |
-| Peaking | 570 Hz   | 1.3  | 1.2 dB  |
-| Peaking | 1309 Hz  | 1.75 | -0.8 dB |
-| Peaking | 1816 Hz  | 2.62 | 1.1 dB  |
-| Peaking | 2341 Hz  | 0.06 | -0.4 dB |
-| Peaking | 4518 Hz  | 2.78 | 1.7 dB  |
+| Peaking | 39 Hz    | 0.32 | 1.5 dB  |
+| Peaking | 230 Hz   | 0.35 | -5.9 dB |
+| Peaking | 2170 Hz  | 2.89 | 5.5 dB  |
+| Peaking | 5465 Hz  | 1.56 | 3.7 dB  |
+| Peaking | 16635 Hz | 0.2  | 6.4 dB  |
+| Peaking | 162 Hz   | 3.87 | -0.4 dB |
+| Peaking | 1065 Hz  | 4.49 | -0.7 dB |
+| Peaking | 3434 Hz  | 6.38 | -4.7 dB |
+| Peaking | 4090 Hz  | 5.99 | 3.0 dB  |
+| Peaking | 8782 Hz  | 3.32 | 0.7 dB  |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.1dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.2dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
@@ -34,7 +34,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 2000 Hz  | 1.41 | 4.1 dB  |
 | Peaking | 4000 Hz  | 1.41 | 2.3 dB  |
 | Peaking | 8000 Hz  | 1.41 | 7.0 dB  |
-| Peaking | 16000 Hz | 1.41 | 8.5 dB  |
+| Peaking | 16000 Hz | 1.41 | 8.6 dB  |
 
 ### Graphs
 ![](./Fender%20FXA9.png)

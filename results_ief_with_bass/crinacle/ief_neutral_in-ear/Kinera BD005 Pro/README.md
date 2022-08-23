@@ -8,16 +8,14 @@ When using independent subset of filters, apply preamp of **-6.6 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 10 Hz    | 0.18 | 2.0 dB  |
-| Peaking | 3089 Hz  | 4.23 | 3.1 dB  |
-| Peaking | 4313 Hz  | 5.17 | -5.3 dB |
-| Peaking | 7613 Hz  | 3.53 | -4.9 dB |
-| Peaking | 18085 Hz | 0.29 | 6.4 dB  |
-| Peaking | 796 Hz   | 0.94 | 2.2 dB  |
-| Peaking | 1827 Hz  | 2.85 | -2.9 dB |
-| Peaking | 4984 Hz  | 4.47 | -1.8 dB |
-| Peaking | 5737 Hz  | 3.27 | 3.5 dB  |
-| Peaking | 6627 Hz  | 3.87 | -1.9 dB |
+| Peaking | 18 Hz    | 0.71 | 2.3 dB  |
+| Peaking | 59 Hz    | 1.84 | 1.0 dB  |
+| Peaking | 1768 Hz  | 1.83 | -5.7 dB |
+| Peaking | 6211 Hz  | 0.52 | -8.9 dB |
+| Peaking | 10471 Hz | 0.08 | 7.7 dB  |
+| Peaking | 175 Hz   | 1.95 | -0.8 dB |
+| Peaking | 3115 Hz  | 4.16 | 2.2 dB  |
+| Peaking | 4295 Hz  | 7.3  | -4.5 dB |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.3dB**
@@ -27,14 +25,14 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 |:--------|:---------|:-----|:--------|
 | Peaking | 31 Hz    | 1.41 | 1.6 dB  |
 | Peaking | 63 Hz    | 1.41 | 1.1 dB  |
-| Peaking | 125 Hz   | 1.41 | -0.3 dB |
+| Peaking | 125 Hz   | 1.41 | -0.4 dB |
 | Peaking | 250 Hz   | 1.41 | -0.4 dB |
 | Peaking | 500 Hz   | 1.41 | 1.5 dB  |
 | Peaking | 1000 Hz  | 1.41 | 1.7 dB  |
 | Peaking | 2000 Hz  | 1.41 | -1.0 dB |
 | Peaking | 4000 Hz  | 1.41 | -0.3 dB |
 | Peaking | 8000 Hz  | 1.41 | -1.1 dB |
-| Peaking | 16000 Hz | 1.41 | 9.2 dB  |
+| Peaking | 16000 Hz | 1.41 | 9.1 dB  |
 
 ### Graphs
 ![](./Kinera%20BD005%20Pro.png)

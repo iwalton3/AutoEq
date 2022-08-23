@@ -2,22 +2,21 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.2dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.3 dB**.
+When using independent subset of filters, apply preamp of **-6.7 dB**.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 24 Hz   | 0.91 | 6.1 dB  |
-| Peaking | 286 Hz  | 1.63 | 6.0 dB  |
-| Peaking | 2422 Hz | 4.63 | 4.0 dB  |
-| Peaking | 3560 Hz | 1.66 | -4.8 dB |
-| Peaking | 5632 Hz | 2.42 | -9.2 dB |
-| Peaking | 127 Hz  | 2.52 | -1.4 dB |
-| Peaking | 626 Hz  | 3.06 | 4.4 dB  |
-| Peaking | 893 Hz  | 0.53 | -1.5 dB |
-| Peaking | 1095 Hz | 2.12 | 2.5 dB  |
-| Peaking | 7777 Hz | 4.48 | 1.3 dB  |
+| Type    | Fc       |    Q | Gain     |
+|:--------|:---------|:-----|:---------|
+| Peaking | 22 Hz    | 0.67 | 6.1 dB   |
+| Peaking | 127 Hz   | 1.5  | -1.4 dB  |
+| Peaking | 270 Hz   | 2.05 | 6.5 dB   |
+| Peaking | 632 Hz   | 2.4  | 3.4 dB   |
+| Peaking | 5195 Hz  | 1.45 | -9.6 dB  |
+| Peaking | 1160 Hz  | 7.14 | 1.5 dB   |
+| Peaking | 2374 Hz  | 8.59 | 3.8 dB   |
+| Peaking | 9117 Hz  | 1.78 | 3.1 dB   |
+| Peaking | 19597 Hz | 0.43 | -12.1 dB |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.4dB**
@@ -33,8 +32,8 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 1000 Hz  | 1.41 | 0.7 dB  |
 | Peaking | 2000 Hz  | 1.41 | 1.6 dB  |
 | Peaking | 4000 Hz  | 1.41 | -8.2 dB |
-| Peaking | 8000 Hz  | 1.41 | -1.2 dB |
-| Peaking | 16000 Hz | 1.41 | -8.7 dB |
+| Peaking | 8000 Hz  | 1.41 | -1.3 dB |
+| Peaking | 16000 Hz | 1.41 | -8.8 dB |
 
 ### Graphs
 ![](./Ultrasone%20PRO%20900.png)

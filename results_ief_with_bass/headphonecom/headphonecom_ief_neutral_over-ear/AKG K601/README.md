@@ -8,19 +8,19 @@ When using independent subset of filters, apply preamp of **-6.3 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 20 Hz    | 0.48 | 4.9 dB  |
+| Peaking | 20 Hz    | 0.49 | 4.9 dB  |
 | Peaking | 65 Hz    | 0.54 | 3.5 dB  |
-| Peaking | 2314 Hz  | 0.68 | -1.6 dB |
-| Peaking | 6008 Hz  | 5.03 | -4.8 dB |
-| Peaking | 10626 Hz | 1.48 | 2.8 dB  |
-| Peaking | 746 Hz   | 0.96 | 1.0 dB  |
-| Peaking | 1170 Hz  | 1.76 | -1.5 dB |
-| Peaking | 2193 Hz  | 2.71 | 1.4 dB  |
-| Peaking | 2694 Hz  | 4    | -1.4 dB |
-| Peaking | 4678 Hz  | 5.77 | 0.5 dB  |
+| Peaking | 2359 Hz  | 0.65 | -1.6 dB |
+| Peaking | 6036 Hz  | 6.01 | -5.1 dB |
+| Peaking | 10688 Hz | 1.55 | 2.8 dB  |
+| Peaking | 65 Hz    | 4.97 | -1.3 dB |
+| Peaking | 75 Hz    | 4.12 | 1.4 dB  |
+| Peaking | 157 Hz   | 2.45 | -0.6 dB |
+| Peaking | 878 Hz   | 0.64 | 1.1 dB  |
+| Peaking | 1174 Hz  | 1.99 | -1.9 dB |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.6dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.4dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
@@ -30,7 +30,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 125 Hz   | 1.41 | 1.8 dB  |
 | Peaking | 250 Hz   | 1.41 | 0.2 dB  |
 | Peaking | 500 Hz   | 1.41 | 1.0 dB  |
-| Peaking | 1000 Hz  | 1.41 | -1.0 dB |
+| Peaking | 1000 Hz  | 1.41 | -0.9 dB |
 | Peaking | 2000 Hz  | 1.41 | -1.0 dB |
 | Peaking | 4000 Hz  | 1.41 | -1.9 dB |
 | Peaking | 8000 Hz  | 1.41 | 0.7 dB  |

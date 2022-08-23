@@ -8,33 +8,33 @@ When using independent subset of filters, apply preamp of **-5.9 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 22 Hz    | 0.82 | 5.4 dB  |
-| Peaking | 57 Hz    | 2.17 | 3.5 dB  |
-| Peaking | 1878 Hz  | 2.07 | 3.4 dB  |
-| Peaking | 3269 Hz  | 1.44 | 2.6 dB  |
-| Peaking | 5816 Hz  | 2.95 | -8.5 dB |
-| Peaking | 628 Hz   | 0.23 | -1.1 dB |
-| Peaking | 1398 Hz  | 3.16 | 1.7 dB  |
-| Peaking | 2396 Hz  | 2.48 | 0.8 dB  |
-| Peaking | 11278 Hz | 1.3  | 2.4 dB  |
-| Peaking | 19643 Hz | 0.46 | -6.3 dB |
+| Peaking | 19 Hz    | 0.61 | 5.6 dB  |
+| Peaking | 58 Hz    | 1.83 | 3.1 dB  |
+| Peaking | 615 Hz   | 0.27 | -1.6 dB |
+| Peaking | 2173 Hz  | 0.73 | 4.7 dB  |
+| Peaking | 5826 Hz  | 2.93 | -8.8 dB |
+| Peaking | 179 Hz   | 2.69 | -0.3 dB |
+| Peaking | 481 Hz   | 1.04 | 0.8 dB  |
+| Peaking | 1113 Hz  | 0.7  | -1.2 dB |
+| Peaking | 1493 Hz  | 1.95 | 1.5 dB  |
+| Peaking | 10520 Hz | 3.26 | 1.8 dB  |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.9dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.0dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
 | Peaking | 31 Hz    | 1.41 | 5.2 dB  |
-| Peaking | 63 Hz    | 1.41 | 3.1 dB  |
-| Peaking | 125 Hz   | 1.41 | -0.7 dB |
-| Peaking | 250 Hz   | 1.41 | -1.0 dB |
+| Peaking | 63 Hz    | 1.41 | 3.0 dB  |
+| Peaking | 125 Hz   | 1.41 | -0.8 dB |
+| Peaking | 250 Hz   | 1.41 | -0.8 dB |
 | Peaking | 500 Hz   | 1.41 | -0.8 dB |
-| Peaking | 1000 Hz  | 1.41 | -0.9 dB |
-| Peaking | 2000 Hz  | 1.41 | 5.0 dB  |
-| Peaking | 4000 Hz  | 1.41 | -1.3 dB |
-| Peaking | 8000 Hz  | 1.41 | -2.3 dB |
-| Peaking | 16000 Hz | 1.41 | -2.0 dB |
+| Peaking | 1000 Hz  | 1.41 | -1.0 dB |
+| Peaking | 2000 Hz  | 1.41 | 5.3 dB  |
+| Peaking | 4000 Hz  | 1.41 | -1.4 dB |
+| Peaking | 8000 Hz  | 1.41 | -2.2 dB |
+| Peaking | 16000 Hz | 1.41 | -2.1 dB |
 
 ### Graphs
 ![](./Sennheiser%20HD%20800.png)

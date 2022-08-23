@@ -8,19 +8,18 @@ When using independent subset of filters, apply preamp of **-6.6 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 16 Hz    | 0.74 | 4.3 dB  |
-| Peaking | 178 Hz   | 0.58 | -4.9 dB |
-| Peaking | 1148 Hz  | 0.68 | 2.9 dB  |
-| Peaking | 9938 Hz  | 2.13 | 3.0 dB  |
-| Peaking | 16556 Hz | 0.37 | 6.1 dB  |
-| Peaking | 1725 Hz  | 4.04 | 0.9 dB  |
-| Peaking | 2646 Hz  | 2.46 | -1.5 dB |
-| Peaking | 4509 Hz  | 1.63 | 2.1 dB  |
-| Peaking | 6226 Hz  | 2.03 | -2.0 dB |
-| Peaking | 8697 Hz  | 3.67 | 0.6 dB  |
+| Peaking | 17 Hz    | 0.72 | 4.3 dB  |
+| Peaking | 176 Hz   | 0.58 | -4.9 dB |
+| Peaking | 1149 Hz  | 0.68 | 2.9 dB  |
+| Peaking | 9917 Hz  | 2.2  | 2.9 dB  |
+| Peaking | 16527 Hz | 0.37 | 6.1 dB  |
+| Peaking | 1736 Hz  | 4.22 | 0.9 dB  |
+| Peaking | 2684 Hz  | 2.03 | -1.7 dB |
+| Peaking | 4516 Hz  | 1.16 | 2.0 dB  |
+| Peaking | 6149 Hz  | 2.62 | -2.3 dB |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.6dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.7dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
@@ -28,13 +27,13 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 31 Hz    | 1.41 | 2.7 dB  |
 | Peaking | 63 Hz    | 1.41 | -0.8 dB |
 | Peaking | 125 Hz   | 1.41 | -3.8 dB |
-| Peaking | 250 Hz   | 1.41 | -3.8 dB |
+| Peaking | 250 Hz   | 1.41 | -3.7 dB |
 | Peaking | 500 Hz   | 1.41 | -0.2 dB |
 | Peaking | 1000 Hz  | 1.41 | 2.6 dB  |
 | Peaking | 2000 Hz  | 1.41 | 1.2 dB  |
 | Peaking | 4000 Hz  | 1.41 | 0.6 dB  |
-| Peaking | 8000 Hz  | 1.41 | 4.0 dB  |
-| Peaking | 16000 Hz | 1.41 | 9.2 dB  |
+| Peaking | 8000 Hz  | 1.41 | 3.9 dB  |
+| Peaking | 16000 Hz | 1.41 | 9.3 dB  |
 
 ### Graphs
 ![](./XTZ%20EarPhone-12.png)

@@ -2,25 +2,23 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.9dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.9 dB**.
+In case of using parametric equalizer, apply preamp of **-7.9dB** and build filters manually
+with these parameters. The first 3 filters can be used independently.
+When using independent subset of filters, apply preamp of **-7.2 dB**.
 
 | Type    | Fc       |    Q | Gain     |
 |:--------|:---------|:-----|:---------|
-| Peaking | 32 Hz    | 0.59 | 6.6 dB   |
-| Peaking | 1629 Hz  | 0.45 | 7.5 dB   |
-| Peaking | 3346 Hz  | 2.36 | -12.3 dB |
-| Peaking | 7053 Hz  | 1.41 | -16.1 dB |
-| Peaking | 15984 Hz | 0.26 | 7.3 dB   |
-| Peaking | 168 Hz   | 1.73 | -1.4 dB  |
-| Peaking | 2973 Hz  | 2.65 | -0.2 dB  |
-| Peaking | 8670 Hz  | 4.39 | -1.8 dB  |
-| Peaking | 9057 Hz  | 2.29 | -0.4 dB  |
-| Peaking | 9783 Hz  | 1.69 | 1.3 dB   |
+| Peaking | 32 Hz    | 0.58 | 6.6 dB   |
+| Peaking | 1632 Hz  | 0.59 | 10.8 dB  |
+| Peaking | 3932 Hz  | 0.65 | -11.7 dB |
+| Peaking | 67 Hz    | 1.74 | 0.9 dB   |
+| Peaking | 154 Hz   | 1.34 | -1.4 dB  |
+| Peaking | 3256 Hz  | 4.39 | -6.0 dB  |
+| Peaking | 7366 Hz  | 1.95 | -12.9 dB |
+| Peaking | 14537 Hz | 0.16 | 7.1 dB   |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-10.4dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-10.5dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
@@ -34,7 +32,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 2000 Hz  | 1.41 | 5.8 dB  |
 | Peaking | 4000 Hz  | 1.41 | -8.1 dB |
 | Peaking | 8000 Hz  | 1.41 | -7.3 dB |
-| Peaking | 16000 Hz | 1.41 | 10.6 dB |
+| Peaking | 16000 Hz | 1.41 | 10.8 dB |
 
 ### Graphs
 ![](./Audio-Technica%20ATH-CK7.png)

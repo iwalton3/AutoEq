@@ -2,22 +2,18 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.4dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.4 dB**.
+In case of using parametric equalizer, apply preamp of **-6.6dB** and build filters manually
+with these parameters. The first 4 filters can be used independently.
+When using independent subset of filters, apply preamp of **-2.8 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 149 Hz   | 0.21 | -3.9 dB |
-| Peaking | 781 Hz   | 0.64 | 4.5 dB  |
-| Peaking | 11128 Hz | 0.85 | 1.8 dB  |
-| Peaking | 14160 Hz | 1.3  | 2.0 dB  |
-| Peaking | 19191 Hz | 0.37 | 5.9 dB  |
-| Peaking | 70 Hz    | 1.86 | 0.9 dB  |
-| Peaking | 156 Hz   | 2.13 | -0.9 dB |
-| Peaking | 4899 Hz  | 3.88 | -2.9 dB |
-| Peaking | 5947 Hz  | 3.28 | 2.2 dB  |
-| Peaking | 10437 Hz | 2.4  | -0.3 dB |
+| Peaking | 11 Hz    | 0.81 | -1.1 dB |
+| Peaking | 33 Hz    | 0.68 | -1.8 dB |
+| Peaking | 166 Hz   | 0.56 | -4.3 dB |
+| Peaking | 894 Hz   | 0.54 | 3.1 dB  |
+| Peaking | 4739 Hz  | 4.39 | -2.8 dB |
+| Peaking | 17656 Hz | 0.27 | 6.4 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.4dB**
@@ -27,10 +23,10 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 |:--------|:---------|:-----|:--------|
 | Peaking | 31 Hz    | 1.41 | -2.4 dB |
 | Peaking | 63 Hz    | 1.41 | -1.6 dB |
-| Peaking | 125 Hz   | 1.41 | -3.6 dB |
+| Peaking | 125 Hz   | 1.41 | -3.7 dB |
 | Peaking | 250 Hz   | 1.41 | -2.8 dB |
 | Peaking | 500 Hz   | 1.41 | 1.0 dB  |
-| Peaking | 1000 Hz  | 1.41 | 3.0 dB  |
+| Peaking | 1000 Hz  | 1.41 | 2.9 dB  |
 | Peaking | 2000 Hz  | 1.41 | 0.8 dB  |
 | Peaking | 4000 Hz  | 1.41 | -0.8 dB |
 | Peaking | 8000 Hz  | 1.41 | 2.8 dB  |

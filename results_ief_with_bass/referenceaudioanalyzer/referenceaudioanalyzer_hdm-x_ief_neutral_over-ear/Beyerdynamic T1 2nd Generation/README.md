@@ -2,25 +2,24 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.5 dB**.
+In case of using parametric equalizer, apply preamp of **-6.1dB** and build filters manually
+with these parameters. The first 4 filters can be used independently.
+When using independent subset of filters, apply preamp of **-6.1 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 15 Hz    | 0.54 | 6.5 dB  |
-| Peaking | 207 Hz   | 0.63 | -3.0 dB |
-| Peaking | 1445 Hz  | 1.45 | 2.9 dB  |
-| Peaking | 3041 Hz  | 1.92 | 6.6 dB  |
-| Peaking | 18880 Hz | 0.16 | -6.5 dB |
-| Peaking | 75 Hz    | 4.32 | 0.8 dB  |
-| Peaking | 4454 Hz  | 2.22 | 1.0 dB  |
-| Peaking | 5714 Hz  | 2.86 | -2.4 dB |
-| Peaking | 6421 Hz  | 6.53 | 3.0 dB  |
-| Peaking | 12095 Hz | 1.33 | 1.1 dB  |
+| Peaking | 18 Hz    | 0.74 | 6.1 dB  |
+| Peaking | 74 Hz    | 1.99 | 0.9 dB  |
+| Peaking | 188 Hz   | 0.67 | -3.1 dB |
+| Peaking | 2651 Hz  | 1.37 | 5.8 dB  |
+| Peaking | 193 Hz   | 3.49 | 0.3 dB  |
+| Peaking | 349 Hz   | 1.81 | -0.4 dB |
+| Peaking | 588 Hz   | 2.45 | -0.2 dB |
+| Peaking | 1318 Hz  | 2.43 | 2.3 dB  |
+| Peaking | 19646 Hz | 0.16 | -6.7 dB |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.0dB**
+In case of using fixed band (also called graphic) equalizer, apply preamp of **-4.8dB**
 (if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
@@ -34,7 +33,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 2000 Hz  | 1.41 | 3.9 dB  |
 | Peaking | 4000 Hz  | 1.41 | 3.3 dB  |
 | Peaking | 8000 Hz  | 1.41 | -3.6 dB |
-| Peaking | 16000 Hz | 1.41 | -8.2 dB |
+| Peaking | 16000 Hz | 1.41 | -8.3 dB |
 
 ### Graphs
 ![](./Beyerdynamic%20T1%202nd%20Generation.png)

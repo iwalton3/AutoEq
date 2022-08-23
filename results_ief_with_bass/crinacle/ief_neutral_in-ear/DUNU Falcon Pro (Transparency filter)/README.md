@@ -2,22 +2,21 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-7.1dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.7 dB**.
+When using independent subset of filters, apply preamp of **-7.1 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 12 Hz    | 0.33 | 6.5 dB  |
-| Peaking | 208 Hz   | 0.68 | -3.7 dB |
-| Peaking | 1249 Hz  | 1.26 | 3.7 dB  |
-| Peaking | 11379 Hz | 1.38 | 4.0 dB  |
-| Peaking | 18413 Hz | 0.4  | 6.3 dB  |
-| Peaking | 1694 Hz  | 3.92 | 0.9 dB  |
-| Peaking | 2486 Hz  | 1.73 | -1.2 dB |
-| Peaking | 3691 Hz  | 1.98 | 1.5 dB  |
-| Peaking | 5071 Hz  | 4.04 | -2.6 dB |
-| Peaking | 9215 Hz  | 3.35 | 0.7 dB  |
+| Peaking | 18 Hz    | 0.73 | 6.0 dB  |
+| Peaking | 60 Hz    | 0.8  | 1.4 dB  |
+| Peaking | 198 Hz   | 0.61 | -3.7 dB |
+| Peaking | 1231 Hz  | 1.32 | 3.7 dB  |
+| Peaking | 16694 Hz | 0.35 | 6.9 dB  |
+| Peaking | 746 Hz   | 4.47 | 0.4 dB  |
+| Peaking | 3845 Hz  | 4.82 | 1.2 dB  |
+| Peaking | 5127 Hz  | 3.06 | -2.7 dB |
+| Peaking | 10450 Hz | 2.78 | 1.8 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.8dB**
@@ -29,12 +28,12 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 63 Hz    | 1.41 | 0.9 dB  |
 | Peaking | 125 Hz   | 1.41 | -2.0 dB |
 | Peaking | 250 Hz   | 1.41 | -3.2 dB |
-| Peaking | 500 Hz   | 1.41 | -1.1 dB |
+| Peaking | 500 Hz   | 1.41 | -1.0 dB |
 | Peaking | 1000 Hz  | 1.41 | 3.1 dB  |
 | Peaking | 2000 Hz  | 1.41 | 1.4 dB  |
 | Peaking | 4000 Hz  | 1.41 | -0.8 dB |
 | Peaking | 8000 Hz  | 1.41 | 3.2 dB  |
-| Peaking | 16000 Hz | 1.41 | 9.4 dB  |
+| Peaking | 16000 Hz | 1.41 | 9.5 dB  |
 
 ### Graphs
 ![](./DUNU%20Falcon%20Pro%20(Transparency%20filter).png)

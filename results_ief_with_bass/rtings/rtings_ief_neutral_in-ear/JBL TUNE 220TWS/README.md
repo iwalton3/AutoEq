@@ -2,22 +2,20 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
+In case of using parametric equalizer, apply preamp of **-7.2dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.7 dB**.
+When using independent subset of filters, apply preamp of **-6.3 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 37 Hz    | 0.08 | 6.0 dB  |
-| Peaking | 595 Hz   | 1.58 | -3.3 dB |
-| Peaking | 1890 Hz  | 1.45 | -5.0 dB |
-| Peaking | 6752 Hz  | 2.19 | -7.3 dB |
-| Peaking | 17588 Hz | 0.29 | 6.5 dB  |
-| Peaking | 2059 Hz  | 3.23 | 0.8 dB  |
-| Peaking | 2512 Hz  | 3.82 | -2.2 dB |
-| Peaking | 3229 Hz  | 3.09 | 1.7 dB  |
-| Peaking | 9547 Hz  | 3.62 | -1.3 dB |
-| Peaking | 13268 Hz | 3.58 | 1.2 dB  |
+| Peaking | 15 Hz    | 0.23 | 5.1 dB  |
+| Peaking | 190 Hz   | 0.23 | 4.6 dB  |
+| Peaking | 598 Hz   | 1.27 | -4.3 dB |
+| Peaking | 1854 Hz  | 1.42 | -5.2 dB |
+| Peaking | 6484 Hz  | 4.32 | -6.3 dB |
+| Peaking | 95 Hz    | 5.29 | 0.4 dB  |
+| Peaking | 2486 Hz  | 7.62 | -1.6 dB |
+| Peaking | 17541 Hz | 0.5  | 7.1 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-10.1dB**
@@ -34,7 +32,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 2000 Hz  | 1.41 | -4.7 dB |
 | Peaking | 4000 Hz  | 1.41 | 0.4 dB  |
 | Peaking | 8000 Hz  | 1.41 | -3.1 dB |
-| Peaking | 16000 Hz | 1.41 | 10.0 dB |
+| Peaking | 16000 Hz | 1.41 | 10.1 dB |
 
 ### Graphs
 ![](./JBL%20TUNE%20220TWS.png)

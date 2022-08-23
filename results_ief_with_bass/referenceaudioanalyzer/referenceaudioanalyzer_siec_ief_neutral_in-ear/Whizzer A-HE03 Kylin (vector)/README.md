@@ -4,18 +4,18 @@ See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more
 ### Parametric EQs
 In case of using parametric equalizer, apply preamp of **-4.4dB** and build filters manually
 with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-4.3 dB**.
+When using independent subset of filters, apply preamp of **-4.4 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
-| Peaking | 125 Hz   | 0.48 | -0.8 dB |
-| Peaking | 204 Hz   | 0.5  | -4.0 dB |
-| Peaking | 1305 Hz  | 0.71 | 4.5 dB  |
-| Peaking | 10877 Hz | 1.08 | 2.1 dB  |
-| Peaking | 17934 Hz | 0.42 | 2.8 dB  |
-| Peaking | 2804 Hz  | 1.51 | 0.8 dB  |
-| Peaking | 4871 Hz  | 2.08 | -2.9 dB |
-| Peaking | 6175 Hz  | 4.49 | 3.4 dB  |
+| Peaking | 13 Hz    | 1.64 | 0.8 dB  |
+| Peaking | 157 Hz   | 0.56 | -4.2 dB |
+| Peaking | 325 Hz   | 1.34 | -1.5 dB |
+| Peaking | 1336 Hz  | 0.77 | 4.3 dB  |
+| Peaking | 15463 Hz | 0.38 | 3.5 dB  |
+| Peaking | 2594 Hz  | 1.75 | 0.7 dB  |
+| Peaking | 4817 Hz  | 2.62 | -3.0 dB |
+| Peaking | 6243 Hz  | 4.88 | 2.8 dB  |
 
 ### Fixed Band EQs
 In case of using fixed band (also called graphic) equalizer, apply preamp of **-4.8dB**
@@ -32,7 +32,7 @@ In case of using fixed band (also called graphic) equalizer, apply preamp of **-
 | Peaking | 2000 Hz  | 1.41 | 3.7 dB  |
 | Peaking | 4000 Hz  | 1.41 | -1.2 dB |
 | Peaking | 8000 Hz  | 1.41 | 2.7 dB  |
-| Peaking | 16000 Hz | 1.41 | 4.5 dB  |
+| Peaking | 16000 Hz | 1.41 | 4.4 dB  |
 
 ### Graphs
 ![](./Whizzer%20A-HE03%20Kylin%20(vector).png)
