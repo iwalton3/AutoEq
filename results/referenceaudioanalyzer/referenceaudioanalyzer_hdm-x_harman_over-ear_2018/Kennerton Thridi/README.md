@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-5.7dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-5.7 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.8 dB or -6.8 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 22 Hz    | 0.62 | 6.0 dB  |
-| Peaking | 255 Hz   | 0.29 | -4.6 dB |
-| Peaking | 997 Hz   | 1.45 | -4.9 dB |
-| Peaking | 2138 Hz  | 0.47 | 5.6 dB  |
-| Peaking | 7929 Hz  | 0.95 | 3.7 dB  |
-| Peaking | 39 Hz    | 3.13 | 1.3 dB  |
-| Peaking | 51 Hz    | 0.81 | -0.6 dB |
-| Peaking | 161 Hz   | 0.62 | 0.8 dB  |
-| Peaking | 217 Hz   | 2.18 | -1.3 dB |
-| Peaking | 10862 Hz | 4.82 | 1.1 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        10.7 |
+|   2 | Peaking   |        66 | 0.39 |        -9.1 |
+|   3 | Peaking   |       784 | 0.59 |        -4.7 |
+|   4 | Peaking   |      2308 | 2.85 |         2.8 |
+|   5 | Peaking   |      4889 | 0.21 |         4.9 |
+|   6 | Peaking   |       122 | 1.93 |         0.4 |
+|   7 | Peaking   |      1078 | 3.37 |        -1.4 |
+|   8 | Peaking   |      1456 | 4.89 |         2.1 |
+|   9 | Peaking   |      3220 | 5.68 |        -1.9 |
+|  10 | HighShelf |     10000 | 0.7  |        -3.1 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.9dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-6.0 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 6.0 dB  |
-| Peaking | 63 Hz    | 1.41 | -1.2 dB |
-| Peaking | 125 Hz   | 1.41 | -2.4 dB |
-| Peaking | 250 Hz   | 1.41 | -4.1 dB |
-| Peaking | 500 Hz   | 1.41 | -2.4 dB |
-| Peaking | 1000 Hz  | 1.41 | -3.8 dB |
-| Peaking | 2000 Hz  | 1.41 | 4.9 dB  |
-| Peaking | 4000 Hz  | 1.41 | 3.8 dB  |
-| Peaking | 8000 Hz  | 1.41 | 5.2 dB  |
-| Peaking | 16000 Hz | 1.41 | -2.3 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         6.3 |
+|   2 | Peaking |        62 | 1.41 |        -1.3 |
+|   3 | Peaking |       125 | 1.41 |        -2   |
+|   4 | Peaking |       250 | 1.41 |        -4.2 |
+|   5 | Peaking |       500 | 1.41 |        -2.5 |
+|   6 | Peaking |      1000 | 1.41 |        -3.6 |
+|   7 | Peaking |      2000 | 1.41 |         4.7 |
+|   8 | Peaking |      4000 | 1.41 |         4.2 |
+|   9 | Peaking |      8000 | 1.41 |         4.5 |
+|  10 | Peaking |     16000 | 1.41 |        -2.3 |
 
 ### Graphs
 ![](./Kennerton%20Thridi.png)

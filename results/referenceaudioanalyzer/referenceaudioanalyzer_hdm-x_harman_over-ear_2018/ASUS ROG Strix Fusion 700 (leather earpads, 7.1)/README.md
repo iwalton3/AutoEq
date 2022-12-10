@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-7.0dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.9 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -7.3 dB or -7.3 dB, respectively.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 33 Hz    | 0.63 | 7.2 dB   |
-| Peaking | 130 Hz   | 1.29 | -10.1 dB |
-| Peaking | 1055 Hz  | 0.96 | -7.4 dB  |
-| Peaking | 3110 Hz  | 1.3  | 5.8 dB   |
-| Peaking | 13447 Hz | 0.25 | 6.0 dB   |
-| Peaking | 51 Hz    | 4.68 | 1.9 dB   |
-| Peaking | 79 Hz    | 3.85 | -1.9 dB  |
-| Peaking | 204 Hz   | 3.04 | -3.9 dB  |
-| Peaking | 355 Hz   | 2.49 | 8.5 dB   |
-| Peaking | 629 Hz   | 3.31 | -5.1 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         7.9 |
+|   2 | Peaking   |       131 | 0.74 |        -8.8 |
+|   3 | Peaking   |       356 | 0.97 |        20   |
+|   4 | Peaking   |       773 | 0.24 |       -17.9 |
+|   5 | Peaking   |      3140 | 0.38 |        14.3 |
+|   6 | Peaking   |        51 | 3.41 |         2.3 |
+|   7 | Peaking   |        77 | 2.78 |        -1.5 |
+|   8 | Peaking   |      1755 | 3.05 |        -1.8 |
+|   9 | Peaking   |      2609 | 3.39 |         1.8 |
+|  10 | HighShelf |     10000 | 0.7  |         4.1 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-8.7dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-9.5 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | 7.6 dB   |
-| Peaking | 63 Hz    | 1.41 | 3.2 dB   |
-| Peaking | 125 Hz   | 1.41 | -10.9 dB |
-| Peaking | 250 Hz   | 1.41 | 1.1 dB   |
-| Peaking | 500 Hz   | 1.41 | 0.6 dB   |
-| Peaking | 1000 Hz  | 1.41 | -8.5 dB  |
-| Peaking | 2000 Hz  | 1.41 | 0.9 dB   |
-| Peaking | 4000 Hz  | 1.41 | 6.7 dB   |
-| Peaking | 8000 Hz  | 1.41 | 4.9 dB   |
-| Peaking | 16000 Hz | 1.41 | 8.2 dB   |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         7.5 |
+|   2 | Peaking |        62 | 1.41 |         3.6 |
+|   3 | Peaking |       125 | 1.41 |       -11.4 |
+|   4 | Peaking |       250 | 1.41 |         2.1 |
+|   5 | Peaking |       500 | 1.41 |        -0.1 |
+|   6 | Peaking |      1000 | 1.41 |        -8.3 |
+|   7 | Peaking |      2000 | 1.41 |         1.3 |
+|   8 | Peaking |      4000 | 1.41 |         6.2 |
+|   9 | Peaking |      8000 | 1.41 |         4.4 |
+|  10 | Peaking |     16000 | 1.41 |         9.2 |
 
 ### Graphs
 ![](./ASUS%20ROG%20Strix%20Fusion%20700%20(leather%20earpads,%207.1).png)

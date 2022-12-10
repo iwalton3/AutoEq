@@ -2,36 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-3.4dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-3.4 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -3.8 dB or -3.8 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 44 Hz   | 1.51 | -1.7 dB |
-| Peaking | 169 Hz  | 0.67 | -7.1 dB |
-| Peaking | 351 Hz  | 1.86 | 5.4 dB  |
-| Peaking | 941 Hz  | 2.33 | 2.8 dB  |
-| Peaking | 2799 Hz | 0.58 | 2.3 dB  |
-| Peaking | 4495 Hz | 4.92 | -1.7 dB |
-| Peaking | 6212 Hz | 3.91 | 1.8 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -1.1 |
+|   2 | Peaking   |       175 | 0.61 |        -7.7 |
+|   3 | Peaking   |       342 | 2.34 |         4.7 |
+|   4 | Peaking   |      1170 | 0.19 |         2.5 |
+|   5 | Peaking   |      3171 | 6    |         1.8 |
+|   6 | Peaking   |        46 | 1.78 |        -0.8 |
+|   7 | Peaking   |        83 | 2.79 |         0.8 |
+|   8 | Peaking   |       621 | 2.98 |        -1.1 |
+|   9 | Peaking   |       909 | 3.06 |         1.5 |
+|  10 | HighShelf |     10000 | 0.7  |        -2.5 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-2.7dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-2.8 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -1.1 dB |
-| Peaking | 63 Hz    | 1.41 | -1.7 dB |
-| Peaking | 125 Hz   | 1.41 | -6.4 dB |
-| Peaking | 250 Hz   | 1.41 | -2.2 dB |
-| Peaking | 500 Hz   | 1.41 | 1.7 dB  |
-| Peaking | 1000 Hz  | 1.41 | 1.9 dB  |
-| Peaking | 2000 Hz  | 1.41 | 1.8 dB  |
-| Peaking | 4000 Hz  | 1.41 | 1.4 dB  |
-| Peaking | 8000 Hz  | 1.41 | 1.4 dB  |
-| Peaking | 16000 Hz | 1.41 | -4.5 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -1.8 |
+|   2 | Peaking |        62 | 1.41 |        -1.4 |
+|   3 | Peaking |       125 | 1.41 |        -6.7 |
+|   4 | Peaking |       250 | 1.41 |        -2   |
+|   5 | Peaking |       500 | 1.41 |         1.6 |
+|   6 | Peaking |      1000 | 1.41 |         2.1 |
+|   7 | Peaking |      2000 | 1.41 |         1.8 |
+|   8 | Peaking |      4000 | 1.41 |         1.5 |
+|   9 | Peaking |      8000 | 1.41 |         1.5 |
+|  10 | Peaking |     16000 | 1.41 |        -5   |
 
 ### Graphs
 ![](./Logitech%20G%20Pro.png)

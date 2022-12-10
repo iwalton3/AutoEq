@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.8dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-7.0 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.6 dB or -6.6 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 12 Hz    | 0.88 | -2.0 dB |
-| Peaking | 40 Hz    | 0.84 | -3.1 dB |
-| Peaking | 139 Hz   | 0.92 | -6.3 dB |
-| Peaking | 387 Hz   | 1.36 | 4.7 dB  |
-| Peaking | 5602 Hz  | 2.16 | 6.8 dB  |
-| Peaking | 114 Hz   | 7.6  | -0.6 dB |
-| Peaking | 648 Hz   | 3.47 | 0.8 dB  |
-| Peaking | 1964 Hz  | 1.96 | -2.6 dB |
-| Peaking | 10992 Hz | 1.83 | -1.8 dB |
-| Peaking | 19724 Hz | 0.57 | 5.1 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -3.2 |
+|   2 | Peaking   |       151 | 0.98 |        -6.2 |
+|   3 | Peaking   |       389 | 1.04 |         4.6 |
+|   4 | Peaking   |      1982 | 1.57 |        -2.9 |
+|   5 | Peaking   |      5432 | 1.78 |         6.6 |
+|   6 | Peaking   |        40 | 1.91 |        -0.4 |
+|   7 | Peaking   |        85 | 5.13 |         1.3 |
+|   8 | Peaking   |       115 | 3.86 |        -1.2 |
+|   9 | Peaking   |       152 | 4.89 |         0.8 |
+|  10 | HighShelf |     10000 | 0.7  |         0.3 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-4.2dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-4.3 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -3.4 dB |
-| Peaking | 63 Hz    | 1.41 | -2.1 dB |
-| Peaking | 125 Hz   | 1.41 | -6.6 dB |
-| Peaking | 250 Hz   | 1.41 | -0.2 dB |
-| Peaking | 500 Hz   | 1.41 | 3.9 dB  |
-| Peaking | 1000 Hz  | 1.41 | -0.2 dB |
-| Peaking | 2000 Hz  | 1.41 | -3.4 dB |
-| Peaking | 4000 Hz  | 1.41 | 4.3 dB  |
-| Peaking | 8000 Hz  | 1.41 | 1.6 dB  |
-| Peaking | 16000 Hz | 1.41 | 1.8 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -3.9 |
+|   2 | Peaking |        62 | 1.41 |        -1.9 |
+|   3 | Peaking |       125 | 1.41 |        -6.6 |
+|   4 | Peaking |       250 | 1.41 |        -0.1 |
+|   5 | Peaking |       500 | 1.41 |         4.1 |
+|   6 | Peaking |      1000 | 1.41 |        -0.3 |
+|   7 | Peaking |      2000 | 1.41 |        -3.5 |
+|   8 | Peaking |      4000 | 1.41 |         4.5 |
+|   9 | Peaking |      8000 | 1.41 |         1.8 |
+|  10 | Peaking |     16000 | 1.41 |         1   |
 
 ### Graphs
 ![](./Sennheiser%20HD%2025%20Aluminum.png)

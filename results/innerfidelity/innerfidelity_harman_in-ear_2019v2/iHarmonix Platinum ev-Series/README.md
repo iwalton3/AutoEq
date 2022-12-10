@@ -2,37 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.8dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.8 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -5.7 dB or -6.8 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 20 Hz    | 0.13 | -5.0 dB |
-| Peaking | 267 Hz   | 0.37 | -6.9 dB |
-| Peaking | 1054 Hz  | 0.28 | 5.5 dB  |
-| Peaking | 14990 Hz | 0.37 | 6.5 dB  |
-| Peaking | 1341 Hz  | 5.23 | -1.1 dB |
-| Peaking | 3833 Hz  | 3.26 | 3.2 dB  |
-| Peaking | 5130 Hz  | 5.78 | -6.7 dB |
-| Peaking | 8650 Hz  | 3.13 | 1.6 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -5.1 |
+|   2 | Peaking   |       191 | 0.54 |        -6.5 |
+|   3 | Peaking   |       860 | 1.68 |         1.9 |
+|   4 | Peaking   |      5229 | 4.7  |        -8.1 |
+|   5 | Peaking   |      6665 | 0.18 |         5.9 |
+|   6 | Peaking   |      1968 | 3.72 |         0.5 |
+|   7 | Peaking   |      2725 | 5.43 |        -2.3 |
+|   8 | Peaking   |      3640 | 3.35 |         1.6 |
+|   9 | Peaking   |      7171 | 6    |        -2   |
+|  10 | HighShelf |     10000 | 0.7  |         1.9 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.3dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-11.3 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -5.5 dB |
-| Peaking | 63 Hz    | 1.41 | -4.6 dB |
-| Peaking | 125 Hz   | 1.41 | -5.9 dB |
-| Peaking | 250 Hz   | 1.41 | -5.2 dB |
-| Peaking | 500 Hz   | 1.41 | -0.9 dB |
-| Peaking | 1000 Hz  | 1.41 | 2.8 dB  |
-| Peaking | 2000 Hz  | 1.41 | 3.8 dB  |
-| Peaking | 4000 Hz  | 1.41 | 2.5 dB  |
-| Peaking | 8000 Hz  | 1.41 | 4.7 dB  |
-| Peaking | 16000 Hz | 1.41 | 8.9 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -5.9 |
+|   2 | Peaking |        62 | 1.41 |        -4.4 |
+|   3 | Peaking |       125 | 1.41 |        -5.9 |
+|   4 | Peaking |       250 | 1.41 |        -5.1 |
+|   5 | Peaking |       500 | 1.41 |        -1.1 |
+|   6 | Peaking |      1000 | 1.41 |         2.8 |
+|   7 | Peaking |      2000 | 1.41 |         3.8 |
+|   8 | Peaking |      4000 | 1.41 |         2.8 |
+|   9 | Peaking |      8000 | 1.41 |         4.1 |
+|  10 | Peaking |     16000 | 1.41 |        11.1 |
 
 ### Graphs
 ![](./iHarmonix%20Platinum%20ev-Series.png)

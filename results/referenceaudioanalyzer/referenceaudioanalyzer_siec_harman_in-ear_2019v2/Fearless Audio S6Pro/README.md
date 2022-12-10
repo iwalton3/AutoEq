@@ -2,36 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-5.7dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-5.7 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -3.9 dB or -3.9 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 16 Hz   | 0.44 | 4.5 dB  |
-| Peaking | 48 Hz   | 0.28 | 1.4 dB  |
-| Peaking | 730 Hz  | 0.87 | 3.3 dB  |
-| Peaking | 1792 Hz | 2.36 | -3.6 dB |
-| Peaking | 5298 Hz | 1.15 | -4.0 dB |
-| Peaking | 2947 Hz | 4.76 | 1.5 dB  |
-| Peaking | 4461 Hz | 5.75 | -1.1 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         3.8 |
+|   2 | Peaking   |       709 | 0.75 |         3.4 |
+|   3 | Peaking   |      1806 | 2.03 |        -4   |
+|   4 | Peaking   |      4699 | 2.69 |        -4.4 |
+|   5 | Peaking   |      7103 | 3.48 |        -2.8 |
+|   6 | Peaking   |        75 | 1.68 |        -1.1 |
+|   7 | Peaking   |       173 | 2.47 |         0.7 |
+|   8 | Peaking   |      2200 | 5.47 |        -0.6 |
+|   9 | Peaking   |      2795 | 4.43 |         1   |
+|  10 | HighShelf |     10000 | 0.7  |        -2.7 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.9dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-5.6 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 5.4 dB  |
-| Peaking | 63 Hz    | 1.41 | 1.5 dB  |
-| Peaking | 125 Hz   | 1.41 | 1.2 dB  |
-| Peaking | 250 Hz   | 1.41 | 0.1 dB  |
-| Peaking | 500 Hz   | 1.41 | 2.4 dB  |
-| Peaking | 1000 Hz  | 1.41 | 2.3 dB  |
-| Peaking | 2000 Hz  | 1.41 | -2.4 dB |
-| Peaking | 4000 Hz  | 1.41 | -2.5 dB |
-| Peaking | 8000 Hz  | 1.41 | -1.6 dB |
-| Peaking | 16000 Hz | 1.41 | -4.6 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         5.2 |
+|   2 | Peaking |        62 | 1.41 |         1.4 |
+|   3 | Peaking |       125 | 1.41 |         1.1 |
+|   4 | Peaking |       250 | 1.41 |         0.2 |
+|   5 | Peaking |       500 | 1.41 |         2.6 |
+|   6 | Peaking |      1000 | 1.41 |         2.2 |
+|   7 | Peaking |      2000 | 1.41 |        -2.6 |
+|   8 | Peaking |      4000 | 1.41 |        -1.9 |
+|   9 | Peaking |      8000 | 1.41 |        -2.2 |
+|  10 | Peaking |     16000 | 1.41 |        -4.6 |
 
 ### Graphs
 ![](./Fearless%20Audio%20S6Pro.png)

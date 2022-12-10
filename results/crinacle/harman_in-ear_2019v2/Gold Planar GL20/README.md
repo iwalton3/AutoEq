@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.6dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-7.0 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.7 dB or -6.6 dB, respectively.
 
-| Type    | Fc      |    Q | Gain     |
-|:--------|:--------|:-----|:---------|
-| Peaking | 23 Hz   | 0.88 | 3.6 dB   |
-| Peaking | 47 Hz   | 1.28 | 1.8 dB   |
-| Peaking | 1187 Hz | 0.41 | -14.9 dB |
-| Peaking | 2635 Hz | 0.48 | 15.3 dB  |
-| Peaking | 207 Hz  | 1.53 | -1.0 dB  |
-| Peaking | 458 Hz  | 2.67 | 0.8 dB   |
-| Peaking | 1575 Hz | 6.93 | -2.1 dB  |
-| Peaking | 3400 Hz | 5.27 | -1.0 dB  |
-| Peaking | 6954 Hz | 3.2  | 2.3 dB   |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         4.3 |
+|   2 | Peaking   |       234 | 0.19 |        -2.5 |
+|   3 | Peaking   |      1422 | 0.44 |        -8.9 |
+|   4 | Peaking   |      2317 | 1.62 |         9   |
+|   5 | Peaking   |      4588 | 0.53 |         8.4 |
+|   6 | Peaking   |       737 | 6    |        -1.4 |
+|   7 | Peaking   |      1125 | 6    |         2   |
+|   8 | Peaking   |      1530 | 3.74 |        -0.8 |
+|   9 | Peaking   |      7751 | 3.53 |         1.8 |
+|  10 | HighShelf |     10000 | 0.7  |        -4   |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.8dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-7.9 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 4.3 dB  |
-| Peaking | 63 Hz    | 1.41 | 1.3 dB  |
-| Peaking | 125 Hz   | 1.41 | -0.9 dB |
-| Peaking | 250 Hz   | 1.41 | -2.9 dB |
-| Peaking | 500 Hz   | 1.41 | -4.0 dB |
-| Peaking | 1000 Hz  | 1.41 | -8.8 dB |
-| Peaking | 2000 Hz  | 1.41 | 3.0 dB  |
-| Peaking | 4000 Hz  | 1.41 | 6.9 dB  |
-| Peaking | 8000 Hz  | 1.41 | 4.5 dB  |
-| Peaking | 16000 Hz | 1.41 | -5.3 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         4.2 |
+|   2 | Peaking |        62 | 1.41 |         1.5 |
+|   3 | Peaking |       125 | 1.41 |        -1   |
+|   4 | Peaking |       250 | 1.41 |        -2.7 |
+|   5 | Peaking |       500 | 1.41 |        -4.2 |
+|   6 | Peaking |      1000 | 1.41 |        -8.9 |
+|   7 | Peaking |      2000 | 1.41 |         3   |
+|   8 | Peaking |      4000 | 1.41 |         7.1 |
+|   9 | Peaking |      8000 | 1.41 |         4.5 |
+|  10 | Peaking |     16000 | 1.41 |        -5.9 |
 
 ### Graphs
 ![](./Gold%20Planar%20GL20.png)

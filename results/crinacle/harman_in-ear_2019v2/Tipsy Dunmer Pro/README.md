@@ -2,34 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-5.3dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-5.3 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -4.3 dB or -4.3 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 16 Hz   | 0.59 | 4.2 dB  |
-| Peaking | 88 Hz   | 1.04 | -1.0 dB |
-| Peaking | 217 Hz  | 0.61 | -4.1 dB |
-| Peaking | 994 Hz  | 0.99 | 4.1 dB  |
-| Peaking | 2402 Hz | 1.83 | 4.3 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         9.2 |
+|   2 | Peaking   |        64 | 0.26 |        -8.3 |
+|   3 | Peaking   |      1527 | 0.5  |         5.2 |
+|   4 | Peaking   |      3167 | 1.51 |         3.8 |
+|   5 | Peaking   |      7182 | 0.27 |        -3.8 |
+|   6 | Peaking   |       154 | 1.83 |         1   |
+|   7 | Peaking   |       303 | 1.4  |        -0.7 |
+|   8 | Peaking   |      5104 | 4.84 |        -1.6 |
+|   9 | Peaking   |      6317 | 5.86 |         3   |
+|  10 | HighShelf |     10000 | 0.7  |        -4.3 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.1dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-5.0 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | 3.3 dB   |
-| Peaking | 63 Hz    | 1.41 | -0.8 dB  |
-| Peaking | 125 Hz   | 1.41 | -2.8 dB  |
-| Peaking | 250 Hz   | 1.41 | -3.9 dB  |
-| Peaking | 500 Hz   | 1.41 | -0.3 dB  |
-| Peaking | 1000 Hz  | 1.41 | 3.4 dB   |
-| Peaking | 2000 Hz  | 1.41 | 4.2 dB   |
-| Peaking | 4000 Hz  | 1.41 | 1.4 dB   |
-| Peaking | 8000 Hz  | 1.41 | -3.5 dB  |
-| Peaking | 16000 Hz | 1.41 | -10.4 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         3.5 |
+|   2 | Peaking |        62 | 1.41 |        -1   |
+|   3 | Peaking |       125 | 1.41 |        -2.7 |
+|   4 | Peaking |       250 | 1.41 |        -4   |
+|   5 | Peaking |       500 | 1.41 |        -0.2 |
+|   6 | Peaking |      1000 | 1.41 |         3.3 |
+|   7 | Peaking |      2000 | 1.41 |         4.2 |
+|   8 | Peaking |      4000 | 1.41 |         1.5 |
+|   9 | Peaking |      8000 | 1.41 |        -3.3 |
+|  10 | Peaking |     16000 | 1.41 |       -12.5 |
 
 ### Graphs
 ![](./Tipsy%20Dunmer%20Pro.png)

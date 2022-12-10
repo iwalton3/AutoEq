@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-5.6dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-5.6 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -5.8 dB or -5.8 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 22 Hz    | 0.79 | 5.3 dB  |
-| Peaking | 59 Hz    | 1.89 | 1.6 dB  |
-| Peaking | 1111 Hz  | 1.15 | -6.9 dB |
-| Peaking | 1678 Hz  | 1.31 | 6.7 dB  |
-| Peaking | 10540 Hz | 2.3  | 3.2 dB  |
-| Peaking | 212 Hz   | 1.71 | -1.5 dB |
-| Peaking | 592 Hz   | 2.67 | 0.5 dB  |
-| Peaking | 3851 Hz  | 5.13 | 4.5 dB  |
-| Peaking | 5613 Hz  | 3.73 | -6.9 dB |
-| Peaking | 6561 Hz  | 4.63 | 4.3 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         8.2 |
+|   2 | Peaking   |        54 | 0.41 |        -4.7 |
+|   3 | Peaking   |      1076 | 1.5  |        -6.8 |
+|   4 | Peaking   |      1668 | 1.22 |         5.4 |
+|   5 | Peaking   |      9670 | 3.19 |         2.6 |
+|   6 | Peaking   |      2662 | 4.15 |        -1.2 |
+|   7 | Peaking   |      3829 | 4.64 |         4.1 |
+|   8 | Peaking   |      5572 | 5.21 |        -6.8 |
+|   9 | Peaking   |      6704 | 5.91 |         3.3 |
+|  10 | HighShelf |     10000 | 0.7  |        -0.4 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.6dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-5.4 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 5.1 dB  |
-| Peaking | 63 Hz    | 1.41 | 1.8 dB  |
-| Peaking | 125 Hz   | 1.41 | -0.3 dB |
-| Peaking | 250 Hz   | 1.41 | -1.4 dB |
-| Peaking | 500 Hz   | 1.41 | 0.4 dB  |
-| Peaking | 1000 Hz  | 1.41 | -4.9 dB |
-| Peaking | 2000 Hz  | 1.41 | 4.3 dB  |
-| Peaking | 4000 Hz  | 1.41 | -0.2 dB |
-| Peaking | 8000 Hz  | 1.41 | 1.4 dB  |
-| Peaking | 16000 Hz | 1.41 | -0.9 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         5.1 |
+|   2 | Peaking |        62 | 1.41 |         1.4 |
+|   3 | Peaking |       125 | 1.41 |        -0.1 |
+|   4 | Peaking |       250 | 1.41 |        -1.5 |
+|   5 | Peaking |       500 | 1.41 |         0.5 |
+|   6 | Peaking |      1000 | 1.41 |        -5   |
+|   7 | Peaking |      2000 | 1.41 |         4.4 |
+|   8 | Peaking |      4000 | 1.41 |        -0.2 |
+|   9 | Peaking |      8000 | 1.41 |         0.8 |
+|  10 | Peaking |     16000 | 1.41 |        -1   |
 
 ### Graphs
 ![](./ZMF%20Aeolus%20(universal%20perforated%20suede%20earpads).png)

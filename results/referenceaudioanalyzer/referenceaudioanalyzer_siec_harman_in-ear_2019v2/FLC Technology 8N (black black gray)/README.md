@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.6dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-7.2 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.6 dB or -6.7 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 0.51 | -2.2 dB |
-| Peaking | 126 Hz   | 0.5  | -3.5 dB |
-| Peaking | 437 Hz   | 0.22 | -2.1 dB |
-| Peaking | 3635 Hz  | 0.56 | 9.6 dB  |
-| Peaking | 18301 Hz | 0.11 | -7.2 dB |
-| Peaking | 713 Hz   | 1.77 | 0.8 dB  |
-| Peaking | 1284 Hz  | 2.49 | -2.2 dB |
-| Peaking | 1938 Hz  | 2.95 | 2.3 dB  |
-| Peaking | 3249 Hz  | 4.41 | -1.3 dB |
-| Peaking | 7403 Hz  | 5.76 | -1.5 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -2.4 |
+|   2 | Peaking   |       172 | 0.41 |        -4.8 |
+|   3 | Peaking   |      2214 | 1.87 |         4.9 |
+|   4 | Peaking   |      4596 | 0.99 |         7.2 |
+|   5 | Peaking   |      8453 | 1.13 |        -5.2 |
+|   6 | Peaking   |       673 | 1.47 |         0.4 |
+|   7 | Peaking   |      1247 | 3.04 |        -1.8 |
+|   8 | Peaking   |      1784 | 4.5  |         1.1 |
+|   9 | Peaking   |      9114 | 2.41 |         2.4 |
+|  10 | HighShelf |     10000 | 0.7  |        -5.7 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.8dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-7.5 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -2.8 dB |
-| Peaking | 63 Hz    | 1.41 | -3.2 dB |
-| Peaking | 125 Hz   | 1.41 | -4.4 dB |
-| Peaking | 250 Hz   | 1.41 | -3.8 dB |
-| Peaking | 500 Hz   | 1.41 | -1.0 dB |
-| Peaking | 1000 Hz  | 1.41 | -1.7 dB |
-| Peaking | 2000 Hz  | 1.41 | 4.6 dB  |
-| Peaking | 4000 Hz  | 1.41 | 7.3 dB  |
-| Peaking | 8000 Hz  | 1.41 | -2.8 dB |
-| Peaking | 16000 Hz | 1.41 | -9.7 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -3.1 |
+|   2 | Peaking |        62 | 1.41 |        -3.2 |
+|   3 | Peaking |       125 | 1.41 |        -4.6 |
+|   4 | Peaking |       250 | 1.41 |        -3.8 |
+|   5 | Peaking |       500 | 1.41 |        -1   |
+|   6 | Peaking |      1000 | 1.41 |        -1.8 |
+|   7 | Peaking |      2000 | 1.41 |         4.7 |
+|   8 | Peaking |      4000 | 1.41 |         7.1 |
+|   9 | Peaking |      8000 | 1.41 |        -2.4 |
+|  10 | Peaking |     16000 | 1.41 |       -11.4 |
 
 ### Graphs
 ![](./FLC%20Technology%208N%20(black%20black%20gray).png)

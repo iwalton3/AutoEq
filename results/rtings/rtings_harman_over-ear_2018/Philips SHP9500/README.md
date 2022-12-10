@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.4dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.6 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.5 dB or -6.5 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 29 Hz    | 0.57 | 6.5 dB  |
-| Peaking | 118 Hz   | 0.97 | -2.6 dB |
-| Peaking | 2144 Hz  | 3.63 | 4.1 dB  |
-| Peaking | 5520 Hz  | 2.83 | -6.5 dB |
-| Peaking | 10822 Hz | 1.3  | 5.2 dB  |
-| Peaking | 42 Hz    | 3.16 | 0.9 dB  |
-| Peaking | 43 Hz    | 1.12 | -0.5 dB |
-| Peaking | 207 Hz   | 3.72 | -0.8 dB |
-| Peaking | 516 Hz   | 1.31 | 1.2 dB  |
-| Peaking | 6812 Hz  | 7.76 | 0.9 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         6.8 |
+|   2 | Peaking   |        88 | 0.83 |        -5.1 |
+|   3 | Peaking   |      1853 | 1.55 |         0.4 |
+|   4 | Peaking   |      2142 | 3.63 |         3.8 |
+|   5 | Peaking   |      5513 | 4.62 |        -6.6 |
+|   6 | Peaking   |       194 | 1.59 |        -0.7 |
+|   7 | Peaking   |       544 | 0.8  |         1.4 |
+|   8 | Peaking   |      1220 | 2.03 |        -0.8 |
+|   9 | Peaking   |      4237 | 4.08 |        -1.2 |
+|  10 | HighShelf |     10000 | 0.7  |         2.4 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.8dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-7.6 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 7.5 dB  |
-| Peaking | 63 Hz    | 1.41 | 1.2 dB  |
-| Peaking | 125 Hz   | 1.41 | -2.1 dB |
-| Peaking | 250 Hz   | 1.41 | -0.8 dB |
-| Peaking | 500 Hz   | 1.41 | 1.6 dB  |
-| Peaking | 1000 Hz  | 1.41 | -1.0 dB |
-| Peaking | 2000 Hz  | 1.41 | 3.6 dB  |
-| Peaking | 4000 Hz  | 1.41 | -3.8 dB |
-| Peaking | 8000 Hz  | 1.41 | 2.1 dB  |
-| Peaking | 16000 Hz | 1.41 | 1.4 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         7.4 |
+|   2 | Peaking |        62 | 1.41 |         1   |
+|   3 | Peaking |       125 | 1.41 |        -2.2 |
+|   4 | Peaking |       250 | 1.41 |        -1.1 |
+|   5 | Peaking |       500 | 1.41 |         1.8 |
+|   6 | Peaking |      1000 | 1.41 |        -1   |
+|   7 | Peaking |      2000 | 1.41 |         3.8 |
+|   8 | Peaking |      4000 | 1.41 |        -3.4 |
+|   9 | Peaking |      8000 | 1.41 |         0.4 |
+|  10 | Peaking |     16000 | 1.41 |         4.6 |
 
 ### Graphs
 ![](./Philips%20SHP9500.png)

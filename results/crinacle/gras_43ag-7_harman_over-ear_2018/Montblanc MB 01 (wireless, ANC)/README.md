@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.3dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.7 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.3 dB or -6.9 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 15 Hz    | 1.15 | -4.3 dB |
-| Peaking | 28 Hz    | 1    | -2.3 dB |
-| Peaking | 166 Hz   | 0.6  | -5.5 dB |
-| Peaking | 499 Hz   | 0.27 | -4.1 dB |
-| Peaking | 12050 Hz | 0.1  | 6.5 dB  |
-| Peaking | 325 Hz   | 5.51 | -0.9 dB |
-| Peaking | 917 Hz   | 3.91 | 2.2 dB  |
-| Peaking | 1582 Hz  | 2.99 | -3.8 dB |
-| Peaking | 3051 Hz  | 1.37 | 2.1 dB  |
-| Peaking | 10688 Hz | 0.66 | -0.7 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -3.9 |
+|   2 | Peaking   |        63 | 0.87 |         4.9 |
+|   3 | Peaking   |       217 | 0.29 |        -8.7 |
+|   4 | Peaking   |      1563 | 2.18 |        -6.2 |
+|   5 | Peaking   |      4372 | 0.22 |         6.6 |
+|   6 | Peaking   |       514 | 4.78 |         1   |
+|   7 | Peaking   |       662 | 5.13 |        -2   |
+|   8 | Peaking   |       867 | 4.29 |         0.8 |
+|   9 | Peaking   |      9300 | 4.36 |        -1.6 |
+|  10 | HighShelf |     10000 | 0.7  |         3.5 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.2dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-11.3 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -4.3 dB |
-| Peaking | 63 Hz    | 1.41 | -1.0 dB |
-| Peaking | 125 Hz   | 1.41 | -6.3 dB |
-| Peaking | 250 Hz   | 1.41 | -6.8 dB |
-| Peaking | 500 Hz   | 1.41 | -3.8 dB |
-| Peaking | 1000 Hz  | 1.41 | -1.1 dB |
-| Peaking | 2000 Hz  | 1.41 | 0.2 dB  |
-| Peaking | 4000 Hz  | 1.41 | 6.4 dB  |
-| Peaking | 8000 Hz  | 1.41 | 5.6 dB  |
-| Peaking | 16000 Hz | 1.41 | 8.7 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -4.1 |
+|   2 | Peaking |        62 | 1.41 |        -1.1 |
+|   3 | Peaking |       125 | 1.41 |        -6.6 |
+|   4 | Peaking |       250 | 1.41 |        -6.8 |
+|   5 | Peaking |       500 | 1.41 |        -3.7 |
+|   6 | Peaking |      1000 | 1.41 |        -1.3 |
+|   7 | Peaking |      2000 | 1.41 |         0.3 |
+|   8 | Peaking |      4000 | 1.41 |         6.5 |
+|   9 | Peaking |      8000 | 1.41 |         4.9 |
+|  10 | Peaking |     16000 | 1.41 |        11   |
 
 ### Graphs
 ![](./Montblanc%20MB%2001%20(wireless,%20ANC).png)

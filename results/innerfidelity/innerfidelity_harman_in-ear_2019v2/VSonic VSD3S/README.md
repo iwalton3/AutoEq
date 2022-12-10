@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.1dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.0 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.0 dB or -6.0 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 14 Hz   | 0.41 | 3.4 dB  |
-| Peaking | 79 Hz   | 1.11 | -0.5 dB |
-| Peaking | 227 Hz  | 0.46 | -4.6 dB |
-| Peaking | 4128 Hz | 0.44 | 8.7 dB  |
-| Peaking | 6378 Hz | 0.97 | -7.8 dB |
-| Peaking | 914 Hz  | 3.2  | 0.6 dB  |
-| Peaking | 1449 Hz | 1.81 | -1.3 dB |
-| Peaking | 2107 Hz | 1.48 | 1.3 dB  |
-| Peaking | 3091 Hz | 4.62 | -1.3 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         4.7 |
+|   2 | Peaking   |       109 | 0.26 |        -5.4 |
+|   3 | Peaking   |      2438 | 0.91 |         5.9 |
+|   4 | Peaking   |      4343 | 3.05 |         3   |
+|   5 | Peaking   |      5785 | 5.7  |        -3.6 |
+|   6 | Peaking   |       154 | 1.86 |         0.5 |
+|   7 | Peaking   |       317 | 0.94 |        -0.4 |
+|   8 | Peaking   |       869 | 2.71 |         0.8 |
+|   9 | Peaking   |      8371 | 4.42 |        -2.3 |
+|  10 | HighShelf |     10000 | 0.7  |         1.2 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.7dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-5.5 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 2.6 dB  |
-| Peaking | 63 Hz    | 1.41 | -0.9 dB |
-| Peaking | 125 Hz   | 1.41 | -2.9 dB |
-| Peaking | 250 Hz   | 1.41 | -4.1 dB |
-| Peaking | 500 Hz   | 1.41 | -1.8 dB |
-| Peaking | 1000 Hz  | 1.41 | 0.4 dB  |
-| Peaking | 2000 Hz  | 1.41 | 4.7 dB  |
-| Peaking | 4000 Hz  | 1.41 | 4.5 dB  |
-| Peaking | 8000 Hz  | 1.41 | -1.7 dB |
-| Peaking | 16000 Hz | 1.41 | 1.5 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         2.4 |
+|   2 | Peaking |        62 | 1.41 |        -0.8 |
+|   3 | Peaking |       125 | 1.41 |        -2.9 |
+|   4 | Peaking |       250 | 1.41 |        -4.2 |
+|   5 | Peaking |       500 | 1.41 |        -1.8 |
+|   6 | Peaking |      1000 | 1.41 |         0.4 |
+|   7 | Peaking |      2000 | 1.41 |         4.7 |
+|   8 | Peaking |      4000 | 1.41 |         4.4 |
+|   9 | Peaking |      8000 | 1.41 |        -1.8 |
+|  10 | Peaking |     16000 | 1.41 |         2.6 |
 
 ### Graphs
 ![](./VSonic%20VSD3S.png)

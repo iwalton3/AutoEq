@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-5.0dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-5.0 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -4.3 dB or -4.1 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 15 Hz    | 0.12 | -6.7 dB |
-| Peaking | 649 Hz   | 1.62 | 2.3 dB  |
-| Peaking | 2019 Hz  | 1.79 | 2.5 dB  |
-| Peaking | 3107 Hz  | 4.12 | -3.3 dB |
-| Peaking | 10356 Hz | 2.02 | 4.8 dB  |
-| Peaking | 23 Hz    | 1.19 | -1.1 dB |
-| Peaking | 38 Hz    | 0.51 | 0.7 dB  |
-| Peaking | 130 Hz   | 2.9  | -0.8 dB |
-| Peaking | 4939 Hz  | 7.11 | 2.4 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -6.6 |
+|   2 | Peaking   |       160 | 1.33 |        -2.3 |
+|   3 | Peaking   |       680 | 1.81 |         2.3 |
+|   4 | Peaking   |      1903 | 3.16 |         2.5 |
+|   5 | Peaking   |      9418 | 3.36 |         4.2 |
+|   6 | Peaking   |        61 | 2.12 |         0.7 |
+|   7 | Peaking   |      3344 | 3.78 |        -3.3 |
+|   8 | Peaking   |      4897 | 2.86 |         2.9 |
+|   9 | Peaking   |      6501 | 6    |        -3.3 |
+|  10 | HighShelf |     10000 | 0.7  |        -0.4 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-3.0dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-2.2 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -7.3 dB |
-| Peaking | 63 Hz    | 1.41 | -3.4 dB |
-| Peaking | 125 Hz   | 1.41 | -3.3 dB |
-| Peaking | 250 Hz   | 1.41 | -0.8 dB |
-| Peaking | 500 Hz   | 1.41 | 1.3 dB  |
-| Peaking | 1000 Hz  | 1.41 | 0.7 dB  |
-| Peaking | 2000 Hz  | 1.41 | 1.7 dB  |
-| Peaking | 4000 Hz  | 1.41 | -1.5 dB |
-| Peaking | 8000 Hz  | 1.41 | 3.1 dB  |
-| Peaking | 16000 Hz | 1.41 | -1.6 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -7.8 |
+|   2 | Peaking |        62 | 1.41 |        -3.2 |
+|   3 | Peaking |       125 | 1.41 |        -3.7 |
+|   4 | Peaking |       250 | 1.41 |        -0.9 |
+|   5 | Peaking |       500 | 1.41 |         1.5 |
+|   6 | Peaking |      1000 | 1.41 |         0.6 |
+|   7 | Peaking |      2000 | 1.41 |         1.9 |
+|   8 | Peaking |      4000 | 1.41 |        -1.5 |
+|   9 | Peaking |      8000 | 1.41 |         2.3 |
+|  10 | Peaking |     16000 | 1.41 |        -0.8 |
 
 ### Graphs
 ![](./Status%20Audio%20BT%20One.png)

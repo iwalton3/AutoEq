@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.5 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.3 dB or -6.2 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 18 Hz   | 0.84 | 5.0 dB  |
-| Peaking | 68 Hz   | 0.71 | -3.7 dB |
-| Peaking | 144 Hz  | 0.84 | -6.2 dB |
-| Peaking | 564 Hz  | 0.71 | 4.0 dB  |
-| Peaking | 1555 Hz | 2.34 | 5.3 dB  |
-| Peaking | 581 Hz  | 8.43 | -0.5 dB |
-| Peaking | 1965 Hz | 1.59 | 2.9 dB  |
-| Peaking | 4132 Hz | 3.2  | 8.9 dB  |
-| Peaking | 4728 Hz | 0.52 | -5.5 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        12.1 |
+|   2 | Peaking   |        67 | 0.31 |       -16.2 |
+|   3 | Peaking   |       436 | 0.55 |         6.6 |
+|   4 | Peaking   |      1538 | 3.54 |        -1.9 |
+|   5 | Peaking   |      1546 | 2.47 |         7   |
+|   6 | Peaking   |      3040 | 4.31 |        -3.4 |
+|   7 | Peaking   |      4018 | 4.08 |         4.6 |
+|   8 | Peaking   |      5614 | 4.96 |        -5.5 |
+|   9 | Peaking   |      8593 | 2.31 |        -4   |
+|  10 | HighShelf |     10000 | 0.7  |        -0.3 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-4.5dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-4.3 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 2.5 dB  |
-| Peaking | 63 Hz    | 1.41 | -4.6 dB |
-| Peaking | 125 Hz   | 1.41 | -7.4 dB |
-| Peaking | 250 Hz   | 1.41 | -1.6 dB |
-| Peaking | 500 Hz   | 1.41 | 3.3 dB  |
-| Peaking | 1000 Hz  | 1.41 | 3.3 dB  |
-| Peaking | 2000 Hz  | 1.41 | 3.0 dB  |
-| Peaking | 4000 Hz  | 1.41 | 0.4 dB  |
-| Peaking | 8000 Hz  | 1.41 | -4.5 dB |
-| Peaking | 16000 Hz | 1.41 | 0.0 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         1.8 |
+|   2 | Peaking |        62 | 1.41 |        -4.6 |
+|   3 | Peaking |       125 | 1.41 |        -7.6 |
+|   4 | Peaking |       250 | 1.41 |        -1.8 |
+|   5 | Peaking |       500 | 1.41 |         3.3 |
+|   6 | Peaking |      1000 | 1.41 |         3.1 |
+|   7 | Peaking |      2000 | 1.41 |         3.6 |
+|   8 | Peaking |      4000 | 1.41 |         0.2 |
+|   9 | Peaking |      8000 | 1.41 |        -4.6 |
+|  10 | Peaking |     16000 | 1.41 |         1.1 |
 
 ### Graphs
 ![](./Corsair%20HS70%20Bluetooth.png)

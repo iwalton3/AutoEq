@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.6dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.5 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -5.7 dB or -6.1 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 18 Hz    | 0.92 | 3.3 dB  |
-| Peaking | 93 Hz    | 0.67 | -3.6 dB |
-| Peaking | 240 Hz   | 0.68 | -5.9 dB |
-| Peaking | 2169 Hz  | 0.53 | 5.0 dB  |
-| Peaking | 12989 Hz | 0.61 | 6.1 dB  |
-| Peaking | 848 Hz   | 4.3  | 1.0 dB  |
-| Peaking | 2551 Hz  | 1.41 | -1.9 dB |
-| Peaking | 3536 Hz  | 1.43 | 3.1 dB  |
-| Peaking | 5367 Hz  | 4.07 | -6.2 dB |
-| Peaking | 6313 Hz  | 2.92 | 1.9 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         4.5 |
+|   2 | Peaking   |       121 | 0.27 |        -8.3 |
+|   3 | Peaking   |       797 | 1.57 |         1.8 |
+|   4 | Peaking   |      4361 | 0.28 |         6.4 |
+|   5 | Peaking   |      5335 | 3.76 |        -7.6 |
+|   6 | Peaking   |        71 | 2.03 |        -0.5 |
+|   7 | Peaking   |       136 | 2.06 |         0.5 |
+|   8 | Peaking   |      1601 | 3.43 |         0.3 |
+|   9 | Peaking   |      7871 | 4.01 |        -2   |
+|  10 | HighShelf |     10000 | 0.7  |         3.6 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.3dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-11.2 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 1.7 dB  |
-| Peaking | 63 Hz    | 1.41 | -2.9 dB |
-| Peaking | 125 Hz   | 1.41 | -5.3 dB |
-| Peaking | 250 Hz   | 1.41 | -6.1 dB |
-| Peaking | 500 Hz   | 1.41 | -1.7 dB |
-| Peaking | 1000 Hz  | 1.41 | 2.2 dB  |
-| Peaking | 2000 Hz  | 1.41 | 4.3 dB  |
-| Peaking | 4000 Hz  | 1.41 | 3.1 dB  |
-| Peaking | 8000 Hz  | 1.41 | 4.4 dB  |
-| Peaking | 16000 Hz | 1.41 | 6.8 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         1.8 |
+|   2 | Peaking |        62 | 1.41 |        -3.1 |
+|   3 | Peaking |       125 | 1.41 |        -5.3 |
+|   4 | Peaking |       250 | 1.41 |        -6.3 |
+|   5 | Peaking |       500 | 1.41 |        -1.4 |
+|   6 | Peaking |      1000 | 1.41 |         2.2 |
+|   7 | Peaking |      2000 | 1.41 |         4.4 |
+|   8 | Peaking |      4000 | 1.41 |         3.3 |
+|   9 | Peaking |      8000 | 1.41 |         2.8 |
+|  10 | Peaking |     16000 | 1.41 |        11   |
 
 ### Graphs
 ![](./AKG%20K3003%20(bass%20boost%20filter).png)

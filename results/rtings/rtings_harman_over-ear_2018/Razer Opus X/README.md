@@ -2,37 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-5.8dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-5.8 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -5.9 dB or -5.9 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 15 Hz    | 0.66 | 2.7 dB  |
-| Peaking | 175 Hz   | 0.67 | -5.6 dB |
-| Peaking | 466 Hz   | 0.72 | 2.9 dB  |
-| Peaking | 2112 Hz  | 2.05 | 5.8 dB  |
-| Peaking | 3407 Hz  | 2.94 | -3.7 dB |
-| Peaking | 71 Hz    | 2.84 | 0.2 dB  |
-| Peaking | 7422 Hz  | 1.45 | 1.9 dB  |
-| Peaking | 19031 Hz | 0.26 | -5.2 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         1.6 |
+|   2 | Peaking   |       175 | 0.47 |        -6.2 |
+|   3 | Peaking   |       445 | 0.7  |         4.2 |
+|   4 | Peaking   |      2114 | 1.95 |         6   |
+|   5 | Peaking   |      3357 | 3.05 |        -4.1 |
+|   6 | Peaking   |        41 | 1.73 |        -0.2 |
+|   7 | Peaking   |      5036 | 5.72 |         2.1 |
+|   8 | Peaking   |      6177 | 6    |        -1.3 |
+|   9 | Peaking   |      7520 | 3.62 |         2.6 |
+|  10 | HighShelf |     10000 | 0.7  |        -3.8 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-4.8dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-4.9 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 1.7 dB  |
-| Peaking | 63 Hz    | 1.41 | -0.5 dB |
-| Peaking | 125 Hz   | 1.41 | -4.3 dB |
-| Peaking | 250 Hz   | 1.41 | -3.1 dB |
-| Peaking | 500 Hz   | 1.41 | 2.4 dB  |
-| Peaking | 1000 Hz  | 1.41 | -0.0 dB |
-| Peaking | 2000 Hz  | 1.41 | 5.0 dB  |
-| Peaking | 4000 Hz  | 1.41 | -2.4 dB |
-| Peaking | 8000 Hz  | 1.41 | 1.3 dB  |
-| Peaking | 16000 Hz | 1.41 | -6.1 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         1.3 |
+|   2 | Peaking |        62 | 1.41 |        -0.7 |
+|   3 | Peaking |       125 | 1.41 |        -4.3 |
+|   4 | Peaking |       250 | 1.41 |        -3.1 |
+|   5 | Peaking |       500 | 1.41 |         2.6 |
+|   6 | Peaking |      1000 | 1.41 |         0   |
+|   7 | Peaking |      2000 | 1.41 |         5.1 |
+|   8 | Peaking |      4000 | 1.41 |        -2.4 |
+|   9 | Peaking |      8000 | 1.41 |         1.5 |
+|  10 | Peaking |     16000 | 1.41 |        -8.1 |
 
 ### Graphs
 ![](./Razer%20Opus%20X.png)

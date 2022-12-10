@@ -2,37 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-7.3dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-7.2 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.8 dB or -6.5 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 35 Hz    | 0.47 | -3.5 dB |
-| Peaking | 106 Hz   | 0.68 | -4.9 dB |
-| Peaking | 236 Hz   | 1.27 | -3.4 dB |
-| Peaking | 2048 Hz  | 3.31 | -2.4 dB |
-| Peaking | 7108 Hz  | 1.08 | 7.1 dB  |
-| Peaking | 382 Hz   | 3.16 | -0.6 dB |
-| Peaking | 852 Hz   | 2.33 | 1.8 dB  |
-| Peaking | 10100 Hz | 5.92 | 2.6 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -3   |
+|   2 | Peaking   |       153 | 0.39 |        -5.8 |
+|   3 | Peaking   |       732 | 1.47 |         2.4 |
+|   4 | Peaking   |      5528 | 2.68 |         4.9 |
+|   5 | Peaking   |      8647 | 1.42 |         6   |
+|   6 | Peaking   |      1736 | 2.82 |        -0.6 |
+|   7 | Peaking   |      2144 | 2.46 |        -1.9 |
+|   8 | Peaking   |      3033 | 3.18 |         2   |
+|   9 | Peaking   |      3814 | 6    |        -1.8 |
+|  10 | HighShelf |     10000 | 0.7  |        -4.1 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-8.5dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-7.8 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -3.9 dB |
-| Peaking | 63 Hz    | 1.41 | -4.8 dB |
-| Peaking | 125 Hz   | 1.41 | -5.5 dB |
-| Peaking | 250 Hz   | 1.41 | -4.5 dB |
-| Peaking | 500 Hz   | 1.41 | -0.3 dB |
-| Peaking | 1000 Hz  | 1.41 | 1.8 dB  |
-| Peaking | 2000 Hz  | 1.41 | -2.3 dB |
-| Peaking | 4000 Hz  | 1.41 | 1.6 dB  |
-| Peaking | 8000 Hz  | 1.41 | 8.5 dB  |
-| Peaking | 16000 Hz | 1.41 | -8.3 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -4.3 |
+|   2 | Peaking |        62 | 1.41 |        -4.5 |
+|   3 | Peaking |       125 | 1.41 |        -5.8 |
+|   4 | Peaking |       250 | 1.41 |        -4.2 |
+|   5 | Peaking |       500 | 1.41 |        -0.5 |
+|   6 | Peaking |      1000 | 1.41 |         1.9 |
+|   7 | Peaking |      2000 | 1.41 |        -2.4 |
+|   8 | Peaking |      4000 | 1.41 |         2   |
+|   9 | Peaking |      8000 | 1.41 |         8   |
+|  10 | Peaking |     16000 | 1.41 |        -9.3 |
 
 ### Graphs
 ![](./Xiaomi%20Hybrid.png)
