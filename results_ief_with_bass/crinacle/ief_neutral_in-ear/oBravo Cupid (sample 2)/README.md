@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-4.8dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-4.2 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -3.9 dB or -4.8 dB, respectively.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 38 Hz    | 0.8  | -1.1 dB  |
-| Peaking | 168 Hz   | 0.61 | -4.7 dB  |
-| Peaking | 1300 Hz  | 0.75 | 3.7 dB   |
-| Peaking | 3989 Hz  | 3.92 | -10.7 dB |
-| Peaking | 19437 Hz | 0.06 | 4.0 dB   |
-| Peaking | 641 Hz   | 4.04 | 0.5 dB   |
-| Peaking | 1841 Hz  | 4.27 | 1.6 dB   |
-| Peaking | 2821 Hz  | 4.23 | -1.5 dB  |
-| Peaking | 5306 Hz  | 6.14 | 3.5 dB   |
-| Peaking | 11546 Hz | 2.3  | -1.4 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -0.9 |
+|   2 | Peaking   |       183 | 0.51 |        -4.8 |
+|   3 | Peaking   |      3459 | 0.24 |         6.7 |
+|   4 | Peaking   |      4220 | 1.76 |       -20   |
+|   5 | Peaking   |      4929 | 2.07 |         9.4 |
+|   6 | Peaking   |      1219 | 2.49 |        -0.5 |
+|   7 | Peaking   |      1752 | 3.93 |         1.2 |
+|   8 | Peaking   |      2688 | 3.87 |        -1.1 |
+|   9 | Peaking   |      3502 | 5.76 |         0.7 |
+|  10 | HighShelf |     10000 | 0.7  |         2   |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.7dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-6.8 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -1.2 dB |
-| Peaking | 63 Hz    | 1.41 | -1.4 dB |
-| Peaking | 125 Hz   | 1.41 | -3.9 dB |
-| Peaking | 250 Hz   | 1.41 | -3.6 dB |
-| Peaking | 500 Hz   | 1.41 | 0.1 dB  |
-| Peaking | 1000 Hz  | 1.41 | 2.6 dB  |
-| Peaking | 2000 Hz  | 1.41 | 4.4 dB  |
-| Peaking | 4000 Hz  | 1.41 | -5.2 dB |
-| Peaking | 8000 Hz  | 1.41 | 5.1 dB  |
-| Peaking | 16000 Hz | 1.41 | 5.3 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -1.5 |
+|   2 | Peaking |        62 | 1.41 |        -1.2 |
+|   3 | Peaking |       125 | 1.41 |        -4   |
+|   4 | Peaking |       250 | 1.41 |        -3.6 |
+|   5 | Peaking |       500 | 1.41 |        -0   |
+|   6 | Peaking |      1000 | 1.41 |         2.7 |
+|   7 | Peaking |      2000 | 1.41 |         4.2 |
+|   8 | Peaking |      4000 | 1.41 |        -5.2 |
+|   9 | Peaking |      8000 | 1.41 |         5.3 |
+|  10 | Peaking |     16000 | 1.41 |         6.5 |
 
 ### Graphs
 ![](./oBravo%20Cupid%20(sample%202).png)

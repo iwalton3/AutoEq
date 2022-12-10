@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.6dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-3.3 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -3.2 dB or -6.1 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 19 Hz    | 0.26 | -4.7 dB |
-| Peaking | 152 Hz   | 0.91 | -2.3 dB |
-| Peaking | 668 Hz   | 0.71 | 3.3 dB  |
-| Peaking | 3267 Hz  | 3.52 | 2.6 dB  |
-| Peaking | 4995 Hz  | 3.2  | -3.8 dB |
-| Peaking | 749 Hz   | 2.92 | -0.3 dB |
-| Peaking | 1192 Hz  | 1.67 | 0.5 dB  |
-| Peaking | 2084 Hz  | 3.24 | -1.2 dB |
-| Peaking | 7956 Hz  | 2.1  | -4.2 dB |
-| Peaking | 17469 Hz | 0.31 | 6.5 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -4.3 |
+|   2 | Peaking   |       169 | 1.2  |        -2.5 |
+|   3 | Peaking   |       701 | 0.73 |         3.3 |
+|   4 | Peaking   |      3328 | 3.47 |         3.7 |
+|   5 | Peaking   |      4957 | 1.22 |        -2.9 |
+|   6 | Peaking   |        65 | 2.42 |         0.5 |
+|   7 | Peaking   |       742 | 3.64 |        -0.2 |
+|   8 | Peaking   |      6307 | 5.98 |         2.9 |
+|   9 | Peaking   |      7834 | 1.75 |        -3   |
+|  10 | HighShelf |     10000 | 0.7  |         6   |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.4dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-11.7 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -5.0 dB |
-| Peaking | 63 Hz    | 1.41 | -2.1 dB |
-| Peaking | 125 Hz   | 1.41 | -2.9 dB |
-| Peaking | 250 Hz   | 1.41 | -0.8 dB |
-| Peaking | 500 Hz   | 1.41 | 2.6 dB  |
-| Peaking | 1000 Hz  | 1.41 | 2.4 dB  |
-| Peaking | 2000 Hz  | 1.41 | 0.2 dB  |
-| Peaking | 4000 Hz  | 1.41 | -0.2 dB |
-| Peaking | 8000 Hz  | 1.41 | -2.1 dB |
-| Peaking | 16000 Hz | 1.41 | 9.3 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -4.9 |
+|   2 | Peaking |        62 | 1.41 |        -2.3 |
+|   3 | Peaking |       125 | 1.41 |        -2.7 |
+|   4 | Peaking |       250 | 1.41 |        -0.9 |
+|   5 | Peaking |       500 | 1.41 |         2.7 |
+|   6 | Peaking |      1000 | 1.41 |         2.3 |
+|   7 | Peaking |      2000 | 1.41 |         0.3 |
+|   8 | Peaking |      4000 | 1.41 |        -0   |
+|   9 | Peaking |      8000 | 1.41 |        -2.6 |
+|  10 | Peaking |     16000 | 1.41 |        11.8 |
 
 ### Graphs
 ![](./TFZ%20T2%20Galaxy.png)

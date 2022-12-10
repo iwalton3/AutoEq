@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-7.1dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-7.1 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -4.5 dB or -6.3 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 41 Hz    | 0.51 | -3.1 dB |
-| Peaking | 162 Hz   | 0.6  | -6.0 dB |
-| Peaking | 1294 Hz  | 0.83 | 4.6 dB  |
-| Peaking | 16328 Hz | 0.31 | 6.9 dB  |
-| Peaking | 427 Hz   | 1.29 | -1.2 dB |
-| Peaking | 769 Hz   | 0.7  | 1.9 dB  |
-| Peaking | 1017 Hz  | 2.01 | -2.2 dB |
-| Peaking | 5501 Hz  | 5.18 | -5.2 dB |
-| Peaking | 8870 Hz  | 2.53 | 2.4 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -2.8 |
+|   2 | Peaking   |       152 | 0.64 |        -6   |
+|   3 | Peaking   |       335 | 1.46 |        -1.1 |
+|   4 | Peaking   |      1330 | 0.69 |         4.6 |
+|   5 | Peaking   |      3908 | 3.78 |         1.9 |
+|   6 | Peaking   |        44 | 2.17 |        -0.4 |
+|   7 | Peaking   |      2730 | 4.17 |        -1.1 |
+|   8 | Peaking   |      5454 | 5.12 |        -4.5 |
+|   9 | Peaking   |      8724 | 1.57 |         3.8 |
+|  10 | HighShelf |     10000 | 0.7  |         6.1 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.6dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-12.5 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -3.2 dB |
-| Peaking | 63 Hz    | 1.41 | -3.4 dB |
-| Peaking | 125 Hz   | 1.41 | -5.8 dB |
-| Peaking | 250 Hz   | 1.41 | -4.2 dB |
-| Peaking | 500 Hz   | 1.41 | -0.2 dB |
-| Peaking | 1000 Hz  | 1.41 | 3.4 dB  |
-| Peaking | 2000 Hz  | 1.41 | 3.4 dB  |
-| Peaking | 4000 Hz  | 1.41 | -0.6 dB |
-| Peaking | 8000 Hz  | 1.41 | 4.6 dB  |
-| Peaking | 16000 Hz | 1.41 | 9.2 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -3.1 |
+|   2 | Peaking |        62 | 1.41 |        -3.5 |
+|   3 | Peaking |       125 | 1.41 |        -5.8 |
+|   4 | Peaking |       250 | 1.41 |        -4.2 |
+|   5 | Peaking |       500 | 1.41 |         0   |
+|   6 | Peaking |      1000 | 1.41 |         3.2 |
+|   7 | Peaking |      2000 | 1.41 |         3.6 |
+|   8 | Peaking |      4000 | 1.41 |        -0.6 |
+|   9 | Peaking |      8000 | 1.41 |         3.5 |
+|  10 | Peaking |     16000 | 1.41 |        12.3 |
 
 ### Graphs
 ![](./Panasonic%20RP-HJE120.png)

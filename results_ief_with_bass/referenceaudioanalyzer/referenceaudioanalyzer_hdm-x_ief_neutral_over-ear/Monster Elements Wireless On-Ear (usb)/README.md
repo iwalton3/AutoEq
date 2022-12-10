@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.6 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.9 dB or -8.0 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 36 Hz    | 1.09 | -4.0 dB |
-| Peaking | 148 Hz   | 1.98 | -4.0 dB |
-| Peaking | 291 Hz   | 1.45 | 3.6 dB  |
-| Peaking | 2603 Hz  | 0.63 | -6.6 dB |
-| Peaking | 13635 Hz | 0.13 | 6.7 dB  |
-| Peaking | 81 Hz    | 4.92 | 0.8 dB  |
-| Peaking | 924 Hz   | 2.13 | -0.9 dB |
-| Peaking | 1458 Hz  | 2.17 | 0.7 dB  |
-| Peaking | 4764 Hz  | 4.97 | -4.3 dB |
-| Peaking | 6323 Hz  | 2.63 | 2.9 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -3   |
+|   2 | Peaking   |       316 | 2.42 |         3.6 |
+|   3 | Peaking   |       934 | 1.28 |        -0.9 |
+|   4 | Peaking   |      2488 | 0.81 |        -3.6 |
+|   5 | Peaking   |      7745 | 1.25 |         7.3 |
+|   6 | Peaking   |        41 | 2.31 |        -1.2 |
+|   7 | Peaking   |        79 | 2.06 |         2.2 |
+|   8 | Peaking   |       142 | 2.61 |        -3.5 |
+|   9 | Peaking   |      4715 | 5.36 |        -2.4 |
+|  10 | HighShelf |     10000 | 0.7  |         4.9 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-8.8dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-11.7 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -4.0 dB |
-| Peaking | 63 Hz    | 1.41 | -0.4 dB |
-| Peaking | 125 Hz   | 1.41 | -3.4 dB |
-| Peaking | 250 Hz   | 1.41 | 2.7 dB  |
-| Peaking | 500 Hz   | 1.41 | 0.9 dB  |
-| Peaking | 1000 Hz  | 1.41 | -1.6 dB |
-| Peaking | 2000 Hz  | 1.41 | -3.2 dB |
-| Peaking | 4000 Hz  | 1.41 | -1.7 dB |
-| Peaking | 8000 Hz  | 1.41 | 7.4 dB  |
-| Peaking | 16000 Hz | 1.41 | 8.3 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -4.1 |
+|   2 | Peaking |        62 | 1.41 |        -0.3 |
+|   3 | Peaking |       125 | 1.41 |        -3.4 |
+|   4 | Peaking |       250 | 1.41 |         2.8 |
+|   5 | Peaking |       500 | 1.41 |         0.8 |
+|   6 | Peaking |      1000 | 1.41 |        -1.6 |
+|   7 | Peaking |      2000 | 1.41 |        -3.1 |
+|   8 | Peaking |      4000 | 1.41 |        -1.5 |
+|   9 | Peaking |      8000 | 1.41 |         6.6 |
+|  10 | Peaking |     16000 | 1.41 |        11.3 |
 
 ### Graphs
 ![](./Monster%20Elements%20Wireless%20On-Ear%20(usb).png)

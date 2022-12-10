@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.6dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.7 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -5.3 dB or -6.7 dB, respectively.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 143 Hz   | 1.02 | -3.6 dB  |
-| Peaking | 1294 Hz  | 0.62 | -10.0 dB |
-| Peaking | 1826 Hz  | 0.83 | 13.2 dB  |
-| Peaking | 5670 Hz  | 2.79 | -8.8 dB  |
-| Peaking | 10085 Hz | 1.64 | 6.7 dB   |
-| Peaking | 53 Hz    | 4.59 | 1.9 dB   |
-| Peaking | 54 Hz    | 0.15 | 1.2 dB   |
-| Peaking | 85 Hz    | 1.36 | -2.0 dB  |
-| Peaking | 283 Hz   | 1.47 | -1.3 dB  |
-| Peaking | 6843 Hz  | 5.59 | -0.4 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         1.8 |
+|   2 | Peaking   |       113 | 1.01 |        -3.9 |
+|   3 | Peaking   |      2278 | 0.65 |        16.5 |
+|   4 | Peaking   |      2898 | 0.21 |       -11.7 |
+|   5 | Peaking   |      9285 | 1.92 |        10.1 |
+|   6 | Peaking   |      1869 | 4.92 |         3.8 |
+|   7 | Peaking   |      2501 | 2.11 |        -3.3 |
+|   8 | Peaking   |      3371 | 3.86 |         4.6 |
+|   9 | Peaking   |      5594 | 6    |        -4.5 |
+|  10 | HighShelf |     10000 | 0.7  |         1.8 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.0dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-5.7 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 1.3 dB  |
-| Peaking | 63 Hz    | 1.41 | 0.4 dB  |
-| Peaking | 125 Hz   | 1.41 | -3.9 dB |
-| Peaking | 250 Hz   | 1.41 | -1.7 dB |
-| Peaking | 500 Hz   | 1.41 | -1.2 dB |
-| Peaking | 1000 Hz  | 1.41 | -4.0 dB |
-| Peaking | 2000 Hz  | 1.41 | 7.0 dB  |
-| Peaking | 4000 Hz  | 1.41 | -2.7 dB |
-| Peaking | 8000 Hz  | 1.41 | 2.3 dB  |
-| Peaking | 16000 Hz | 1.41 | -0.5 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         1.5 |
+|   2 | Peaking |        62 | 1.41 |         0.8 |
+|   3 | Peaking |       125 | 1.41 |        -3.4 |
+|   4 | Peaking |       250 | 1.41 |        -1.9 |
+|   5 | Peaking |       500 | 1.41 |        -0.9 |
+|   6 | Peaking |      1000 | 1.41 |        -4   |
+|   7 | Peaking |      2000 | 1.41 |         6.6 |
+|   8 | Peaking |      4000 | 1.41 |        -1.8 |
+|   9 | Peaking |      8000 | 1.41 |         0.5 |
+|  10 | Peaking |     16000 | 1.41 |         2.9 |
 
 ### Graphs
 ![](./ZMF%20Eikon%20(Eikon%20lambskin%20earpads).png)

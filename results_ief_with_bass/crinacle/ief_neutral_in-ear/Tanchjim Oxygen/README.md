@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-2.7dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-2.5 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -2.4 dB or -2.4 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 11 Hz    | 0.44 | 3.1 dB  |
-| Peaking | 167 Hz   | 1.05 | -1.6 dB |
-| Peaking | 858 Hz   | 0.63 | 2.3 dB  |
-| Peaking | 2511 Hz  | 0.37 | -2.0 dB |
-| Peaking | 14308 Hz | 0.24 | 2.4 dB  |
-| Peaking | 11 Hz    | 1.21 | 0.8 dB  |
-| Peaking | 66 Hz    | 2.28 | 0.3 dB  |
-| Peaking | 3604 Hz  | 4.7  | 1.2 dB  |
-| Peaking | 4980 Hz  | 4.18 | -1.1 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         4   |
+|   2 | Peaking   |        70 | 0.29 |        -3.2 |
+|   3 | Peaking   |       575 | 0.43 |         1.6 |
+|   4 | Peaking   |      2301 | 2.53 |        -2   |
+|   5 | Peaking   |      4806 | 4.33 |        -0.8 |
+|   6 | Peaking   |        38 | 1.83 |        -0.2 |
+|   7 | Peaking   |      1502 | 2.27 |        -0.2 |
+|   8 | Peaking   |      5406 | 2.91 |        -1.1 |
+|   9 | Peaking   |      7264 | 1.2  |         1.2 |
+|  10 | HighShelf |     10000 | 0.7  |         2.2 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-3.3dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-4.4 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 1.9 dB  |
-| Peaking | 63 Hz    | 1.41 | 0.5 dB  |
-| Peaking | 125 Hz   | 1.41 | -1.2 dB |
-| Peaking | 250 Hz   | 1.41 | -0.8 dB |
-| Peaking | 500 Hz   | 1.41 | 1.2 dB  |
-| Peaking | 1000 Hz  | 1.41 | 1.3 dB  |
-| Peaking | 2000 Hz  | 1.41 | -1.2 dB |
-| Peaking | 4000 Hz  | 1.41 | -0.8 dB |
-| Peaking | 8000 Hz  | 1.41 | 1.6 dB  |
-| Peaking | 16000 Hz | 1.41 | 3.0 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         1.8 |
+|   2 | Peaking |        62 | 1.41 |         0.3 |
+|   3 | Peaking |       125 | 1.41 |        -1.1 |
+|   4 | Peaking |       250 | 1.41 |        -1   |
+|   5 | Peaking |       500 | 1.41 |         1.1 |
+|   6 | Peaking |      1000 | 1.41 |         1.2 |
+|   7 | Peaking |      2000 | 1.41 |        -1.1 |
+|   8 | Peaking |      4000 | 1.41 |        -0.7 |
+|   9 | Peaking |      8000 | 1.41 |         1.3 |
+|  10 | Peaking |     16000 | 1.41 |         4.3 |
 
 ### Graphs
 ![](./Tanchjim%20Oxygen.png)

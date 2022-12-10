@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.4dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.4 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -4.6 dB or -7.7 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 49 Hz    | 0.84 | -1.5 dB |
-| Peaking | 153 Hz   | 0.72 | -4.4 dB |
-| Peaking | 1337 Hz  | 0.74 | 4.3 dB  |
-| Peaking | 7935 Hz  | 1.67 | -6.5 dB |
-| Peaking | 17952 Hz | 0.19 | 6.3 dB  |
-| Peaking | 578 Hz   | 3.88 | 0.6 dB  |
-| Peaking | 2130 Hz  | 3.58 | 1.6 dB  |
-| Peaking | 3200 Hz  | 2.96 | -3.0 dB |
-| Peaking | 4692 Hz  | 3.38 | 2.4 dB  |
-| Peaking | 11001 Hz | 4.53 | -0.9 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -0.3 |
+|   2 | Peaking   |       143 | 0.45 |        -4.3 |
+|   3 | Peaking   |       591 | 0.92 |         1.5 |
+|   4 | Peaking   |      1526 | 0.89 |         4.4 |
+|   5 | Peaking   |      7310 | 3.83 |        -3.8 |
+|   6 | Peaking   |      2173 | 3.89 |         1.2 |
+|   7 | Peaking   |      3204 | 3.35 |        -2.5 |
+|   8 | Peaking   |      4851 | 2.04 |         3.9 |
+|   9 | Peaking   |      9831 | 0.58 |        -3.4 |
+|  10 | HighShelf |     10000 | 0.7  |         7.8 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.4dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-11.8 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -1.0 dB |
-| Peaking | 63 Hz    | 1.41 | -1.9 dB |
-| Peaking | 125 Hz   | 1.41 | -4.0 dB |
-| Peaking | 250 Hz   | 1.41 | -2.7 dB |
-| Peaking | 500 Hz   | 1.41 | 0.7 dB  |
-| Peaking | 1000 Hz  | 1.41 | 3.0 dB  |
-| Peaking | 2000 Hz  | 1.41 | 3.4 dB  |
-| Peaking | 4000 Hz  | 1.41 | 0.6 dB  |
-| Peaking | 8000 Hz  | 1.41 | -2.6 dB |
-| Peaking | 16000 Hz | 1.41 | 9.3 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -1.1 |
+|   2 | Peaking |        62 | 1.41 |        -1.8 |
+|   3 | Peaking |       125 | 1.41 |        -4   |
+|   4 | Peaking |       250 | 1.41 |        -2.7 |
+|   5 | Peaking |       500 | 1.41 |         0.7 |
+|   6 | Peaking |      1000 | 1.41 |         3   |
+|   7 | Peaking |      2000 | 1.41 |         3.4 |
+|   8 | Peaking |      4000 | 1.41 |         0.8 |
+|   9 | Peaking |      8000 | 1.41 |        -3.2 |
+|  10 | Peaking |     16000 | 1.41 |        12   |
 
 ### Graphs
 ![](./Creative%20Outlier%20Air.png)

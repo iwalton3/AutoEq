@@ -2,37 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.5dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-3.3 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -3.4 dB or -4.3 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 29 Hz    | 0.53 | -2.3 dB |
-| Peaking | 140 Hz   | 0.84 | -2.2 dB |
-| Peaking | 479 Hz   | 1.3  | 1.5 dB  |
-| Peaking | 2949 Hz  | 2.15 | 3.1 dB  |
-| Peaking | 8604 Hz  | 3.67 | -1.6 dB |
-| Peaking | 1365 Hz  | 2.28 | -0.4 dB |
-| Peaking | 11022 Hz | 0.94 | -3.0 dB |
-| Peaking | 18400 Hz | 0.31 | 6.5 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -2.2 |
+|   2 | Peaking   |       158 | 1.14 |        -2.1 |
+|   3 | Peaking   |       496 | 1.3  |         1.3 |
+|   4 | Peaking   |      2874 | 2.95 |         3.2 |
+|   5 | Peaking   |      5158 | 6    |         2.4 |
+|   6 | Peaking   |      1247 | 2.17 |        -0.3 |
+|   7 | Peaking   |      6352 | 6    |        -1.5 |
+|   8 | Peaking   |      9035 | 5.84 |         0.3 |
+|   9 | Peaking   |      9255 | 2.28 |        -3.4 |
+|  10 | HighShelf |     10000 | 0.7  |         4.2 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.7dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-7.3 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -2.6 dB |
-| Peaking | 63 Hz    | 1.41 | -1.1 dB |
-| Peaking | 125 Hz   | 1.41 | -2.4 dB |
-| Peaking | 250 Hz   | 1.41 | -0.8 dB |
-| Peaking | 500 Hz   | 1.41 | 1.6 dB  |
-| Peaking | 1000 Hz  | 1.41 | -0.5 dB |
-| Peaking | 2000 Hz  | 1.41 | 0.8 dB  |
-| Peaking | 4000 Hz  | 1.41 | 2.2 dB  |
-| Peaking | 8000 Hz  | 1.41 | -2.2 dB |
-| Peaking | 16000 Hz | 1.41 | 6.6 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -2.7 |
+|   2 | Peaking |        62 | 1.41 |        -1.1 |
+|   3 | Peaking |       125 | 1.41 |        -2.5 |
+|   4 | Peaking |       250 | 1.41 |        -0.8 |
+|   5 | Peaking |       500 | 1.41 |         1.7 |
+|   6 | Peaking |      1000 | 1.41 |        -0.5 |
+|   7 | Peaking |      2000 | 1.41 |         0.8 |
+|   8 | Peaking |      4000 | 1.41 |         2.1 |
+|   9 | Peaking |      8000 | 1.41 |        -1.9 |
+|  10 | Peaking |     16000 | 1.41 |         7.3 |
 
 ### Graphs
 ![](./qdc%20Anole%20V14%20(0004%20setting).png)

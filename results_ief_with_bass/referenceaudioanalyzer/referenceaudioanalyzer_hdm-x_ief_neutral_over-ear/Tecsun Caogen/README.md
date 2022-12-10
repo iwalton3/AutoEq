@@ -2,37 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-3.5dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-3.9 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -3.2 dB or -3.2 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 20 Hz   | 1.67 | 3.1 dB  |
-| Peaking | 110 Hz  | 1.39 | 1.7 dB  |
-| Peaking | 383 Hz  | 1.05 | 1.6 dB  |
-| Peaking | 1260 Hz | 1.08 | -2.3 dB |
-| Peaking | 2571 Hz | 3.83 | -1.1 dB |
-| Peaking | 15 Hz   | 0.37 | -0.5 dB |
-| Peaking | 67 Hz   | 3.12 | 0.4 dB  |
-| Peaking | 6760 Hz | 8.34 | 2.1 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         6.2 |
+|   2 | Peaking   |        42 | 0.57 |        -5.8 |
+|   3 | Peaking   |       128 | 3.42 |         1.4 |
+|   4 | Peaking   |       385 | 0.62 |         2.1 |
+|   5 | Peaking   |      1251 | 0.71 |        -2.5 |
+|   6 | Peaking   |      2660 | 5.08 |        -0.8 |
+|   7 | Peaking   |      3225 | 5.85 |         0.7 |
+|   8 | Peaking   |      5682 | 6    |        -0.8 |
+|   9 | Peaking   |      6763 | 5.92 |         2.5 |
+|  10 | HighShelf |     10000 | 0.7  |        -1.2 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-2.0dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-2.0 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 1.4 dB  |
-| Peaking | 63 Hz    | 1.41 | 0.1 dB  |
-| Peaking | 125 Hz   | 1.41 | 1.6 dB  |
-| Peaking | 250 Hz   | 1.41 | 0.7 dB  |
-| Peaking | 500 Hz   | 1.41 | 1.4 dB  |
-| Peaking | 1000 Hz  | 1.41 | -1.9 dB |
-| Peaking | 2000 Hz  | 1.41 | -1.4 dB |
-| Peaking | 4000 Hz  | 1.41 | -0.3 dB |
-| Peaking | 8000 Hz  | 1.41 | 0.5 dB  |
-| Peaking | 16000 Hz | 1.41 | -1.9 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         1.4 |
+|   2 | Peaking |        62 | 1.41 |         0   |
+|   3 | Peaking |       125 | 1.41 |         1.7 |
+|   4 | Peaking |       250 | 1.41 |         0.7 |
+|   5 | Peaking |       500 | 1.41 |         1.4 |
+|   6 | Peaking |      1000 | 1.41 |        -1.9 |
+|   7 | Peaking |      2000 | 1.41 |        -1.5 |
+|   8 | Peaking |      4000 | 1.41 |        -0.3 |
+|   9 | Peaking |      8000 | 1.41 |         0.8 |
+|  10 | Peaking |     16000 | 1.41 |        -3   |
 
 ### Graphs
 ![](./Tecsun%20Caogen.png)

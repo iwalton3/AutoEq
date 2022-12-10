@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.9dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.8 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.3 dB or -6.4 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 29 Hz   | 0.66 | 6.2 dB  |
-| Peaking | 72 Hz   | 2    | 4.5 dB  |
-| Peaking | 637 Hz  | 1.17 | 5.0 dB  |
-| Peaking | 3074 Hz | 1.9  | -5.7 dB |
-| Peaking | 8456 Hz | 1.56 | -2.3 dB |
-| Peaking | 90 Hz   | 5.29 | 2.3 dB  |
-| Peaking | 122 Hz  | 2.32 | -1.7 dB |
-| Peaking | 152 Hz  | 5.25 | 1.6 dB  |
-| Peaking | 186 Hz  | 1.98 | -1.5 dB |
-| Peaking | 397 Hz  | 4.99 | 1.2 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         5.8 |
+|   2 | Peaking   |        76 | 3.65 |         1.6 |
+|   3 | Peaking   |       634 | 1.16 |         5   |
+|   4 | Peaking   |      3087 | 1.84 |        -5.7 |
+|   5 | Peaking   |      8274 | 2.41 |        -2.7 |
+|   6 | Peaking   |        89 | 5.72 |         1.7 |
+|   7 | Peaking   |       120 | 2.83 |        -2.6 |
+|   8 | Peaking   |       195 | 4.06 |        -1.1 |
+|   9 | Peaking   |       396 | 4.3  |         1.1 |
+|  10 | HighShelf |     10000 | 0.7  |        -0.1 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.4dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-7.3 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 6.1 dB  |
-| Peaking | 63 Hz    | 1.41 | 5.9 dB  |
-| Peaking | 125 Hz   | 1.41 | -0.5 dB |
-| Peaking | 250 Hz   | 1.41 | -0.8 dB |
-| Peaking | 500 Hz   | 1.41 | 4.4 dB  |
-| Peaking | 1000 Hz  | 1.41 | 2.7 dB  |
-| Peaking | 2000 Hz  | 1.41 | -2.2 dB |
-| Peaking | 4000 Hz  | 1.41 | -3.3 dB |
-| Peaking | 8000 Hz  | 1.41 | -1.6 dB |
-| Peaking | 16000 Hz | 1.41 | 0.2 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         5.8 |
+|   2 | Peaking |        62 | 1.41 |         6.2 |
+|   3 | Peaking |       125 | 1.41 |        -0.6 |
+|   4 | Peaking |       250 | 1.41 |        -0.8 |
+|   5 | Peaking |       500 | 1.41 |         4.6 |
+|   6 | Peaking |      1000 | 1.41 |         2.5 |
+|   7 | Peaking |      2000 | 1.41 |        -2   |
+|   8 | Peaking |      4000 | 1.41 |        -3.3 |
+|   9 | Peaking |      8000 | 1.41 |        -1.4 |
+|  10 | Peaking |     16000 | 1.41 |        -0.8 |
 
 ### Graphs
 ![](./Mayflower%20Electronics%20T50RP%20Version%202.png)

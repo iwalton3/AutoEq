@@ -2,37 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-7.3dB** and build filters manually
-with these parameters. The first 3 filters can be used independently.
-When using independent subset of filters, apply preamp of **-4.4 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -4.5 dB or -6.5 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 14 Hz    | 0.08 | -4.7 dB |
-| Peaking | 955 Hz   | 0.62 | 4.4 dB  |
-| Peaking | 6614 Hz  | 3.18 | -8.3 dB |
-| Peaking | 68 Hz    | 3.3  | 0.5 dB  |
-| Peaking | 451 Hz   | 3.07 | 0.4 dB  |
-| Peaking | 890 Hz   | 3.41 | -0.5 dB |
-| Peaking | 2935 Hz  | 3.63 | -2.6 dB |
-| Peaking | 17123 Hz | 0.48 | 7.1 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -4.5 |
+|   2 | Peaking   |       172 | 1.07 |        -2.1 |
+|   3 | Peaking   |      2811 | 1.56 |        -6.7 |
+|   4 | Peaking   |      3522 | 0.19 |         6.7 |
+|   5 | Peaking   |      6760 | 1.51 |       -13.2 |
+|   6 | Peaking   |        67 | 2.11 |         0.4 |
+|   7 | Peaking   |      4526 | 5.49 |         1.6 |
+|   8 | Peaking   |      5618 | 5.35 |        -1.7 |
+|   9 | Peaking   |      8471 | 4.47 |        -2.7 |
+|  10 | HighShelf |     10000 | 0.7  |         5   |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-10.8dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-13.3 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -5.4 dB |
-| Peaking | 63 Hz    | 1.41 | -2.5 dB |
-| Peaking | 125 Hz   | 1.41 | -2.6 dB |
-| Peaking | 250 Hz   | 1.41 | -0.8 dB |
-| Peaking | 500 Hz   | 1.41 | 2.1 dB  |
-| Peaking | 1000 Hz  | 1.41 | 4.0 dB  |
-| Peaking | 2000 Hz  | 1.41 | 1.8 dB  |
-| Peaking | 4000 Hz  | 1.41 | -0.9 dB |
-| Peaking | 8000 Hz  | 1.41 | -4.8 dB |
-| Peaking | 16000 Hz | 1.41 | 10.9 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -5   |
+|   2 | Peaking |        62 | 1.41 |        -2.9 |
+|   3 | Peaking |       125 | 1.41 |        -2.4 |
+|   4 | Peaking |       250 | 1.41 |        -0.9 |
+|   5 | Peaking |       500 | 1.41 |         2.1 |
+|   6 | Peaking |      1000 | 1.41 |         4.3 |
+|   7 | Peaking |      2000 | 1.41 |         1.7 |
+|   8 | Peaking |      4000 | 1.41 |        -0.5 |
+|   9 | Peaking |      8000 | 1.41 |        -6.2 |
+|  10 | Peaking |     16000 | 1.41 |        13.7 |
 
 ### Graphs
 ![](./Telefunken%20TH-130.png)

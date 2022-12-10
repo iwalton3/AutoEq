@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-4.3dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-4.3 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -4.0 dB or -4.0 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 22 Hz   | 0.69 | 3.7 dB  |
-| Peaking | 56 Hz   | 1.12 | 2.3 dB  |
-| Peaking | 1115 Hz | 0.64 | -4.0 dB |
-| Peaking | 1832 Hz | 1.66 | 5.1 dB  |
-| Peaking | 9828 Hz | 1.09 | 2.9 dB  |
-| Peaking | 196 Hz  | 2.56 | -0.8 dB |
-| Peaking | 410 Hz  | 5.5  | 0.9 dB  |
-| Peaking | 539 Hz  | 5.51 | -0.5 dB |
-| Peaking | 4125 Hz | 5.26 | 2.2 dB  |
-| Peaking | 5579 Hz | 7.04 | -3.1 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         3.9 |
+|   2 | Peaking   |       556 | 2.99 |        -2   |
+|   3 | Peaking   |       981 | 2.25 |        -4   |
+|   4 | Peaking   |      1942 | 2.87 |         2.7 |
+|   5 | Peaking   |      8623 | 2.23 |         2.8 |
+|   6 | Peaking   |       167 | 0.98 |        -0.8 |
+|   7 | Peaking   |      3031 | 5.17 |        -1.6 |
+|   8 | Peaking   |      4082 | 3.93 |         2.2 |
+|   9 | Peaking   |      5567 | 6    |        -2.7 |
+|  10 | HighShelf |     10000 | 0.7  |         0.8 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-4.9dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-5.2 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 4.2 dB  |
-| Peaking | 63 Hz    | 1.41 | 2.5 dB  |
-| Peaking | 125 Hz   | 1.41 | 0.0 dB  |
-| Peaking | 250 Hz   | 1.41 | -0.6 dB |
-| Peaking | 500 Hz   | 1.41 | -0.8 dB |
-| Peaking | 1000 Hz  | 1.41 | -3.7 dB |
-| Peaking | 2000 Hz  | 1.41 | 2.7 dB  |
-| Peaking | 4000 Hz  | 1.41 | -0.6 dB |
-| Peaking | 8000 Hz  | 1.41 | 2.6 dB  |
-| Peaking | 16000 Hz | 1.41 | 0.8 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         4.6 |
+|   2 | Peaking |        62 | 1.41 |         2.8 |
+|   3 | Peaking |       125 | 1.41 |         0.2 |
+|   4 | Peaking |       250 | 1.41 |        -0.3 |
+|   5 | Peaking |       500 | 1.41 |        -1   |
+|   6 | Peaking |      1000 | 1.41 |        -3.8 |
+|   7 | Peaking |      2000 | 1.41 |         2.6 |
+|   8 | Peaking |      4000 | 1.41 |        -0.6 |
+|   9 | Peaking |      8000 | 1.41 |         2.3 |
+|  10 | Peaking |     16000 | 1.41 |         1.3 |
 
 ### Graphs
 ![](./Verum%20One%20(ZMF%20Ori%20earpads).png)

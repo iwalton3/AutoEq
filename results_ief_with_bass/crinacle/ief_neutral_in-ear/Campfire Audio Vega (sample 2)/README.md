@@ -2,37 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-7.2dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-7.2 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.6 dB or -6.9 dB, respectively.
 
-| Type    | Fc      |    Q | Gain     |
-|:--------|:--------|:-----|:---------|
-| Peaking | 27 Hz   | 0.49 | -4.1 dB  |
-| Peaking | 153 Hz  | 0.48 | -5.6 dB  |
-| Peaking | 7725 Hz | 1.44 | -13.9 dB |
-| Peaking | 9695 Hz | 0.17 | 9.0 dB   |
-| Peaking | 602 Hz  | 1.39 | 0.6 dB   |
-| Peaking | 1301 Hz | 1.55 | -2.2 dB  |
-| Peaking | 3775 Hz | 0.77 | 1.7 dB   |
-| Peaking | 6367 Hz | 5.64 | -3.6 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -4.5 |
+|   2 | Peaking   |       176 | 0.72 |        -5.5 |
+|   3 | Peaking   |      2796 | 1.11 |         6.1 |
+|   4 | Peaking   |      4774 | 2.26 |         5.3 |
+|   5 | Peaking   |      6927 | 2.05 |        -6.4 |
+|   6 | Peaking   |       342 | 2.16 |        -0.3 |
+|   7 | Peaking   |       657 | 2.48 |         0.5 |
+|   8 | Peaking   |      2904 | 5.94 |        -0.4 |
+|   9 | Peaking   |      8718 | 2.67 |        -2.8 |
+|  10 | HighShelf |     10000 | 0.7  |         6.9 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-10.4dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-13.8 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -5.0 dB |
-| Peaking | 63 Hz    | 1.41 | -3.3 dB |
-| Peaking | 125 Hz   | 1.41 | -5.3 dB |
-| Peaking | 250 Hz   | 1.41 | -4.0 dB |
-| Peaking | 500 Hz   | 1.41 | 0.0 dB  |
-| Peaking | 1000 Hz  | 1.41 | -0.5 dB |
-| Peaking | 2000 Hz  | 1.41 | 3.4 dB  |
-| Peaking | 4000 Hz  | 1.41 | 6.9 dB  |
-| Peaking | 8000 Hz  | 1.41 | -4.7 dB |
-| Peaking | 16000 Hz | 1.41 | 10.4 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -5.1 |
+|   2 | Peaking |        62 | 1.41 |        -3.3 |
+|   3 | Peaking |       125 | 1.41 |        -5.2 |
+|   4 | Peaking |       250 | 1.41 |        -4.2 |
+|   5 | Peaking |       500 | 1.41 |         0.3 |
+|   6 | Peaking |      1000 | 1.41 |        -0.6 |
+|   7 | Peaking |      2000 | 1.41 |         3.3 |
+|   8 | Peaking |      4000 | 1.41 |         7.1 |
+|   9 | Peaking |      8000 | 1.41 |        -5.9 |
+|  10 | Peaking |     16000 | 1.41 |        14   |
 
 ### Graphs
 ![](./Campfire%20Audio%20Vega%20(sample%202).png)

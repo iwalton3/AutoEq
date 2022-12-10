@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-7.2dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-7.1 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.6 dB or -6.6 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 19 Hz    | 1.65 | 6.8 dB  |
-| Peaking | 49 Hz    | 1.33 | -5.0 dB |
-| Peaking | 197 Hz   | 0.36 | -6.0 dB |
-| Peaking | 2451 Hz  | 1.99 | 6.1 dB  |
-| Peaking | 11987 Hz | 0.36 | 6.5 dB  |
-| Peaking | 92 Hz    | 2.51 | 1.5 dB  |
-| Peaking | 122 Hz   | 0.61 | -0.8 dB |
-| Peaking | 678 Hz   | 0.85 | 1.7 dB  |
-| Peaking | 1124 Hz  | 1.76 | -3.6 dB |
-| Peaking | 1838 Hz  | 3.76 | 1.7 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        15.4 |
+|   2 | Peaking   |        51 | 0.37 |       -20   |
+|   3 | Peaking   |      1170 | 1.69 |        -3.9 |
+|   4 | Peaking   |      2387 | 1.24 |         6.7 |
+|   5 | Peaking   |      8331 | 1.1  |         6.2 |
+|   6 | Peaking   |        52 | 1.54 |        -1   |
+|   7 | Peaking   |        88 | 2.49 |         1.5 |
+|   8 | Peaking   |       331 | 2.53 |        -1.1 |
+|   9 | Peaking   |      8719 | 3.82 |        -2.1 |
+|  10 | HighShelf |     10000 | 0.7  |         4.3 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-8.4dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-9.3 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 0.7 dB  |
-| Peaking | 63 Hz    | 1.41 | -6.4 dB |
-| Peaking | 125 Hz   | 1.41 | -3.9 dB |
-| Peaking | 250 Hz   | 1.41 | -5.8 dB |
-| Peaking | 500 Hz   | 1.41 | -0.8 dB |
-| Peaking | 1000 Hz  | 1.41 | -4.0 dB |
-| Peaking | 2000 Hz  | 1.41 | 5.5 dB  |
-| Peaking | 4000 Hz  | 1.41 | 2.2 dB  |
-| Peaking | 8000 Hz  | 1.41 | 6.3 dB  |
-| Peaking | 16000 Hz | 1.41 | 7.8 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         0.2 |
+|   2 | Peaking |        62 | 1.41 |        -6.1 |
+|   3 | Peaking |       125 | 1.41 |        -3.9 |
+|   4 | Peaking |       250 | 1.41 |        -5.6 |
+|   5 | Peaking |       500 | 1.41 |        -1   |
+|   6 | Peaking |      1000 | 1.41 |        -4   |
+|   7 | Peaking |      2000 | 1.41 |         5.2 |
+|   8 | Peaking |      4000 | 1.41 |         2.6 |
+|   9 | Peaking |      8000 | 1.41 |         5.5 |
+|  10 | Peaking |     16000 | 1.41 |         8.9 |
 
 ### Graphs
 ![](./Creative%20Sound%20Blaster%20EVO%20Zx.png)
