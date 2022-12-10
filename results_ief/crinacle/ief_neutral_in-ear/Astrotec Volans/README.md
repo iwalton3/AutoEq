@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-7.0 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.5 dB or -6.8 dB, respectively.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 22 Hz    | 0.43 | -6.9 dB  |
-| Peaking | 117 Hz   | 0.39 | -3.8 dB  |
-| Peaking | 715 Hz   | 1.84 | 1.4 dB   |
-| Peaking | 4361 Hz  | 6.47 | -10.7 dB |
-| Peaking | 13196 Hz | 0.25 | 6.8 dB   |
-| Peaking | 1131 Hz  | 2.56 | 0.7 dB   |
-| Peaking | 2054 Hz  | 3.24 | -3.4 dB  |
-| Peaking | 5837 Hz  | 4.01 | 2.7 dB   |
-| Peaking | 13095 Hz | 1.68 | -0.9 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -7.2 |
+|   2 | Peaking   |       197 | 0.8  |        -3.4 |
+|   3 | Peaking   |      2124 | 1.3  |        -7.4 |
+|   4 | Peaking   |      4352 | 4.17 |       -14.2 |
+|   5 | Peaking   |      4755 | 0.32 |         8.5 |
+|   6 | Peaking   |        70 | 1.9  |         0.3 |
+|   7 | Peaking   |        80 | 2.08 |         0.8 |
+|   8 | Peaking   |       104 | 1.96 |        -0.8 |
+|   9 | Peaking   |      8737 | 2    |        -1.4 |
+|  10 | HighShelf |     10000 | 0.7  |         3.7 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-8.9dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-10.7 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -8.3 dB |
-| Peaking | 63 Hz    | 1.41 | -4.1 dB |
-| Peaking | 125 Hz   | 1.41 | -4.0 dB |
-| Peaking | 250 Hz   | 1.41 | -2.3 dB |
-| Peaking | 500 Hz   | 1.41 | 0.1 dB  |
-| Peaking | 1000 Hz  | 1.41 | 1.4 dB  |
-| Peaking | 2000 Hz  | 1.41 | -0.9 dB |
-| Peaking | 4000 Hz  | 1.41 | -1.8 dB |
-| Peaking | 8000 Hz  | 1.41 | 7.8 dB  |
-| Peaking | 16000 Hz | 1.41 | 8.3 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -8.2 |
+|   2 | Peaking |        62 | 1.41 |        -4   |
+|   3 | Peaking |       125 | 1.41 |        -4.1 |
+|   4 | Peaking |       250 | 1.41 |        -2.3 |
+|   5 | Peaking |       500 | 1.41 |        -0.2 |
+|   6 | Peaking |      1000 | 1.41 |         1.5 |
+|   7 | Peaking |      2000 | 1.41 |        -0.8 |
+|   8 | Peaking |      4000 | 1.41 |        -1.7 |
+|   9 | Peaking |      8000 | 1.41 |         7.4 |
+|  10 | Peaking |     16000 | 1.41 |        10.3 |
 
 ### Graphs
 ![](./Astrotec%20Volans.png)

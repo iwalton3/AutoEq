@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.4dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-7.0 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.9 dB or -6.6 dB, respectively.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 23 Hz    | 0.11 | -14.2 dB |
-| Peaking | 424 Hz   | 0.42 | 5.9 dB   |
-| Peaking | 2855 Hz  | 0.82 | -8.1 dB  |
-| Peaking | 12284 Hz | 0.14 | 7.0 dB   |
-| Peaking | 162 Hz   | 3.21 | -0.6 dB  |
-| Peaking | 263 Hz   | 3.31 | 0.6 dB   |
-| Peaking | 4129 Hz  | 3.8  | -6.6 dB  |
-| Peaking | 5038 Hz  | 1.05 | 3.4 dB   |
-| Peaking | 12276 Hz | 0.66 | -1.0 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |       -13.8 |
+|   2 | Peaking   |       153 | 1.15 |        -4.5 |
+|   3 | Peaking   |       982 | 0.37 |         5.7 |
+|   4 | Peaking   |      3182 | 0.45 |        -9.5 |
+|   5 | Peaking   |      6857 | 0.74 |        11.4 |
+|   6 | Peaking   |      2262 | 4.48 |        -2   |
+|   7 | Peaking   |      3023 | 3.9  |         3   |
+|   8 | Peaking   |      4001 | 5.56 |        -3.1 |
+|   9 | Peaking   |      8099 | 3.07 |        -2   |
+|  10 | HighShelf |     10000 | 0.7  |         4.9 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.0dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-10.3 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | -15.7 dB |
-| Peaking | 63 Hz    | 1.41 | -8.2 dB  |
-| Peaking | 125 Hz   | 1.41 | -6.9 dB  |
-| Peaking | 250 Hz   | 1.41 | 0.2 dB   |
-| Peaking | 500 Hz   | 1.41 | 3.2 dB   |
-| Peaking | 1000 Hz  | 1.41 | 3.0 dB   |
-| Peaking | 2000 Hz  | 1.41 | -3.0 dB  |
-| Peaking | 4000 Hz  | 1.41 | -2.4 dB  |
-| Peaking | 8000 Hz  | 1.41 | 8.2 dB   |
-| Peaking | 16000 Hz | 1.41 | 8.4 dB   |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |       -15.7 |
+|   2 | Peaking |        62 | 1.41 |        -8   |
+|   3 | Peaking |       125 | 1.41 |        -7.2 |
+|   4 | Peaking |       250 | 1.41 |         0.4 |
+|   5 | Peaking |       500 | 1.41 |         3.2 |
+|   6 | Peaking |      1000 | 1.41 |         2.9 |
+|   7 | Peaking |      2000 | 1.41 |        -2.9 |
+|   8 | Peaking |      4000 | 1.41 |        -2.5 |
+|   9 | Peaking |      8000 | 1.41 |         7.7 |
+|  10 | Peaking |     16000 | 1.41 |         9.8 |
 
 ### Graphs
 ![](./Tranya%20T10.png)

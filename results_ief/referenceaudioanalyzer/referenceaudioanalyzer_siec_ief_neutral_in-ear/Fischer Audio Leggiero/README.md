@@ -2,37 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.9dB** and build filters manually
-with these parameters. The first 3 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.9 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.6 dB or -6.6 dB, respectively.
 
-| Type    | Fc      |    Q | Gain     |
-|:--------|:--------|:-----|:---------|
-| Peaking | 25 Hz   | 0.1  | -13.4 dB |
-| Peaking | 6624 Hz | 2.01 | -15.3 dB |
-| Peaking | 7651 Hz | 0.08 | 7.6 dB   |
-| Peaking | 401 Hz  | 2.37 | -0.8 dB  |
-| Peaking | 965 Hz  | 1.83 | 1.3 dB   |
-| Peaking | 1393 Hz | 2.34 | -1.3 dB  |
-| Peaking | 4503 Hz | 4.51 | 2.6 dB   |
-| Peaking | 8592 Hz | 4.17 | -1.9 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |       -13   |
+|   2 | Peaking   |       194 | 0.56 |        -6.4 |
+|   3 | Peaking   |       918 | 1.06 |         3.7 |
+|   4 | Peaking   |      5067 | 0.46 |        12.9 |
+|   5 | Peaking   |      6391 | 1.6  |       -20   |
+|   6 | Peaking   |        60 | 2.51 |         0.4 |
+|   7 | Peaking   |      4883 | 6    |         3.1 |
+|   8 | Peaking   |      5183 | 2.85 |        -1.8 |
+|   9 | Peaking   |      8340 | 3.3  |        -2.2 |
+|  10 | HighShelf |     10000 | 0.7  |         5.3 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-10.9dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-13.8 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | -14.8 dB |
-| Peaking | 63 Hz    | 1.41 | -8.8 dB  |
-| Peaking | 125 Hz   | 1.41 | -7.7 dB  |
-| Peaking | 250 Hz   | 1.41 | -4.7 dB  |
-| Peaking | 500 Hz   | 1.41 | -0.5 dB  |
-| Peaking | 1000 Hz  | 1.41 | 4.4 dB   |
-| Peaking | 2000 Hz  | 1.41 | 5.0 dB   |
-| Peaking | 4000 Hz  | 1.41 | 4.6 dB   |
-| Peaking | 8000 Hz  | 1.41 | -4.2 dB  |
-| Peaking | 16000 Hz | 1.41 | 10.8 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |       -15   |
+|   2 | Peaking |        62 | 1.41 |        -8.5 |
+|   3 | Peaking |       125 | 1.41 |        -7.9 |
+|   4 | Peaking |       250 | 1.41 |        -4.5 |
+|   5 | Peaking |       500 | 1.41 |        -0.4 |
+|   6 | Peaking |      1000 | 1.41 |         4.4 |
+|   7 | Peaking |      2000 | 1.41 |         5.1 |
+|   8 | Peaking |      4000 | 1.41 |         4.5 |
+|   9 | Peaking |      8000 | 1.41 |        -5.2 |
+|  10 | Peaking |     16000 | 1.41 |        14   |
 
 ### Graphs
 ![](./Fischer%20Audio%20Leggiero.png)

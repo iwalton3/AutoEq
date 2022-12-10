@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-5.4dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-5.3 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -5.4 dB or -6.3 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 25 Hz    | 1.18 | -3.2 dB |
-| Peaking | 148 Hz   | 0.69 | -7.5 dB |
-| Peaking | 841 Hz   | 1.59 | -1.7 dB |
-| Peaking | 1956 Hz  | 1.64 | 2.6 dB  |
-| Peaking | 5811 Hz  | 0.45 | 5.0 dB  |
-| Peaking | 82 Hz    | 2.3  | 1.4 dB  |
-| Peaking | 102 Hz   | 2.37 | -1.7 dB |
-| Peaking | 154 Hz   | 3.26 | 0.8 dB  |
-| Peaking | 358 Hz   | 3.87 | -0.4 dB |
-| Peaking | 10744 Hz | 3.87 | 1.0 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -2.8 |
+|   2 | Peaking   |        64 | 1.09 |         4.4 |
+|   3 | Peaking   |       133 | 0.49 |        -7.6 |
+|   4 | Peaking   |      2066 | 2.24 |         3   |
+|   5 | Peaking   |      5579 | 0.55 |         5.3 |
+|   6 | Peaking   |       843 | 3.84 |        -1.6 |
+|   7 | Peaking   |      3143 | 5.25 |        -3.3 |
+|   8 | Peaking   |      4086 | 0.88 |         1.5 |
+|   9 | Peaking   |      6210 | 5.76 |        -3.3 |
+|  10 | HighShelf |     10000 | 0.7  |        -0.1 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.7dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-5.7 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -3.6 dB |
-| Peaking | 63 Hz    | 1.41 | -0.5 dB |
-| Peaking | 125 Hz   | 1.41 | -7.4 dB |
-| Peaking | 250 Hz   | 1.41 | -3.7 dB |
-| Peaking | 500 Hz   | 1.41 | -0.7 dB |
-| Peaking | 1000 Hz  | 1.41 | -1.4 dB |
-| Peaking | 2000 Hz  | 1.41 | 3.8 dB  |
-| Peaking | 4000 Hz  | 1.41 | 4.2 dB  |
-| Peaking | 8000 Hz  | 1.41 | 4.7 dB  |
-| Peaking | 16000 Hz | 1.41 | 0.1 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -3.7 |
+|   2 | Peaking |        62 | 1.41 |        -0.3 |
+|   3 | Peaking |       125 | 1.41 |        -7.6 |
+|   4 | Peaking |       250 | 1.41 |        -3.7 |
+|   5 | Peaking |       500 | 1.41 |        -0.7 |
+|   6 | Peaking |      1000 | 1.41 |        -1.4 |
+|   7 | Peaking |      2000 | 1.41 |         3.7 |
+|   8 | Peaking |      4000 | 1.41 |         4.4 |
+|   9 | Peaking |      8000 | 1.41 |         4.2 |
+|  10 | Peaking |     16000 | 1.41 |         1.4 |
 
 ### Graphs
 ![](./Redragon%20H301%20SIREN2.png)

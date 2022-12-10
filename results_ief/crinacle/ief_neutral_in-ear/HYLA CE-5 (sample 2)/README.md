@@ -2,34 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-3.3dB** and build filters manually
-with these parameters. The first 3 filters can be used independently.
-When using independent subset of filters, apply preamp of **-3.2 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -3.1 dB or -5.3 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 18 Hz   | 0.18 | -8.3 dB |
-| Peaking | 483 Hz  | 0.77 | 3.4 dB  |
-| Peaking | 4340 Hz | 3.21 | -3.0 dB |
-| Peaking | 863 Hz  | 2.63 | 0.7 dB  |
-| Peaking | 1906 Hz | 2.22 | -1.5 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -7.4 |
+|   2 | Peaking   |        25 | 2.26 |        -0.8 |
+|   3 | Peaking   |       598 | 0.84 |         3.1 |
+|   4 | Peaking   |      1906 | 1.87 |        -1.6 |
+|   5 | Peaking   |      4465 | 3.7  |        -2.9 |
+|   6 | Peaking   |        70 | 1.87 |         0.4 |
+|   7 | Peaking   |       171 | 1.33 |        -0.9 |
+|   8 | Peaking   |       314 | 1.43 |         0.5 |
+|   9 | Peaking   |      6952 | 3.72 |        -1.5 |
+|  10 | HighShelf |     10000 | 0.7  |         5.2 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.1dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-10.3 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -8.8 dB |
-| Peaking | 63 Hz    | 1.41 | -4.5 dB |
-| Peaking | 125 Hz   | 1.41 | -2.2 dB |
-| Peaking | 250 Hz   | 1.41 | 0.6 dB  |
-| Peaking | 500 Hz   | 1.41 | 3.0 dB  |
-| Peaking | 1000 Hz  | 1.41 | 1.4 dB  |
-| Peaking | 2000 Hz  | 1.41 | -1.1 dB |
-| Peaking | 4000 Hz  | 1.41 | -1.7 dB |
-| Peaking | 8000 Hz  | 1.41 | -0.1 dB |
-| Peaking | 16000 Hz | 1.41 | 8.9 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -8.8 |
+|   2 | Peaking |        62 | 1.41 |        -4.4 |
+|   3 | Peaking |       125 | 1.41 |        -2.3 |
+|   4 | Peaking |       250 | 1.41 |         0.7 |
+|   5 | Peaking |       500 | 1.41 |         2.9 |
+|   6 | Peaking |      1000 | 1.41 |         1.2 |
+|   7 | Peaking |      2000 | 1.41 |        -0.8 |
+|   8 | Peaking |      4000 | 1.41 |        -1.8 |
+|   9 | Peaking |      8000 | 1.41 |        -0.4 |
+|  10 | Peaking |     16000 | 1.41 |        10.3 |
 
 ### Graphs
 ![](./HYLA%20CE-5%20(sample%202).png)

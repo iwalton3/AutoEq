@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.2dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.0 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.6 dB or -6.7 dB, respectively.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 45 Hz    | 0.07 | -13.4 dB |
-| Peaking | 850 Hz   | 0.16 | 12.1 dB  |
-| Peaking | 5284 Hz  | 0.57 | -15.2 dB |
-| Peaking | 9258 Hz  | 1.08 | 10.4 dB  |
-| Peaking | 354 Hz   | 1.95 | -0.5 dB  |
-| Peaking | 1998 Hz  | 1.88 | 2.7 dB   |
-| Peaking | 2931 Hz  | 1.62 | -3.7 dB  |
-| Peaking | 3872 Hz  | 4.81 | 4.1 dB   |
-| Peaking | 12348 Hz | 4.75 | 1.5 dB   |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |       -12.5 |
+|   2 | Peaking   |       180 | 0.87 |        -3.8 |
+|   3 | Peaking   |      1311 | 0.53 |         7.6 |
+|   4 | Peaking   |      5521 | 0.75 |       -10.9 |
+|   5 | Peaking   |      8717 | 1.16 |         9.1 |
+|   6 | Peaking   |      2012 | 3.22 |         1.5 |
+|   7 | Peaking   |      2930 | 3.96 |        -3.1 |
+|   8 | Peaking   |      3918 | 4.61 |         3.1 |
+|   9 | Peaking   |      5118 | 5.23 |        -1.7 |
+|  10 | HighShelf |     10000 | 0.7  |        -1.2 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.9dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-6.6 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | -14.2 dB |
-| Peaking | 63 Hz    | 1.41 | -7.5 dB  |
-| Peaking | 125 Hz   | 1.41 | -5.6 dB  |
-| Peaking | 250 Hz   | 1.41 | -1.9 dB  |
-| Peaking | 500 Hz   | 1.41 | 2.2 dB   |
-| Peaking | 1000 Hz  | 1.41 | 5.6 dB   |
-| Peaking | 2000 Hz  | 1.41 | 5.3 dB   |
-| Peaking | 4000 Hz  | 1.41 | -7.5 dB  |
-| Peaking | 8000 Hz  | 1.41 | 2.3 dB   |
-| Peaking | 16000 Hz | 1.41 | -1.8 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |       -15.1 |
+|   2 | Peaking |        62 | 1.41 |        -6.6 |
+|   3 | Peaking |       125 | 1.41 |        -5.9 |
+|   4 | Peaking |       250 | 1.41 |        -1.8 |
+|   5 | Peaking |       500 | 1.41 |         2.2 |
+|   6 | Peaking |      1000 | 1.41 |         5.5 |
+|   7 | Peaking |      2000 | 1.41 |         5.2 |
+|   8 | Peaking |      4000 | 1.41 |        -7.1 |
+|   9 | Peaking |      8000 | 1.41 |         1.1 |
+|  10 | Peaking |     16000 | 1.41 |         1.1 |
 
 ### Graphs
 ![](./IMR%20Acoustics%20R1%20(yellow%20close).png)

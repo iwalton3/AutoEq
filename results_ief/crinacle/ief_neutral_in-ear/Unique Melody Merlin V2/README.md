@@ -2,34 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.9dB** and build filters manually
-with these parameters. The first 3 filters can be used independently.
-When using independent subset of filters, apply preamp of **-4.2 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -4.3 dB or -4.4 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 0.36 | -3.8 dB |
-| Peaking | 175 Hz   | 0.43 | -3.3 dB |
-| Peaking | 3246 Hz  | 0.65 | 4.0 dB  |
-| Peaking | 10040 Hz | 1.26 | -4.9 dB |
-| Peaking | 17238 Hz | 0.35 | 7.0 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -3.8 |
+|   2 | Peaking   |       202 | 0.47 |        -3.6 |
+|   3 | Peaking   |       981 | 0.75 |         0.6 |
+|   4 | Peaking   |      3366 | 0.76 |         4.2 |
+|   5 | Peaking   |      9805 | 5.07 |        -1.9 |
+|   6 | Peaking   |      2580 | 4.77 |         0.3 |
+|   7 | Peaking   |      4486 | 6    |        -0.8 |
+|   8 | Peaking   |      5527 | 5.51 |         1.9 |
+|   9 | Peaking   |      6503 | 5.99 |        -2.9 |
+|  10 | HighShelf |     10000 | 0.7  |         4.3 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-8.4dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-8.7 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -4.3 dB |
-| Peaking | 63 Hz    | 1.41 | -3.4 dB |
-| Peaking | 125 Hz   | 1.41 | -3.4 dB |
-| Peaking | 250 Hz   | 1.41 | -2.9 dB |
-| Peaking | 500 Hz   | 1.41 | -1.1 dB |
-| Peaking | 1000 Hz  | 1.41 | 0.4 dB  |
-| Peaking | 2000 Hz  | 1.41 | 2.1 dB  |
-| Peaking | 4000 Hz  | 1.41 | 4.2 dB  |
-| Peaking | 8000 Hz  | 1.41 | -0.9 dB |
-| Peaking | 16000 Hz | 1.41 | 8.2 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -4.3 |
+|   2 | Peaking |        62 | 1.41 |        -3.5 |
+|   3 | Peaking |       125 | 1.41 |        -3.4 |
+|   4 | Peaking |       250 | 1.41 |        -2.9 |
+|   5 | Peaking |       500 | 1.41 |        -1.1 |
+|   6 | Peaking |      1000 | 1.41 |         0.4 |
+|   7 | Peaking |      2000 | 1.41 |         2.1 |
+|   8 | Peaking |      4000 | 1.41 |         4.3 |
+|   9 | Peaking |      8000 | 1.41 |        -0.7 |
+|  10 | Peaking |     16000 | 1.41 |         8.6 |
 
 ### Graphs
 ![](./Unique%20Melody%20Merlin%20V2.png)

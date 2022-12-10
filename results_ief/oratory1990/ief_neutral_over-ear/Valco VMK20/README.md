@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-4.9dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-4.7 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -4.5 dB or -4.7 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 30 Hz   | 0.79 | -1.1 dB |
-| Peaking | 60 Hz   | 0.57 | -3.7 dB |
-| Peaking | 463 Hz  | 1.06 | -2.3 dB |
-| Peaking | 1117 Hz | 2.99 | -3.8 dB |
-| Peaking | 2440 Hz | 1.02 | 4.7 dB  |
-| Peaking | 258 Hz  | 4.46 | 1.3 dB  |
-| Peaking | 279 Hz  | 1.95 | -0.7 dB |
-| Peaking | 4080 Hz | 4.08 | 2.9 dB  |
-| Peaking | 5935 Hz | 5.88 | -5.8 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         1.3 |
+|   2 | Peaking   |        49 | 0.49 |        -5.3 |
+|   3 | Peaking   |      1240 | 0.49 |        -6.4 |
+|   4 | Peaking   |      2259 | 0.54 |         8.6 |
+|   5 | Peaking   |      5948 | 4.69 |        -7.1 |
+|   6 | Peaking   |       842 | 5.77 |         2.5 |
+|   7 | Peaking   |      1083 | 3.42 |        -2   |
+|   8 | Peaking   |      2964 | 4.7  |        -3.4 |
+|   9 | Peaking   |      3097 | 0.92 |         1.3 |
+|  10 | HighShelf |     10000 | 0.7  |        -2   |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-4.2dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-4.2 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -3.2 dB |
-| Peaking | 63 Hz    | 1.41 | -3.8 dB |
-| Peaking | 125 Hz   | 1.41 | -1.5 dB |
-| Peaking | 250 Hz   | 1.41 | -0.7 dB |
-| Peaking | 500 Hz   | 1.41 | -1.7 dB |
-| Peaking | 1000 Hz  | 1.41 | -2.8 dB |
-| Peaking | 2000 Hz  | 1.41 | 4.1 dB  |
-| Peaking | 4000 Hz  | 1.41 | 2.9 dB  |
-| Peaking | 8000 Hz  | 1.41 | -1.2 dB |
-| Peaking | 16000 Hz | 1.41 | -2.5 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -2.7 |
+|   2 | Peaking |        62 | 1.41 |        -3.7 |
+|   3 | Peaking |       125 | 1.41 |        -1.3 |
+|   4 | Peaking |       250 | 1.41 |        -0.6 |
+|   5 | Peaking |       500 | 1.41 |        -1.8 |
+|   6 | Peaking |      1000 | 1.41 |        -2.6 |
+|   7 | Peaking |      2000 | 1.41 |         4.2 |
+|   8 | Peaking |      4000 | 1.41 |         2.6 |
+|   9 | Peaking |      8000 | 1.41 |        -1   |
+|  10 | Peaking |     16000 | 1.41 |        -3.7 |
 
 ### Graphs
 ![](./Valco%20VMK20.png)

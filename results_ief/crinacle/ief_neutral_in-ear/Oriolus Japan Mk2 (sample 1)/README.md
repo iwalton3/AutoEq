@@ -2,37 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.3dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.3 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -3.7 dB or -6.6 dB, respectively.
 
-| Type    | Fc       |     Q | Gain    |
-|:--------|:---------|:------|:--------|
-| Peaking | 15 Hz    |  0.17 | -7.9 dB |
-| Peaking | 713 Hz   |  1.16 | 0.9 dB  |
-| Peaking | 1990 Hz  |  4.72 | -4.0 dB |
-| Peaking | 18009 Hz |  0.13 | 6.1 dB  |
-| Peaking | 3073 Hz  |  3.47 | 2.3 dB  |
-| Peaking | 3993 Hz  |  9.78 | -3.2 dB |
-| Peaking | 6895 Hz  | 10.88 | -2.9 dB |
-| Peaking | 7475 Hz  |  8.73 | -2.0 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -7   |
+|   2 | Peaking   |       189 | 3.11 |        -1.5 |
+|   3 | Peaking   |      2032 | 3.82 |        -4.1 |
+|   4 | Peaking   |      2917 | 4.35 |         2.4 |
+|   5 | Peaking   |     10000 | 0.36 |         3.6 |
+|   6 | Peaking   |        68 | 2.2  |         0.9 |
+|   7 | Peaking   |       797 | 1.74 |         0.7 |
+|   8 | Peaking   |      5611 | 5.05 |         2.2 |
+|   9 | Peaking   |      7073 | 5.43 |        -4.3 |
+|  10 | HighShelf |     10000 | 0.7  |         3.9 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.8dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-12.3 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -8.5 dB |
-| Peaking | 63 Hz    | 1.41 | -3.5 dB |
-| Peaking | 125 Hz   | 1.41 | -2.1 dB |
-| Peaking | 250 Hz   | 1.41 | -0.7 dB |
-| Peaking | 500 Hz   | 1.41 | 0.6 dB  |
-| Peaking | 1000 Hz  | 1.41 | 1.0 dB  |
-| Peaking | 2000 Hz  | 1.41 | -2.1 dB |
-| Peaking | 4000 Hz  | 1.41 | 2.3 dB  |
-| Peaking | 8000 Hz  | 1.41 | 3.4 dB  |
-| Peaking | 16000 Hz | 1.41 | 9.4 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -8.6 |
+|   2 | Peaking |        62 | 1.41 |        -3.6 |
+|   3 | Peaking |       125 | 1.41 |        -2   |
+|   4 | Peaking |       250 | 1.41 |        -0.8 |
+|   5 | Peaking |       500 | 1.41 |         0.6 |
+|   6 | Peaking |      1000 | 1.41 |         1.3 |
+|   7 | Peaking |      2000 | 1.41 |        -2.1 |
+|   8 | Peaking |      4000 | 1.41 |         2.4 |
+|   9 | Peaking |      8000 | 1.41 |         2.7 |
+|  10 | Peaking |     16000 | 1.41 |        12.2 |
 
 ### Graphs
 ![](./Oriolus%20Japan%20Mk2%20(sample%201).png)

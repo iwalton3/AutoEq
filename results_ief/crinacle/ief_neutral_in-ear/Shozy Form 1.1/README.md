@@ -2,36 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-7.2dB** and build filters manually
-with these parameters. The first 2 filters can be used independently.
-When using independent subset of filters, apply preamp of **-4.5 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -5.4 dB or -6.5 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 69 Hz    | 0.31 | -7.3 dB |
-| Peaking | 2411 Hz  | 0.45 | 4.4 dB  |
-| Peaking | 35 Hz    | 2.43 | -0.4 dB |
-| Peaking | 636 Hz   | 1.69 | 0.3 dB  |
-| Peaking | 1376 Hz  | 3.54 | -0.6 dB |
-| Peaking | 4899 Hz  | 4.25 | -3.5 dB |
-| Peaking | 17533 Hz | 0.48 | 6.9 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         3.2 |
+|   2 | Peaking   |        53 | 0.3  |       -10.2 |
+|   3 | Peaking   |      1252 | 0.45 |         1.6 |
+|   4 | Peaking   |      3001 | 0.82 |         4.5 |
+|   5 | Peaking   |      4728 | 4.63 |        -3   |
+|   6 | Peaking   |      5182 | 6    |        -0.9 |
+|   7 | Peaking   |      6186 | 5.8  |         2.8 |
+|   8 | Peaking   |      7573 | 3.67 |        -3.7 |
+|   9 | Peaking   |      8790 | 5.89 |        -1.5 |
+|  10 | HighShelf |     10000 | 0.7  |         6.4 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.8dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-12.5 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -5.4 dB |
-| Peaking | 63 Hz    | 1.41 | -6.0 dB |
-| Peaking | 125 Hz   | 1.41 | -5.0 dB |
-| Peaking | 250 Hz   | 1.41 | -2.6 dB |
-| Peaking | 500 Hz   | 1.41 | 0.2 dB  |
-| Peaking | 1000 Hz  | 1.41 | 1.2 dB  |
-| Peaking | 2000 Hz  | 1.41 | 4.4 dB  |
-| Peaking | 4000 Hz  | 1.41 | 2.6 dB  |
-| Peaking | 8000 Hz  | 1.41 | -0.3 dB |
-| Peaking | 16000 Hz | 1.41 | 9.6 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -5.5 |
+|   2 | Peaking |        62 | 1.41 |        -5.9 |
+|   3 | Peaking |       125 | 1.41 |        -5.1 |
+|   4 | Peaking |       250 | 1.41 |        -2.6 |
+|   5 | Peaking |       500 | 1.41 |         0.3 |
+|   6 | Peaking |      1000 | 1.41 |         1   |
+|   7 | Peaking |      2000 | 1.41 |         4.5 |
+|   8 | Peaking |      4000 | 1.41 |         2.7 |
+|   9 | Peaking |      8000 | 1.41 |        -0.9 |
+|  10 | Peaking |     16000 | 1.41 |        12.5 |
 
 ### Graphs
 ![](./Shozy%20Form%201.1.png)

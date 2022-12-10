@@ -2,35 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.7 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -5.6 dB or -7.0 dB, respectively.
 
-| Type    | Fc      |    Q | Gain     |
-|:--------|:--------|:-----|:---------|
-| Peaking | 21 Hz   | 0.21 | -14.2 dB |
-| Peaking | 3037 Hz | 2.15 | -10.4 dB |
-| Peaking | 6522 Hz | 2.42 | -18.5 dB |
-| Peaking | 7606 Hz | 0.05 | 7.1 dB   |
-| Peaking | 280 Hz  | 3.01 | 1.9 dB   |
-| Peaking | 329 Hz  | 2.11 | -1.2 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |       -13.2 |
+|   2 | Peaking   |       165 | 2.55 |        -2   |
+|   3 | Peaking   |      3020 | 1.8  |       -11.6 |
+|   4 | Peaking   |      3965 | 0.18 |         8.9 |
+|   5 | Peaking   |      6511 | 2.23 |       -19.5 |
+|   6 | Peaking   |        66 | 1.9  |         1.1 |
+|   7 | Peaking   |       116 | 2.79 |        -0.6 |
+|   8 | Peaking   |      4770 | 4.82 |         0.7 |
+|   9 | Peaking   |      8434 | 5.35 |        -2.6 |
+|  10 | HighShelf |     10000 | 0.7  |         3.6 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-11.1dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-13.7 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | -16.0 dB |
-| Peaking | 63 Hz    | 1.41 | -6.7 dB  |
-| Peaking | 125 Hz   | 1.41 | -4.3 dB  |
-| Peaking | 250 Hz   | 1.41 | 0.5 dB   |
-| Peaking | 500 Hz   | 1.41 | 2.2 dB   |
-| Peaking | 1000 Hz  | 1.41 | 5.2 dB   |
-| Peaking | 2000 Hz  | 1.41 | 2.9 dB   |
-| Peaking | 4000 Hz  | 1.41 | -3.8 dB  |
-| Peaking | 8000 Hz  | 1.41 | -3.4 dB  |
-| Peaking | 16000 Hz | 1.41 | 11.1 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |       -15.9 |
+|   2 | Peaking |        62 | 1.41 |        -6.5 |
+|   3 | Peaking |       125 | 1.41 |        -4.4 |
+|   4 | Peaking |       250 | 1.41 |         0.7 |
+|   5 | Peaking |       500 | 1.41 |         2.3 |
+|   6 | Peaking |      1000 | 1.41 |         4.9 |
+|   7 | Peaking |      2000 | 1.41 |         2.9 |
+|   8 | Peaking |      4000 | 1.41 |        -3.4 |
+|   9 | Peaking |      8000 | 1.41 |        -4.5 |
+|  10 | Peaking |     16000 | 1.41 |        13.9 |
 
 ### Graphs
 ![](./Sennheiser%20CX%20180%20Street%20II.png)

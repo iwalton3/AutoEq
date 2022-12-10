@@ -2,37 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.6dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.6 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.4 dB or -6.4 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 38 Hz   | 0.22 | -9.0 dB |
-| Peaking | 645 Hz  | 1.01 | 1.4 dB  |
-| Peaking | 2341 Hz | 1.7  | -8.5 dB |
-| Peaking | 3844 Hz | 0.69 | 8.1 dB  |
-| Peaking | 1334 Hz | 7.35 | -0.4 dB |
-| Peaking | 3484 Hz | 9.46 | 0.5 dB  |
-| Peaking | 6969 Hz | 8.19 | -3.1 dB |
-| Peaking | 8774 Hz | 3.01 | 1.7 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -8.6 |
+|   2 | Peaking   |       172 | 0.65 |        -3.7 |
+|   3 | Peaking   |      2439 | 0.75 |       -20   |
+|   4 | Peaking   |      2593 | 0.32 |        11.3 |
+|   5 | Peaking   |      3360 | 0.94 |         8.8 |
+|   6 | Peaking   |        36 | 2.92 |        -0.3 |
+|   7 | Peaking   |      5789 | 5.49 |         1.7 |
+|   8 | Peaking   |      6896 | 5.99 |        -2.8 |
+|   9 | Peaking   |      8857 | 3.69 |         2   |
+|  10 | HighShelf |     10000 | 0.7  |        -1.8 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.8dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-6.8 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -9.4 dB |
-| Peaking | 63 Hz    | 1.41 | -6.3 dB |
-| Peaking | 125 Hz   | 1.41 | -4.8 dB |
-| Peaking | 250 Hz   | 1.41 | -1.9 dB |
-| Peaking | 500 Hz   | 1.41 | 0.6 dB  |
-| Peaking | 1000 Hz  | 1.41 | 2.0 dB  |
-| Peaking | 2000 Hz  | 1.41 | -4.3 dB |
-| Peaking | 4000 Hz  | 1.41 | 6.8 dB  |
-| Peaking | 8000 Hz  | 1.41 | 3.1 dB  |
-| Peaking | 16000 Hz | 1.41 | -2.0 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -9.5 |
+|   2 | Peaking |        62 | 1.41 |        -6.5 |
+|   3 | Peaking |       125 | 1.41 |        -4.6 |
+|   4 | Peaking |       250 | 1.41 |        -2   |
+|   5 | Peaking |       500 | 1.41 |         0.4 |
+|   6 | Peaking |      1000 | 1.41 |         2.1 |
+|   7 | Peaking |      2000 | 1.41 |        -4.3 |
+|   8 | Peaking |      4000 | 1.41 |         6.9 |
+|   9 | Peaking |      8000 | 1.41 |         3.2 |
+|  10 | Peaking |     16000 | 1.41 |        -2.5 |
 
 ### Graphs
 ![](./Yamaha%20EPH-100.png)

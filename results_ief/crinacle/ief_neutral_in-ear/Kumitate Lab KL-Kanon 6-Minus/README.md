@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-7.0dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-3.9 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -3.4 dB or -7.3 dB, respectively.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 61 Hz    | 1    | 0.5 dB   |
-| Peaking | 89 Hz    | 0.31 | 3.3 dB   |
-| Peaking | 572 Hz   | 1.52 | 0.7 dB   |
-| Peaking | 964 Hz   | 1.54 | 1.1 dB   |
-| Peaking | 5369 Hz  | 1.88 | -10.2 dB |
-| Peaking | 2048 Hz  | 4.33 | -2.7 dB  |
-| Peaking | 2767 Hz  | 5.66 | 1.9 dB   |
-| Peaking | 7281 Hz  | 1.87 | -6.0 dB  |
-| Peaking | 16159 Hz | 0.29 | 7.0 dB   |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         1   |
+|   2 | Peaking   |       147 | 0.22 |         2.7 |
+|   3 | Peaking   |      3115 | 2.74 |         2.7 |
+|   4 | Peaking   |      4967 | 1.52 |        -9.2 |
+|   5 | Peaking   |      6720 | 4.52 |        -4   |
+|   6 | Peaking   |       365 | 1.44 |        -0.8 |
+|   7 | Peaking   |      1377 | 0.66 |         1   |
+|   8 | Peaking   |      2004 | 4.36 |        -3.2 |
+|   9 | Peaking   |      7847 | 2.62 |        -2.3 |
+|  10 | HighShelf |     10000 | 0.7  |         7.2 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-10.9dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-13.6 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 1.8 dB  |
-| Peaking | 63 Hz    | 1.41 | 3.1 dB  |
-| Peaking | 125 Hz   | 1.41 | 2.7 dB  |
-| Peaking | 250 Hz   | 1.41 | 1.5 dB  |
-| Peaking | 500 Hz   | 1.41 | 1.2 dB  |
-| Peaking | 1000 Hz  | 1.41 | 1.4 dB  |
-| Peaking | 2000 Hz  | 1.41 | 0.5 dB  |
-| Peaking | 4000 Hz  | 1.41 | -5.9 dB |
-| Peaking | 8000 Hz  | 1.41 | -4.2 dB |
-| Peaking | 16000 Hz | 1.41 | 11.0 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         1.9 |
+|   2 | Peaking |        62 | 1.41 |         2.6 |
+|   3 | Peaking |       125 | 1.41 |         3.1 |
+|   4 | Peaking |       250 | 1.41 |         1.1 |
+|   5 | Peaking |       500 | 1.41 |         1.2 |
+|   6 | Peaking |      1000 | 1.41 |         1.4 |
+|   7 | Peaking |      2000 | 1.41 |         0.5 |
+|   8 | Peaking |      4000 | 1.41 |        -5.5 |
+|   9 | Peaking |      8000 | 1.41 |        -5.3 |
+|  10 | Peaking |     16000 | 1.41 |        13.9 |
 
 ### Graphs
 ![](./Kumitate%20Lab%20KL-Kanon%206-Minus.png)

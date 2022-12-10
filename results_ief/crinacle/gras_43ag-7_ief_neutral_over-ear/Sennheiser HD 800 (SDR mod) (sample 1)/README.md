@@ -2,34 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-3.4dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-3.4 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -3.6 dB or -3.5 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 14 Hz   | 0.59 | 3.7 dB  |
-| Peaking | 457 Hz  | 0.21 | -1.3 dB |
-| Peaking | 2179 Hz | 0.9  | 3.9 dB  |
-| Peaking | 5851 Hz | 4.36 | -6.6 dB |
-| Peaking | 961 Hz  | 2.73 | -0.4 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         2.5 |
+|   2 | Peaking   |       154 | 0.22 |        -1.5 |
+|   3 | Peaking   |      2016 | 1.87 |         3.6 |
+|   4 | Peaking   |      3541 | 3.66 |         2.1 |
+|   5 | Peaking   |      5865 | 4.47 |        -6.5 |
+|   6 | Peaking   |        85 | 0.9  |        -0.5 |
+|   7 | Peaking   |       268 | 0.79 |         0.5 |
+|   8 | Peaking   |       831 | 2.54 |        -0.6 |
+|   9 | Peaking   |      6927 | 6    |         0.7 |
+|  10 | HighShelf |     10000 | 0.7  |        -2   |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-3.7dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-3.5 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 2.1 dB  |
-| Peaking | 63 Hz    | 1.41 | 0.1 dB  |
-| Peaking | 125 Hz   | 1.41 | -1.0 dB |
-| Peaking | 250 Hz   | 1.41 | -0.9 dB |
-| Peaking | 500 Hz   | 1.41 | -0.7 dB |
-| Peaking | 1000 Hz  | 1.41 | -1.1 dB |
-| Peaking | 2000 Hz  | 1.41 | 3.8 dB  |
-| Peaking | 4000 Hz  | 1.41 | -0.1 dB |
-| Peaking | 8000 Hz  | 1.41 | -1.7 dB |
-| Peaking | 16000 Hz | 1.41 | -3.0 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         2.5 |
+|   2 | Peaking |        62 | 1.41 |         0.3 |
+|   3 | Peaking |       125 | 1.41 |        -0.8 |
+|   4 | Peaking |       250 | 1.41 |        -1.1 |
+|   5 | Peaking |       500 | 1.41 |        -0.6 |
+|   6 | Peaking |      1000 | 1.41 |        -1.2 |
+|   7 | Peaking |      2000 | 1.41 |         3.7 |
+|   8 | Peaking |      4000 | 1.41 |         0.3 |
+|   9 | Peaking |      8000 | 1.41 |        -2.7 |
+|  10 | Peaking |     16000 | 1.41 |        -2.4 |
 
 ### Graphs
 ![](./Sennheiser%20HD%20800%20(SDR%20mod)%20(sample%201).png)

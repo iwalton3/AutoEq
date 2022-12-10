@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.5dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.4 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.7 dB or -6.7 dB, respectively.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 28 Hz    | 0.42 | -12.9 dB |
-| Peaking | 854 Hz   | 1.2  | -3.6 dB  |
-| Peaking | 1919 Hz  | 4.5  | 1.7 dB   |
-| Peaking | 7584 Hz  | 1.71 | -9.1 dB  |
-| Peaking | 14315 Hz | 0.09 | 6.4 dB   |
-| Peaking | 71 Hz    | 2.1  | -1.0 dB  |
-| Peaking | 219 Hz   | 1.55 | 1.5 dB   |
-| Peaking | 2913 Hz  | 3.95 | -3.2 dB  |
-| Peaking | 4586 Hz  | 1.79 | 3.1 dB   |
-| Peaking | 6219 Hz  | 4.87 | -3.5 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |       -11.4 |
+|   2 | Peaking   |       769 | 1.29 |        -3   |
+|   3 | Peaking   |      1954 | 2.35 |         4   |
+|   4 | Peaking   |      4471 | 1.83 |         7   |
+|   5 | Peaking   |      6737 | 3.07 |        -4.8 |
+|   6 | Peaking   |        25 | 4.26 |        -2   |
+|   7 | Peaking   |        86 | 1.46 |         1.3 |
+|   8 | Peaking   |       235 | 2.13 |         0.6 |
+|   9 | Peaking   |      8387 | 3.86 |        -2.9 |
+|  10 | HighShelf |     10000 | 0.7  |         6.1 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.8dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-12.7 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | -14.1 dB |
-| Peaking | 63 Hz    | 1.41 | -6.2 dB  |
-| Peaking | 125 Hz   | 1.41 | -1.9 dB  |
-| Peaking | 250 Hz   | 1.41 | 1.3 dB   |
-| Peaking | 500 Hz   | 1.41 | -1.7 dB  |
-| Peaking | 1000 Hz  | 1.41 | -2.4 dB  |
-| Peaking | 2000 Hz  | 1.41 | 2.9 dB   |
-| Peaking | 4000 Hz  | 1.41 | 5.2 dB   |
-| Peaking | 8000 Hz  | 1.41 | -2.5 dB  |
-| Peaking | 16000 Hz | 1.41 | 9.7 dB   |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |       -14.4 |
+|   2 | Peaking |        62 | 1.41 |        -5.8 |
+|   3 | Peaking |       125 | 1.41 |        -2.3 |
+|   4 | Peaking |       250 | 1.41 |         1.8 |
+|   5 | Peaking |       500 | 1.41 |        -1.9 |
+|   6 | Peaking |      1000 | 1.41 |        -2.5 |
+|   7 | Peaking |      2000 | 1.41 |         2.9 |
+|   8 | Peaking |      4000 | 1.41 |         5.5 |
+|   9 | Peaking |      8000 | 1.41 |        -3.7 |
+|  10 | Peaking |     16000 | 1.41 |        12.8 |
 
 ### Graphs
 ![](./Padmate%20PaMu%20Quiet%20T10.png)

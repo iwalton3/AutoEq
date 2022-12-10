@@ -2,37 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.3 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.2 dB or -6.2 dB, respectively.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 24 Hz    | 0.11 | -13.9 dB |
-| Peaking | 1089 Hz  | 0.72 | 6.2 dB   |
-| Peaking | 1945 Hz  | 2.2  | 2.7 dB   |
-| Peaking | 12915 Hz | 0.94 | 6.0 dB   |
-| Peaking | 3081 Hz  | 5.09 | -3.5 dB  |
-| Peaking | 4520 Hz  | 1.8  | 3.5 dB   |
-| Peaking | 6275 Hz  | 4.09 | -7.4 dB  |
-| Peaking | 16843 Hz | 0.1  | 0.5 dB   |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |       -13.4 |
+|   2 | Peaking   |       187 | 0.65 |        -6.4 |
+|   3 | Peaking   |       917 | 1.24 |         2.4 |
+|   4 | Peaking   |      1832 | 0.57 |         5.8 |
+|   5 | Peaking   |      2975 | 4.01 |        -3.9 |
+|   6 | Peaking   |        64 | 1.84 |         0.5 |
+|   7 | Peaking   |       109 | 2.02 |        -0.4 |
+|   8 | Peaking   |      4620 | 3.58 |         2.6 |
+|   9 | Peaking   |      6254 | 5.06 |        -6.6 |
+|  10 | HighShelf |     10000 | 0.7  |         5.1 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-6.6dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-11.2 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | -15.3 dB |
-| Peaking | 63 Hz    | 1.41 | -8.7 dB  |
-| Peaking | 125 Hz   | 1.41 | -7.8 dB  |
-| Peaking | 250 Hz   | 1.41 | -4.4 dB  |
-| Peaking | 500 Hz   | 1.41 | -0.1 dB  |
-| Peaking | 1000 Hz  | 1.41 | 5.6 dB   |
-| Peaking | 2000 Hz  | 1.41 | 4.5 dB   |
-| Peaking | 4000 Hz  | 1.41 | 0.8 dB   |
-| Peaking | 8000 Hz  | 1.41 | 1.5 dB   |
-| Peaking | 16000 Hz | 1.41 | 6.3 dB   |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |       -15.6 |
+|   2 | Peaking |        62 | 1.41 |        -8.3 |
+|   3 | Peaking |       125 | 1.41 |        -8.1 |
+|   4 | Peaking |       250 | 1.41 |        -4.4 |
+|   5 | Peaking |       500 | 1.41 |         0.1 |
+|   6 | Peaking |      1000 | 1.41 |         5.7 |
+|   7 | Peaking |      2000 | 1.41 |         4.5 |
+|   8 | Peaking |      4000 | 1.41 |         1.1 |
+|   9 | Peaking |      8000 | 1.41 |         0   |
+|  10 | Peaking |     16000 | 1.41 |        11.1 |
 
 ### Graphs
 ![](./Tekfusion%20Ecoofers.png)

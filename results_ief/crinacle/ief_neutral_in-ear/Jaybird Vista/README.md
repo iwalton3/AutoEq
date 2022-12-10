@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.6dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.3 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -7.0 dB or -7.2 dB, respectively.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 57 Hz    | 0.52 | -13.4 dB |
-| Peaking | 577 Hz   | 0.88 | 2.7 dB   |
-| Peaking | 8737 Hz  | 1.5  | -8.4 dB  |
-| Peaking | 14609 Hz | 0.13 | 6.5 dB   |
-| Peaking | 20 Hz    | 0.72 | -4.1 dB  |
-| Peaking | 1004 Hz  | 2.31 | 0.6 dB   |
-| Peaking | 2436 Hz  | 2.11 | -4.3 dB  |
-| Peaking | 4375 Hz  | 1.13 | 3.6 dB   |
-| Peaking | 7097 Hz  | 5.08 | -4.4 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -4.7 |
+|   2 | Peaking   |        56 | 0.44 |        -9.8 |
+|   3 | Peaking   |       680 | 0.82 |         2.9 |
+|   4 | Peaking   |      4731 | 1.48 |         7.3 |
+|   5 | Peaking   |      7455 | 2.87 |        -4.7 |
+|   6 | Peaking   |      1310 | 2.56 |         0.6 |
+|   7 | Peaking   |      2416 | 3.22 |        -2.4 |
+|   8 | Peaking   |      3434 | 3.94 |         1.7 |
+|   9 | Peaking   |      9140 | 2.55 |        -2.3 |
+|  10 | HighShelf |     10000 | 0.7  |         5.1 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-8.5dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-9.9 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | -11.6 dB |
-| Peaking | 63 Hz    | 1.41 | -12.3 dB |
-| Peaking | 125 Hz   | 1.41 | -5.0 dB  |
-| Peaking | 250 Hz   | 1.41 | -0.7 dB  |
-| Peaking | 500 Hz   | 1.41 | 1.8 dB   |
-| Peaking | 1000 Hz  | 1.41 | 2.7 dB   |
-| Peaking | 2000 Hz  | 1.41 | -2.0 dB  |
-| Peaking | 4000 Hz  | 1.41 | 7.2 dB   |
-| Peaking | 8000 Hz  | 1.41 | -2.6 dB  |
-| Peaking | 16000 Hz | 1.41 | 8.4 dB   |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |       -11.5 |
+|   2 | Peaking |        62 | 1.41 |       -12.4 |
+|   3 | Peaking |       125 | 1.41 |        -4.9 |
+|   4 | Peaking |       250 | 1.41 |        -1   |
+|   5 | Peaking |       500 | 1.41 |         1.8 |
+|   6 | Peaking |      1000 | 1.41 |         2.8 |
+|   7 | Peaking |      2000 | 1.41 |        -2.1 |
+|   8 | Peaking |      4000 | 1.41 |         7.5 |
+|   9 | Peaking |      8000 | 1.41 |        -2.7 |
+|  10 | Peaking |     16000 | 1.41 |         9.9 |
 
 ### Graphs
 ![](./Jaybird%20Vista.png)

@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-4.3dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-4.3 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -4.3 dB or -4.3 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 53 Hz   | 0.51 | -5.2 dB |
-| Peaking | 320 Hz  | 0.71 | -1.6 dB |
-| Peaking | 736 Hz  | 2.18 | 1.0 dB  |
-| Peaking | 759 Hz  | 1.72 | 3.7 dB  |
-| Peaking | 4108 Hz | 3.35 | 3.2 dB  |
-| Peaking | 13 Hz   | 2.3  | 0.8 dB  |
-| Peaking | 122 Hz  | 4.79 | -0.4 dB |
-| Peaking | 1601 Hz | 5.37 | 2.1 dB  |
-| Peaking | 2664 Hz | 6.85 | -2.0 dB |
-| Peaking | 5865 Hz | 7.91 | -3.2 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -2   |
+|   2 | Peaking   |        96 | 0.27 |        -3   |
+|   3 | Peaking   |       762 | 1.95 |         4.7 |
+|   4 | Peaking   |      2767 | 4.16 |        -3.3 |
+|   5 | Peaking   |      3504 | 2.14 |         3.6 |
+|   6 | Peaking   |        43 | 2.86 |        -0.8 |
+|   7 | Peaking   |      1587 | 4.81 |         2   |
+|   8 | Peaking   |      4649 | 6    |         2.6 |
+|   9 | Peaking   |      5772 | 5.12 |        -3.8 |
+|  10 | HighShelf |     10000 | 0.7  |         2   |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-3.3dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-4.5 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -3.8 dB |
-| Peaking | 63 Hz    | 1.41 | -4.4 dB |
-| Peaking | 125 Hz   | 1.41 | -2.2 dB |
-| Peaking | 250 Hz   | 1.41 | -2.1 dB |
-| Peaking | 500 Hz   | 1.41 | 0.5 dB  |
-| Peaking | 1000 Hz  | 1.41 | 3.0 dB  |
-| Peaking | 2000 Hz  | 1.41 | -0.9 dB |
-| Peaking | 4000 Hz  | 1.41 | 2.2 dB  |
-| Peaking | 8000 Hz  | 1.41 | -0.9 dB |
-| Peaking | 16000 Hz | 1.41 | 3.2 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -3.7 |
+|   2 | Peaking |        62 | 1.41 |        -4.4 |
+|   3 | Peaking |       125 | 1.41 |        -1.9 |
+|   4 | Peaking |       250 | 1.41 |        -2.4 |
+|   5 | Peaking |       500 | 1.41 |         0.7 |
+|   6 | Peaking |      1000 | 1.41 |         2.8 |
+|   7 | Peaking |      2000 | 1.41 |        -0.9 |
+|   8 | Peaking |      4000 | 1.41 |         2.2 |
+|   9 | Peaking |      8000 | 1.41 |        -1.2 |
+|  10 | Peaking |     16000 | 1.41 |         4.5 |
 
 ### Graphs
 ![](./SteelSeries%20Siberia%20200.png)

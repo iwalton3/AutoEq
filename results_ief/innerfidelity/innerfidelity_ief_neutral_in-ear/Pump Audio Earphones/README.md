@@ -2,37 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.7dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.7 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.4 dB or -7.6 dB, respectively.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 23 Hz    | 0.13 | -14.4 dB |
-| Peaking | 1152 Hz  | 0.68 | 5.0 dB   |
-| Peaking | 5182 Hz  | 4.49 | -11.6 dB |
-| Peaking | 15575 Hz | 0.17 | 6.5 dB   |
-| Peaking | 1052 Hz  | 3.79 | -0.7 dB  |
-| Peaking | 1635 Hz  | 2.8  | 1.0 dB   |
-| Peaking | 2680 Hz  | 3.98 | -1.3 dB  |
-| Peaking | 8430 Hz  | 4.11 | 1.0 dB   |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |       -14   |
+|   2 | Peaking   |       186 | 0.74 |        -5.5 |
+|   3 | Peaking   |      1264 | 0.73 |         5.1 |
+|   4 | Peaking   |      5211 | 4.71 |       -11.6 |
+|   5 | Peaking   |     10000 | 0.51 |         6.4 |
+|   6 | Peaking   |        63 | 1.82 |         0.5 |
+|   7 | Peaking   |       110 | 2.19 |        -0.4 |
+|   8 | Peaking   |      2702 | 5.5  |        -1   |
+|   9 | Peaking   |      3713 | 4.33 |         0.5 |
+|  10 | HighShelf |     10000 | 0.7  |         2.1 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-9.6dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-12.7 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | -16.0 dB |
-| Peaking | 63 Hz    | 1.41 | -8.5 dB  |
-| Peaking | 125 Hz   | 1.41 | -7.2 dB  |
-| Peaking | 250 Hz   | 1.41 | -3.6 dB  |
-| Peaking | 500 Hz   | 1.41 | 0.3 dB   |
-| Peaking | 1000 Hz  | 1.41 | 4.1 dB   |
-| Peaking | 2000 Hz  | 1.41 | 4.5 dB   |
-| Peaking | 4000 Hz  | 1.41 | -2.4 dB  |
-| Peaking | 8000 Hz  | 1.41 | 5.2 dB   |
-| Peaking | 16000 Hz | 1.41 | 9.1 dB   |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |       -16   |
+|   2 | Peaking |        62 | 1.41 |        -8.3 |
+|   3 | Peaking |       125 | 1.41 |        -7.3 |
+|   4 | Peaking |       250 | 1.41 |        -3.6 |
+|   5 | Peaking |       500 | 1.41 |         0.3 |
+|   6 | Peaking |      1000 | 1.41 |         4.3 |
+|   7 | Peaking |      2000 | 1.41 |         4.3 |
+|   8 | Peaking |      4000 | 1.41 |        -2.2 |
+|   9 | Peaking |      8000 | 1.41 |         4.2 |
+|  10 | Peaking |     16000 | 1.41 |        12.5 |
 
 ### Graphs
 ![](./Pump%20Audio%20Earphones.png)

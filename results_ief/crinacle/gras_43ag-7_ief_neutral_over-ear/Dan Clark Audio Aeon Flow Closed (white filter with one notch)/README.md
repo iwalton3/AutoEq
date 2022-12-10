@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-3.4dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-3.4 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -3.4 dB or -3.2 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 23 Hz    | 1.19 | -2.5 dB |
-| Peaking | 384 Hz   | 0.16 | -1.0 dB |
-| Peaking | 613 Hz   | 0.72 | -2.3 dB |
-| Peaking | 2985 Hz  | 0.74 | 3.7 dB  |
-| Peaking | 10166 Hz | 1.6  | 2.4 dB  |
-| Peaking | 63 Hz    | 2.95 | 1.2 dB  |
-| Peaking | 83 Hz    | 3.03 | -1.6 dB |
-| Peaking | 141 Hz   | 2.73 | 0.8 dB  |
-| Peaking | 275 Hz   | 4.15 | -0.5 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -2.3 |
+|   2 | Peaking   |        54 | 1.4  |         2.4 |
+|   3 | Peaking   |       745 | 0.44 |        -3.8 |
+|   4 | Peaking   |      2688 | 0.44 |         3.8 |
+|   5 | Peaking   |      4612 | 4.56 |         0.8 |
+|   6 | Peaking   |        84 | 4.99 |        -0.6 |
+|   7 | Peaking   |      1041 | 5.94 |         1.4 |
+|   8 | Peaking   |      1289 | 2.97 |        -0.8 |
+|   9 | Peaking   |      5970 | 6    |        -2   |
+|  10 | HighShelf |     10000 | 0.7  |         0.3 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-3.4dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-3.3 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -2.4 dB |
-| Peaking | 63 Hz    | 1.41 | -0.0 dB |
-| Peaking | 125 Hz   | 1.41 | -0.6 dB |
-| Peaking | 250 Hz   | 1.41 | -1.2 dB |
-| Peaking | 500 Hz   | 1.41 | -2.7 dB |
-| Peaking | 1000 Hz  | 1.41 | -1.8 dB |
-| Peaking | 2000 Hz  | 1.41 | 2.0 dB  |
-| Peaking | 4000 Hz  | 1.41 | 2.6 dB  |
-| Peaking | 8000 Hz  | 1.41 | 2.1 dB  |
-| Peaking | 16000 Hz | 1.41 | -0.5 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -1.9 |
+|   2 | Peaking |        62 | 1.41 |         0   |
+|   3 | Peaking |       125 | 1.41 |        -0.3 |
+|   4 | Peaking |       250 | 1.41 |        -1.2 |
+|   5 | Peaking |       500 | 1.41 |        -2.6 |
+|   6 | Peaking |      1000 | 1.41 |        -2   |
+|   7 | Peaking |      2000 | 1.41 |         2   |
+|   8 | Peaking |      4000 | 1.41 |         2.7 |
+|   9 | Peaking |      8000 | 1.41 |         1.5 |
+|  10 | Peaking |     16000 | 1.41 |         0.2 |
 
 ### Graphs
 ![](./Dan%20Clark%20Audio%20Aeon%20Flow%20Closed%20(white%20filter%20with%20one%20notch).png)

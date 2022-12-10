@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-5.6dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-5.6 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -5.8 dB or -6.1 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 22 Hz   | 2.17 | 5.2 dB  |
-| Peaking | 486 Hz  | 2.46 | 6.1 dB  |
-| Peaking | 1035 Hz | 1.13 | -3.6 dB |
-| Peaking | 2149 Hz | 2.84 | -4.9 dB |
-| Peaking | 9070 Hz | 0.78 | 5.4 dB  |
-| Peaking | 33 Hz   | 1.61 | 1.6 dB  |
-| Peaking | 55 Hz   | 0.93 | -2.1 dB |
-| Peaking | 167 Hz  | 1.68 | -2.2 dB |
-| Peaking | 3835 Hz | 3.12 | 7.7 dB  |
-| Peaking | 4099 Hz | 1.12 | -3.1 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        10.9 |
+|   2 | Peaking   |        52 | 0.49 |       -11.4 |
+|   3 | Peaking   |       463 | 1.84 |         6.6 |
+|   4 | Peaking   |      1791 | 0.65 |        -6.7 |
+|   5 | Peaking   |      9210 | 0.18 |         5.1 |
+|   6 | Peaking   |      2493 | 3.53 |        -2.3 |
+|   7 | Peaking   |      3800 | 3.51 |         5.1 |
+|   8 | Peaking   |      5114 | 2.06 |        -2.6 |
+|   9 | Peaking   |      9535 | 2.72 |         3.4 |
+|  10 | HighShelf |     10000 | 0.7  |        -4.4 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.7dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-4.8 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 3.7 dB  |
-| Peaking | 63 Hz    | 1.41 | -2.5 dB |
-| Peaking | 125 Hz   | 1.41 | -1.6 dB |
-| Peaking | 250 Hz   | 1.41 | -1.7 dB |
-| Peaking | 500 Hz   | 1.41 | 5.6 dB  |
-| Peaking | 1000 Hz  | 1.41 | -3.7 dB |
-| Peaking | 2000 Hz  | 1.41 | -4.8 dB |
-| Peaking | 4000 Hz  | 1.41 | 3.0 dB  |
-| Peaking | 8000 Hz  | 1.41 | 5.3 dB  |
-| Peaking | 16000 Hz | 1.41 | -0.6 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         3.7 |
+|   2 | Peaking |        62 | 1.41 |        -2.4 |
+|   3 | Peaking |       125 | 1.41 |        -1.4 |
+|   4 | Peaking |       250 | 1.41 |        -2   |
+|   5 | Peaking |       500 | 1.41 |         6   |
+|   6 | Peaking |      1000 | 1.41 |        -4   |
+|   7 | Peaking |      2000 | 1.41 |        -4.8 |
+|   8 | Peaking |      4000 | 1.41 |         3.3 |
+|   9 | Peaking |      8000 | 1.41 |         3.9 |
+|  10 | Peaking |     16000 | 1.41 |         1.6 |
 
 ### Graphs
 ![](./Sound%20Warrior%20SW-HP10s.png)

@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-5.7dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-5.6 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -1.7 dB or -5.2 dB, respectively.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 33 Hz    | 0.64 | -12.9 dB |
-| Peaking | 145 Hz   | 0.31 | 2.8 dB   |
-| Peaking | 498 Hz   | 1.29 | -4.0 dB  |
-| Peaking | 3790 Hz  | 3.39 | 0.5 dB   |
-| Peaking | 16191 Hz | 0.39 | 5.4 dB   |
-| Peaking | 181 Hz   | 3.28 | -1.2 dB  |
-| Peaking | 287 Hz   | 2.08 | 1.4 dB   |
-| Peaking | 377 Hz   | 3.51 | -1.2 dB  |
-| Peaking | 6263 Hz  | 4.47 | -3.9 dB  |
-| Peaking | 9025 Hz  | 1.95 | 1.7 dB   |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |        -7.3 |
+|   2 | Peaking   |        34 | 1.3  |        -5.3 |
+|   3 | Peaking   |        92 | 0.97 |         3.8 |
+|   4 | Peaking   |       276 | 2.41 |         2.3 |
+|   5 | Peaking   |       476 | 1.33 |        -3.2 |
+|   6 | Peaking   |      2254 | 4    |         0.7 |
+|   7 | Peaking   |      4192 | 2.32 |         1.4 |
+|   8 | Peaking   |      6225 | 5.01 |        -3.5 |
+|   9 | Peaking   |      8900 | 2.04 |         2.4 |
+|  10 | HighShelf |     10000 | 0.7  |         5   |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.7dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-10.6 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | -13.3 dB |
-| Peaking | 63 Hz    | 1.41 | -3.1 dB  |
-| Peaking | 125 Hz   | 1.41 | 1.2 dB   |
-| Peaking | 250 Hz   | 1.41 | 1.9 dB   |
-| Peaking | 500 Hz   | 1.41 | -3.0 dB  |
-| Peaking | 1000 Hz  | 1.41 | -0.3 dB  |
-| Peaking | 2000 Hz  | 1.41 | 0.5 dB   |
-| Peaking | 4000 Hz  | 1.41 | 0.1 dB   |
-| Peaking | 8000 Hz  | 1.41 | 2.2 dB   |
-| Peaking | 16000 Hz | 1.41 | 7.4 dB   |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |       -13.5 |
+|   2 | Peaking |        62 | 1.41 |        -3.3 |
+|   3 | Peaking |       125 | 1.41 |         1.3 |
+|   4 | Peaking |       250 | 1.41 |         1.7 |
+|   5 | Peaking |       500 | 1.41 |        -3   |
+|   6 | Peaking |      1000 | 1.41 |        -0.4 |
+|   7 | Peaking |      2000 | 1.41 |         0.6 |
+|   8 | Peaking |      4000 | 1.41 |         0.3 |
+|   9 | Peaking |      8000 | 1.41 |         1.4 |
+|  10 | Peaking |     16000 | 1.41 |        10.5 |
 
 ### Graphs
 ![](./Libratone%20Track%20Air%20Plus.png)

@@ -2,38 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-6.5dB** and build filters manually
-with these parameters. The first 4 filters can be used independently.
-When using independent subset of filters, apply preamp of **-6.5 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -6.4 dB or -6.4 dB, respectively.
 
-| Type    | Fc      |    Q | Gain     |
-|:--------|:--------|:-----|:---------|
-| Peaking | 289 Hz  | 0.53 | 5.4 dB   |
-| Peaking | 589 Hz  | 1.48 | 5.1 dB   |
-| Peaking | 1512 Hz | 0.99 | -12.0 dB |
-| Peaking | 7777 Hz | 1.2  | -2.8 dB  |
-| Peaking | 20 Hz   | 1.04 | 3.9 dB   |
-| Peaking | 59 Hz   | 2.03 | 1.3 dB   |
-| Peaking | 2657 Hz | 2.53 | -1.9 dB  |
-| Peaking | 3853 Hz | 3.53 | 5.3 dB   |
-| Peaking | 5144 Hz | 3.6  | -2.7 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         2.3 |
+|   2 | Peaking   |       227 | 0.93 |         2.8 |
+|   3 | Peaking   |       588 | 0.67 |         8.2 |
+|   4 | Peaking   |      1128 | 1.2  |        -4.8 |
+|   5 | Peaking   |      1645 | 0.87 |       -10.2 |
+|   6 | Peaking   |        42 | 2.98 |        -0.7 |
+|   7 | Peaking   |      3893 | 3.22 |         6   |
+|   8 | Peaking   |      5137 | 1.44 |        -3.6 |
+|   9 | Peaking   |      8295 | 3.57 |        -1.8 |
+|  10 | HighShelf |     10000 | 0.7  |        -1   |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-7.9dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-8.0 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain     |
-|:--------|:---------|:-----|:---------|
-| Peaking | 31 Hz    | 1.41 | 2.7 dB   |
-| Peaking | 63 Hz    | 1.41 | 1.1 dB   |
-| Peaking | 125 Hz   | 1.41 | 1.9 dB   |
-| Peaking | 250 Hz   | 1.41 | 4.0 dB   |
-| Peaking | 500 Hz   | 1.41 | 8.0 dB   |
-| Peaking | 1000 Hz  | 1.41 | -4.8 dB  |
-| Peaking | 2000 Hz  | 1.41 | -10.5 dB |
-| Peaking | 4000 Hz  | 1.41 | 1.7 dB   |
-| Peaking | 8000 Hz  | 1.41 | -3.7 dB  |
-| Peaking | 16000 Hz | 1.41 | -1.0 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         2.8 |
+|   2 | Peaking |        62 | 1.41 |         1   |
+|   3 | Peaking |       125 | 1.41 |         1.9 |
+|   4 | Peaking |       250 | 1.41 |         4.1 |
+|   5 | Peaking |       500 | 1.41 |         8.3 |
+|   6 | Peaking |      1000 | 1.41 |        -5.1 |
+|   7 | Peaking |      2000 | 1.41 |       -10.1 |
+|   8 | Peaking |      4000 | 1.41 |         1.7 |
+|   9 | Peaking |      8000 | 1.41 |        -4   |
+|  10 | Peaking |     16000 | 1.41 |        -1   |
 
 ### Graphs
 ![](./Sennheiser%20PC%20330%20G4ME.png)

@@ -2,39 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-5.6dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-5.6 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -5.6 dB or -5.7 dB, respectively.
 
-| Type    | Fc      |    Q | Gain    |
-|:--------|:--------|:-----|:--------|
-| Peaking | 63 Hz   | 0.72 | -4.8 dB |
-| Peaking | 139 Hz  | 1.29 | -3.8 dB |
-| Peaking | 2125 Hz | 3.35 | 3.8 dB  |
-| Peaking | 5053 Hz | 1.75 | 5.5 dB  |
-| Peaking | 9274 Hz | 2.66 | -3.2 dB |
-| Peaking | 96 Hz   | 4.17 | -0.4 dB |
-| Peaking | 216 Hz  | 3.68 | -1.3 dB |
-| Peaking | 431 Hz  | 1.54 | 2.1 dB  |
-| Peaking | 1019 Hz | 1.11 | -1.1 dB |
-| Peaking | 1696 Hz | 3.3  | 0.8 dB  |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         0.2 |
+|   2 | Peaking   |        84 | 0.56 |        -6.4 |
+|   3 | Peaking   |      2121 | 3.14 |         3.6 |
+|   4 | Peaking   |      5079 | 1.74 |         5.6 |
+|   5 | Peaking   |      9084 | 2.16 |        -2.9 |
+|   6 | Peaking   |        80 | 1.9  |         0.6 |
+|   7 | Peaking   |       182 | 1.49 |        -1.4 |
+|   8 | Peaking   |       406 | 1.44 |         2.4 |
+|   9 | Peaking   |       984 | 2.54 |        -1.3 |
+|  10 | HighShelf |     10000 | 0.7  |         2.8 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-5.9dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-4.4 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | -1.6 dB |
-| Peaking | 63 Hz    | 1.41 | -4.4 dB |
-| Peaking | 125 Hz   | 1.41 | -5.4 dB |
-| Peaking | 250 Hz   | 1.41 | -1.2 dB |
-| Peaking | 500 Hz   | 1.41 | 2.1 dB  |
-| Peaking | 1000 Hz  | 1.41 | -1.8 dB |
-| Peaking | 2000 Hz  | 1.41 | 2.2 dB  |
-| Peaking | 4000 Hz  | 1.41 | 4.1 dB  |
-| Peaking | 8000 Hz  | 1.41 | -1.4 dB |
-| Peaking | 16000 Hz | 1.41 | 5.7 dB  |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |        -1.9 |
+|   2 | Peaking |        62 | 1.41 |        -4.3 |
+|   3 | Peaking |       125 | 1.41 |        -5.4 |
+|   4 | Peaking |       250 | 1.41 |        -1.1 |
+|   5 | Peaking |       500 | 1.41 |         2.1 |
+|   6 | Peaking |      1000 | 1.41 |        -2.1 |
+|   7 | Peaking |      2000 | 1.41 |         2.7 |
+|   8 | Peaking |      4000 | 1.41 |         3.6 |
+|   9 | Peaking |      8000 | 1.41 |        -0.3 |
+|  10 | Peaking |     16000 | 1.41 |         4.3 |
 
 ### Graphs
 ![](./JBL%20T450BT.png)

@@ -2,37 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-5.4dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-5.4 dB**.
+You can use filters 1-5 or 1-10. Apply preamp of -5.0 dB or -5.0 dB, respectively.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 18 Hz    | 0.84 | 5.6 dB  |
-| Peaking | 102 Hz   | 1.08 | -1.6 dB |
-| Peaking | 1266 Hz  | 1.52 | -2.2 dB |
-| Peaking | 2389 Hz  | 1.62 | 3.3 dB  |
-| Peaking | 3634 Hz  | 4.94 | -5.9 dB |
-| Peaking | 445 Hz   | 2.48 | 1.1 dB  |
-| Peaking | 7478 Hz  | 4.28 | 3.5 dB  |
-| Peaking | 19010 Hz | 0.39 | -8.2 dB |
+|   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|-----------|-----------|------|-------------|
+|   1 | LowShelf  |       105 | 0.7  |         6   |
+|   2 | Peaking   |        64 | 0.7  |        -5.4 |
+|   3 | Peaking   |      1186 | 1.89 |        -2   |
+|   4 | Peaking   |      2292 | 3.25 |         3.5 |
+|   5 | Peaking   |      3624 | 6    |        -5.3 |
+|   6 | Peaking   |       107 | 2.3  |        -0.5 |
+|   7 | Peaking   |       406 | 1.49 |         1.1 |
+|   8 | Peaking   |      7289 | 5.52 |         3.5 |
+|   9 | Peaking   |      9258 | 3.02 |         1.9 |
+|  10 | HighShelf |     10000 | 0.7  |        -5.3 |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-4.0dB**
-(if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-4.3 dB** (if available) and set gains manually with these parameters.
 
-| Type    | Fc       |    Q | Gain    |
-|:--------|:---------|:-----|:--------|
-| Peaking | 31 Hz    | 1.41 | 4.0 dB  |
-| Peaking | 63 Hz    | 1.41 | -0.9 dB |
-| Peaking | 125 Hz   | 1.41 | -1.3 dB |
-| Peaking | 250 Hz   | 1.41 | -0.1 dB |
-| Peaking | 500 Hz   | 1.41 | 1.3 dB  |
-| Peaking | 1000 Hz  | 1.41 | -2.6 dB |
-| Peaking | 2000 Hz  | 1.41 | 2.7 dB  |
-| Peaking | 4000 Hz  | 1.41 | -2.8 dB |
-| Peaking | 8000 Hz  | 1.41 | 2.1 dB  |
-| Peaking | 16000 Hz | 1.41 | -8.2 dB |
+|   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
+|-----|---------|-----------|------|-------------|
+|   1 | Peaking |        31 | 1.41 |         4.3 |
+|   2 | Peaking |        62 | 1.41 |        -0.6 |
+|   3 | Peaking |       125 | 1.41 |        -1.1 |
+|   4 | Peaking |       250 | 1.41 |        -0.2 |
+|   5 | Peaking |       500 | 1.41 |         1.4 |
+|   6 | Peaking |      1000 | 1.41 |        -2.9 |
+|   7 | Peaking |      2000 | 1.41 |         2.8 |
+|   8 | Peaking |      4000 | 1.41 |        -2.9 |
+|   9 | Peaking |      8000 | 1.41 |         2.4 |
+|  10 | Peaking |     16000 | 1.41 |       -10.7 |
 
 ### Graphs
 ![](./Audio-Technica%20ATH-ADX5000%20(Dekoni%20fenestrated%20sheepskin%20earpads).png)
