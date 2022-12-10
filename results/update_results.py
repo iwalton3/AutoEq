@@ -4,9 +4,8 @@ import os
 import sys
 import argparse
 
-from autoeq.constants import PEQ_CONFIGS
-
 sys.path.insert(1, os.path.realpath(os.path.join(sys.path[0], os.pardir)))
+from autoeq.constants import PEQ_CONFIGS
 from autoeq.batch_processing import batch_processing
 
 ROOT_DIR = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir))

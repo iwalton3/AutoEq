@@ -8,9 +8,9 @@ import re
 import numpy as np
 from zipfile import ZipFile
 from tabulate import tabulate
+sys.path.insert(1, os.path.realpath(os.path.join(sys.path[0], os.pardir)))
 from autoeq.constants import MOD_REGEX, ROOT_DIR
 from autoeq.frequency_response import FrequencyResponse
-sys.path.insert(1, os.path.realpath(os.path.join(sys.path[0], os.pardir)))
 from measurements.manufacturer_index import ManufacturerIndex
 
 DIR_PATH = os.path.abspath(os.path.join(__file__, os.pardir))
