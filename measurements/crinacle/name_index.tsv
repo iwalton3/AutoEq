@@ -100,6 +100,7 @@ Ace 10	Aroma Audio Ace (on-off)	inear
 Ace 12	Aroma Audio Ace (on-on)	inear
 ACH	AAW ACH	inear
 ACME 8	Fearless Audio ACME 8	inear
+ACME8	Fearless Audio ACME8	inear
 Acoustic Deer	Heartfield Acoustic Deer	inear
 Active65	Jabra Elite Active 65t	inear
 AD1000X	Audio-Technica ATH-AD1000X	onear
@@ -879,8 +880,8 @@ Hua Jiang 2	JQ Hua Jiang (sample 2)	inear
 Hyper S 12	Fearless Audio HyperS 12	inear
 i430	Clariar i430	inear
 i640	Clariar i640	inear
-I8	I-INTO i8	inear
 i8	I-INTO i8	inear
+I8	I-INTO i8	inear
 Idun	Kinera Idun (sample 1)	inear
 IDUN Deluxe	Kinera IDUN Deluxe	inear
 Idun S2	Kinera Idun (sample 2)	inear
@@ -915,7 +916,6 @@ ION-4 Vietnam	Soranik ION-4 (Vietnamese domestic market edition)	inear
 Isabellae	Oriolus Isabellae	inear
 iSIne 10	Audeze iSINE 10	inear
 iSine 10	Audeze iSINE 10 (sample 1)	inear
-iSIne 10	Audeze iSINE 10	inear
 iSine 10 S2	Audeze iSINE 10 (sample 2)	inear
 iSine 20	Audeze iSINE 20	inear
 iSine 20 Cipher	Audeze iSINE 20 (Cipher cable)	inear
@@ -1318,8 +1318,8 @@ NDH 20	Neumann NDH20	onear
 NDH20	Neumann NDH20	onear
 Nekocake	Moondrop Nekocake	inear
 Nekocake Acht Acht Limited	Moondrop Nekocake	inear
-Nemesis	Empire Ears Nemesis	inear
 nemesis	Empire Ears Nemesis	inear
+Nemesis	Empire Ears Nemesis	inear
 Neo	SeeAudio Neo	inear
 Neon	KBEar Neon	inear
 Neptune	qdc Neptune	inear
@@ -1721,7 +1721,6 @@ Tango	Jomo Audio Tango	inear
 Tanya RM	Tanchjim Tanya	inear
 Taobao 3 driver	Taobao 3 driver	inear
 Taobao 3 Driver	Taobao 3 driver	inear
-Taobao 3 driver	Taobao 3 driver	inear
 Taobao 6 Driver	Taobao 6 driver	inear
 Tape	Shuoer Tape	inear
 Tape Pro	Shuoer Tape Pro	inear
@@ -1853,8 +1852,8 @@ UFO-112 S2	UFOEar UFO-112 sample 2	inear
 UM Pro 10	Westone UM Pro 10	inear
 UM Pro 20	Westone UM Pro 20	inear
 UM Pro 30	Westone UM Pro 30	inear
-UM pro 50	Westone UM Pro 50	inear
 UM Pro 50	Westone UM Pro 50	inear
+UM pro 50	Westone UM Pro 50	inear
 UP	Mangird XENNS UP	inear
 Uranus	qdc Uranus	inear
 Utopia	Focal Utopia (sample 1)	onear

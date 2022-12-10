@@ -8,7 +8,7 @@ from glob import glob
 sys.path.insert(1, os.path.realpath(os.path.join(sys.path[0], os.pardir)))
 
 ROOT_DIR = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir))
-from frequency_response import FrequencyResponse
+from autoeq.frequency_response import FrequencyResponse
 
 def batch_processing(input_dir, output_dir, compensation):
     comp = FrequencyResponse.read_from_csv(compensation)
