@@ -7,14 +7,14 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.5 dB or -6.5 dB, respectivel
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |         1.9 |
-|   2 | Peaking   |       219 | 0.28 |        -5.4 |
+|   2 | Peaking   |       218 | 0.28 |        -5.3 |
 |   3 | Peaking   |       960 | 0.85 |         3.8 |
 |   4 | Peaking   |      2993 | 1.49 |         6.1 |
-|   5 | Peaking   |      6346 | 4.26 |         4.5 |
-|   6 | Peaking   |       152 | 2.53 |         0.4 |
-|   7 | Peaking   |       233 | 1.86 |        -0.3 |
-|   8 | Peaking   |      4223 | 6    |         1.7 |
-|   9 | Peaking   |      4877 | 6    |        -2.2 |
+|   5 | Peaking   |      6348 | 4.26 |         4.5 |
+|   6 | Peaking   |       153 | 2.49 |         0.4 |
+|   7 | Peaking   |       231 | 1.84 |        -0.3 |
+|   8 | Peaking   |      4230 | 6    |         1.6 |
+|   9 | Peaking   |      4877 | 6    |        -2.3 |
 |  10 | HighShelf |     10000 | 0.7  |         1.5 |
 
 ### Fixed Band EQs
@@ -22,16 +22,16 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-5.3 dB
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |         1.4 |
-|   2 | Peaking |        62 | 1.41 |        -1.3 |
-|   3 | Peaking |       125 | 1.41 |        -2.9 |
-|   4 | Peaking |       250 | 1.41 |        -5   |
-|   5 | Peaking |       500 | 1.41 |        -1.9 |
-|   6 | Peaking |      1000 | 1.41 |         1.6 |
+|   1 | Peaking |        31 | 1.41 |         1.5 |
+|   2 | Peaking |        62 | 1.41 |        -1.4 |
+|   3 | Peaking |       125 | 1.41 |        -3   |
+|   4 | Peaking |       250 | 1.41 |        -5.1 |
+|   5 | Peaking |       500 | 1.41 |        -2.1 |
+|   6 | Peaking |      1000 | 1.41 |         1.7 |
 |   7 | Peaking |      2000 | 1.41 |         3   |
-|   8 | Peaking |      4000 | 1.41 |         4.4 |
-|   9 | Peaking |      8000 | 1.41 |         1.3 |
-|  10 | Peaking |     16000 | 1.41 |         2.5 |
+|   8 | Peaking |      4000 | 1.41 |         4.5 |
+|   9 | Peaking |      8000 | 1.41 |         1.1 |
+|  10 | Peaking |     16000 | 1.41 |         2.4 |
 
 ### Graphs
 ![](./Lime%20Ears%20Model%20X%20(bass)%20(sample%202).png)

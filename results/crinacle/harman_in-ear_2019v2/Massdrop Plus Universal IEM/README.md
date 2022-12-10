@@ -6,16 +6,16 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.3 dB or -7.0 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         0.4 |
-|   2 | Peaking   |       480 | 0.18 |        -8.3 |
-|   3 | Peaking   |       754 | 0.57 |         8.3 |
-|   4 | Peaking   |      3759 | 1.33 |         4.5 |
-|   5 | Peaking   |      8043 | 0.53 |         6.1 |
-|   6 | Peaking   |        66 | 1.75 |        -0.3 |
-|   7 | Peaking   |      1019 | 3.39 |         0.8 |
-|   8 | Peaking   |      1441 | 2.51 |        -0.6 |
-|   9 | Peaking   |      9063 | 1.94 |        -1.6 |
-|  10 | HighShelf |     10000 | 0.7  |         4.1 |
+|   1 | LowShelf  |       105 | 0.7  |         0.5 |
+|   2 | Peaking   |       427 | 0.18 |        -7.3 |
+|   3 | Peaking   |       752 | 0.66 |         7.3 |
+|   4 | Peaking   |      3939 | 1.11 |         5.3 |
+|   5 | Peaking   |      8675 | 0.67 |         5.6 |
+|   6 | Peaking   |        67 | 1.74 |        -0.3 |
+|   7 | Peaking   |      1034 | 3.42 |         0.8 |
+|   8 | Peaking   |      1487 | 2.3  |        -0.6 |
+|   9 | Peaking   |      9111 | 2.2  |        -1.8 |
+|  10 | HighShelf |     10000 | 0.7  |         4.3 |
 
 ### Fixed Band EQs
 When using fixed band (also called graphic) equalizer, apply preamp of **-11.8 dB** (if available) and set gains manually with these parameters.
@@ -31,7 +31,7 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-11.8 d
 |   7 | Peaking |      2000 | 1.41 |        -2.2 |
 |   8 | Peaking |      4000 | 1.41 |         5.9 |
 |   9 | Peaking |      8000 | 1.41 |         5.3 |
-|  10 | Peaking |     16000 | 1.41 |        11.5 |
+|  10 | Peaking |     16000 | 1.41 |        11.4 |
 
 ### Graphs
 ![](./Massdrop%20Plus%20Universal%20IEM.png)

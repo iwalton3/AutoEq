@@ -6,15 +6,15 @@ You can use filters 1-5 or 1-10. Apply preamp of -5.3 dB or -6.7 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         8.3 |
-|   2 | Peaking   |        60 | 0.78 |        -2.8 |
-|   3 | Peaking   |        77 | 0.3  |        -6.1 |
-|   4 | Peaking   |       891 | 1.72 |         2.1 |
-|   5 | Peaking   |      4427 | 1.46 |         5.2 |
-|   6 | Peaking   |      2456 | 3.62 |        -0.6 |
-|   7 | Peaking   |      5422 | 4.38 |         0.9 |
-|   8 | Peaking   |      6554 | 4.1  |        -3.9 |
-|   9 | Peaking   |      9438 | 3.43 |         2.8 |
+|   1 | LowShelf  |       105 | 0.7  |         8.4 |
+|   2 | Peaking   |        60 | 0.8  |        -2.9 |
+|   3 | Peaking   |        75 | 0.29 |        -6.1 |
+|   4 | Peaking   |       891 | 1.75 |         2.1 |
+|   5 | Peaking   |      4430 | 1.45 |         5.2 |
+|   6 | Peaking   |      2459 | 3.62 |        -0.5 |
+|   7 | Peaking   |      5420 | 4.38 |         0.8 |
+|   8 | Peaking   |      6558 | 4.09 |        -3.9 |
+|   9 | Peaking   |      9441 | 3.43 |         2.8 |
 |  10 | HighShelf |     10000 | 0.7  |         6.6 |
 
 ### Fixed Band EQs
@@ -23,14 +23,14 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-13.5 d
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
 |   1 | Peaking |        31 | 1.41 |         4.1 |
-|   2 | Peaking |        62 | 1.41 |        -2   |
+|   2 | Peaking |        62 | 1.41 |        -2.1 |
 |   3 | Peaking |       125 | 1.41 |        -3.1 |
 |   4 | Peaking |       250 | 1.41 |        -3.4 |
 |   5 | Peaking |       500 | 1.41 |        -0.4 |
 |   6 | Peaking |      1000 | 1.41 |         1.8 |
 |   7 | Peaking |      2000 | 1.41 |        -0.8 |
 |   8 | Peaking |      4000 | 1.41 |         4.5 |
-|   9 | Peaking |      8000 | 1.41 |         1   |
+|   9 | Peaking |      8000 | 1.41 |         0.9 |
 |  10 | Peaking |     16000 | 1.41 |        13.4 |
 
 ### Graphs

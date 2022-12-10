@@ -6,32 +6,32 @@ You can use filters 1-5 or 1-10. Apply preamp of -4.1 dB or -6.6 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |        -0.7 |
-|   2 | Peaking   |       193 | 1.28 |        -4   |
-|   3 | Peaking   |       516 | 1.2  |         3.9 |
-|   4 | Peaking   |      1053 | 1.85 |        -3   |
-|   5 | Peaking   |      4774 | 4.74 |         4.1 |
-|   6 | Peaking   |        76 | 1.8  |         0.9 |
-|   7 | Peaking   |       127 | 3.05 |        -0.8 |
-|   8 | Peaking   |      2331 | 4.2  |         1.7 |
-|   9 | Peaking   |      3057 | 3.23 |        -2.9 |
+|   1 | LowShelf  |       105 | 0.7  |        -0.4 |
+|   2 | Peaking   |       194 | 1.25 |        -3.9 |
+|   3 | Peaking   |       514 | 1.16 |         3.9 |
+|   4 | Peaking   |      1061 | 1.72 |        -3.1 |
+|   5 | Peaking   |      4802 | 4.78 |         4   |
+|   6 | Peaking   |        29 | 2.21 |        -0.7 |
+|   7 | Peaking   |        67 | 1.64 |         0.7 |
+|   8 | Peaking   |      2312 | 4.27 |         1.4 |
+|   9 | Peaking   |      3085 | 3.25 |        -2.6 |
 |  10 | HighShelf |     10000 | 0.7  |         6.5 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-11.7 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-11.3 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |        -2   |
-|   2 | Peaking |        62 | 1.41 |         1.1 |
-|   3 | Peaking |       125 | 1.41 |        -2.5 |
-|   4 | Peaking |       250 | 1.41 |        -2.7 |
+|   1 | Peaking |        31 | 1.41 |        -1.3 |
+|   2 | Peaking |        62 | 1.41 |         1.2 |
+|   3 | Peaking |       125 | 1.41 |        -2.2 |
+|   4 | Peaking |       250 | 1.41 |        -2.8 |
 |   5 | Peaking |       500 | 1.41 |         4.6 |
 |   6 | Peaking |      1000 | 1.41 |        -2.7 |
 |   7 | Peaking |      2000 | 1.41 |         0   |
 |   8 | Peaking |      4000 | 1.41 |        -0.1 |
-|   9 | Peaking |      8000 | 1.41 |         2.1 |
-|  10 | Peaking |     16000 | 1.41 |        11.6 |
+|   9 | Peaking |      8000 | 1.41 |         2.5 |
+|  10 | Peaking |     16000 | 1.41 |        11.2 |
 
 ### Graphs
 ![](./Bose%20SoundTrue%20Around-Ear%20II.png)

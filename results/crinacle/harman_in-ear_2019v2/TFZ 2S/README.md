@@ -2,19 +2,19 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-You can use filters 1-5 or 1-10. Apply preamp of -3.6 dB or -6.0 dB, respectively.
+You can use filters 1-5 or 1-10. Apply preamp of -3.6 dB or -5.9 dB, respectively.
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |        -4.2 |
-|   2 | Peaking   |       191 | 1.35 |        -1.8 |
-|   3 | Peaking   |       739 | 1.27 |         1.9 |
-|   4 | Peaking   |      1790 | 1.92 |        -3.6 |
-|   5 | Peaking   |      8175 | 0.46 |         3.5 |
-|   6 | Peaking   |        55 | 1.64 |         0.5 |
-|   7 | Peaking   |      3270 | 3.84 |         2   |
-|   8 | Peaking   |      4462 | 4.89 |        -4.1 |
-|   9 | Peaking   |      5804 | 5.85 |         3.3 |
+|   1 | LowShelf  |       105 | 0.7  |        -4.3 |
+|   2 | Peaking   |       192 | 1.32 |        -1.8 |
+|   3 | Peaking   |       739 | 1.24 |         1.9 |
+|   4 | Peaking   |      1785 | 1.92 |        -3.7 |
+|   5 | Peaking   |      8117 | 0.46 |         3.5 |
+|   6 | Peaking   |        55 | 1.62 |         0.5 |
+|   7 | Peaking   |      3256 | 3.83 |         2   |
+|   8 | Peaking   |      4465 | 4.89 |        -4.1 |
+|   9 | Peaking   |      5804 | 5.84 |         3.3 |
 |  10 | HighShelf |     10000 | 0.7  |        -0.2 |
 
 ### Fixed Band EQs
@@ -22,16 +22,16 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-4.3 dB
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |        -4.8 |
-|   2 | Peaking |        62 | 1.41 |        -2.1 |
+|   1 | Peaking |        31 | 1.41 |        -4.9 |
+|   2 | Peaking |        62 | 1.41 |        -2.2 |
 |   3 | Peaking |       125 | 1.41 |        -2.1 |
-|   4 | Peaking |       250 | 1.41 |        -1.2 |
+|   4 | Peaking |       250 | 1.41 |        -1.1 |
 |   5 | Peaking |       500 | 1.41 |         1.4 |
 |   6 | Peaking |      1000 | 1.41 |         1.1 |
 |   7 | Peaking |      2000 | 1.41 |        -2.6 |
-|   8 | Peaking |      4000 | 1.41 |         1.9 |
-|   9 | Peaking |      8000 | 1.41 |         3.8 |
-|  10 | Peaking |     16000 | 1.41 |         3   |
+|   8 | Peaking |      4000 | 1.41 |         1.8 |
+|   9 | Peaking |      8000 | 1.41 |         3.9 |
+|  10 | Peaking |     16000 | 1.41 |         2.9 |
 
 ### Graphs
 ![](./TFZ%202S.png)

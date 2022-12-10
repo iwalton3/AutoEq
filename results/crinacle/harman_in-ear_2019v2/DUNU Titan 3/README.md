@@ -2,20 +2,20 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-You can use filters 1-5 or 1-10. Apply preamp of -6.0 dB or -6.8 dB, respectively.
+You can use filters 1-5 or 1-10. Apply preamp of -6.0 dB or -6.7 dB, respectively.
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |         5.9 |
-|   2 | Peaking   |       313 | 0.81 |        -1.8 |
-|   3 | Peaking   |      2569 | 1.4  |        -4.9 |
-|   4 | Peaking   |      5100 | 4.46 |       -11.2 |
-|   5 | Peaking   |      7265 | 0.4  |         6.6 |
-|   6 | Peaking   |        77 | 2.11 |        -0.5 |
-|   7 | Peaking   |       549 | 2.17 |        -0.6 |
-|   8 | Peaking   |       928 | 2.47 |         1.4 |
-|   9 | Peaking   |      1423 | 2.73 |        -0.9 |
-|  10 | HighShelf |     10000 | 0.7  |         2.4 |
+|   2 | Peaking   |       349 | 0.66 |        -1.9 |
+|   3 | Peaking   |      2535 | 0.87 |        -8.9 |
+|   4 | Peaking   |      4863 | 0.31 |         8.7 |
+|   5 | Peaking   |      5098 | 3.88 |       -11.3 |
+|   6 | Peaking   |        77 | 2.21 |        -0.5 |
+|   7 | Peaking   |       961 | 2.84 |         1   |
+|   8 | Peaking   |      1346 | 3.24 |        -1   |
+|   9 | Peaking   |      8018 | 4.51 |        -1.5 |
+|  10 | HighShelf |     10000 | 0.7  |         2.8 |
 
 ### Fixed Band EQs
 When using fixed band (also called graphic) equalizer, apply preamp of **-10.9 dB** (if available) and set gains manually with these parameters.
@@ -31,7 +31,7 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-10.9 d
 |   7 | Peaking |      2000 | 1.41 |        -1.6 |
 |   8 | Peaking |      4000 | 1.41 |        -2   |
 |   9 | Peaking |      8000 | 1.41 |         5.5 |
-|  10 | Peaking |     16000 | 1.41 |        10.7 |
+|  10 | Peaking |     16000 | 1.41 |        10.6 |
 
 ### Graphs
 ![](./DUNU%20Titan%203.png)

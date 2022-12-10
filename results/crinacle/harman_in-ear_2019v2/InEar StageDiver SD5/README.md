@@ -7,31 +7,31 @@ You can use filters 1-5 or 1-10. Apply preamp of -7.0 dB or -7.0 dB, respectivel
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |         0.3 |
-|   2 | Peaking   |       167 | 0.44 |        -4.3 |
-|   3 | Peaking   |       706 | 1.86 |         2.7 |
-|   4 | Peaking   |      4454 | 1.2  |         7.2 |
-|   5 | Peaking   |      7069 | 3.2  |        -3.6 |
-|   6 | Peaking   |       456 | 2.56 |         0.5 |
-|   7 | Peaking   |       988 | 3.22 |         1.5 |
-|   8 | Peaking   |      1561 | 1.83 |        -2.8 |
-|   9 | Peaking   |      2733 | 3.02 |         1.7 |
-|  10 | HighShelf |     10000 | 0.7  |         0.7 |
+|   2 | Peaking   |       168 | 0.43 |        -4.3 |
+|   3 | Peaking   |       705 | 1.85 |         2.7 |
+|   4 | Peaking   |      4448 | 1.2  |         7.1 |
+|   5 | Peaking   |      7064 | 3.2  |        -3.5 |
+|   6 | Peaking   |       455 | 2.48 |         0.5 |
+|   7 | Peaking   |       992 | 3.25 |         1.6 |
+|   8 | Peaking   |      1562 | 1.78 |        -2.8 |
+|   9 | Peaking   |      2737 | 3.04 |         1.7 |
+|  10 | HighShelf |     10000 | 0.7  |         0.6 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-7.3 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-7.2 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |         0.1 |
-|   2 | Peaking |        62 | 1.41 |        -1.2 |
-|   3 | Peaking |       125 | 1.41 |        -3.3 |
-|   4 | Peaking |       250 | 1.41 |        -3.9 |
-|   5 | Peaking |       500 | 1.41 |         0.5 |
-|   6 | Peaking |      1000 | 1.41 |         1.1 |
-|   7 | Peaking |      2000 | 1.41 |        -1.7 |
+|   1 | Peaking |        31 | 1.41 |         0.2 |
+|   2 | Peaking |        62 | 1.41 |        -1.4 |
+|   3 | Peaking |       125 | 1.41 |        -3.4 |
+|   4 | Peaking |       250 | 1.41 |        -3.8 |
+|   5 | Peaking |       500 | 1.41 |         0.4 |
+|   6 | Peaking |      1000 | 1.41 |         1   |
+|   7 | Peaking |      2000 | 1.41 |        -1.6 |
 |   8 | Peaking |      4000 | 1.41 |         7.5 |
 |   9 | Peaking |      8000 | 1.41 |        -0.9 |
-|  10 | Peaking |     16000 | 1.41 |         1.4 |
+|  10 | Peaking |     16000 | 1.41 |         1.3 |
 
 ### Graphs
 ![](./InEar%20StageDiver%20SD5.png)

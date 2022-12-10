@@ -2,20 +2,20 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-You can use filters 1-5 or 1-10. Apply preamp of -6.6 dB or -6.6 dB, respectively.
+You can use filters 1-5 or 1-10. Apply preamp of -6.0 dB or -6.0 dB, respectively.
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |        13.3 |
-|   2 | Peaking   |        50 | 0.47 |       -13.2 |
-|   3 | Peaking   |       857 | 2.05 |        -3   |
-|   4 | Peaking   |      2021 | 3.32 |         3.2 |
-|   5 | Peaking   |      5843 | 1.62 |         5.2 |
-|   6 | Peaking   |      1717 | 6    |         0.5 |
-|   7 | Peaking   |      3172 | 6    |        -1   |
-|   8 | Peaking   |      8964 | 1.59 |         5.5 |
-|   9 | Peaking   |     10000 | 3.04 |         0.7 |
-|  10 | HighShelf |     10000 | 0.7  |       -15.1 |
+|   1 | LowShelf  |       105 | 0.7  |         9.7 |
+|   2 | Peaking   |        52 | 0.79 |        -6.1 |
+|   3 | Peaking   |        69 | 0.29 |        -4.1 |
+|   4 | Peaking   |       854 | 3.2  |        -3.5 |
+|   5 | Peaking   |      5709 | 1.08 |         4.4 |
+|   6 | Peaking   |      1372 | 5.95 |        -2.4 |
+|   7 | Peaking   |      1937 | 2.12 |         2.6 |
+|   8 | Peaking   |      3195 | 4.69 |        -2.2 |
+|   9 | Peaking   |      9193 | 1.29 |         5.5 |
+|  10 | HighShelf |     10000 | 0.7  |       -15.7 |
 
 ### Fixed Band EQs
 When using fixed band (also called graphic) equalizer, apply preamp of **-4.0 dB** (if available) and set gains manually with these parameters.
@@ -29,7 +29,7 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-4.0 dB
 |   5 | Peaking |       500 | 1.41 |        -0.5 |
 |   6 | Peaking |      1000 | 1.41 |        -2.9 |
 |   7 | Peaking |      2000 | 1.41 |         2.2 |
-|   8 | Peaking |      4000 | 1.41 |         2.4 |
+|   8 | Peaking |      4000 | 1.41 |         2.3 |
 |   9 | Peaking |      8000 | 1.41 |         4.3 |
 |  10 | Peaking |     16000 | 1.41 |       -20   |
 

@@ -2,19 +2,19 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-You can use filters 1-5 or 1-10. Apply preamp of -6.8 dB or -6.8 dB, respectively.
+You can use filters 1-5 or 1-10. Apply preamp of -6.9 dB or -6.9 dB, respectively.
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         9.8 |
-|   2 | Peaking   |        50 | 0.47 |        -6   |
-|   3 | Peaking   |      1379 | 0.78 |        -5.5 |
-|   4 | Peaking   |      2052 | 2.27 |         7.4 |
-|   5 | Peaking   |      7814 | 2.02 |         5.4 |
-|   6 | Peaking   |      3148 | 4.64 |         1   |
-|   7 | Peaking   |      4268 | 4.41 |        -1   |
-|   8 | Peaking   |      4699 | 5.99 |        -4.1 |
-|   9 | Peaking   |      5739 | 5.09 |         3.7 |
+|   1 | LowShelf  |       105 | 0.7  |         9.7 |
+|   2 | Peaking   |        51 | 0.48 |        -5.9 |
+|   3 | Peaking   |      1374 | 0.78 |        -5.5 |
+|   4 | Peaking   |      2055 | 2.29 |         7.3 |
+|   5 | Peaking   |      7823 | 2.01 |         5.4 |
+|   6 | Peaking   |      3129 | 4.71 |         1   |
+|   7 | Peaking   |      4291 | 4.37 |        -1   |
+|   8 | Peaking   |      4716 | 5.95 |        -4.1 |
+|   9 | Peaking   |      5725 | 5.13 |         3.6 |
 |  10 | HighShelf |     10000 | 0.7  |        -5.2 |
 
 ### Fixed Band EQs
@@ -23,7 +23,7 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-6.4 dB
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
 |   1 | Peaking |        31 | 1.41 |         6.1 |
-|   2 | Peaking |        62 | 1.41 |         1.2 |
+|   2 | Peaking |        62 | 1.41 |         1.1 |
 |   3 | Peaking |       125 | 1.41 |         0.7 |
 |   4 | Peaking |       250 | 1.41 |        -1.8 |
 |   5 | Peaking |       500 | 1.41 |         0.5 |
@@ -31,7 +31,7 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-6.4 dB
 |   7 | Peaking |      2000 | 1.41 |         3.1 |
 |   8 | Peaking |      4000 | 1.41 |        -2.5 |
 |   9 | Peaking |      8000 | 1.41 |         6.2 |
-|  10 | Peaking |     16000 | 1.41 |       -11.9 |
+|  10 | Peaking |     16000 | 1.41 |       -12   |
 
 ### Graphs
 ![](./ES%20Lab%20ES-1a.png)

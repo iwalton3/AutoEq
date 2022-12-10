@@ -6,32 +6,32 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.6 dB or -6.8 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |        -2.4 |
-|   2 | Peaking   |       170 | 0.49 |        -6.5 |
-|   3 | Peaking   |       314 | 0.99 |        -1.2 |
-|   4 | Peaking   |      1982 | 0.79 |         6.4 |
-|   5 | Peaking   |      4194 | 2.52 |         4.2 |
-|   6 | Peaking   |       886 | 2.8  |         0.6 |
-|   7 | Peaking   |      5324 | 4.4  |         3.6 |
-|   8 | Peaking   |      6674 | 4.15 |        -7.5 |
-|   9 | Peaking   |      8087 | 4.66 |        -2   |
-|  10 | HighShelf |     10000 | 0.7  |         5.1 |
+|   1 | LowShelf  |       105 | 0.7  |        -2.2 |
+|   2 | Peaking   |       170 | 0.48 |        -6.5 |
+|   3 | Peaking   |       331 | 0.95 |        -1.3 |
+|   4 | Peaking   |      1966 | 0.78 |         6.4 |
+|   5 | Peaking   |      4133 | 2.47 |         4.1 |
+|   6 | Peaking   |       888 | 2.84 |         0.7 |
+|   7 | Peaking   |      5288 | 4.05 |         3.4 |
+|   8 | Peaking   |      6622 | 4.34 |        -7.3 |
+|   9 | Peaking   |      7860 | 3.74 |        -2   |
+|  10 | HighShelf |     10000 | 0.7  |         4.9 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-10.7 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-10.4 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |        -3   |
-|   2 | Peaking |        62 | 1.41 |        -3.6 |
-|   3 | Peaking |       125 | 1.41 |        -5.8 |
-|   4 | Peaking |       250 | 1.41 |        -6.1 |
-|   5 | Peaking |       500 | 1.41 |        -2.1 |
+|   1 | Peaking |        31 | 1.41 |        -2.7 |
+|   2 | Peaking |        62 | 1.41 |        -3.5 |
+|   3 | Peaking |       125 | 1.41 |        -5.7 |
+|   4 | Peaking |       250 | 1.41 |        -6   |
+|   5 | Peaking |       500 | 1.41 |        -2.3 |
 |   6 | Peaking |      1000 | 1.41 |         2.3 |
 |   7 | Peaking |      2000 | 1.41 |         5.2 |
-|   8 | Peaking |      4000 | 1.41 |         6.1 |
+|   8 | Peaking |      4000 | 1.41 |         6   |
 |   9 | Peaking |      8000 | 1.41 |        -3.6 |
-|  10 | Peaking |     16000 | 1.41 |        10.8 |
+|  10 | Peaking |     16000 | 1.41 |        10.4 |
 
 ### Graphs
 ![](./Sennheiser%20MM%2050.png)

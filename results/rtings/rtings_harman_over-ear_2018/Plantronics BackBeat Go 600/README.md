@@ -2,36 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-You can use filters 1-5 or 1-10. Apply preamp of -5.0 dB or -5.0 dB, respectively.
+You can use filters 1-5 or 1-10. Apply preamp of -5.1 dB or -5.0 dB, respectively.
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         2.5 |
-|   2 | Peaking   |        68 | 0.35 |        -6.2 |
-|   3 | Peaking   |       173 | 0.59 |        -2.4 |
-|   4 | Peaking   |       474 | 0.86 |         6.1 |
-|   5 | Peaking   |      2558 | 2.37 |         4.7 |
-|   6 | Peaking   |      3428 | 3.96 |         2.5 |
-|   7 | Peaking   |      5661 | 4.97 |         2.8 |
-|   8 | Peaking   |      6186 | 1.48 |        -4.3 |
-|   9 | Peaking   |      9364 | 2.11 |        -2.5 |
+|   1 | LowShelf  |       105 | 0.7  |         3.8 |
+|   2 | Peaking   |        61 | 0.35 |        -6.6 |
+|   3 | Peaking   |       155 | 0.46 |        -2.5 |
+|   4 | Peaking   |       469 | 0.88 |         6.1 |
+|   5 | Peaking   |      2582 | 2.53 |         4.8 |
+|   6 | Peaking   |      3427 | 4.12 |         2.6 |
+|   7 | Peaking   |      5607 | 4.8  |         3.1 |
+|   8 | Peaking   |      6100 | 1.41 |        -4.3 |
+|   9 | Peaking   |      9398 | 2.13 |        -2.4 |
 |  10 | HighShelf |     10000 | 0.7  |        -6.3 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-5.0 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-5.2 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |        -1.8 |
+|   1 | Peaking |        31 | 1.41 |        -1.4 |
 |   2 | Peaking |        62 | 1.41 |        -3.2 |
-|   3 | Peaking |       125 | 1.41 |        -6.1 |
-|   4 | Peaking |       250 | 1.41 |        -1.9 |
-|   5 | Peaking |       500 | 1.41 |         5.3 |
-|   6 | Peaking |      1000 | 1.41 |         0.4 |
-|   7 | Peaking |      2000 | 1.41 |         3.3 |
-|   8 | Peaking |      4000 | 1.41 |         1.9 |
+|   3 | Peaking |       125 | 1.41 |        -5.8 |
+|   4 | Peaking |       250 | 1.41 |        -2   |
+|   5 | Peaking |       500 | 1.41 |         5.5 |
+|   6 | Peaking |      1000 | 1.41 |         0.2 |
+|   7 | Peaking |      2000 | 1.41 |         3.2 |
+|   8 | Peaking |      4000 | 1.41 |         1.8 |
 |   9 | Peaking |      8000 | 1.41 |        -6   |
-|  10 | Peaking |     16000 | 1.41 |       -11.7 |
+|  10 | Peaking |     16000 | 1.41 |       -11.9 |
 
 ### Graphs
 ![](./Plantronics%20BackBeat%20Go%20600.png)

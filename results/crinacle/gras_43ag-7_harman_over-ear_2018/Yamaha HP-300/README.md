@@ -6,19 +6,19 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.7 dB or -6.8 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         7   |
-|   2 | Peaking   |       140 | 0.67 |        -7.2 |
-|   3 | Peaking   |       687 | 0.62 |       -13.7 |
-|   4 | Peaking   |       998 | 3.02 |         6.1 |
-|   5 | Peaking   |      3022 | 0.2  |         7.6 |
-|   6 | Peaking   |        46 | 3.95 |         1.1 |
-|   7 | Peaking   |      1454 | 6    |        -2   |
-|   8 | Peaking   |      2392 | 4.1  |         1.8 |
-|   9 | Peaking   |      6351 | 4.68 |        -2.3 |
+|   1 | LowShelf  |       105 | 0.7  |         7.1 |
+|   2 | Peaking   |       139 | 0.66 |        -7.2 |
+|   3 | Peaking   |       689 | 0.63 |       -13.7 |
+|   4 | Peaking   |       997 | 3    |         6.2 |
+|   5 | Peaking   |      3060 | 0.21 |         7.6 |
+|   6 | Peaking   |        45 | 4.05 |         1   |
+|   7 | Peaking   |      1453 | 6    |        -1.9 |
+|   8 | Peaking   |      2398 | 4.19 |         1.7 |
+|   9 | Peaking   |      6341 | 4.51 |        -2.5 |
 |  10 | HighShelf |     10000 | 0.7  |         4.1 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-13.0 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-13.2 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
@@ -31,7 +31,7 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-13.0 d
 |   7 | Peaking |      2000 | 1.41 |         3.4 |
 |   8 | Peaking |      4000 | 1.41 |         5.8 |
 |   9 | Peaking |      8000 | 1.41 |         4.3 |
-|  10 | Peaking |     16000 | 1.41 |        12.7 |
+|  10 | Peaking |     16000 | 1.41 |        12.9 |
 
 ### Graphs
 ![](./Yamaha%20HP-300.png)

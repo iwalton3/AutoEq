@@ -6,32 +6,32 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.7 dB or -6.7 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         6.9 |
-|   2 | Peaking   |       118 | 0.75 |        -4.9 |
-|   3 | Peaking   |       781 | 0.78 |         2.1 |
-|   4 | Peaking   |      2493 | 2.31 |        -2.8 |
-|   5 | Peaking   |      9215 | 2.03 |         1.9 |
-|   6 | Peaking   |        50 | 4.07 |         1   |
-|   7 | Peaking   |      3760 | 6    |         3   |
-|   8 | Peaking   |      4909 | 5.8  |        -6.2 |
-|   9 | Peaking   |      6403 | 5.6  |         2.2 |
+|   1 | LowShelf  |       105 | 0.7  |         6.8 |
+|   2 | Peaking   |       118 | 0.77 |        -4.7 |
+|   3 | Peaking   |       772 | 0.83 |         2   |
+|   4 | Peaking   |      2482 | 2.23 |        -2.7 |
+|   5 | Peaking   |      9117 | 2.04 |         1.9 |
+|   6 | Peaking   |        50 | 4.05 |         1   |
+|   7 | Peaking   |      3731 | 6    |         2.9 |
+|   8 | Peaking   |      4885 | 5.79 |        -6.3 |
+|   9 | Peaking   |      6385 | 5.37 |         2.1 |
 |  10 | HighShelf |     10000 | 0.7  |        -1.4 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-7.9 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-7.8 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |         7.3 |
-|   2 | Peaking |        62 | 1.41 |         3.2 |
-|   3 | Peaking |       125 | 1.41 |        -2.9 |
+|   1 | Peaking |        31 | 1.41 |         7.2 |
+|   2 | Peaking |        62 | 1.41 |         3.3 |
+|   3 | Peaking |       125 | 1.41 |        -2.7 |
 |   4 | Peaking |       250 | 1.41 |        -2.1 |
 |   5 | Peaking |       500 | 1.41 |         1.4 |
 |   6 | Peaking |      1000 | 1.41 |         1.6 |
 |   7 | Peaking |      2000 | 1.41 |        -1   |
-|   8 | Peaking |      4000 | 1.41 |        -1.3 |
-|   9 | Peaking |      8000 | 1.41 |         1.3 |
-|  10 | Peaking |     16000 | 1.41 |        -1.6 |
+|   8 | Peaking |      4000 | 1.41 |        -1.4 |
+|   9 | Peaking |      8000 | 1.41 |         1.5 |
+|  10 | Peaking |     16000 | 1.41 |        -1.7 |
 
 ### Graphs
 ![](./Koss%20KSC75.png)

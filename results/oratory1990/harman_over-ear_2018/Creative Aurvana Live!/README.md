@@ -2,19 +2,19 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-You can use filters 1-5 or 1-10. Apply preamp of -4.5 dB or -4.6 dB, respectively.
+You can use filters 1-5 or 1-10. Apply preamp of -4.4 dB or -4.5 dB, respectively.
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |        10.9 |
-|   2 | Peaking   |        49 | 0.27 |       -11.5 |
-|   3 | Peaking   |       789 | 0.37 |         9   |
-|   4 | Peaking   |       929 | 0.79 |       -10.8 |
-|   5 | Peaking   |      5877 | 3.33 |         3.8 |
-|   6 | Peaking   |      1529 | 3.03 |        -0.8 |
-|   7 | Peaking   |      2310 | 3.6  |         2   |
-|   8 | Peaking   |      2900 | 6    |        -2.1 |
-|   9 | Peaking   |      8416 | 2.38 |         1.7 |
+|   1 | LowShelf  |       105 | 0.7  |        11   |
+|   2 | Peaking   |        49 | 0.27 |       -11.6 |
+|   3 | Peaking   |       744 | 0.33 |         6.2 |
+|   4 | Peaking   |       949 | 0.91 |        -8   |
+|   5 | Peaking   |      5880 | 3.25 |         3.8 |
+|   6 | Peaking   |      1543 | 3.11 |        -0.7 |
+|   7 | Peaking   |      2322 | 3.64 |         1.9 |
+|   8 | Peaking   |      2897 | 6    |        -2   |
+|   9 | Peaking   |      8394 | 2.35 |         1.6 |
 |  10 | HighShelf |     10000 | 0.7  |        -3.3 |
 
 ### Fixed Band EQs
@@ -27,11 +27,11 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-2.3 dB
 |   3 | Peaking |       125 | 1.41 |        -3   |
 |   4 | Peaking |       250 | 1.41 |        -1.1 |
 |   5 | Peaking |       500 | 1.41 |         2.3 |
-|   6 | Peaking |      1000 | 1.41 |        -3.5 |
-|   7 | Peaking |      2000 | 1.41 |         2.1 |
-|   8 | Peaking |      4000 | 1.41 |         1.2 |
+|   6 | Peaking |      1000 | 1.41 |        -3.4 |
+|   7 | Peaking |      2000 | 1.41 |         2.2 |
+|   8 | Peaking |      4000 | 1.41 |         1.3 |
 |   9 | Peaking |      8000 | 1.41 |         2.4 |
-|  10 | Peaking |     16000 | 1.41 |        -6.6 |
+|  10 | Peaking |     16000 | 1.41 |        -6.5 |
 
 ### Graphs
 ![](./Creative%20Aurvana%20Live!.png)

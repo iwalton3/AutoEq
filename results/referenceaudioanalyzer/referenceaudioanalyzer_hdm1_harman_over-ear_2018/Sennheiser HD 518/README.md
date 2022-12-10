@@ -2,36 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-You can use filters 1-5 or 1-10. Apply preamp of -7.2 dB or -7.2 dB, respectively.
+You can use filters 1-5 or 1-10. Apply preamp of -6.7 dB or -6.7 dB, respectively.
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |        19.3 |
-|   2 | Peaking   |        45 | 0.31 |       -17.1 |
-|   3 | Peaking   |      1756 | 3.24 |         5.5 |
-|   4 | Peaking   |      5021 | 1.39 |        -6.7 |
-|   5 | Peaking   |      7073 | 0.72 |         8.8 |
-|   6 | Peaking   |       309 | 2.82 |        -0.3 |
-|   7 | Peaking   |       746 | 4.55 |         0.7 |
-|   8 | Peaking   |      2413 | 5.72 |        -0.7 |
-|   9 | Peaking   |      6467 | 6    |         0.8 |
+|   1 | LowShelf  |       105 | 0.7  |        19   |
+|   2 | Peaking   |        44 | 0.31 |       -17.2 |
+|   3 | Peaking   |      1748 | 3.15 |         5.9 |
+|   4 | Peaking   |      5033 | 1.16 |        -7.3 |
+|   5 | Peaking   |      7003 | 0.74 |         9.7 |
+|   6 | Peaking   |        34 | 3.17 |         0.3 |
+|   7 | Peaking   |       307 | 2.93 |        -0.3 |
+|   8 | Peaking   |       749 | 4.42 |         0.8 |
+|   9 | Peaking   |      2440 | 5.63 |        -0.9 |
 |  10 | HighShelf |     10000 | 0.7  |        -0.8 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-6.6 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-6.7 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |         4.9 |
+|   1 | Peaking |        31 | 1.41 |         4.7 |
 |   2 | Peaking |        62 | 1.41 |        -1   |
-|   3 | Peaking |       125 | 1.41 |        -1.9 |
-|   4 | Peaking |       250 | 1.41 |        -4.5 |
+|   3 | Peaking |       125 | 1.41 |        -2.2 |
+|   4 | Peaking |       250 | 1.41 |        -4.3 |
 |   5 | Peaking |       500 | 1.41 |        -1.1 |
-|   6 | Peaking |      1000 | 1.41 |        -0.2 |
-|   7 | Peaking |      2000 | 1.41 |         4.7 |
-|   8 | Peaking |      4000 | 1.41 |        -2.2 |
-|   9 | Peaking |      8000 | 1.41 |         6.6 |
-|  10 | Peaking |     16000 | 1.41 |         2.1 |
+|   6 | Peaking |      1000 | 1.41 |         0   |
+|   7 | Peaking |      2000 | 1.41 |         4.5 |
+|   8 | Peaking |      4000 | 1.41 |        -2.7 |
+|   9 | Peaking |      8000 | 1.41 |         6.9 |
+|  10 | Peaking |     16000 | 1.41 |         0.9 |
 
 ### Graphs
 ![](./Sennheiser%20HD%20518.png)

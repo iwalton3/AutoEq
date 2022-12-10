@@ -7,11 +7,11 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.1 dB or -6.1 dB, respectivel
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |        -4.4 |
-|   2 | Peaking   |       139 | 1    |        -6   |
-|   3 | Peaking   |      2109 | 1.17 |         5.3 |
-|   4 | Peaking   |      2681 | 3.46 |         2   |
-|   5 | Peaking   |      5093 | 4.93 |        -4.9 |
-|   6 | Peaking   |       242 | 2.4  |        -0.7 |
+|   2 | Peaking   |       138 | 1    |        -6   |
+|   3 | Peaking   |      2110 | 1.17 |         5.3 |
+|   4 | Peaking   |      2682 | 3.46 |         2   |
+|   5 | Peaking   |      5094 | 4.93 |        -4.9 |
+|   6 | Peaking   |       242 | 2.41 |        -0.7 |
 |   7 | Peaking   |       391 | 3.37 |         1.3 |
 |   8 | Peaking   |      1055 | 3.24 |         1.9 |
 |   9 | Peaking   |      1425 | 4.43 |        -1.8 |
@@ -30,8 +30,8 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-6.8 dB
 |   6 | Peaking |      1000 | 1.41 |         0.3 |
 |   7 | Peaking |      2000 | 1.41 |         6.9 |
 |   8 | Peaking |      4000 | 1.41 |        -1.9 |
-|   9 | Peaking |      8000 | 1.41 |         1.6 |
-|  10 | Peaking |     16000 | 1.41 |        -3.3 |
+|   9 | Peaking |      8000 | 1.41 |         1.5 |
+|  10 | Peaking |     16000 | 1.41 |        -3.4 |
 
 ### Graphs
 ![](./Sony%20WH-1000XM4.png)

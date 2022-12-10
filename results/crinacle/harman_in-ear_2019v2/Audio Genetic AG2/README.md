@@ -6,16 +6,16 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.7 dB or -6.8 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         2.8 |
-|   2 | Peaking   |       214 | 0.24 |        -5.8 |
-|   3 | Peaking   |      1398 | 2.49 |        -3.1 |
-|   4 | Peaking   |      3414 | 3.2  |         2   |
-|   5 | Peaking   |      4107 | 0.18 |         5.1 |
-|   6 | Peaking   |       146 | 1.76 |         0.4 |
-|   7 | Peaking   |       260 | 1.85 |        -0.4 |
-|   8 | Peaking   |      4781 | 3.89 |         1   |
-|   9 | Peaking   |      6817 | 5.99 |        -3   |
-|  10 | HighShelf |     10000 | 0.7  |         0.9 |
+|   1 | LowShelf  |       105 | 0.7  |         3.3 |
+|   2 | Peaking   |       190 | 0.23 |        -5.7 |
+|   3 | Peaking   |      1405 | 2.16 |        -3   |
+|   4 | Peaking   |      3369 | 3.75 |         2   |
+|   5 | Peaking   |      4357 | 0.18 |         5.2 |
+|   6 | Peaking   |       145 | 1.75 |         0.4 |
+|   7 | Peaking   |       263 | 1.76 |        -0.4 |
+|   8 | Peaking   |      4690 | 3.45 |         1   |
+|   9 | Peaking   |      6821 | 5.96 |        -3.2 |
+|  10 | HighShelf |     10000 | 0.7  |         0.7 |
 
 ### Fixed Band EQs
 When using fixed band (also called graphic) equalizer, apply preamp of **-7.2 dB** (if available) and set gains manually with these parameters.
@@ -29,9 +29,9 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-7.2 dB
 |   5 | Peaking |       500 | 1.41 |        -2.5 |
 |   6 | Peaking |      1000 | 1.41 |        -0.6 |
 |   7 | Peaking |      2000 | 1.41 |         2.1 |
-|   8 | Peaking |      4000 | 1.41 |         6.2 |
-|   9 | Peaking |      8000 | 1.41 |         3.5 |
-|  10 | Peaking |     16000 | 1.41 |         5.6 |
+|   8 | Peaking |      4000 | 1.41 |         6.3 |
+|   9 | Peaking |      8000 | 1.41 |         3.4 |
+|  10 | Peaking |     16000 | 1.41 |         5.5 |
 
 ### Graphs
 ![](./Audio%20Genetic%20AG2.png)

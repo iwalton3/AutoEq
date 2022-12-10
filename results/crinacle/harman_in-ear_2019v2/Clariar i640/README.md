@@ -6,15 +6,15 @@ You can use filters 1-5 or 1-10. Apply preamp of -4.6 dB or -5.1 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |        -3.1 |
-|   2 | Peaking   |       201 | 0.8  |        -2.2 |
-|   3 | Peaking   |       860 | 1.09 |         2.5 |
-|   4 | Peaking   |      1669 | 0.87 |        -2.9 |
-|   5 | Peaking   |      5356 | 1.1  |         4.9 |
-|   6 | Peaking   |        52 | 1.88 |         0.3 |
-|   7 | Peaking   |      4805 | 6    |         1.3 |
-|   8 | Peaking   |      5320 | 5.98 |        -1.7 |
-|   9 | Peaking   |      6491 | 6    |         1.8 |
+|   1 | LowShelf  |       105 | 0.7  |        -3.2 |
+|   2 | Peaking   |       202 | 0.79 |        -2.2 |
+|   3 | Peaking   |       854 | 1.08 |         2.5 |
+|   4 | Peaking   |      1672 | 0.88 |        -2.9 |
+|   5 | Peaking   |      5362 | 1.11 |         4.8 |
+|   6 | Peaking   |        50 | 1.92 |         0.3 |
+|   7 | Peaking   |      4803 | 6    |         1.3 |
+|   8 | Peaking   |      5321 | 5.98 |        -1.7 |
+|   9 | Peaking   |      6493 | 6    |         1.8 |
 |  10 | HighShelf |     10000 | 0.7  |        -3.5 |
 
 ### Fixed Band EQs
@@ -31,7 +31,7 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-3.7 dB
 |   7 | Peaking |      2000 | 1.41 |        -3.1 |
 |   8 | Peaking |      4000 | 1.41 |         3.7 |
 |   9 | Peaking |      8000 | 1.41 |         3.1 |
-|  10 | Peaking |     16000 | 1.41 |        -7.8 |
+|  10 | Peaking |     16000 | 1.41 |        -7.9 |
 
 ### Graphs
 ![](./Clariar%20i640.png)

@@ -6,32 +6,32 @@ You can use filters 1-5 or 1-10. Apply preamp of -7.0 dB or -7.0 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         8.7 |
-|   2 | Peaking   |        61 | 0.61 |        -6.2 |
-|   3 | Peaking   |       351 | 0.22 |        -3   |
-|   4 | Peaking   |       399 | 2.14 |         8.2 |
-|   5 | Peaking   |      4219 | 2.94 |         6.4 |
-|   6 | Peaking   |      3405 | 6    |         1   |
-|   7 | Peaking   |      6079 | 6    |        -2   |
-|   8 | Peaking   |      7160 | 5.99 |         1.7 |
-|   9 | Peaking   |      9626 | 2.33 |        -1.5 |
-|  10 | HighShelf |     10000 | 0.7  |         0.4 |
+|   1 | LowShelf  |       105 | 0.7  |         9.3 |
+|   2 | Peaking   |        59 | 0.58 |        -6.8 |
+|   3 | Peaking   |       326 | 0.2  |        -2.8 |
+|   4 | Peaking   |       398 | 2.13 |         7.8 |
+|   5 | Peaking   |      4259 | 3.06 |         6.2 |
+|   6 | Peaking   |      2549 | 4.26 |        -0.8 |
+|   7 | Peaking   |      6103 | 6    |        -2.1 |
+|   8 | Peaking   |      7153 | 5.96 |         1.9 |
+|   9 | Peaking   |      9769 | 2.37 |        -1.3 |
+|  10 | HighShelf |     10000 | 0.7  |         0.3 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-6.5 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-6.2 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |         6.6 |
-|   2 | Peaking |        62 | 1.41 |        -0.7 |
-|   3 | Peaking |       125 | 1.41 |        -3   |
-|   4 | Peaking |       250 | 1.41 |        -0.9 |
-|   5 | Peaking |       500 | 1.41 |         2.8 |
-|   6 | Peaking |      1000 | 1.41 |        -2.9 |
+|   1 | Peaking |        31 | 1.41 |         6.4 |
+|   2 | Peaking |        62 | 1.41 |        -1   |
+|   3 | Peaking |       125 | 1.41 |        -2.8 |
+|   4 | Peaking |       250 | 1.41 |        -1.3 |
+|   5 | Peaking |       500 | 1.41 |         3   |
+|   6 | Peaking |      1000 | 1.41 |        -2.7 |
 |   7 | Peaking |      2000 | 1.41 |        -1.7 |
-|   8 | Peaking |      4000 | 1.41 |         4.7 |
-|   9 | Peaking |      8000 | 1.41 |        -1.2 |
-|  10 | Peaking |     16000 | 1.41 |         1   |
+|   8 | Peaking |      4000 | 1.41 |         4.2 |
+|   9 | Peaking |      8000 | 1.41 |        -1.1 |
+|  10 | Peaking |     16000 | 1.41 |         0.9 |
 
 ### Graphs
 ![](./Audio-Technica%20ATH-AD500.png)

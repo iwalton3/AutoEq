@@ -7,15 +7,15 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.3 dB or -6.2 dB, respectivel
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |         5.7 |
-|   2 | Peaking   |       160 | 0.71 |         4   |
-|   3 | Peaking   |       811 | 0.56 |         3.1 |
-|   4 | Peaking   |      2633 | 1.47 |        -8.7 |
-|   5 | Peaking   |      6106 | 2.5  |        -7.6 |
-|   6 | Peaking   |        60 | 1.7  |        -0.2 |
-|   7 | Peaking   |       694 | 4.17 |        -0.3 |
-|   8 | Peaking   |      3179 | 5.45 |        -0.7 |
-|   9 | Peaking   |      4219 | 3.56 |         0.7 |
-|  10 | HighShelf |     10000 | 0.7  |        -0.6 |
+|   2 | Peaking   |       158 | 0.74 |         3.9 |
+|   3 | Peaking   |       798 | 0.51 |         3.1 |
+|   4 | Peaking   |      2634 | 1.5  |        -8.9 |
+|   5 | Peaking   |      6105 | 2.46 |        -7.7 |
+|   6 | Peaking   |        59 | 1.69 |        -0.2 |
+|   7 | Peaking   |      3173 | 6    |        -0.6 |
+|   8 | Peaking   |      4619 | 3.52 |         0.9 |
+|   9 | Peaking   |      5420 | 6    |        -0.9 |
+|  10 | HighShelf |     10000 | 0.7  |        -0.8 |
 
 ### Fixed Band EQs
 When using fixed band (also called graphic) equalizer, apply preamp of **-7.6 dB** (if available) and set gains manually with these parameters.
@@ -24,14 +24,14 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-7.6 dB
 |-----|---------|-----------|------|-------------|
 |   1 | Peaking |        31 | 1.41 |         6.5 |
 |   2 | Peaking |        62 | 1.41 |         4   |
-|   3 | Peaking |       125 | 1.41 |         5.4 |
+|   3 | Peaking |       125 | 1.41 |         5.3 |
 |   4 | Peaking |       250 | 1.41 |         2.4 |
 |   5 | Peaking |       500 | 1.41 |         1.7 |
 |   6 | Peaking |      1000 | 1.41 |         3.8 |
-|   7 | Peaking |      2000 | 1.41 |        -4.8 |
-|   8 | Peaking |      4000 | 1.41 |        -5.3 |
+|   7 | Peaking |      2000 | 1.41 |        -4.7 |
+|   8 | Peaking |      4000 | 1.41 |        -5.5 |
 |   9 | Peaking |      8000 | 1.41 |        -3.2 |
-|  10 | Peaking |     16000 | 1.41 |        -1.2 |
+|  10 | Peaking |     16000 | 1.41 |        -1.6 |
 
 ### Graphs
 ![](./Sennheiser%20MX%20560.png)

@@ -2,36 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-You can use filters 1-5 or 1-10. Apply preamp of -6.3 dB or -6.3 dB, respectively.
+You can use filters 1-5 or 1-10. Apply preamp of -6.4 dB or -6.3 dB, respectively.
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |        -3.5 |
-|   2 | Peaking   |       173 | 0.78 |        -4.6 |
-|   3 | Peaking   |      3301 | 1.55 |        -9.8 |
-|   4 | Peaking   |      5027 | 0.39 |         6.7 |
-|   5 | Peaking   |      5224 | 1.18 |         1.9 |
-|   6 | Peaking   |        43 | 3.47 |        -1.7 |
-|   7 | Peaking   |       240 | 4.49 |        -1   |
-|   8 | Peaking   |       541 | 2.69 |         1.1 |
-|   9 | Peaking   |      8926 | 1.98 |         2.7 |
-|  10 | HighShelf |     10000 | 0.7  |        -6.7 |
+|   1 | LowShelf  |       105 | 0.7  |        -3.7 |
+|   2 | Peaking   |       173 | 0.77 |        -4.6 |
+|   3 | Peaking   |      3304 | 1.68 |        -8.7 |
+|   4 | Peaking   |      5251 | 1.59 |         2.1 |
+|   5 | Peaking   |      5443 | 0.36 |         6.1 |
+|   6 | Peaking   |        43 | 3.49 |        -1.7 |
+|   7 | Peaking   |       235 | 4.5  |        -1   |
+|   8 | Peaking   |       542 | 2.65 |         1   |
+|   9 | Peaking   |      8762 | 2.05 |         2.5 |
+|  10 | HighShelf |     10000 | 0.7  |        -6.6 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-7.1 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-7.2 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |        -3.6 |
-|   2 | Peaking |        62 | 1.41 |        -3.3 |
+|   1 | Peaking |        31 | 1.41 |        -4   |
+|   2 | Peaking |        62 | 1.41 |        -3.4 |
 |   3 | Peaking |       125 | 1.41 |        -4   |
 |   4 | Peaking |       250 | 1.41 |        -3.9 |
-|   5 | Peaking |       500 | 1.41 |         1.4 |
-|   6 | Peaking |      1000 | 1.41 |         0.5 |
-|   7 | Peaking |      2000 | 1.41 |         0.2 |
-|   8 | Peaking |      4000 | 1.41 |        -0.3 |
-|   9 | Peaking |      8000 | 1.41 |         7.6 |
-|  10 | Peaking |     16000 | 1.41 |       -10.4 |
+|   5 | Peaking |       500 | 1.41 |         1.2 |
+|   6 | Peaking |      1000 | 1.41 |         0.2 |
+|   7 | Peaking |      2000 | 1.41 |         0.6 |
+|   8 | Peaking |      4000 | 1.41 |        -0.1 |
+|   9 | Peaking |      8000 | 1.41 |         7.7 |
+|  10 | Peaking |     16000 | 1.41 |        -9.9 |
 
 ### Graphs
 ![](./Audeze%20Mobius%20(analog).png)

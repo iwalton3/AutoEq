@@ -7,31 +7,31 @@ You can use filters 1-5 or 1-10. Apply preamp of -3.8 dB or -3.8 dB, respectivel
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |        -0.7 |
-|   2 | Peaking   |       472 | 0.18 |        -3.5 |
-|   3 | Peaking   |       829 | 1.05 |         5.3 |
-|   4 | Peaking   |      3282 | 1.55 |         4.6 |
-|   5 | Peaking   |      8860 | 1.53 |         2.8 |
-|   6 | Peaking   |       412 | 1.99 |         0.3 |
-|   7 | Peaking   |       738 | 3.28 |        -0.4 |
-|   8 | Peaking   |      1049 | 3.83 |         0.7 |
-|   9 | Peaking   |      1530 | 2.96 |        -0.7 |
+|   2 | Peaking   |       459 | 0.18 |        -3.4 |
+|   3 | Peaking   |       830 | 1.07 |         5.2 |
+|   4 | Peaking   |      3281 | 1.58 |         4.5 |
+|   5 | Peaking   |      8874 | 1.51 |         2.8 |
+|   6 | Peaking   |       418 | 1.96 |         0.3 |
+|   7 | Peaking   |       741 | 3.22 |        -0.4 |
+|   8 | Peaking   |      1053 | 3.81 |         0.8 |
+|   9 | Peaking   |      1526 | 2.98 |        -0.7 |
 |  10 | HighShelf |     10000 | 0.7  |        -1.8 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-3.2 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-3.4 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |        -0.6 |
+|   1 | Peaking |        31 | 1.41 |        -0.7 |
 |   2 | Peaking |        62 | 1.41 |        -1.6 |
-|   3 | Peaking |       125 | 1.41 |        -1.9 |
+|   3 | Peaking |       125 | 1.41 |        -2   |
 |   4 | Peaking |       250 | 1.41 |        -2.8 |
-|   5 | Peaking |       500 | 1.41 |        -0.5 |
-|   6 | Peaking |      1000 | 1.41 |         1.8 |
-|   7 | Peaking |      2000 | 1.41 |        -0.7 |
-|   8 | Peaking |      4000 | 1.41 |         2.9 |
-|   9 | Peaking |      8000 | 1.41 |         1.9 |
-|  10 | Peaking |     16000 | 1.41 |        -3   |
+|   5 | Peaking |       500 | 1.41 |        -0.6 |
+|   6 | Peaking |      1000 | 1.41 |         2.1 |
+|   7 | Peaking |      2000 | 1.41 |        -1.1 |
+|   8 | Peaking |      4000 | 1.41 |         3.2 |
+|   9 | Peaking |      8000 | 1.41 |         2   |
+|  10 | Peaking |     16000 | 1.41 |        -2.7 |
 
 ### Graphs
 ![](./Fir%20Audio%20M4.png)

@@ -7,31 +7,31 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.8 dB or -6.8 dB, respectivel
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |         7.3 |
-|   2 | Peaking   |       226 | 0.33 |        -8.2 |
-|   3 | Peaking   |      1346 | 1.77 |        -5.5 |
-|   4 | Peaking   |      2873 | 0.3  |         6.9 |
-|   5 | Peaking   |      8500 | 2    |         2.4 |
-|   6 | Peaking   |        41 | 3.35 |         0.7 |
-|   7 | Peaking   |      1708 | 4.4  |        -1   |
-|   8 | Peaking   |      2121 | 3.87 |         1.4 |
-|   9 | Peaking   |      9197 | 2.43 |        -2   |
-|  10 | HighShelf |     10000 | 0.7  |         4.8 |
+|   2 | Peaking   |       234 | 0.33 |        -8.1 |
+|   3 | Peaking   |      1351 | 1.78 |        -5.6 |
+|   4 | Peaking   |      2925 | 0.29 |         6.9 |
+|   5 | Peaking   |      8549 | 2.19 |         2.3 |
+|   6 | Peaking   |        43 | 3.35 |         1   |
+|   7 | Peaking   |        77 | 1.8  |        -0.5 |
+|   8 | Peaking   |      2227 | 3.88 |         0.8 |
+|   9 | Peaking   |      9234 | 2.45 |        -2   |
+|  10 | HighShelf |     10000 | 0.7  |         4.7 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-11.2 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-11.3 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
 |   1 | Peaking |        31 | 1.41 |         7.4 |
-|   2 | Peaking |        62 | 1.41 |         2.4 |
-|   3 | Peaking |       125 | 1.41 |        -3.9 |
+|   2 | Peaking |        62 | 1.41 |         2.5 |
+|   3 | Peaking |       125 | 1.41 |        -3.7 |
 |   4 | Peaking |       250 | 1.41 |        -7.4 |
-|   5 | Peaking |       500 | 1.41 |        -2.8 |
-|   6 | Peaking |      1000 | 1.41 |        -2.2 |
+|   5 | Peaking |       500 | 1.41 |        -2.7 |
+|   6 | Peaking |      1000 | 1.41 |        -2.4 |
 |   7 | Peaking |      2000 | 1.41 |         3.5 |
-|   8 | Peaking |      4000 | 1.41 |         5.6 |
+|   8 | Peaking |      4000 | 1.41 |         5.5 |
 |   9 | Peaking |      8000 | 1.41 |         4.9 |
-|  10 | Peaking |     16000 | 1.41 |        10.8 |
+|  10 | Peaking |     16000 | 1.41 |        11   |
 
 ### Graphs
 ![](./Cowin%20SE7.png)

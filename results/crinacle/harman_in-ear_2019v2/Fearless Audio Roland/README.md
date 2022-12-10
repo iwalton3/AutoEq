@@ -7,18 +7,18 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.3 dB or -6.5 dB, respectivel
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |        -3.6 |
-|   2 | Peaking   |        57 | 0.62 |         3.7 |
-|   3 | Peaking   |       277 | 0.47 |        -4.6 |
-|   4 | Peaking   |      1546 | 1.75 |        -2.4 |
-|   5 | Peaking   |      7788 | 0.49 |         6.2 |
-|   6 | Peaking   |      2303 | 3.86 |        -0.9 |
-|   7 | Peaking   |      3058 | 3.87 |         1.6 |
+|   2 | Peaking   |        57 | 0.61 |         3.6 |
+|   3 | Peaking   |       279 | 0.47 |        -4.6 |
+|   4 | Peaking   |      1547 | 1.75 |        -2.4 |
+|   5 | Peaking   |      7816 | 0.48 |         6.2 |
+|   6 | Peaking   |      2304 | 3.87 |        -0.9 |
+|   7 | Peaking   |      3059 | 3.87 |         1.6 |
 |   8 | Peaking   |      4372 | 6    |        -3.6 |
-|   9 | Peaking   |      4992 | 5.93 |         2.3 |
-|  10 | HighShelf |     10000 | 0.7  |         1   |
+|   9 | Peaking   |      4994 | 5.93 |         2.3 |
+|  10 | HighShelf |     10000 | 0.7  |         0.9 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-7.4 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-7.3 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
@@ -31,7 +31,7 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-7.4 dB
 |   7 | Peaking |      2000 | 1.41 |        -1.2 |
 |   8 | Peaking |      4000 | 1.41 |         3.4 |
 |   9 | Peaking |      8000 | 1.41 |         6.5 |
-|  10 | Peaking |     16000 | 1.41 |         6.4 |
+|  10 | Peaking |     16000 | 1.41 |         6.3 |
 
 ### Graphs
 ![](./Fearless%20Audio%20Roland.png)

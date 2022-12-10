@@ -6,26 +6,26 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.2 dB or -6.8 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         5.2 |
+|   1 | LowShelf  |       105 | 0.7  |         5.1 |
 |   2 | Peaking   |       166 | 0.22 |        -4   |
-|   3 | Peaking   |      3357 | 5.06 |         3.3 |
-|   4 | Peaking   |      4217 | 3.57 |        -4.1 |
-|   5 | Peaking   |      7681 | 0.46 |         6.3 |
-|   6 | Peaking   |        72 | 3.07 |        -0.5 |
-|   7 | Peaking   |       778 | 1.77 |         0.4 |
-|   8 | Peaking   |      1318 | 3.07 |        -1.2 |
-|   9 | Peaking   |      2008 | 3.55 |         0.9 |
+|   3 | Peaking   |      3358 | 5.06 |         3.3 |
+|   4 | Peaking   |      4215 | 3.56 |        -4.1 |
+|   5 | Peaking   |      7682 | 0.46 |         6.3 |
+|   6 | Peaking   |        72 | 3    |        -0.6 |
+|   7 | Peaking   |       778 | 1.74 |         0.4 |
+|   8 | Peaking   |      1318 | 3.08 |        -1.2 |
+|   9 | Peaking   |      2007 | 3.56 |         0.9 |
 |  10 | HighShelf |     10000 | 0.7  |         2   |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-9.9 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-10.0 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
 |   1 | Peaking |        31 | 1.41 |         4.6 |
-|   2 | Peaking |        62 | 1.41 |         0.6 |
+|   2 | Peaking |        62 | 1.41 |         0.5 |
 |   3 | Peaking |       125 | 1.41 |        -1.6 |
-|   4 | Peaking |       250 | 1.41 |        -3.6 |
+|   4 | Peaking |       250 | 1.41 |        -3.7 |
 |   5 | Peaking |       500 | 1.41 |        -2   |
 |   6 | Peaking |      1000 | 1.41 |        -1.5 |
 |   7 | Peaking |      2000 | 1.41 |         1.5 |

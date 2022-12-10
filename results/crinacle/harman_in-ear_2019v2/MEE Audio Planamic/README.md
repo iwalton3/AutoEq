@@ -2,19 +2,19 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-You can use filters 1-5 or 1-10. Apply preamp of -6.9 dB or -6.7 dB, respectively.
+You can use filters 1-5 or 1-10. Apply preamp of -7.0 dB or -6.7 dB, respectively.
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         0.6 |
-|   2 | Peaking   |       131 | 0.34 |        -6.3 |
-|   3 | Peaking   |       861 | 1.28 |         4.3 |
-|   4 | Peaking   |      4186 | 3.83 |        -6.7 |
-|   5 | Peaking   |      7126 | 0.86 |         7.1 |
-|   6 | Peaking   |       252 | 2.03 |        -0.4 |
-|   7 | Peaking   |       456 | 2.1  |         0.5 |
-|   8 | Peaking   |      2624 | 3.26 |        -1.4 |
-|   9 | Peaking   |      5377 | 6    |         2   |
+|   1 | LowShelf  |       105 | 0.7  |         0.9 |
+|   2 | Peaking   |       126 | 0.33 |        -6.3 |
+|   3 | Peaking   |       862 | 1.3  |         4.3 |
+|   4 | Peaking   |      4191 | 3.84 |        -6.6 |
+|   5 | Peaking   |      7127 | 0.87 |         7.2 |
+|   6 | Peaking   |       253 | 2.02 |        -0.4 |
+|   7 | Peaking   |       459 | 2.16 |         0.5 |
+|   8 | Peaking   |      2628 | 3.27 |        -1.4 |
+|   9 | Peaking   |      5373 | 6    |         2   |
 |  10 | HighShelf |     10000 | 0.7  |        -2.5 |
 
 ### Fixed Band EQs
@@ -23,13 +23,13 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-7.7 dB
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
 |   1 | Peaking |        31 | 1.41 |        -0.8 |
-|   2 | Peaking |        62 | 1.41 |        -3.5 |
+|   2 | Peaking |        62 | 1.41 |        -3.6 |
 |   3 | Peaking |       125 | 1.41 |        -5   |
 |   4 | Peaking |       250 | 1.41 |        -4.8 |
 |   5 | Peaking |       500 | 1.41 |        -0.1 |
 |   6 | Peaking |      1000 | 1.41 |         3.7 |
-|   7 | Peaking |      2000 | 1.41 |        -0.2 |
-|   8 | Peaking |      4000 | 1.41 |        -1.6 |
+|   7 | Peaking |      2000 | 1.41 |        -0.3 |
+|   8 | Peaking |      4000 | 1.41 |        -1.5 |
 |   9 | Peaking |      8000 | 1.41 |         8   |
 |  10 | Peaking |     16000 | 1.41 |        -4.5 |
 

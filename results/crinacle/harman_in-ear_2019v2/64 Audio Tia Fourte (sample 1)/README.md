@@ -6,16 +6,16 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.9 dB or -6.4 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |        -2.3 |
-|   2 | Peaking   |       257 | 0.73 |        -2.5 |
-|   3 | Peaking   |       729 | 1.33 |        -5.3 |
-|   4 | Peaking   |      1155 | 1.34 |         5.9 |
+|   1 | LowShelf  |       105 | 0.7  |        -2.4 |
+|   2 | Peaking   |       260 | 0.72 |        -2.4 |
+|   3 | Peaking   |       729 | 1.34 |        -5.3 |
+|   4 | Peaking   |      1154 | 1.34 |         5.9 |
 |   5 | Peaking   |      3883 | 2.24 |         6.6 |
-|   6 | Peaking   |        56 | 1.33 |         0.3 |
-|   7 | Peaking   |       129 | 1.8  |        -0.2 |
-|   8 | Peaking   |      3968 | 6    |        -0.7 |
-|   9 | Peaking   |      4537 | 5.96 |         1.4 |
-|  10 | HighShelf |     10000 | 0.7  |        -7.5 |
+|   6 | Peaking   |        58 | 1.36 |         0.3 |
+|   7 | Peaking   |       132 | 1.81 |        -0.2 |
+|   8 | Peaking   |      3952 | 6    |        -0.7 |
+|   9 | Peaking   |      4540 | 5.96 |         1.5 |
+|  10 | HighShelf |     10000 | 0.7  |        -7.4 |
 
 ### Fixed Band EQs
 When using fixed band (also called graphic) equalizer, apply preamp of **-5.8 dB** (if available) and set gains manually with these parameters.
@@ -23,9 +23,9 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-5.8 dB
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
 |   1 | Peaking |        31 | 1.41 |        -2.7 |
-|   2 | Peaking |        62 | 1.41 |        -1.1 |
+|   2 | Peaking |        62 | 1.41 |        -1.2 |
 |   3 | Peaking |       125 | 1.41 |        -1.6 |
-|   4 | Peaking |       250 | 1.41 |        -1.9 |
+|   4 | Peaking |       250 | 1.41 |        -1.8 |
 |   5 | Peaking |       500 | 1.41 |        -4.1 |
 |   6 | Peaking |      1000 | 1.41 |         1.9 |
 |   7 | Peaking |      2000 | 1.41 |         1.3 |

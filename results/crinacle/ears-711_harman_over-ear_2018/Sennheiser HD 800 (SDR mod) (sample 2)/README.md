@@ -2,23 +2,23 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-You can use filters 1-5 or 1-10. Apply preamp of -5.9 dB or -5.9 dB, respectively.
+You can use filters 1-5 or 1-10. Apply preamp of -6.2 dB or -6.2 dB, respectively.
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         9.2 |
-|   2 | Peaking   |        52 | 0.37 |        -5.7 |
-|   3 | Peaking   |      2010 | 2.5  |         3.2 |
-|   4 | Peaking   |      3365 | 3.93 |         4.7 |
-|   5 | Peaking   |      6242 | 2.53 |        -5   |
-|   6 | Peaking   |       241 | 2.14 |        -0.2 |
-|   7 | Peaking   |      5924 | 6    |         1.9 |
-|   8 | Peaking   |      6292 | 6    |        -1.9 |
-|   9 | Peaking   |      7180 | 5.98 |         1.6 |
+|   1 | LowShelf  |       105 | 0.7  |        11.3 |
+|   2 | Peaking   |        46 | 0.37 |        -7.8 |
+|   3 | Peaking   |      2012 | 2.56 |         3.3 |
+|   4 | Peaking   |      3366 | 4.07 |         4.7 |
+|   5 | Peaking   |      6253 | 2.62 |        -5   |
+|   6 | Peaking   |      5043 | 3.94 |        -0.6 |
+|   7 | Peaking   |      5847 | 5.98 |         2   |
+|   8 | Peaking   |      6327 | 6    |        -1.7 |
+|   9 | Peaking   |      7148 | 5.92 |         1.8 |
 |  10 | HighShelf |     10000 | 0.7  |        -3.7 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-5.5 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-5.4 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
@@ -31,7 +31,7 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-5.5 dB
 |   7 | Peaking |      2000 | 1.41 |         3.5 |
 |   8 | Peaking |      4000 | 1.41 |         0.9 |
 |   9 | Peaking |      8000 | 1.41 |        -3   |
-|  10 | Peaking |     16000 | 1.41 |        -6.4 |
+|  10 | Peaking |     16000 | 1.41 |        -6.5 |
 
 ### Graphs
 ![](./Sennheiser%20HD%20800%20(SDR%20mod)%20(sample%202).png)

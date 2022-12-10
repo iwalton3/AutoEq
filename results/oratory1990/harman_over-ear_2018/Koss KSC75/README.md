@@ -7,13 +7,13 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.4 dB or -6.4 dB, respectivel
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |         6.3 |
-|   2 | Peaking   |       182 | 0.87 |        -2.3 |
-|   3 | Peaking   |       626 | 0.37 |         2.4 |
-|   4 | Peaking   |      2368 | 1.76 |        -4.1 |
-|   5 | Peaking   |      5689 | 2.93 |        -5.4 |
-|   6 | Peaking   |        69 | 3.93 |         1.2 |
-|   7 | Peaking   |       102 | 2.23 |        -0.5 |
-|   8 | Peaking   |      3613 | 5.74 |        -1.6 |
+|   2 | Peaking   |       182 | 0.86 |        -2.3 |
+|   3 | Peaking   |       627 | 0.38 |         2.4 |
+|   4 | Peaking   |      2369 | 1.76 |        -4.1 |
+|   5 | Peaking   |      5688 | 2.94 |        -5.4 |
+|   6 | Peaking   |        69 | 3.95 |         1.1 |
+|   7 | Peaking   |       102 | 2.18 |        -0.5 |
+|   8 | Peaking   |      3599 | 5.73 |        -1.6 |
 |   9 | Peaking   |      4237 | 6    |         2.4 |
 |  10 | HighShelf |     10000 | 0.7  |        -2.9 |
 
@@ -30,8 +30,8 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-7.5 dB
 |   6 | Peaking |      1000 | 1.41 |         2.1 |
 |   7 | Peaking |      2000 | 1.41 |        -2.3 |
 |   8 | Peaking |      4000 | 1.41 |        -1.5 |
-|   9 | Peaking |      8000 | 1.41 |        -2.1 |
-|  10 | Peaking |     16000 | 1.41 |        -4.7 |
+|   9 | Peaking |      8000 | 1.41 |        -2.2 |
+|  10 | Peaking |     16000 | 1.41 |        -4.8 |
 
 ### Graphs
 ![](./Koss%20KSC75.png)

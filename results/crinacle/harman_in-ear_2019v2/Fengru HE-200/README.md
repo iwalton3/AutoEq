@@ -6,32 +6,32 @@ You can use filters 1-5 or 1-10. Apply preamp of -7.1 dB or -6.4 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |        -9.2 |
-|   2 | Peaking   |       183 | 0.67 |        -6.3 |
-|   3 | Peaking   |       363 | 1.8  |        -1.1 |
-|   4 | Peaking   |      1179 | 0.55 |         4   |
-|   5 | Peaking   |      8176 | 1.61 |         6.8 |
-|   6 | Peaking   |      2233 | 3.09 |         1.1 |
-|   7 | Peaking   |      4901 | 5.28 |        -5.3 |
-|   8 | Peaking   |      6107 | 5.3  |         3.3 |
-|   9 | Peaking   |      8271 | 5.36 |        -2.3 |
-|  10 | HighShelf |     10000 | 0.7  |         3.4 |
+|   1 | LowShelf  |       105 | 0.7  |        -9.4 |
+|   2 | Peaking   |       185 | 0.68 |        -6.4 |
+|   3 | Peaking   |       367 | 2.01 |        -0.9 |
+|   4 | Peaking   |      1192 | 0.57 |         4.1 |
+|   5 | Peaking   |      8198 | 1.59 |         6.8 |
+|   6 | Peaking   |      2235 | 3.12 |         1.1 |
+|   7 | Peaking   |      4905 | 5.31 |        -5.3 |
+|   8 | Peaking   |      6102 | 5.25 |         3.4 |
+|   9 | Peaking   |      8263 | 5.34 |        -2.3 |
+|  10 | HighShelf |     10000 | 0.7  |         3.3 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-8.2 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-8.4 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |       -10.3 |
-|   2 | Peaking |        62 | 1.41 |        -6.4 |
-|   3 | Peaking |       125 | 1.41 |        -6.8 |
+|   1 | Peaking |        31 | 1.41 |       -10.5 |
+|   2 | Peaking |        62 | 1.41 |        -6.5 |
+|   3 | Peaking |       125 | 1.41 |        -6.7 |
 |   4 | Peaking |       250 | 1.41 |        -5   |
-|   5 | Peaking |       500 | 1.41 |         0.2 |
+|   5 | Peaking |       500 | 1.41 |         0.4 |
 |   6 | Peaking |      1000 | 1.41 |         3.3 |
-|   7 | Peaking |      2000 | 1.41 |         3.5 |
+|   7 | Peaking |      2000 | 1.41 |         3.8 |
 |   8 | Peaking |      4000 | 1.41 |        -1.3 |
-|   9 | Peaking |      8000 | 1.41 |         6.1 |
-|  10 | Peaking |     16000 | 1.41 |         7.8 |
+|   9 | Peaking |      8000 | 1.41 |         6.3 |
+|  10 | Peaking |     16000 | 1.41 |         8.1 |
 
 ### Graphs
 ![](./Fengru%20HE-200.png)

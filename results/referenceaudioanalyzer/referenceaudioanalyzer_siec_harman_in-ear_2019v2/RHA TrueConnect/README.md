@@ -6,32 +6,32 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.8 dB or -6.8 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |       -11.7 |
-|   2 | Peaking   |       207 | 0.76 |        -6.6 |
-|   3 | Peaking   |       858 | 1.36 |         1.4 |
-|   4 | Peaking   |      3312 | 1.11 |         6.2 |
-|   5 | Peaking   |      5844 | 3.03 |         4.6 |
-|   6 | Peaking   |        61 | 2.79 |         0.6 |
-|   7 | Peaking   |      4650 | 4.29 |         1.1 |
-|   8 | Peaking   |      6842 | 5.3  |         3.6 |
-|   9 | Peaking   |      9570 | 1.55 |        -2.7 |
-|  10 | HighShelf |     10000 | 0.7  |        -5.6 |
+|   1 | LowShelf  |       105 | 0.7  |       -11.6 |
+|   2 | Peaking   |       208 | 0.76 |        -6.6 |
+|   3 | Peaking   |       882 | 1.43 |         1.3 |
+|   4 | Peaking   |      3319 | 1.11 |         6.2 |
+|   5 | Peaking   |      5850 | 2.97 |         4.6 |
+|   6 | Peaking   |        64 | 2.21 |         0.7 |
+|   7 | Peaking   |        93 | 2.68 |        -0.5 |
+|   8 | Peaking   |       876 | 4.57 |         0.1 |
+|   9 | Peaking   |      6750 | 6    |         2.7 |
+|  10 | HighShelf |     10000 | 0.7  |        -7   |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-8.1 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-8.2 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |       -13.4 |
-|   2 | Peaking |        62 | 1.41 |        -7.2 |
-|   3 | Peaking |       125 | 1.41 |        -6.7 |
+|   1 | Peaking |        31 | 1.41 |       -13   |
+|   2 | Peaking |        62 | 1.41 |        -7.1 |
+|   3 | Peaking |       125 | 1.41 |        -6.6 |
 |   4 | Peaking |       250 | 1.41 |        -5.3 |
-|   5 | Peaking |       500 | 1.41 |        -0.2 |
-|   6 | Peaking |      1000 | 1.41 |         0.8 |
-|   7 | Peaking |      2000 | 1.41 |         1.8 |
-|   8 | Peaking |      4000 | 1.41 |         7.8 |
-|   9 | Peaking |      8000 | 1.41 |        -0.1 |
-|  10 | Peaking |     16000 | 1.41 |       -11.8 |
+|   5 | Peaking |       500 | 1.41 |        -0.3 |
+|   6 | Peaking |      1000 | 1.41 |         0.9 |
+|   7 | Peaking |      2000 | 1.41 |         1.9 |
+|   8 | Peaking |      4000 | 1.41 |         7.9 |
+|   9 | Peaking |      8000 | 1.41 |         0.1 |
+|  10 | Peaking |     16000 | 1.41 |       -12.2 |
 
 ### Graphs
 ![](./RHA%20TrueConnect.png)

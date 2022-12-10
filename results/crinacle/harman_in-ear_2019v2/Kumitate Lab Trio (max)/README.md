@@ -7,14 +7,14 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.7 dB or -6.9 dB, respectivel
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |        -0.2 |
-|   2 | Peaking   |       747 | 0.81 |         5.8 |
-|   3 | Peaking   |      1147 | 1.14 |         3.8 |
-|   4 | Peaking   |      1682 | 1.46 |        -8.1 |
-|   5 | Peaking   |      8504 | 2.44 |       -10.4 |
-|   6 | Peaking   |        30 | 1.31 |         0.9 |
-|   7 | Peaking   |       123 | 0.98 |        -1.5 |
-|   8 | Peaking   |      2609 | 4.22 |        -5.8 |
-|   9 | Peaking   |      5103 | 0.48 |         2.9 |
+|   2 | Peaking   |       749 | 0.81 |         5.8 |
+|   3 | Peaking   |      1147 | 1.11 |         3.8 |
+|   4 | Peaking   |      1685 | 1.45 |        -8.1 |
+|   5 | Peaking   |      8504 | 2.43 |       -10.4 |
+|   6 | Peaking   |        31 | 1.26 |         0.9 |
+|   7 | Peaking   |       121 | 0.92 |        -1.4 |
+|   8 | Peaking   |      2613 | 4.23 |        -5.9 |
+|   9 | Peaking   |      5135 | 0.48 |         3   |
 |  10 | HighShelf |     10000 | 0.7  |       -11.3 |
 
 ### Fixed Band EQs
@@ -22,12 +22,12 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-6.6 dB
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |         0.9 |
+|   1 | Peaking |        31 | 1.41 |         0.8 |
 |   2 | Peaking |        62 | 1.41 |        -0.8 |
 |   3 | Peaking |       125 | 1.41 |        -1.1 |
-|   4 | Peaking |       250 | 1.41 |        -0.6 |
-|   5 | Peaking |       500 | 1.41 |         4.8 |
-|   6 | Peaking |      1000 | 1.41 |         6.9 |
+|   4 | Peaking |       250 | 1.41 |        -0.5 |
+|   5 | Peaking |       500 | 1.41 |         4.7 |
+|   6 | Peaking |      1000 | 1.41 |         6.8 |
 |   7 | Peaking |      2000 | 1.41 |        -7.4 |
 |   8 | Peaking |      4000 | 1.41 |         4.9 |
 |   9 | Peaking |      8000 | 1.41 |        -7.5 |

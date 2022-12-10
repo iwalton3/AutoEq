@@ -6,32 +6,32 @@ You can use filters 1-5 or 1-10. Apply preamp of -4.5 dB or -4.7 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |        -8.7 |
-|   2 | Peaking   |       189 | 0.86 |        -3.9 |
-|   3 | Peaking   |      2711 | 0.18 |         5.7 |
-|   4 | Peaking   |      2752 | 2.19 |        -7.6 |
-|   5 | Peaking   |      6260 | 2.75 |       -13.7 |
-|   6 | Peaking   |        54 | 1.87 |         0.5 |
-|   7 | Peaking   |       838 | 1.74 |         0.9 |
-|   8 | Peaking   |      1378 | 2.37 |        -1.4 |
-|   9 | Peaking   |      4078 | 6    |         1.6 |
-|  10 | HighShelf |     10000 | 0.7  |         2.1 |
+|   1 | LowShelf  |       105 | 0.7  |        -8.5 |
+|   2 | Peaking   |       190 | 0.81 |        -3.8 |
+|   3 | Peaking   |      2755 | 2.12 |        -7.8 |
+|   4 | Peaking   |      2793 | 0.18 |         5.9 |
+|   5 | Peaking   |      6246 | 2.84 |       -14.2 |
+|   6 | Peaking   |        54 | 1.85 |         0.5 |
+|   7 | Peaking   |       857 | 1.76 |         0.9 |
+|   8 | Peaking   |      1380 | 2.48 |        -1.5 |
+|   9 | Peaking   |      4118 | 6    |         1.5 |
+|  10 | HighShelf |     10000 | 0.7  |         1.8 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-10.6 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-8.0 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |       -10   |
-|   2 | Peaking |        62 | 1.41 |        -5.1 |
+|   1 | Peaking |        31 | 1.41 |        -9.9 |
+|   2 | Peaking |        62 | 1.41 |        -4.9 |
 |   3 | Peaking |       125 | 1.41 |        -4.7 |
-|   4 | Peaking |       250 | 1.41 |        -2.2 |
-|   5 | Peaking |       500 | 1.41 |         2.1 |
+|   4 | Peaking |       250 | 1.41 |        -2   |
+|   5 | Peaking |       500 | 1.41 |         2.2 |
 |   6 | Peaking |      1000 | 1.41 |         4.6 |
-|   7 | Peaking |      2000 | 1.41 |         0.9 |
-|   8 | Peaking |      4000 | 1.41 |         0   |
-|   9 | Peaking |      8000 | 1.41 |        -3.3 |
-|  10 | Peaking |     16000 | 1.41 |        10.7 |
+|   7 | Peaking |      2000 | 1.41 |         0.8 |
+|   8 | Peaking |      4000 | 1.41 |        -0.1 |
+|   9 | Peaking |      8000 | 1.41 |        -2.8 |
+|  10 | Peaking |     16000 | 1.41 |         8.1 |
 
 ### Graphs
 ![](./TY%20Hi-Z%20G3.png)

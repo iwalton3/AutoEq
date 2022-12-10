@@ -2,36 +2,36 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-You can use filters 1-5 or 1-10. Apply preamp of -6.6 dB or -6.5 dB, respectively.
+You can use filters 1-5 or 1-10. Apply preamp of -6.4 dB or -6.3 dB, respectively.
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         7.8 |
-|   2 | Peaking   |        53 | 1.25 |         6.7 |
-|   3 | Peaking   |        86 | 0.51 |       -10.5 |
-|   4 | Peaking   |       755 | 4.21 |         4.7 |
-|   5 | Peaking   |      2156 | 2.57 |         6.5 |
-|   6 | Peaking   |      1141 | 4.19 |        -3   |
-|   7 | Peaking   |      3621 | 5.35 |         3.6 |
-|   8 | Peaking   |      4512 | 4.35 |        -4.5 |
-|   9 | Peaking   |      5982 | 5.93 |         3.2 |
-|  10 | HighShelf |     10000 | 0.7  |         4.8 |
+|   1 | LowShelf  |       105 | 0.7  |         5.9 |
+|   2 | Peaking   |        58 | 1.13 |         5.2 |
+|   3 | Peaking   |        86 | 1    |        -8.5 |
+|   4 | Peaking   |       179 | 0.71 |        -3.3 |
+|   5 | Peaking   |      2141 | 2.28 |         6.4 |
+|   6 | Peaking   |       771 | 3.69 |         5.3 |
+|   7 | Peaking   |      1125 | 3.37 |        -3.7 |
+|   8 | Peaking   |      3654 | 5.42 |         3.6 |
+|   9 | Peaking   |      4433 | 5.03 |        -4.3 |
+|  10 | HighShelf |     10000 | 0.7  |         5.3 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-9.0 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-9.7 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |         7.6 |
-|   2 | Peaking |        62 | 1.41 |         3   |
-|   3 | Peaking |       125 | 1.41 |        -6.5 |
-|   4 | Peaking |       250 | 1.41 |        -2.8 |
-|   5 | Peaking |       500 | 1.41 |        -0.1 |
-|   6 | Peaking |      1000 | 1.41 |        -0.8 |
+|   1 | Peaking |        31 | 1.41 |         7.5 |
+|   2 | Peaking |        62 | 1.41 |         2.9 |
+|   3 | Peaking |       125 | 1.41 |        -6.4 |
+|   4 | Peaking |       250 | 1.41 |        -3   |
+|   5 | Peaking |       500 | 1.41 |        -0.2 |
+|   6 | Peaking |      1000 | 1.41 |        -0.9 |
 |   7 | Peaking |      2000 | 1.41 |         5.6 |
-|   8 | Peaking |      4000 | 1.41 |        -0.7 |
-|   9 | Peaking |      8000 | 1.41 |         0.5 |
-|  10 | Peaking |     16000 | 1.41 |         8.9 |
+|   8 | Peaking |      4000 | 1.41 |        -0.9 |
+|   9 | Peaking |      8000 | 1.41 |         0.7 |
+|  10 | Peaking |     16000 | 1.41 |         9.6 |
 
 ### Graphs
 ![](./Sterling%20TE-400.png)

@@ -7,31 +7,31 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.7 dB or -6.7 dB, respectivel
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |         6.3 |
-|   2 | Peaking   |        88 | 2.49 |         5.2 |
-|   3 | Peaking   |       114 | 2.93 |        -4.3 |
-|   4 | Peaking   |       184 | 0.92 |        -6.2 |
-|   5 | Peaking   |      5142 | 1.12 |         5.8 |
-|   6 | Peaking   |      1144 | 1.37 |         1   |
-|   7 | Peaking   |      2262 | 2.14 |        -2.4 |
-|   8 | Peaking   |      4012 | 3.2  |         1.6 |
-|   9 | Peaking   |      6038 | 5.54 |        -2.2 |
-|  10 | HighShelf |     10000 | 0.7  |         4.4 |
+|   2 | Peaking   |        87 | 2.46 |         5.3 |
+|   3 | Peaking   |       113 | 2.96 |        -4.2 |
+|   4 | Peaking   |       183 | 0.88 |        -6.2 |
+|   5 | Peaking   |      5256 | 1.05 |         5.8 |
+|   6 | Peaking   |      1227 | 1.34 |         0.9 |
+|   7 | Peaking   |      2284 | 2.12 |        -2.5 |
+|   8 | Peaking   |      4044 | 3.82 |         1.9 |
+|   9 | Peaking   |      6079 | 5.71 |        -2.4 |
+|  10 | HighShelf |     10000 | 0.7  |         4.7 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-8.7 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-9.2 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
 |   1 | Peaking |        31 | 1.41 |         5.9 |
 |   2 | Peaking |        62 | 1.41 |         7.3 |
 |   3 | Peaking |       125 | 1.41 |        -4   |
-|   4 | Peaking |       250 | 1.41 |        -4.9 |
-|   5 | Peaking |       500 | 1.41 |        -0.1 |
-|   6 | Peaking |      1000 | 1.41 |         1.1 |
-|   7 | Peaking |      2000 | 1.41 |        -2.1 |
-|   8 | Peaking |      4000 | 1.41 |         5.3 |
-|   9 | Peaking |      8000 | 1.41 |         2.9 |
-|  10 | Peaking |     16000 | 1.41 |         8.4 |
+|   4 | Peaking |       250 | 1.41 |        -5   |
+|   5 | Peaking |       500 | 1.41 |        -0.2 |
+|   6 | Peaking |      1000 | 1.41 |         1   |
+|   7 | Peaking |      2000 | 1.41 |        -2   |
+|   8 | Peaking |      4000 | 1.41 |         5.1 |
+|   9 | Peaking |      8000 | 1.41 |         3.1 |
+|  10 | Peaking |     16000 | 1.41 |         9   |
 
 ### Graphs
 ![](./Beyerdynamic%20Custom%20One%20Pro%20(step%201).png)

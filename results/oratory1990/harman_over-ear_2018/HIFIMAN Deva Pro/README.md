@@ -2,19 +2,19 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-You can use filters 1-5 or 1-10. Apply preamp of -6.9 dB or -6.9 dB, respectively.
+You can use filters 1-5 or 1-10. Apply preamp of -7.0 dB or -7.0 dB, respectively.
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         8.8 |
-|   2 | Peaking   |        66 | 0.52 |        -6.6 |
-|   3 | Peaking   |      1144 | 1.05 |        -2.6 |
-|   4 | Peaking   |      1956 | 2.69 |         4.8 |
-|   5 | Peaking   |      7026 | 1.39 |         3.9 |
-|   6 | Peaking   |       333 | 1.61 |        -0.7 |
-|   7 | Peaking   |       435 | 4.08 |         1.1 |
-|   8 | Peaking   |      6088 | 6    |         1.8 |
-|   9 | Peaking   |      7100 | 5.38 |        -1.7 |
+|   1 | LowShelf  |       105 | 0.7  |         9.1 |
+|   2 | Peaking   |        65 | 0.5  |        -6.9 |
+|   3 | Peaking   |      1116 | 1.6  |        -3   |
+|   4 | Peaking   |      1967 | 2.98 |         4.6 |
+|   5 | Peaking   |      7072 | 1.34 |         3.7 |
+|   6 | Peaking   |       284 | 1.96 |        -0.4 |
+|   7 | Peaking   |      4135 | 5.95 |        -1.7 |
+|   8 | Peaking   |      6065 | 6    |         2   |
+|   9 | Peaking   |      7120 | 5.34 |        -1.6 |
 |  10 | HighShelf |     10000 | 0.7  |         1.1 |
 
 ### Fixed Band EQs
@@ -23,8 +23,8 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-6.6 dB
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
 |   1 | Peaking |        31 | 1.41 |         6.6 |
-|   2 | Peaking |        62 | 1.41 |        -0.3 |
-|   3 | Peaking |       125 | 1.41 |        -0.7 |
+|   2 | Peaking |        62 | 1.41 |        -0.4 |
+|   3 | Peaking |       125 | 1.41 |        -0.6 |
 |   4 | Peaking |       250 | 1.41 |        -2   |
 |   5 | Peaking |       500 | 1.41 |         0.1 |
 |   6 | Peaking |      1000 | 1.41 |        -3.2 |

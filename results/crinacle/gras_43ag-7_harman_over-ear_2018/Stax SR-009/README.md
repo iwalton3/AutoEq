@@ -6,16 +6,16 @@ You can use filters 1-5 or 1-10. Apply preamp of -4.7 dB or -4.7 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         4.6 |
-|   2 | Peaking   |      2250 | 2.39 |         7.4 |
-|   3 | Peaking   |      2330 | 0.46 |        -6   |
-|   4 | Peaking   |      5196 | 4.39 |        -5.1 |
-|   5 | Peaking   |      7738 | 0.64 |         5.2 |
-|   6 | Peaking   |        72 | 2.3  |        -1.8 |
-|   7 | Peaking   |       219 | 1.91 |        -0.8 |
-|   8 | Peaking   |       780 | 3.82 |         1.1 |
-|   9 | Peaking   |      3135 | 5.34 |        -1.3 |
-|  10 | HighShelf |     10000 | 0.7  |        -3.1 |
+|   1 | LowShelf  |       105 | 0.7  |         4.7 |
+|   2 | Peaking   |      2252 | 2.36 |         7.6 |
+|   3 | Peaking   |      2367 | 0.46 |        -6.2 |
+|   4 | Peaking   |      5197 | 4.42 |        -5.1 |
+|   5 | Peaking   |      7814 | 0.6  |         5.3 |
+|   6 | Peaking   |        71 | 2.36 |        -1.9 |
+|   7 | Peaking   |       223 | 1.89 |        -0.8 |
+|   8 | Peaking   |       780 | 3.83 |         1.1 |
+|   9 | Peaking   |      3129 | 5.43 |        -1.2 |
+|  10 | HighShelf |     10000 | 0.7  |        -3.3 |
 
 ### Fixed Band EQs
 When using fixed band (also called graphic) equalizer, apply preamp of **-7.2 dB** (if available) and set gains manually with these parameters.
@@ -23,9 +23,9 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-7.2 dB
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
 |   1 | Peaking |        31 | 1.41 |         6.8 |
-|   2 | Peaking |        62 | 1.41 |         1.5 |
+|   2 | Peaking |        62 | 1.41 |         1.4 |
 |   3 | Peaking |       125 | 1.41 |         0.7 |
-|   4 | Peaking |       250 | 1.41 |        -1.3 |
+|   4 | Peaking |       250 | 1.41 |        -1.2 |
 |   5 | Peaking |       500 | 1.41 |         0.3 |
 |   6 | Peaking |      1000 | 1.41 |        -3.7 |
 |   7 | Peaking |      2000 | 1.41 |         1.1 |

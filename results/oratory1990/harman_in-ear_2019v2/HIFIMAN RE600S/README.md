@@ -7,31 +7,31 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.4 dB or -6.4 dB, respectivel
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |         4.2 |
-|   2 | Peaking   |       183 | 0.3  |        -2.8 |
-|   3 | Peaking   |       771 | 0.7  |        -4.5 |
-|   4 | Peaking   |      3290 | 2    |         2.6 |
-|   5 | Peaking   |      9418 | 0.18 |         5.6 |
-|   6 | Peaking   |       157 | 2.14 |         0.4 |
-|   7 | Peaking   |       249 | 1.84 |        -0.3 |
-|   8 | Peaking   |      1559 | 3.45 |         0.6 |
-|   9 | Peaking   |      2080 | 3.74 |        -0.6 |
+|   2 | Peaking   |       183 | 0.29 |        -2.8 |
+|   3 | Peaking   |       777 | 0.7  |        -4.5 |
+|   4 | Peaking   |      3302 | 1.97 |         2.5 |
+|   5 | Peaking   |      9280 | 0.18 |         5.6 |
+|   6 | Peaking   |       160 | 2.14 |         0.4 |
+|   7 | Peaking   |       254 | 1.78 |        -0.3 |
+|   8 | Peaking   |      1577 | 2.94 |         0.6 |
+|   9 | Peaking   |      2069 | 3.94 |        -0.7 |
 |  10 | HighShelf |     10000 | 0.7  |         0.1 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-10.0 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-10.2 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |         4.4 |
-|   2 | Peaking |        62 | 1.41 |         1.2 |
-|   3 | Peaking |       125 | 1.41 |        -1   |
-|   4 | Peaking |       250 | 1.41 |        -3.1 |
-|   5 | Peaking |       500 | 1.41 |        -4   |
-|   6 | Peaking |      1000 | 1.41 |        -4   |
-|   7 | Peaking |      2000 | 1.41 |         1.9 |
-|   8 | Peaking |      4000 | 1.41 |         6.1 |
-|   9 | Peaking |      8000 | 1.41 |         4.5 |
-|  10 | Peaking |     16000 | 1.41 |         9.7 |
+|   1 | Peaking |        31 | 1.41 |         4   |
+|   2 | Peaking |        62 | 1.41 |         1.3 |
+|   3 | Peaking |       125 | 1.41 |        -1.1 |
+|   4 | Peaking |       250 | 1.41 |        -2.9 |
+|   5 | Peaking |       500 | 1.41 |        -4.2 |
+|   6 | Peaking |      1000 | 1.41 |        -3.8 |
+|   7 | Peaking |      2000 | 1.41 |         1.5 |
+|   8 | Peaking |      4000 | 1.41 |         6.5 |
+|   9 | Peaking |      8000 | 1.41 |         4.3 |
+|  10 | Peaking |     16000 | 1.41 |         9.8 |
 
 ### Graphs
 ![](./HIFIMAN%20RE600S.png)

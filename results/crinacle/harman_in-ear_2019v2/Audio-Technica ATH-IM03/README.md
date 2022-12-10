@@ -6,15 +6,15 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.3 dB or -6.3 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |         2.6 |
-|   2 | Peaking   |       134 | 0.24 |        -6.1 |
-|   3 | Peaking   |       806 | 2.04 |         1.8 |
-|   4 | Peaking   |      3808 | 3.83 |         0.4 |
-|   5 | Peaking   |      4296 | 0.6  |         6   |
-|   6 | Peaking   |       145 | 2.33 |         0.3 |
-|   7 | Peaking   |      1396 | 3.4  |        -0.6 |
-|   8 | Peaking   |      5779 | 6    |         1   |
-|   9 | Peaking   |      6853 | 5.74 |        -4.1 |
+|   1 | LowShelf  |       105 | 0.7  |         2.4 |
+|   2 | Peaking   |       136 | 0.25 |        -6   |
+|   3 | Peaking   |       803 | 2.05 |         1.7 |
+|   4 | Peaking   |      3885 | 3.84 |         0.4 |
+|   5 | Peaking   |      4293 | 0.59 |         6   |
+|   6 | Peaking   |        70 | 2.32 |        -0.4 |
+|   7 | Peaking   |       138 | 2.28 |         0.4 |
+|   8 | Peaking   |      1408 | 3.39 |        -0.6 |
+|   9 | Peaking   |      6916 | 5.99 |        -3.8 |
 |  10 | HighShelf |     10000 | 0.7  |         5.9 |
 
 ### Fixed Band EQs
@@ -23,7 +23,7 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-12.3 d
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
 |   1 | Peaking |        31 | 1.41 |         0.5 |
-|   2 | Peaking |        62 | 1.41 |        -2.7 |
+|   2 | Peaking |        62 | 1.41 |        -2.8 |
 |   3 | Peaking |       125 | 1.41 |        -3.8 |
 |   4 | Peaking |       250 | 1.41 |        -5.1 |
 |   5 | Peaking |       500 | 1.41 |        -1.8 |
@@ -31,7 +31,7 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-12.3 d
 |   7 | Peaking |      2000 | 1.41 |         1.5 |
 |   8 | Peaking |      4000 | 1.41 |         6.2 |
 |   9 | Peaking |      8000 | 1.41 |         2.1 |
-|  10 | Peaking |     16000 | 1.41 |        12.1 |
+|  10 | Peaking |     16000 | 1.41 |        12.2 |
 
 ### Graphs
 ![](./Audio-Technica%20ATH-IM03.png)

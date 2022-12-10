@@ -6,32 +6,32 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.1 dB or -6.8 dB, respectivel
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
-|   1 | LowShelf  |       105 | 0.7  |        -6.1 |
-|   2 | Peaking   |       166 | 0.62 |        -5.6 |
-|   3 | Peaking   |       859 | 1.19 |         5.3 |
-|   4 | Peaking   |      3225 | 1.03 |        -6.1 |
-|   5 | Peaking   |      6762 | 0.45 |         7.1 |
-|   6 | Peaking   |       471 | 2.46 |         0.3 |
-|   7 | Peaking   |      1484 | 3.29 |        -0.5 |
-|   8 | Peaking   |      5748 | 6    |         1   |
-|   9 | Peaking   |      6888 | 5.88 |        -2.2 |
-|  10 | HighShelf |     10000 | 0.7  |         2.9 |
+|   1 | LowShelf  |       105 | 0.7  |        -5.9 |
+|   2 | Peaking   |       165 | 0.61 |        -5.5 |
+|   3 | Peaking   |       865 | 1.22 |         5.4 |
+|   4 | Peaking   |      3228 | 1.05 |        -5.8 |
+|   5 | Peaking   |      7090 | 0.44 |         6.9 |
+|   6 | Peaking   |       487 | 2.4  |         0.3 |
+|   7 | Peaking   |      1463 | 3.41 |        -0.5 |
+|   8 | Peaking   |      5706 | 6    |         0.9 |
+|   9 | Peaking   |      6848 | 5.95 |        -1.8 |
+|  10 | HighShelf |     10000 | 0.7  |         2.6 |
 
 ### Fixed Band EQs
-When using fixed band (also called graphic) equalizer, apply preamp of **-11.0 dB** (if available) and set gains manually with these parameters.
+When using fixed band (also called graphic) equalizer, apply preamp of **-10.8 dB** (if available) and set gains manually with these parameters.
 
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
-|   1 | Peaking |        31 | 1.41 |        -6.5 |
-|   2 | Peaking |        62 | 1.41 |        -5.5 |
-|   3 | Peaking |       125 | 1.41 |        -5.7 |
+|   1 | Peaking |        31 | 1.41 |        -6.3 |
+|   2 | Peaking |        62 | 1.41 |        -5.4 |
+|   3 | Peaking |       125 | 1.41 |        -5.6 |
 |   4 | Peaking |       250 | 1.41 |        -4   |
-|   5 | Peaking |       500 | 1.41 |         0.9 |
-|   6 | Peaking |      1000 | 1.41 |         5.1 |
+|   5 | Peaking |       500 | 1.41 |         0.8 |
+|   6 | Peaking |      1000 | 1.41 |         5.2 |
 |   7 | Peaking |      2000 | 1.41 |        -1.8 |
-|   8 | Peaking |      4000 | 1.41 |        -0.2 |
-|   9 | Peaking |      8000 | 1.41 |         6.5 |
-|  10 | Peaking |     16000 | 1.41 |        10.6 |
+|   8 | Peaking |      4000 | 1.41 |        -0.4 |
+|   9 | Peaking |      8000 | 1.41 |         6.4 |
+|  10 | Peaking |     16000 | 1.41 |        10.4 |
 
 ### Graphs
 ![](./Kennerton%20Jimo.png)

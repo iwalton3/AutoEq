@@ -7,15 +7,15 @@ You can use filters 1-5 or 1-10. Apply preamp of -6.2 dB or -6.2 dB, respectivel
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |        -3.2 |
-|   2 | Peaking   |        70 | 2.53 |         1.7 |
+|   2 | Peaking   |        70 | 2.54 |         1.6 |
 |   3 | Peaking   |       140 | 0.98 |        -8.6 |
 |   4 | Peaking   |       249 | 2.02 |         5.2 |
-|   5 | Peaking   |      4110 | 1.83 |         6.1 |
-|   6 | Peaking   |        38 | 3.08 |        -0.3 |
-|   7 | Peaking   |      2021 | 3.48 |         1.7 |
-|   8 | Peaking   |      5953 | 6    |        -1.2 |
-|   9 | Peaking   |      8476 | 4.19 |        -2.2 |
-|  10 | HighShelf |     10000 | 0.7  |         2.7 |
+|   5 | Peaking   |      4111 | 1.84 |         6.1 |
+|   6 | Peaking   |        38 | 3.01 |        -0.3 |
+|   7 | Peaking   |      2017 | 3.48 |         1.7 |
+|   8 | Peaking   |      5955 | 6    |        -1.2 |
+|   9 | Peaking   |      8474 | 4.19 |        -2.2 |
+|  10 | HighShelf |     10000 | 0.7  |         2.6 |
 
 ### Fixed Band EQs
 When using fixed band (also called graphic) equalizer, apply preamp of **-6.0 dB** (if available) and set gains manually with these parameters.
@@ -31,7 +31,7 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-6.0 dB
 |   7 | Peaking |      2000 | 1.41 |         0.5 |
 |   8 | Peaking |      4000 | 1.41 |         5.5 |
 |   9 | Peaking |      8000 | 1.41 |        -1.4 |
-|  10 | Peaking |     16000 | 1.41 |         6   |
+|  10 | Peaking |     16000 | 1.41 |         5.9 |
 
 ### Graphs
 ![](./Beyerdynamic%20DT%201770%20(leatherette%20earpads).png)

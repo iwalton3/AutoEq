@@ -2,19 +2,19 @@
 See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
 
 ### Parametric EQs
-You can use filters 1-5 or 1-10. Apply preamp of -6.3 dB or -6.3 dB, respectively.
+You can use filters 1-5 or 1-10. Apply preamp of -6.2 dB or -6.3 dB, respectively.
 
 |   # | Type      |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|-----------|-----------|------|-------------|
 |   1 | LowShelf  |       105 | 0.7  |        -5.2 |
-|   2 | Peaking   |       189 | 0.43 |        -6.8 |
-|   3 | Peaking   |      1386 | 1.61 |        -5.8 |
-|   4 | Peaking   |      1936 | 1.03 |         6.4 |
-|   5 | Peaking   |      5102 | 0.63 |         5.3 |
-|   6 | Peaking   |       642 | 2.83 |        -0.2 |
-|   7 | Peaking   |       915 | 5.71 |         0.4 |
-|   8 | Peaking   |      6453 | 6    |         1.2 |
-|   9 | Peaking   |      7355 | 5.79 |        -1.4 |
+|   2 | Peaking   |       189 | 0.43 |        -6.7 |
+|   3 | Peaking   |      1390 | 1.6  |        -5.8 |
+|   4 | Peaking   |      1931 | 1.04 |         6.4 |
+|   5 | Peaking   |      5074 | 0.62 |         5.3 |
+|   6 | Peaking   |       925 | 5.64 |         0.3 |
+|   7 | Peaking   |      6478 | 5.99 |         1.4 |
+|   8 | Peaking   |      7268 | 5.8  |        -1.1 |
+|   9 | Peaking   |      7457 | 4.83 |        -0.4 |
 |  10 | HighShelf |     10000 | 0.7  |        -0.3 |
 
 ### Fixed Band EQs
@@ -23,10 +23,10 @@ When using fixed band (also called graphic) equalizer, apply preamp of **-7.4 dB
 |   # | Type    |   Fc (Hz) |    Q |   Gain (dB) |
 |-----|---------|-----------|------|-------------|
 |   1 | Peaking |        31 | 1.41 |        -6.3 |
-|   2 | Peaking |        62 | 1.41 |        -5.2 |
-|   3 | Peaking |       125 | 1.41 |        -6.6 |
+|   2 | Peaking |        62 | 1.41 |        -5.3 |
+|   3 | Peaking |       125 | 1.41 |        -6.5 |
 |   4 | Peaking |       250 | 1.41 |        -5.1 |
-|   5 | Peaking |       500 | 1.41 |        -2   |
+|   5 | Peaking |       500 | 1.41 |        -1.9 |
 |   6 | Peaking |      1000 | 1.41 |        -2.4 |
 |   7 | Peaking |      2000 | 1.41 |         4.1 |
 |   8 | Peaking |      4000 | 1.41 |         6.2 |
